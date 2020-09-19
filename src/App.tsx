@@ -101,7 +101,7 @@ function App(): React.ReactElement {
         <Grid container spacing={2}>
           <Grid item sm={12} md={5}>
             <Autocomplete
-              options={Object.keys(RECIPES.operators)}
+              options={Object.keys(RECIPES.operators).sort()}
               autoComplete
               autoHighlight
               autoSelect
