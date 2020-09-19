@@ -1,18 +1,22 @@
-export interface Material {
+export interface Ingredient {
   name: string;
-  quantity?: number;
-  ingredients?: Material[];
+  quantity: number;
 }
 
-const MATERIALS: Material[] = [
-  {
-    name: "LMD",
+export interface Material {
+  tier: number;
+  ingredients?: Ingredient[];
+}
+
+const MATERIALS: Record<string, Material> = {
+  LMD: {
+    tier: 3,
   },
-  {
-    name: "Orirock",
+  Orirock: {
+    tier: 0,
   },
-  {
-    name: "Orirock Cube",
+  "Orirock Cube": {
+    tier: 1,
     ingredients: [
       {
         name: "Orirock",
@@ -20,8 +24,8 @@ const MATERIALS: Material[] = [
       },
     ],
   },
-  {
-    name: "Orirock Cluster",
+  "Orirock Cluster": {
+    tier: 2,
     ingredients: [
       {
         name: "Orirock Cube",
@@ -29,8 +33,8 @@ const MATERIALS: Material[] = [
       },
     ],
   },
-  {
-    name: "Orirock Concentration",
+  "Orirock Concentration": {
+    tier: 3,
     ingredients: [
       {
         name: "Orirock Cluster",
@@ -38,11 +42,11 @@ const MATERIALS: Material[] = [
       },
     ],
   },
-  {
-    name: "Sugar Substitute",
+  "Sugar Substitute": {
+    tier: 0,
   },
-  {
-    name: "Sugar",
+  Sugar: {
+    tier: 1,
     ingredients: [
       {
         name: "Sugar Substitute",
@@ -50,8 +54,8 @@ const MATERIALS: Material[] = [
       },
     ],
   },
-  {
-    name: "Sugar Pack",
+  "Sugar Pack": {
+    tier: 2,
     ingredients: [
       {
         name: "Sugar",
@@ -59,8 +63,8 @@ const MATERIALS: Material[] = [
       },
     ],
   },
-  {
-    name: "Sugar Lump",
+  "Sugar Lump": {
+    tier: 3,
     ingredients: [
       {
         name: "Sugar Pack",
@@ -76,11 +80,11 @@ const MATERIALS: Material[] = [
       },
     ],
   },
-  {
-    name: "Ester",
+  Ester: {
+    tier: 0,
   },
-  {
-    name: "Polyester",
+  Polyester: {
+    tier: 1,
     ingredients: [
       {
         name: "Ester",
@@ -88,8 +92,8 @@ const MATERIALS: Material[] = [
       },
     ],
   },
-  {
-    name: "Polyester Pack",
+  "Polyester Pack": {
+    tier: 2,
     ingredients: [
       {
         name: "Polyester",
@@ -97,8 +101,8 @@ const MATERIALS: Material[] = [
       },
     ],
   },
-  {
-    name: "Polyester Lump",
+  "Polyester Lump": {
+    tier: 3,
     ingredients: [
       {
         name: "Polyester Pack",
@@ -114,11 +118,11 @@ const MATERIALS: Material[] = [
       },
     ],
   },
-  {
-    name: "Oriron Shard",
+  "Oriron Shard": {
+    tier: 0,
   },
-  {
-    name: "Oriron",
+  Oriron: {
+    tier: 1,
     ingredients: [
       {
         name: "Oriron Shard",
@@ -126,8 +130,8 @@ const MATERIALS: Material[] = [
       },
     ],
   },
-  {
-    name: "Oriron Cluster",
+  "Oriron Cluster": {
+    tier: 2,
     ingredients: [
       {
         name: "Oriron",
@@ -135,8 +139,8 @@ const MATERIALS: Material[] = [
       },
     ],
   },
-  {
-    name: "Oriron Block",
+  "Oriron Block": {
+    tier: 3,
     ingredients: [
       {
         name: "Oriron Cluster",
@@ -152,11 +156,11 @@ const MATERIALS: Material[] = [
       },
     ],
   },
-  {
-    name: "Diketon",
+  Diketon: {
+    tier: 0,
   },
-  {
-    name: "Polyketon",
+  Polyketon: {
+    tier: 1,
     ingredients: [
       {
         name: "Diketon",
@@ -164,8 +168,8 @@ const MATERIALS: Material[] = [
       },
     ],
   },
-  {
-    name: "Aketon",
+  Aketon: {
+    tier: 2,
     ingredients: [
       {
         name: "Polyketon",
@@ -173,8 +177,8 @@ const MATERIALS: Material[] = [
       },
     ],
   },
-  {
-    name: "Keton Colloid",
+  "Keton Colloid": {
+    tier: 3,
     ingredients: [
       {
         name: "Aketon",
@@ -190,11 +194,11 @@ const MATERIALS: Material[] = [
       },
     ],
   },
-  {
-    name: "Damaged Device",
+  "Damaged Device": {
+    tier: 0,
   },
-  {
-    name: "Device",
+  Device: {
+    tier: 1,
     ingredients: [
       {
         name: "Damaged Device",
@@ -202,8 +206,8 @@ const MATERIALS: Material[] = [
       },
     ],
   },
-  {
-    name: "Integrated Device",
+  "Integrated Device": {
+    tier: 2,
     ingredients: [
       {
         name: "Device",
@@ -211,8 +215,8 @@ const MATERIALS: Material[] = [
       },
     ],
   },
-  {
-    name: "Optimized Device",
+  "Optimized Device": {
+    tier: 3,
     ingredients: [
       {
         name: "Integrated Device",
@@ -228,26 +232,26 @@ const MATERIALS: Material[] = [
       },
     ],
   },
-  {
-    name: "Grindstone",
+  Grindstone: {
+    tier: 2,
   },
-  {
-    name: "Manganese Ore",
+  "Manganese Ore": {
+    tier: 2,
   },
-  {
-    name: "Loxic Kohl",
+  "Loxic Kohl": {
+    tier: 2,
   },
-  {
-    name: "RMA70-12",
+  "RMA70-12": {
+    tier: 2,
   },
-  {
-    name: "Coagulating Gel",
+  "Coagulating Gel": {
+    tier: 2,
   },
-  {
-    name: "Incandescent Alloy",
+  "Incandescent Alloy": {
+    tier: 2,
   },
-  {
-    name: "White Horse Kohl",
+  "White Horse Kohl": {
+    tier: 3,
     ingredients: [
       {
         name: "Loxic Kohl",
@@ -263,8 +267,8 @@ const MATERIALS: Material[] = [
       },
     ],
   },
-  {
-    name: "Manganese Trihydrate",
+  "Manganese Trihydrate": {
+    tier: 3,
     ingredients: [
       {
         name: "Manganese Ore",
@@ -280,8 +284,8 @@ const MATERIALS: Material[] = [
       },
     ],
   },
-  {
-    name: "Grindstone Pentahydrate",
+  "Grindstone Pentahydrate": {
+    tier: 3,
     ingredients: [
       {
         name: "Grindstone",
@@ -297,8 +301,8 @@ const MATERIALS: Material[] = [
       },
     ],
   },
-  {
-    name: "RMA70-24",
+  "RMA70-24": {
+    tier: 3,
     ingredients: [
       {
         name: "RMA70-12",
@@ -314,8 +318,8 @@ const MATERIALS: Material[] = [
       },
     ],
   },
-  {
-    name: "Polymerized Gel",
+  "Polymerized Gel": {
+    tier: 3,
     ingredients: [
       {
         name: "Oriron Cluster",
@@ -331,8 +335,8 @@ const MATERIALS: Material[] = [
       },
     ],
   },
-  {
-    name: "Incandescent Alloy Block",
+  "Incandescent Alloy Block": {
+    tier: 3,
     ingredients: [
       {
         name: "Integrated Device",
@@ -348,8 +352,8 @@ const MATERIALS: Material[] = [
       },
     ],
   },
-  {
-    name: "Polymerization Preparation",
+  "Polymerization Preparation": {
+    tier: 4,
     ingredients: [
       {
         name: "Orirock Concentration",
@@ -365,8 +369,8 @@ const MATERIALS: Material[] = [
       },
     ],
   },
-  {
-    name: "Bipolar Nanoflake",
+  "Bipolar Nanoflake": {
+    tier: 4,
     ingredients: [
       {
         name: "Optimized Device",
@@ -378,8 +382,8 @@ const MATERIALS: Material[] = [
       },
     ],
   },
-  {
-    name: "D32 Steel",
+  "D32 Steel": {
+    tier: 4,
     ingredients: [
       {
         name: "Manganese Trihydrate",
@@ -395,11 +399,11 @@ const MATERIALS: Material[] = [
       },
     ],
   },
-  {
-    name: "Skill Summary - 1",
+  "Skill Summary - 1": {
+    tier: 1,
   },
-  {
-    name: "Skill Summary - 2",
+  "Skill Summary - 2": {
+    tier: 2,
     ingredients: [
       {
         name: "Skill Summary - 1",
@@ -407,8 +411,8 @@ const MATERIALS: Material[] = [
       },
     ],
   },
-  {
-    name: "Skill Summary - 3",
+  "Skill Summary - 3": {
+    tier: 3,
     ingredients: [
       {
         name: "Skill Summary - 2",
@@ -416,17 +420,5 @@ const MATERIALS: Material[] = [
       },
     ],
   },
-];
-const materialMap = new Map(
-  MATERIALS.map((material) => [material.name, material])
-);
-const setIngredients = (material: Material): void => {
-  const subingredients = materialMap.get(material.name)?.ingredients;
-  if (subingredients && subingredients.length > 0) {
-    subingredients.forEach((submaterial) => setIngredients(submaterial));
-    // eslint-disable-next-line no-param-reassign
-    material.ingredients = subingredients;
-  }
 };
-MATERIALS.forEach((material) => setIngredients(material));
 export default MATERIALS;
