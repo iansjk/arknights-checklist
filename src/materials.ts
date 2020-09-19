@@ -420,5 +420,160 @@ const MATERIALS: Record<string, Material> = {
       },
     ],
   },
+  "Chip Catalyst": {
+    tier: 3,
+  },
+  "Caster Chip": {
+    tier: 2,
+  },
+  "Caster Chip Pack": {
+    tier: 3,
+  },
+  "Caster Dualchip": {
+    tier: 4,
+    ingredients: [
+      {
+        name: "Caster Chip Pack",
+        quantity: 2,
+      },
+      {
+        name: "Chip Catalyst",
+        quantity: 1,
+      },
+    ],
+  },
+  "Vanguard Chip": {
+    tier: 2,
+  },
+  "Vanguard Chip Pack": {
+    tier: 3,
+  },
+  "Vanguard Dualchip": {
+    tier: 4,
+    ingredients: [
+      {
+        name: "Vanguard Chip Pack",
+        quantity: 2,
+      },
+      {
+        name: "Chip Catalyst",
+        quantity: 1,
+      },
+    ],
+  },
+  "Defender Chip": {
+    tier: 2,
+  },
+  "Defender Chip Pack": {
+    tier: 3,
+  },
+  "Defender Dualchip": {
+    tier: 4,
+    ingredients: [
+      {
+        name: "Defender Chip Pack",
+        quantity: 2,
+      },
+      {
+        name: "Chip Catalyst",
+        quantity: 1,
+      },
+    ],
+  },
+  "Sniper Chip": {
+    tier: 2,
+  },
+  "Sniper Chip Pack": {
+    tier: 3,
+  },
+  "Sniper Dualchip": {
+    tier: 4,
+    ingredients: [
+      {
+        name: "Sniper Chip Pack",
+        quantity: 2,
+      },
+      {
+        name: "Chip Catalyst",
+        quantity: 1,
+      },
+    ],
+  },
+  "Guard Chip": {
+    tier: 2,
+  },
+  "Guard Chip Pack": {
+    tier: 3,
+  },
+  "Guard Dualchip": {
+    tier: 4,
+    ingredients: [
+      {
+        name: "Guard Chip Pack",
+        quantity: 2,
+      },
+      {
+        name: "Chip Catalyst",
+        quantity: 1,
+      },
+    ],
+  },
+  "Supporter Chip": {
+    tier: 2,
+  },
+  "Supporter Chip Pack": {
+    tier: 3,
+  },
+  "Supporter Dualchip": {
+    tier: 4,
+    ingredients: [
+      {
+        name: "Supporter Chip Pack",
+        quantity: 2,
+      },
+      {
+        name: "Chip Catalyst",
+        quantity: 1,
+      },
+    ],
+  },
+  "Medic Chip": {
+    tier: 2,
+  },
+  "Medic Chip Pack": {
+    tier: 3,
+  },
+  "Medic Dualchip": {
+    tier: 4,
+    ingredients: [
+      {
+        name: "Medic Chip Pack",
+        quantity: 2,
+      },
+      {
+        name: "Chip Catalyst",
+        quantity: 1,
+      },
+    ],
+  },
+  "Specialist Chip": {
+    tier: 2,
+  },
+  "Specialist Chip Pack": {
+    tier: 3,
+  },
+  "Specialist Dualchip": {
+    tier: 4,
+    ingredients: [
+      {
+        name: "Specialist Chip Pack",
+        quantity: 2,
+      },
+      {
+        name: "Chip Catalyst",
+        quantity: 1,
+      },
+    ],
+  },
 };
 export default MATERIALS;
