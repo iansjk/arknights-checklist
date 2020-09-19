@@ -48,10 +48,11 @@ function App(): React.ReactElement {
   useEffect(() => {
     const recipeBook = RECIPES.operators[operatorName];
     const newRecipes = goals.map((goal) => {
+      const recipeName = `${operatorName}: ${goal}`;
       let match = goal.match(/Elite (?<rank>\d)/);
       if (match) {
         return {
-          name: goal,
+          name: recipeName,
           // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
           ingredients: recipeBook.elite![
             // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
@@ -62,7 +63,7 @@ function App(): React.ReactElement {
       match = goal.match(/Skill (?<skillSlot>\d) Mastery (?<masteryLevel>\d)/);
       if (match) {
         return {
-          name: goal,
+          name: recipeName,
           // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
           ingredients: recipeBook.masteries![
             // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
@@ -73,7 +74,7 @@ function App(): React.ReactElement {
       }
       match = goal.match(/Skill Level \d -> (?<skillLevel>\d)/);
       return {
-        name: goal,
+        name: recipeName,
         // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
         ingredients: recipeBook.skillLevels[
           // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
