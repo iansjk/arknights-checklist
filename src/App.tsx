@@ -16,7 +16,7 @@ import {
 } from "@material-ui/core";
 import RECIPES from "./recipes";
 import { Ingredient } from "./materials";
-import RecipeList from "./RecipeList";
+import RecipeList from "./components/RecipeList";
 
 const appTheme = createMuiTheme({
   palette: {

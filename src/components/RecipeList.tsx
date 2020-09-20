@@ -1,7 +1,7 @@
 import { Box, Card, CardContent, Grid, Typography } from "@material-ui/core";
 import React from "react";
 import IngredientComponent from "./Ingredient";
-import { Ingredient } from "./materials";
+import { Ingredient } from "../materials";
 import Recipe from "./Recipe";
 
 interface RecipeListProps {

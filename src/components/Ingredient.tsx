@@ -11,7 +11,7 @@ import {
 } from "@material-ui/core";
 import React from "react";
 import slugify from "slugify";
-import MATERIALS from "./materials";
+import MATERIALS from "../materials";
 
 const imageSize = 95;
 const backgroundSize = imageSize + 5;
