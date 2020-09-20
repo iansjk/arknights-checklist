@@ -1,21 +1,12 @@
 import { Ingredient } from "./materials";
 
-type SkillLevel = 2 | 3 | 4 | 5 | 6 | 7;
-type MasteryLevel = 1 | 2 | 3;
-
 interface OperatorRecipeBook {
   rarity: number;
-  elite?: { [eliteLevel in 1 | 2]?: Ingredient[] };
-  skillLevels: { [skillLevel in SkillLevel]: Ingredient[] };
+  elite: { 1: Ingredient[]; 2?: Ingredient[] };
+  skillLevels: { [skillLevel: number]: Ingredient[] };
   masteries?: {
-    1: {
-      [mastery in MasteryLevel]: Ingredient[];
-    };
-    2: {
-      [mastery in MasteryLevel]: Ingredient[];
-    };
-    3?: {
-      [mastery in MasteryLevel]: Ingredient[];
+    [skillSlot: number]: {
+      [masteryLevel: number]: Ingredient[];
     };
   };
 }
@@ -22036,6 +22027,6 @@ const RECIPES: RecipeBook = {
         ],
       },
     },
-  }
+  },
 };
 export default RECIPES;

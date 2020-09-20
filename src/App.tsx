@@ -1,5 +1,5 @@
 import AddIcon from "@material-ui/icons/Add";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Autocomplete from "@material-ui/lab/Autocomplete";
 import {
   createMuiTheme,
@@ -15,8 +15,8 @@ import {
   Button,
 } from "@material-ui/core";
 import RECIPES from "./recipes";
-import { Ingredient } from "./materials";
-import RecipeList from "./components/RecipeList";
+import { GoalCategory, Goal, operatorGoals } from "./operator-goals";
+import GoalOverview from "./components/GoalOverview";
 
 const appTheme = createMuiTheme({
   palette: {
@@ -24,66 +24,24 @@ const appTheme = createMuiTheme({
   },
 });
 
-const allGoals = [
-  "Elite 1",
-  "Elite 2",
-  ...Array(6)
-    .fill(0)
-    .map((_, i) => `Skill Level ${i + 1} -> ${i + 2}`),
-  ...Array(9)
-    .fill(0)
-    .map((_, i) => `Skill ${Math.floor(i / 3) + 1} Mastery ${(i % 3) + 1}`),
-];
-
-interface Recipe {
-  name: string;
-  ingredients: Ingredient[];
-}
-
 function App(): React.ReactElement {
-  const [recipes, setRecipes] = useState([] as Recipe[]);
   const [operatorName, setOperatorName] = useState("");
-  const [goals, setGoals] = useState([] as string[]);
+  const [goals, setGoals] = useState([] as Goal[]);
+  const [goalsOptionsOpen, setGoalsOptionsOpen] = useState(false);
+  const [activeGoals, setActiveGoals] = useState(
+    [] as ({ operatorName: string } & Goal)[]
+  );
 
-  useEffect(() => {
-    const recipeBook = RECIPES.operators[operatorName];
-    const newRecipes = goals.map((goal) => {
-      const recipeName = `${operatorName}: ${goal}`;
-      let match = goal.match(/Elite (?<rank>\d)/);
-      if (match) {
-        return {
-          name: recipeName,
-          // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-          ingredients: recipeBook.elite![
-            // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-            parseInt(match.groups!.rank, 10) as 1 | 2
-          ]!,
-        };
-      }
-      match = goal.match(/Skill (?<skillSlot>\d) Mastery (?<masteryLevel>\d)/);
-      if (match) {
-        return {
-          name: recipeName,
-          // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-          ingredients: recipeBook.masteries![
-            // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-            parseInt(match.groups!.skillSlot, 10) as 1 | 2 | 3
-            // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-          ]![parseInt(match.groups!.masteryLevel, 10) as 1 | 2 | 3]!,
-        };
-      }
-      match = goal.match(/Skill Level \d -> (?<skillLevel>\d)/);
-      return {
-        name: recipeName,
-        // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-        ingredients: recipeBook.skillLevels[
-          // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-          parseInt(match!.groups!.skillLevel, 10) as 2 | 3 | 4 | 5 | 6 | 7
-        ]!,
-      };
-    });
-    setRecipes(newRecipes);
-  }, [operatorName, goals]);
+  function handleAddGoals() {
+    setActiveGoals(
+      goals.map((goal) => ({
+        operatorName,
+        ...goal,
+      }))
+    );
+    setOperatorName("");
+    setGoals([]);
+  }
 
   return (
     <ThemeProvider theme={appTheme}>
@@ -101,10 +59,17 @@ function App(): React.ReactElement {
         <Grid container spacing={2}>
           <Grid item sm={12} md={5}>
             <Autocomplete
-              options={Object.keys(RECIPES.operators).sort()}
+              options={[operatorName, ...Object.keys(RECIPES.operators).sort()]}
+              filterOptions={(options) =>
+                options.filter((option) => option !== "")
+              }
               autoComplete
               autoHighlight
-              autoSelect
+              value={operatorName}
+              onChange={(_, value) => {
+                setOperatorName(value || "");
+                setGoals([]);
+              }}
               renderInput={(params) => (
                 <TextField
                   // eslint-disable-next-line react/jsx-props-no-spreading
@@ -113,35 +78,60 @@ function App(): React.ReactElement {
                   variant="outlined"
                 />
               )}
-              onChange={(_, value) => setOperatorName(value || "")}
             />
           </Grid>
           <Grid item sm={12} md={7}>
             <Box display="flex">
               <Box flexGrow={1} mr={2}>
                 <Autocomplete
-                  options={allGoals}
+                  options={operatorGoals(operatorName).sort(
+                    (a, b) => a.category - b.category
+                  )}
+                  getOptionLabel={(goal) => goal.name}
+                  getOptionSelected={(goal, value) => goal.name === value.name}
+                  groupBy={(goal) => GoalCategory[goal.category]}
                   autoComplete
                   autoHighlight
                   multiple
+                  noOptionsText="Please select an operator first."
+                  value={goals}
+                  open={goalsOptionsOpen}
+                  onChange={(_, value) =>
+                    setGoals(
+                      value.sort(
+                        (a, b) =>
+                          a.category - b.category + a.name.localeCompare(b.name)
+                      )
+                    )
+                  }
+                  onOpen={() => setGoalsOptionsOpen(true)}
+                  onClose={(_, reason) => {
+                    const actualReason = reason as string;
+                    if (
+                      actualReason !== "select-option" &&
+                      actualReason !== "remove-option"
+                    ) {
+                      setGoalsOptionsOpen(false);
+                    }
+                  }}
                   renderInput={(params) => (
                     // eslint-disable-next-line react/jsx-props-no-spreading
                     <TextField {...params} label="Goals" variant="outlined" />
                   )}
-                  onChange={(_, value) => setGoals(value)}
                 />
               </Box>
               <Button
                 color="primary"
                 variant="contained"
                 startIcon={<AddIcon />}
+                onClick={handleAddGoals}
               >
                 Add
               </Button>
             </Box>
           </Grid>
           <Grid item xs={12}>
-            <RecipeList recipes={recipes} />
+            <GoalOverview goals={activeGoals} />
           </Grid>
         </Grid>
       </Container>
