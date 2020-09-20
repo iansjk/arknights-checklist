@@ -21,32 +21,37 @@ export default function RecipeList(props: RecipeListProps): React.ReactElement {
 
   return (
     <Grid container spacing={2}>
-      <Grid item md={6}>
+      <Grid item xs={12}>
         {Object.keys(allIngredients).length > 0 && (
           <Card>
             <CardContent>
+              <Typography variant="h5">Required materials:</Typography>
               <Box display="flex" alignItems="center">
-                <Typography variant="h5">Required materials:</Typography>
-                {Object.keys(allIngredients).map((key) => (
-                  <IngredientComponent
-                    key={key}
-                    name={key}
-                    quantity={allIngredients[key]}
-                  />
-                ))}
+                <Grid container>
+                  {Object.keys(allIngredients).map((key) => (
+                    <IngredientComponent
+                      key={key}
+                      name={key}
+                      editable
+                      quantity={allIngredients[key]}
+                    />
+                  ))}
+                </Grid>
               </Box>
             </CardContent>
           </Card>
         )}
       </Grid>
-      <Grid item md={6}>
-        {recipes.map((recipe) => (
-          <Recipe
-            key={recipe.name}
-            name={recipe.name}
-            ingredients={recipe.ingredients}
-          />
-        ))}
+      <Grid item xs={12}>
+        <Grid container>
+          {recipes.map((recipe) => (
+            <Recipe
+              key={recipe.name}
+              name={recipe.name}
+              ingredients={recipe.ingredients}
+            />
+          ))}
+        </Grid>
       </Grid>
     </Grid>
   );
