@@ -12,6 +12,10 @@ import Item from "./Item";
 import { formatQuantity } from "./ItemStack";
 
 const useOutlinedInputStyles = makeStyles((theme) => ({
+  input: {
+    textAlign: "right",
+    paddingRight: theme.spacing(0.5),
+  },
   adornedStart: {
     paddingLeft: theme.spacing(1),
   },
