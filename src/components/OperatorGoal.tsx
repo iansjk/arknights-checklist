@@ -32,7 +32,7 @@ export default function Goal(props: GoalProps): React.ReactElement {
   const { goal, onDelete } = props;
   const classes = useStyles();
   return (
-    <Box mb={1}>
+    <Box mb={1} position="relative">
       <Card>
         <CardContent>
           <Grid container className={classes.goalOuterGridContainer}>
