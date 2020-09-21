@@ -31,7 +31,7 @@ const appTheme = createMuiTheme({
 });
 
 function App(): React.ReactElement {
-  const [operatorName, setOperatorName] = useState("");
+  const [operatorName, setOperatorName] = useState(null as string | null);
   const [goals, setGoals] = useState([] as GoalData[]);
   const [goalsOptionsOpen, setGoalsOptionsOpen] = useState(false);
   const [operatorGoals, setOperatorGoals] = useLocalStorage(
@@ -88,18 +88,12 @@ function App(): React.ReactElement {
         <Grid container spacing={2}>
           <Grid item sm={12} md={3}>
             <Autocomplete
-              options={(operatorName === ""
-                ? ["", ...Object.keys(RECIPES.operators)]
-                : [...Object.keys(RECIPES.operators)]
-              ).sort()}
-              filterOptions={(options) =>
-                options.filter((option) => option !== "")
-              }
+              options={Object.keys(RECIPES.operators).sort()}
               autoComplete
               autoHighlight
               value={operatorName}
               onChange={(_, value) => {
-                setOperatorName(value || "");
+                setOperatorName(value);
                 setGoals([]);
               }}
               renderInput={(params) => (
@@ -116,9 +110,13 @@ function App(): React.ReactElement {
             <Box display="flex">
               <Box flexGrow={1} mr={2}>
                 <Autocomplete
-                  options={goalsForOperator(operatorName).sort(
-                    (a, b) => a.category - b.category
-                  )}
+                  options={
+                    operatorName
+                      ? goalsForOperator(operatorName).sort(
+                          (a, b) => a.category - b.category
+                        )
+                      : []
+                  }
                   getOptionLabel={(goal) => goal.name}
                   getOptionSelected={(goal, value) => goal.name === value.name}
                   groupBy={(goal) => GoalCategory[goal.category]}
