@@ -66,30 +66,31 @@ export default function GoalOverview(
     );
   }
 
+  const requiredMaterials = Object.entries(materialsNeeded).filter(
+    ([name, needed]) => !materialsOwned[name] || materialsOwned[name] < needed
+  );
+  const completedMaterials = Object.entries(materialsNeeded).filter(
+    ([name, needed]) => materialsOwned[name] >= needed
+  );
+
   return (
     <>
-      <Card>
-        <Typography>Required materials:</Typography>
-        <Grid container spacing={1}>
-          {renderItemsNeeded(
-            Object.entries(materialsNeeded).filter(
-              ([name, needed]) =>
-                !materialsOwned[name] || materialsOwned[name] < needed
-            )
-          )}
-        </Grid>
-      </Card>
-      <Card>
-        <Typography>Completed materials:</Typography>
-        <Grid container spacing={1}>
-          {renderItemsNeeded(
-            Object.entries(materialsNeeded).filter(
-              ([name, needed]) => materialsOwned[name] >= needed
-            )
-          )}
-        </Grid>
-      </Card>
-      <Card />
+      {requiredMaterials.length > 0 && (
+        <Card>
+          <Typography>Required materials:</Typography>
+          <Grid container spacing={1}>
+            {renderItemsNeeded(requiredMaterials)}
+          </Grid>
+        </Card>
+      )}
+      {completedMaterials.length > 0 && (
+        <Card>
+          <Typography>Completed materials:</Typography>
+          <Grid container spacing={1}>
+            {renderItemsNeeded(completedMaterials)}
+          </Grid>
+        </Card>
+      )}
       {goals.map((goal) => (
         <OperatorGoal key={`${goal.operatorName}${goal.name}`} goal={goal} />
       ))}
