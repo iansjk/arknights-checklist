@@ -15,8 +15,13 @@ import {
   Button,
 } from "@material-ui/core";
 import RECIPES from "./recipes";
-import { GoalCategory, Goal, operatorGoals } from "./operator-goals";
-import GoalOverview from "./components/GoalOverview";
+import {
+  GoalCategory,
+  GoalData,
+  goalsForOperator,
+  OperatorGoalData,
+} from "./operator-goals";
+import OperatorGoalList from "./components/OperatorGoalList";
 
 const appTheme = createMuiTheme({
   palette: {
@@ -26,19 +31,18 @@ const appTheme = createMuiTheme({
 
 function App(): React.ReactElement {
   const [operatorName, setOperatorName] = useState("");
-  const [goals, setGoals] = useState([] as Goal[]);
+  const [goals, setGoals] = useState([] as GoalData[]);
   const [goalsOptionsOpen, setGoalsOptionsOpen] = useState(false);
-  const [activeGoals, setActiveGoals] = useState(
-    [] as ({ operatorName: string } & Goal)[]
-  );
+  const [operatorGoals, setOperatorGoals] = useState([] as OperatorGoalData[]);
 
   function handleAddGoals() {
-    setActiveGoals(
-      goals.map((goal) => ({
-        operatorName,
-        ...goal,
-      }))
-    );
+    setOperatorGoals((prevOperatorGoals) => {
+      const deduplicated = Object.fromEntries([
+        ...prevOperatorGoals.map((goal) => [goal.name, goal]),
+        ...goals.map((goal) => [goal.name, { operatorName, ...goal }]),
+      ]);
+      return Object.values(deduplicated);
+    });
     setOperatorName("");
     setGoals([]);
   }
@@ -59,7 +63,10 @@ function App(): React.ReactElement {
         <Grid container spacing={2}>
           <Grid item sm={12} md={5}>
             <Autocomplete
-              options={[operatorName, ...Object.keys(RECIPES.operators).sort()]}
+              options={(operatorName === ""
+                ? ["", ...Object.keys(RECIPES.operators)]
+                : [...Object.keys(RECIPES.operators)]
+              ).sort()}
               filterOptions={(options) =>
                 options.filter((option) => option !== "")
               }
@@ -84,7 +91,7 @@ function App(): React.ReactElement {
             <Box display="flex">
               <Box flexGrow={1} mr={2}>
                 <Autocomplete
-                  options={operatorGoals(operatorName).sort(
+                  options={goalsForOperator(operatorName).sort(
                     (a, b) => a.category - b.category
                   )}
                   getOptionLabel={(goal) => goal.name}
@@ -131,7 +138,7 @@ function App(): React.ReactElement {
             </Box>
           </Grid>
           <Grid item xs={12}>
-            <GoalOverview goals={activeGoals} />
+            <OperatorGoalList goals={operatorGoals} />
           </Grid>
         </Grid>
       </Container>

@@ -7,13 +7,15 @@ export enum GoalCategory {
   "Skill Level",
 }
 
-export interface Goal {
+export interface GoalData {
   name: string;
   category: GoalCategory;
   requiredItems: Ingredient[];
 }
 
-export function operatorGoals(name: string): Goal[] {
+export type OperatorGoalData = GoalData & { operatorName: string };
+
+export function goalsForOperator(name: string): GoalData[] {
   const operatorData = RECIPES.operators[name];
   if (!operatorData) {
     return [];
