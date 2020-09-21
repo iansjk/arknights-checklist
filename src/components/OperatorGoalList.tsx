@@ -7,12 +7,13 @@ import ItemStack from "./ItemStack";
 
 interface GoalOverviewProps {
   goals: OperatorGoalData[];
+  onGoalDeleted: (goal: OperatorGoalData) => void;
 }
 
 export default function GoalOverview(
   props: GoalOverviewProps
 ): React.ReactElement {
-  const { goals } = props;
+  const { goals, onGoalDeleted } = props;
   const [materialsOwned, setMaterialsOwned] = useState(
     {} as Record<string, number>
   );
@@ -92,7 +93,11 @@ export default function GoalOverview(
         </Card>
       )}
       {goals.map((goal) => (
-        <OperatorGoal key={`${goal.operatorName}${goal.name}`} goal={goal} />
+          <OperatorGoal
+            key={`${goal.operatorName}${goal.name}`}
+            goal={goal}
+            onDelete={onGoalDeleted}
+          />
       ))}
     </>
   );

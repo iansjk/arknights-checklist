@@ -53,6 +53,18 @@ function App(): React.ReactElement {
     setGoals([]);
   }
 
+  function handleGoalDeleted(toDelete: OperatorGoalData) {
+    setOperatorGoals((prevOperatorGoals) =>
+      prevOperatorGoals.filter(
+        (opGoal) =>
+          !(
+            opGoal.name === toDelete.name &&
+            opGoal.operatorName === toDelete.operatorName
+          )
+      )
+    );
+  }
+
   return (
     <ThemeProvider theme={appTheme}>
       <CssBaseline />
@@ -144,7 +156,10 @@ function App(): React.ReactElement {
             </Box>
           </Grid>
           <Grid item xs={12}>
-            <OperatorGoalList goals={operatorGoals} />
+            <OperatorGoalList
+              goals={operatorGoals}
+              onGoalDeleted={handleGoalDeleted}
+            />
           </Grid>
         </Grid>
       </Container>
