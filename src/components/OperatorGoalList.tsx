@@ -1,9 +1,10 @@
-import { Card, Typography, Grid, CardContent } from "@material-ui/core";
-import React, { useState } from "react";
+import { Card, CardContent, Grid, Typography } from "@material-ui/core";
+import React from "react";
+import { useLocalStorage } from "web-api-hooks";
 import { OperatorGoalData } from "../operator-goals";
-import OperatorGoal from "./OperatorGoal";
 import ItemNeeded from "./ItemNeeded";
 import ItemStack from "./ItemStack";
+import OperatorGoal from "./OperatorGoal";
 
 interface GoalOverviewProps {
   goals: OperatorGoalData[];
@@ -14,7 +15,8 @@ export default function GoalOverview(
   props: GoalOverviewProps
 ): React.ReactElement {
   const { goals, onGoalDeleted } = props;
-  const [materialsOwned, setMaterialsOwned] = useState(
+  const [materialsOwned, setMaterialsOwned] = useLocalStorage(
+    "materialsOwned",
     {} as Record<string, number>
   );
   const materialsNeeded: Record<string, number> = {};
