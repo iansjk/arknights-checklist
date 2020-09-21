@@ -38,8 +38,14 @@ function App(): React.ReactElement {
   function handleAddGoals() {
     setOperatorGoals((prevOperatorGoals) => {
       const deduplicated = Object.fromEntries([
-        ...prevOperatorGoals.map((goal) => [goal.name, goal]),
-        ...goals.map((goal) => [goal.name, { operatorName, ...goal }]),
+        ...prevOperatorGoals.map((opGoal) => [
+          `${opGoal.operatorName}${opGoal.name}`,
+          opGoal,
+        ]),
+        ...goals.map((goal) => [
+          `${operatorName}${goal.name}`,
+          { operatorName, ...goal },
+        ]),
       ]);
       return Object.values(deduplicated);
     });
