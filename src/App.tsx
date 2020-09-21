@@ -1,27 +1,28 @@
-import AddIcon from "@material-ui/icons/Add";
-import React, { useState } from "react";
-import Autocomplete from "@material-ui/lab/Autocomplete";
 import {
-  createMuiTheme,
-  ThemeProvider,
-  CssBaseline,
-  Container,
   AppBar,
-  Toolbar,
-  Typography,
   Box,
+  Button,
+  Container,
+  createMuiTheme,
+  CssBaseline,
   Grid,
   TextField,
-  Button,
+  ThemeProvider,
+  Toolbar,
+  Typography,
 } from "@material-ui/core";
-import RECIPES from "./recipes";
+import AddIcon from "@material-ui/icons/Add";
+import Autocomplete from "@material-ui/lab/Autocomplete";
+import React, { useState } from "react";
+import { useLocalStorage } from "web-api-hooks";
+import OperatorGoalList from "./components/OperatorGoalList";
 import {
   GoalCategory,
   GoalData,
   goalsForOperator,
   OperatorGoalData,
 } from "./operator-goals";
-import OperatorGoalList from "./components/OperatorGoalList";
+import RECIPES from "./recipes";
 
 const appTheme = createMuiTheme({
   palette: {
@@ -33,12 +34,18 @@ function App(): React.ReactElement {
   const [operatorName, setOperatorName] = useState("");
   const [goals, setGoals] = useState([] as GoalData[]);
   const [goalsOptionsOpen, setGoalsOptionsOpen] = useState(false);
-  const [operatorGoals, setOperatorGoals] = useState([] as OperatorGoalData[]);
+  const [operatorGoals, setOperatorGoals] = useLocalStorage(
+    "operatorGoals",
+    // actual type should be OperatorGoalData[] but web-api-hooks
+    // doesn't recognize OperatorGoalData as a valid JSON object
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    [] as any
+  );
 
   function handleAddGoals() {
-    setOperatorGoals((prevOperatorGoals) => {
+    setOperatorGoals((prevOperatorGoals: OperatorGoalData[]) => {
       const deduplicated = Object.fromEntries([
-        ...prevOperatorGoals.map((opGoal) => [
+        ...prevOperatorGoals.map((opGoal: OperatorGoalData) => [
           `${opGoal.operatorName}${opGoal.name}`,
           opGoal,
         ]),
@@ -54,9 +61,9 @@ function App(): React.ReactElement {
   }
 
   function handleGoalDeleted(toDelete: OperatorGoalData) {
-    setOperatorGoals((prevOperatorGoals) =>
+    setOperatorGoals((prevOperatorGoals: OperatorGoalData[]) =>
       prevOperatorGoals.filter(
-        (opGoal) =>
+        (opGoal: OperatorGoalData) =>
           !(
             opGoal.name === toDelete.name &&
             opGoal.operatorName === toDelete.operatorName
