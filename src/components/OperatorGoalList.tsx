@@ -1,4 +1,4 @@
-import { Card, Typography, Grid } from "@material-ui/core";
+import { Card, Typography, Grid, CardContent } from "@material-ui/core";
 import React, { useState } from "react";
 import { OperatorGoalData } from "../operator-goals";
 import OperatorGoal from "./OperatorGoal";
@@ -49,11 +49,11 @@ export default function GoalOverview(
   ): React.ReactElement[] {
     return objectEntries.map(([name, needed]) =>
       name === "LMD" ? (
-        <Grid item xs={2}>
+        <Grid item xs={2} md={3}>
           <ItemStack key={name} name={name} quantity={needed} />
         </Grid>
       ) : (
-        <Grid item xs={2}>
+        <Grid item xs={2} md={3}>
           <ItemNeeded
             key={name}
             {...{ name, needed }}
@@ -75,30 +75,38 @@ export default function GoalOverview(
   );
 
   return (
-    <>
-      {requiredMaterials.length > 0 && (
-        <Card>
-          <Typography>Required materials:</Typography>
-          <Grid container spacing={1}>
-            {renderItemsNeeded(requiredMaterials)}
-          </Grid>
-        </Card>
-      )}
-      {completedMaterials.length > 0 && (
-        <Card>
-          <Typography>Completed materials:</Typography>
-          <Grid container spacing={1}>
-            {renderItemsNeeded(completedMaterials)}
-          </Grid>
-        </Card>
-      )}
-      {goals.map((goal) => (
+    <Grid container spacing={2}>
+      <Grid item lg={6}>
+        {requiredMaterials.length > 0 && (
+          <Card>
+            <CardContent>
+              <Typography>Required materials:</Typography>
+              <Grid container spacing={1}>
+                {renderItemsNeeded(requiredMaterials)}
+              </Grid>
+            </CardContent>
+          </Card>
+        )}
+        {completedMaterials.length > 0 && (
+          <Card>
+            <CardContent>
+              <Typography>Completed materials:</Typography>
+              <Grid container spacing={1}>
+                {renderItemsNeeded(completedMaterials)}
+              </Grid>
+            </CardContent>
+          </Card>
+        )}
+      </Grid>
+      <Grid item xs={12} lg={6}>
+        {goals.map((goal) => (
           <OperatorGoal
             key={`${goal.operatorName}${goal.name}`}
             goal={goal}
             onDelete={onGoalDeleted}
           />
-      ))}
-    </>
+        ))}
+      </Grid>
+    </Grid>
   );
 }

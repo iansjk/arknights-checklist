@@ -79,7 +79,7 @@ function App(): React.ReactElement {
         <Toolbar />
         <Box mt={2} />
         <Grid container spacing={2}>
-          <Grid item sm={12} md={5}>
+          <Grid item sm={12} md={3}>
             <Autocomplete
               options={(operatorName === ""
                 ? ["", ...Object.keys(RECIPES.operators)]
@@ -105,7 +105,7 @@ function App(): React.ReactElement {
               )}
             />
           </Grid>
-          <Grid item sm={12} md={7}>
+          <Grid item sm={12} md={9}>
             <Box display="flex">
               <Box flexGrow={1} mr={2}>
                 <Autocomplete
