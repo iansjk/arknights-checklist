@@ -1,4 +1,4 @@
-import { Card, CardContent, Grid, Typography } from "@material-ui/core";
+import { Box, Card, CardContent, Grid, Typography } from "@material-ui/core";
 import React from "react";
 import { useLocalStorage } from "web-api-hooks";
 import { OperatorGoalData } from "../operator-goals";
@@ -82,7 +82,9 @@ export default function GoalOverview(
         {requiredMaterials.length > 0 && (
           <Card>
             <CardContent>
-              <Typography>Required materials:</Typography>
+              <Typography component="h2" variant="h5">
+                Required materials
+              </Typography>
               <Grid container spacing={1}>
                 {renderItemsNeeded(requiredMaterials)}
               </Grid>
@@ -90,14 +92,18 @@ export default function GoalOverview(
           </Card>
         )}
         {completedMaterials.length > 0 && (
-          <Card>
-            <CardContent>
-              <Typography>Completed materials:</Typography>
-              <Grid container spacing={1}>
-                {renderItemsNeeded(completedMaterials)}
-              </Grid>
-            </CardContent>
-          </Card>
+          <Box mt={1}>
+            <Card>
+              <CardContent>
+                <Typography component="h3" variant="h5">
+                  Completed materials
+                </Typography>
+                <Grid container spacing={1}>
+                  {renderItemsNeeded(completedMaterials)}
+                </Grid>
+              </CardContent>
+            </Card>
+          </Box>
         )}
       </Grid>
       <Grid item xs={12} lg={6}>

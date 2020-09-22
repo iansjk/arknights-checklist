@@ -38,8 +38,12 @@ export default function Goal(props: GoalProps): React.ReactElement {
           <Grid container className={classes.goalOuterGridContainer}>
             <Grid item xs={3}>
               <Box alignSelf="center">
-                <Typography variant="h5">{goal.operatorName}</Typography>
-                <Typography variant="subtitle1">{goal.name}</Typography>
+                <Typography component="h4" variant="h5">
+                  {goal.operatorName}
+                </Typography>
+                <Typography component="h5" variant="subtitle1">
+                  {goal.name}
+                </Typography>
               </Box>
             </Grid>
             <Grid item xs={9}>
