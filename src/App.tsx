@@ -10,6 +10,7 @@ import {
   createMuiTheme,
   CssBaseline,
   Grid,
+  responsiveFontSizes,
   TextField,
   ThemeProvider,
   Toolbar,
@@ -28,11 +29,12 @@ import {
 } from "./operator-goals";
 import RECIPES from "./recipes";
 
-const appTheme = createMuiTheme({
+let appTheme = createMuiTheme({
   palette: {
     type: "dark",
   },
 });
+appTheme = responsiveFontSizes(appTheme);
 
 function App(): React.ReactElement {
   const [operatorName, setOperatorName] = useState(null as string | null);
