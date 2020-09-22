@@ -1,3 +1,7 @@
+// currently, attempting to squelch jsx-props-no-spreading on the 2 relevant lines
+// (in Autocomplete.renderInput prop) causes the prod build (but *not* dev!) to fail
+// by failing to render the second Autocomplete, so it is suppressed for the file
+/* eslint-disable react/jsx-props-no-spreading */
 import {
   AppBar,
   Box,
@@ -98,7 +102,6 @@ function App(): React.ReactElement {
               }}
               renderInput={(params) => (
                 <TextField
-                  // eslint-disable-next-line react/jsx-props-no-spreading
                   {...params}
                   label="Operator name"
                   variant="outlined"
@@ -146,7 +149,6 @@ function App(): React.ReactElement {
                     }
                   }}
                   renderInput={(params) => (
-                    // eslint-disable-next-line react/jsx-props-no-spreading
                     <TextField {...params} label="Goals" variant="outlined" />
                   )}
                 />
