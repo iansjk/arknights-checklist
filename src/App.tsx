@@ -86,7 +86,7 @@ function App(): React.ReactElement {
         <Toolbar />
         <Box mt={2} />
         <Grid container spacing={2}>
-          <Grid item sm={12} md={3}>
+          <Grid item xs={12} lg={3}>
             <Autocomplete
               options={Object.keys(RECIPES.operators).sort()}
               autoComplete
@@ -106,7 +106,7 @@ function App(): React.ReactElement {
               )}
             />
           </Grid>
-          <Grid item sm={12} md={9}>
+          <Grid item xs={12} lg={9}>
             <Box display="flex">
               <Box flexGrow={1} mr={2}>
                 <Autocomplete
@@ -123,6 +123,7 @@ function App(): React.ReactElement {
                   autoComplete
                   autoHighlight
                   multiple
+                  limitTags={4}
                   noOptionsText="Please select an operator first."
                   value={goals}
                   open={goalsOptionsOpen}

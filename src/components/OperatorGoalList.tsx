@@ -51,11 +51,11 @@ export default function GoalOverview(
   ): React.ReactElement[] {
     return objectEntries.map(([name, needed]) =>
       name === "LMD" ? (
-        <Grid item key={name} xs={2} md={3}>
+        <Grid item key={name} xs={3} md={2} lg={3}>
           <ItemStack name={name} quantity={needed} />
         </Grid>
       ) : (
-        <Grid item key={name} xs={2} md={3}>
+        <Grid item key={name} xs={3} md={2} lg={3}>
           <ItemNeeded
             {...{ name, needed }}
             owned={materialsOwned[name] || 0}
