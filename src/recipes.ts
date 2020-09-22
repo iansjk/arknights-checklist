@@ -19,318 +19,42 @@ interface RecipeBook {
 
 const RECIPES: RecipeBook = {
   operators: {
-    Midnight: {
+    Ceylon: {
       elite: {
         1: [
           {
             name: "LMD",
-            quantity: 10000,
-          },
-        ],
-      },
-      rarity: 3,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 1,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
+            quantity: 20000,
           },
           {
-            name: "Oriron Shard",
-            quantity: 1,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Polyketon",
-            quantity: 1,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Device",
-            quantity: 1,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Grindstone",
-            quantity: 1,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 2,
-          },
-          {
-            name: "RMA70-12",
-            quantity: 1,
-          },
-        ],
-      },
-    },
-    Kroos: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 10000,
-          },
-        ],
-      },
-      rarity: 3,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 1,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Damaged Device",
-            quantity: 1,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 2,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Sugar",
-            quantity: 2,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Grindstone",
-            quantity: 1,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 2,
-          },
-          {
-            name: "RMA70-12",
-            quantity: 1,
-          },
-        ],
-      },
-    },
-    Ansel: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 10000,
-          },
-        ],
-      },
-      rarity: 3,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 1,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Oriron Shard",
-            quantity: 1,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Polyketon",
-            quantity: 1,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Device",
-            quantity: 1,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Polyester Pack",
-            quantity: 2,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 2,
-          },
-          {
-            name: "Oriron Cluster",
-            quantity: 2,
-          },
-        ],
-      },
-    },
-    Vanilla: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 10000,
-          },
-        ],
-      },
-      rarity: 3,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 1,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Sugar Substitute",
-            quantity: 1,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Polyester",
-            quantity: 1,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
+            name: "Medic Chip",
+            quantity: 4,
           },
           {
             name: "Oriron",
+            quantity: 4,
+          },
+          {
+            name: "Polyketon",
             quantity: 2,
           },
         ],
-        6: [
+        2: [
           {
-            name: "Skill Summary - 2",
-            quantity: 1,
+            name: "LMD",
+            quantity: 120000,
+          },
+          {
+            name: "Medic Dualchip",
+            quantity: 3,
+          },
+          {
+            name: "Oriron Block",
+            quantity: 7,
           },
           {
             name: "Aketon",
-            quantity: 1,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 2,
-          },
-          {
-            name: "Integrated Device",
-            quantity: 1,
-          },
-        ],
-      },
-    },
-    Shaw: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 15000,
-          },
-          {
-            name: "Specialist Chip",
-            quantity: 3,
-          },
-          {
-            name: "Sugar",
-            quantity: 1,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 1,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 60000,
-          },
-          {
-            name: "Specialist Chip Pack",
-            quantity: 5,
-          },
-          {
-            name: "Integrated Device",
-            quantity: 12,
-          },
-          {
-            name: "Polyester Pack",
-            quantity: 11,
+            quantity: 10,
           },
         ],
       },
@@ -339,854 +63,11 @@ const RECIPES: RecipeBook = {
           1: [
             {
               name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 1,
-            },
-            {
-              name: "Grindstone",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 2,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 3,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 2,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 2,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 1,
-            },
-            {
-              name: "RMA70-12",
-              quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 2,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 2,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 2,
-            },
-          ],
-        },
-      },
-      rarity: 4,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Sugar Substitute",
-            quantity: 4,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Polyester",
-            quantity: 2,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Oriron",
-            quantity: 2,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Grindstone",
-            quantity: 2,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 4,
-          },
-          {
-            name: "RMA70-12",
-            quantity: 2,
-          },
-        ],
-      },
-    },
-    Scavenger: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 15000,
-          },
-          {
-            name: "Vanguard Chip",
-            quantity: 3,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 1,
-          },
-          {
-            name: "Sugar",
-            quantity: 1,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 60000,
-          },
-          {
-            name: "Vanguard Chip Pack",
-            quantity: 5,
-          },
-          {
-            name: "Loxic Kohl",
-            quantity: 20,
-          },
-          {
-            name: "Integrated Device",
-            quantity: 6,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 1,
-            },
-            {
-              name: "RMA70-12",
-              quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 2,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 2,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 2,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 1,
-            },
-            {
-              name: "Orirock Cluster",
               quantity: 5,
             },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 2,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 2,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 2,
-            },
-          ],
-        },
-      },
-      rarity: 4,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Orirock",
-            quantity: 5,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Sugar",
-            quantity: 2,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Polyester",
-            quantity: 3,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "RMA70-12",
-            quantity: 2,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 4,
-          },
-          {
-            name: "Orirock Cluster",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Haze: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 15000,
-          },
-          {
-            name: "Caster Chip",
-            quantity: 3,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 1,
-          },
-          {
-            name: "Polyester",
-            quantity: 1,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 60000,
-          },
-          {
-            name: "Caster Chip Pack",
-            quantity: 5,
-          },
-          {
-            name: "Orirock Cluster",
-            quantity: 19,
-          },
-          {
-            name: "RMA70-12",
-            quantity: 8,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 1,
-            },
-            {
-              name: "Oriron Cluster",
-              quantity: 2,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 2,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 2,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 2,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 1,
-            },
-            {
-              name: "Aketon",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
             {
               name: "Grindstone Pentahydrate",
-              quantity: 2,
-            },
-            {
-              name: "White Horse Kohl",
               quantity: 3,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 2,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 2,
-            },
-          ],
-        },
-      },
-      rarity: 4,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Orirock",
-            quantity: 5,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Sugar",
-            quantity: 2,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Polyester",
-            quantity: 3,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Oriron Cluster",
-            quantity: 2,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 4,
-          },
-          {
-            name: "Aketon",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Beagle: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 10000,
-          },
-        ],
-      },
-      rarity: 3,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 1,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Diketon",
-            quantity: 1,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Device",
-            quantity: 1,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 3,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Manganese Ore",
-            quantity: 1,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 2,
-          },
-          {
-            name: "Grindstone",
-            quantity: 1,
-          },
-        ],
-      },
-    },
-    Hibiscus: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 10000,
-          },
-        ],
-      },
-      rarity: 3,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 1,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Ester",
-            quantity: 1,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Oriron",
-            quantity: 1,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Polyketon",
-            quantity: 2,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Sugar Pack",
-            quantity: 2,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 2,
-          },
-          {
-            name: "Polyester Pack",
-            quantity: 2,
-          },
-        ],
-      },
-    },
-    Adnachiel: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 10000,
-          },
-        ],
-      },
-      rarity: 3,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 1,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Orirock",
-            quantity: 2,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Sugar",
-            quantity: 1,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Polyester",
-            quantity: 2,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "RMA70-12",
-            quantity: 1,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 2,
-          },
-          {
-            name: "Orirock Cluster",
-            quantity: 2,
-          },
-        ],
-      },
-    },
-    Cardigan: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 10000,
-          },
-        ],
-      },
-      rarity: 3,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 1,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Oriron Shard",
-            quantity: 1,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Polyketon",
-            quantity: 1,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Device",
-            quantity: 1,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Loxic Kohl",
-            quantity: 2,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 2,
-          },
-          {
-            name: "Manganese Ore",
-            quantity: 2,
-          },
-        ],
-      },
-    },
-    Vigna: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 15000,
-          },
-          {
-            name: "Vanguard Chip",
-            quantity: 3,
-          },
-          {
-            name: "Device",
-            quantity: 1,
-          },
-          {
-            name: "Polyester",
-            quantity: 1,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 60000,
-          },
-          {
-            name: "Vanguard Chip Pack",
-            quantity: 5,
-          },
-          {
-            name: "Oriron Cluster",
-            quantity: 16,
-          },
-          {
-            name: "Orirock Cluster",
-            quantity: 11,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 1,
             },
             {
               name: "Loxic Kohl",
@@ -1196,29 +77,29 @@ const RECIPES: RecipeBook = {
           2: [
             {
               name: "Skill Summary - 3",
-              quantity: 4,
+              quantity: 6,
             },
             {
-              name: "Orirock Concentration",
-              quantity: 2,
-            },
-            {
-              name: "Grindstone Pentahydrate",
+              name: "Sugar Lump",
               quantity: 3,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 5,
             },
           ],
           3: [
             {
               name: "Skill Summary - 3",
-              quantity: 6,
+              quantity: 10,
             },
             {
-              name: "Bipolar Nanoflake",
-              quantity: 2,
+              name: "Polymerization Preparation",
+              quantity: 4,
             },
             {
-              name: "Orirock Concentration",
-              quantity: 2,
+              name: "White Horse Kohl",
+              quantity: 5,
             },
           ],
         },
@@ -1226,108 +107,112 @@ const RECIPES: RecipeBook = {
           1: [
             {
               name: "Skill Summary - 3",
-              quantity: 2,
+              quantity: 5,
             },
             {
               name: "RMA70-24",
-              quantity: 1,
+              quantity: 3,
             },
             {
               name: "Manganese Ore",
-              quantity: 3,
+              quantity: 2,
             },
           ],
           2: [
             {
               name: "Skill Summary - 3",
-              quantity: 4,
+              quantity: 6,
             },
             {
-              name: "Sugar Lump",
-              quantity: 2,
+              name: "Polyester Lump",
+              quantity: 3,
             },
             {
-              name: "RMA70-24",
-              quantity: 2,
+              name: "Orirock Concentration",
+              quantity: 6,
             },
           ],
           3: [
             {
               name: "Skill Summary - 3",
-              quantity: 6,
+              quantity: 10,
             },
             {
-              name: "D32 Steel",
-              quantity: 2,
+              name: "Bipolar Nanoflake",
+              quantity: 4,
             },
             {
               name: "Polyester Lump",
-              quantity: 2,
+              quantity: 4,
             },
           ],
         },
       },
-      rarity: 4,
+      rarity: 5,
       skillLevels: {
         2: [
           {
             name: "Skill Summary - 1",
-            quantity: 2,
+            quantity: 4,
           },
         ],
         3: [
           {
             name: "Skill Summary - 1",
-            quantity: 2,
+            quantity: 4,
           },
           {
-            name: "Damaged Device",
-            quantity: 2,
+            name: "Oriron Shard",
+            quantity: 5,
           },
         ],
         4: [
           {
             name: "Skill Summary - 2",
-            quantity: 3,
+            quantity: 6,
           },
           {
-            name: "Orirock Cube",
-            quantity: 2,
+            name: "Polyketon",
+            quantity: 3,
           },
         ],
         5: [
           {
             name: "Skill Summary - 2",
-            quantity: 3,
+            quantity: 6,
           },
           {
-            name: "Sugar",
+            name: "Device",
             quantity: 3,
           },
         ],
         6: [
           {
             name: "Skill Summary - 2",
-            quantity: 3,
+            quantity: 6,
           },
           {
             name: "Loxic Kohl",
-            quantity: 2,
+            quantity: 4,
           },
         ],
         7: [
           {
             name: "Skill Summary - 3",
-            quantity: 4,
+            quantity: 6,
           },
           {
             name: "Manganese Ore",
+            quantity: 2,
+          },
+          {
+            name: "RMA70-12",
             quantity: 3,
           },
         ],
       },
     },
-    Savage: {
+    Meteorite: {
       elite: {
         1: [
           {
@@ -1335,11 +220,11 @@ const RECIPES: RecipeBook = {
             quantity: 20000,
           },
           {
-            name: "Guard Chip",
+            name: "Sniper Chip",
             quantity: 4,
           },
           {
-            name: "Sugar",
+            name: "Polyketon",
             quantity: 4,
           },
           {
@@ -1353,21 +238,65 @@ const RECIPES: RecipeBook = {
             quantity: 120000,
           },
           {
-            name: "Guard Dualchip",
+            name: "Sniper Dualchip",
             quantity: 3,
           },
           {
-            name: "Orirock Concentration",
-            quantity: 9,
+            name: "RMA70-24",
+            quantity: 7,
           },
           {
-            name: "Sugar Pack",
-            quantity: 18,
+            name: "Manganese Ore",
+            quantity: 14,
           },
         ],
       },
       masteries: {
         1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 2,
+            },
+            {
+              name: "Oriron Cluster",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 3,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 4,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 4,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 4,
+            },
+          ],
+        },
+        2: {
           1: [
             {
               name: "Skill Summary - 3",
@@ -1402,28 +331,133 @@ const RECIPES: RecipeBook = {
               quantity: 10,
             },
             {
-              name: "Polymerization Preparation",
+              name: "D32 Steel",
               quantity: 4,
             },
             {
-              name: "RMA70-24",
-              quantity: 4,
+              name: "Orirock Concentration",
+              quantity: 5,
             },
           ],
         },
-        2: {
+      },
+      rarity: 5,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+          {
+            name: "Diketon",
+            quantity: 5,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Device",
+            quantity: 2,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 8,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Oriron Cluster",
+            quantity: 4,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 6,
+          },
+          {
+            name: "Aketon",
+            quantity: 2,
+          },
+          {
+            name: "Loxic Kohl",
+            quantity: 4,
+          },
+        ],
+      },
+    },
+    Astesia: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 20000,
+          },
+          {
+            name: "Guard Chip",
+            quantity: 4,
+          },
+          {
+            name: "Polyester",
+            quantity: 5,
+          },
+          {
+            name: "Oriron",
+            quantity: 3,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 120000,
+          },
+          {
+            name: "Guard Dualchip",
+            quantity: 3,
+          },
+          {
+            name: "Polyester Lump",
+            quantity: 7,
+          },
+          {
+            name: "Oriron Cluster",
+            quantity: 14,
+          },
+        ],
+      },
+      masteries: {
+        1: {
           1: [
             {
               name: "Skill Summary - 3",
               quantity: 5,
             },
             {
-              name: "Manganese Trihydrate",
+              name: "Polyester Lump",
               quantity: 3,
             },
             {
-              name: "Integrated Device",
-              quantity: 2,
+              name: "Orirock Cluster",
+              quantity: 4,
             },
           ],
           2: [
@@ -1432,11 +466,11 @@ const RECIPES: RecipeBook = {
               quantity: 6,
             },
             {
-              name: "RMA70-24",
+              name: "Keton Colloid",
               quantity: 3,
             },
             {
-              name: "Manganese Trihydrate",
+              name: "Polyester Lump",
               quantity: 5,
             },
           ],
@@ -1450,8 +484,52 @@ const RECIPES: RecipeBook = {
               quantity: 4,
             },
             {
-              name: "Sugar Lump",
+              name: "Manganese Trihydrate",
+              quantity: 3,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 3,
+            },
+            {
+              name: "Sugar Pack",
+              quantity: 1,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 2,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "D32 Steel",
               quantity: 4,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 5,
             },
           ],
         },
@@ -1500,7 +578,200 @@ const RECIPES: RecipeBook = {
             quantity: 6,
           },
           {
-            name: "Aketon",
+            name: "Orirock Cluster",
+            quantity: 5,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 6,
+          },
+          {
+            name: "Sugar Pack",
+            quantity: 3,
+          },
+          {
+            name: "Oriron Cluster",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Mayer: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 20000,
+          },
+          {
+            name: "Supporter Chip",
+            quantity: 4,
+          },
+          {
+            name: "Polyester",
+            quantity: 5,
+          },
+          {
+            name: "Device",
+            quantity: 2,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 120000,
+          },
+          {
+            name: "Supporter Dualchip",
+            quantity: 3,
+          },
+          {
+            name: "Oriron Block",
+            quantity: 6,
+          },
+          {
+            name: "RMA70-12",
+            quantity: 11,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 3,
+            },
+            {
+              name: "Manganese Ore",
+              quantity: 2,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 3,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 4,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 3,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 3,
+            },
+            {
+              name: "Grindstone",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 3,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 6,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 4,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 4,
+            },
+          ],
+        },
+      },
+      rarity: 5,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+          {
+            name: "Ester",
+            quantity: 7,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Oriron",
+            quantity: 3,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Polyketon",
+            quantity: 4,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Manganese Ore",
             quantity: 4,
           },
         ],
@@ -1510,11 +781,11 @@ const RECIPES: RecipeBook = {
             quantity: 6,
           },
           {
-            name: "Aketon",
+            name: "Grindstone",
             quantity: 2,
           },
           {
-            name: "Loxic Kohl",
+            name: "Orirock Cluster",
             quantity: 4,
           },
         ],
@@ -1713,42 +984,42 @@ const RECIPES: RecipeBook = {
         ],
       },
     },
-    Indra: {
+    Ceobe: {
       elite: {
         1: [
           {
             name: "LMD",
-            quantity: 20000,
+            quantity: 30000,
           },
           {
-            name: "Guard Chip",
-            quantity: 4,
+            name: "Caster Chip",
+            quantity: 5,
           },
           {
-            name: "Polyketon",
-            quantity: 4,
+            name: "Oriron",
+            quantity: 8,
           },
           {
             name: "Device",
-            quantity: 2,
+            quantity: 3,
           },
         ],
         2: [
           {
             name: "LMD",
-            quantity: 120000,
+            quantity: 180000,
           },
           {
-            name: "Guard Dualchip",
-            quantity: 3,
+            name: "Caster Dualchip",
+            quantity: 4,
           },
           {
-            name: "Keton Colloid",
-            quantity: 7,
+            name: "Bipolar Nanoflake",
+            quantity: 4,
           },
           {
-            name: "Polyester Pack",
-            quantity: 16,
+            name: "Incandescent Alloy Block",
+            quantity: 5,
           },
         ],
       },
@@ -1757,43 +1028,43 @@ const RECIPES: RecipeBook = {
           1: [
             {
               name: "Skill Summary - 3",
-              quantity: 5,
+              quantity: 8,
             },
             {
               name: "RMA70-24",
-              quantity: 3,
+              quantity: 4,
             },
             {
               name: "Manganese Ore",
-              quantity: 2,
+              quantity: 5,
             },
           ],
           2: [
             {
               name: "Skill Summary - 3",
-              quantity: 6,
+              quantity: 12,
             },
             {
-              name: "Sugar Lump",
-              quantity: 3,
+              name: "Oriron Block",
+              quantity: 4,
             },
             {
-              name: "RMA70-24",
-              quantity: 5,
+              name: "Incandescent Alloy Block",
+              quantity: 7,
             },
           ],
           3: [
             {
               name: "Skill Summary - 3",
-              quantity: 10,
+              quantity: 15,
             },
             {
-              name: "Bipolar Nanoflake",
-              quantity: 4,
+              name: "Polymerization Preparation",
+              quantity: 6,
             },
             {
-              name: "Oriron Block",
-              quantity: 3,
+              name: "Polymerized Gel",
+              quantity: 7,
             },
           ],
         },
@@ -1801,112 +1072,409 @@ const RECIPES: RecipeBook = {
           1: [
             {
               name: "Skill Summary - 3",
-              quantity: 5,
+              quantity: 8,
             },
             {
-              name: "Orirock Concentration",
-              quantity: 3,
-            },
-            {
-              name: "Grindstone",
+              name: "Incandescent Alloy Block",
               quantity: 4,
+            },
+            {
+              name: "RMA70-12",
+              quantity: 5,
             },
           ],
           2: [
             {
               name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 4,
+            },
+            {
+              name: "Polymerized Gel",
+              quantity: 9,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 15,
+            },
+            {
+              name: "D32 Steel",
               quantity: 6,
             },
             {
-              name: "Polyester Lump",
+              name: "Incandescent Alloy Block",
+              quantity: 6,
+            },
+          ],
+        },
+        3: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 8,
+            },
+            {
+              name: "Polymerized Gel",
+              quantity: 4,
+            },
+            {
+              name: "Orirock Cluster",
+              quantity: 11,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "Optimized Device",
               quantity: 3,
             },
             {
-              name: "Orirock Concentration",
+              name: "Oriron Block",
               quantity: 6,
             },
           ],
           3: [
             {
               name: "Skill Summary - 3",
-              quantity: 10,
+              quantity: 15,
             },
             {
-              name: "D32 Steel",
-              quantity: 4,
+              name: "Bipolar Nanoflake",
+              quantity: 6,
             },
             {
-              name: "Keton Colloid",
-              quantity: 4,
+              name: "Orirock Concentration",
+              quantity: 6,
             },
           ],
         },
       },
-      rarity: 5,
+      rarity: 6,
       skillLevels: {
         2: [
           {
             name: "Skill Summary - 1",
-            quantity: 4,
+            quantity: 5,
           },
         ],
         3: [
           {
             name: "Skill Summary - 1",
-            quantity: 4,
+            quantity: 5,
           },
           {
-            name: "Diketon",
+            name: "Oriron Shard",
             quantity: 5,
+          },
+          {
+            name: "Sugar Substitute",
+            quantity: 4,
           },
         ],
         4: [
           {
             name: "Skill Summary - 2",
-            quantity: 6,
+            quantity: 8,
           },
           {
-            name: "Device",
-            quantity: 2,
+            name: "Polyketon",
+            quantity: 4,
           },
         ],
         5: [
           {
             name: "Skill Summary - 2",
-            quantity: 6,
+            quantity: 8,
           },
           {
-            name: "Orirock Cube",
-            quantity: 8,
+            name: "Device",
+            quantity: 3,
+          },
+          {
+            name: "Polyester",
+            quantity: 3,
           },
         ],
         6: [
           {
             name: "Skill Summary - 2",
-            quantity: 6,
+            quantity: 8,
           },
           {
-            name: "Manganese Ore",
-            quantity: 4,
+            name: "Aketon",
+            quantity: 6,
           },
         ],
         7: [
           {
             name: "Skill Summary - 3",
-            quantity: 6,
+            quantity: 8,
           },
           {
             name: "Grindstone",
-            quantity: 2,
+            quantity: 4,
           },
           {
             name: "Orirock Cluster",
+            quantity: 5,
+          },
+        ],
+      },
+    },
+    Blaze: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 30000,
+          },
+          {
+            name: "Guard Chip",
+            quantity: 5,
+          },
+          {
+            name: "Device",
+            quantity: 5,
+          },
+          {
+            name: "Polyketon",
+            quantity: 4,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 180000,
+          },
+          {
+            name: "Guard Dualchip",
+            quantity: 4,
+          },
+          {
+            name: "D32 Steel",
+            quantity: 4,
+          },
+          {
+            name: "Optimized Device",
+            quantity: 6,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 8,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 3,
+            },
+            {
+              name: "Oriron Cluster",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 3,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 6,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 15,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 6,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 4,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 8,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 4,
+            },
+            {
+              name: "Aketon",
+              quantity: 8,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 4,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 8,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 15,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 6,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 5,
+            },
+          ],
+        },
+        3: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 8,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 4,
+            },
+            {
+              name: "Integrated Device",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 4,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 15,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 6,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 4,
+            },
+          ],
+        },
+      },
+      rarity: 6,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 5,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 5,
+          },
+          {
+            name: "Damaged Device",
+            quantity: 4,
+          },
+          {
+            name: "Ester",
+            quantity: 4,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 8,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 7,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 8,
+          },
+          {
+            name: "Sugar",
+            quantity: 4,
+          },
+          {
+            name: "Polyketon",
+            quantity: 4,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 8,
+          },
+          {
+            name: "Orirock Cluster",
+            quantity: 8,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 8,
+          },
+          {
+            name: "Coagulating Gel",
+            quantity: 4,
+          },
+          {
+            name: "Oriron Cluster",
             quantity: 4,
           },
         ],
       },
     },
-    Matterhorn: {
+    Estelle: {
       elite: {
         1: [
           {
@@ -1914,15 +1482,15 @@ const RECIPES: RecipeBook = {
             quantity: 15000,
           },
           {
-            name: "Defender Chip",
+            name: "Guard Chip",
             quantity: 3,
           },
           {
-            name: "Device",
+            name: "Oriron",
             quantity: 1,
           },
           {
-            name: "Oriron",
+            name: "Polyketon",
             quantity: 1,
           },
         ],
@@ -1932,16 +1500,16 @@ const RECIPES: RecipeBook = {
             quantity: 60000,
           },
           {
-            name: "Defender Chip Pack",
+            name: "Guard Chip Pack",
             quantity: 5,
           },
           {
-            name: "Manganese Ore",
-            quantity: 14,
+            name: "RMA70-12",
+            quantity: 12,
           },
           {
-            name: "Integrated Device",
-            quantity: 7,
+            name: "Grindstone",
+            quantity: 8,
           },
         ],
       },
@@ -1953,69 +1521,25 @@ const RECIPES: RecipeBook = {
               quantity: 2,
             },
             {
-              name: "Polyester Lump",
+              name: "Keton Colloid",
               quantity: 1,
             },
             {
-              name: "Orirock Cluster",
-              quantity: 5,
+              name: "Polyester Pack",
+              quantity: 4,
             },
           ],
           2: [
             {
               name: "Skill Summary - 3",
               quantity: 4,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 2,
             },
             {
               name: "Keton Colloid",
-              quantity: 2,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 2,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 2,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 1,
-            },
-            {
-              name: "Sugar Pack",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 1,
-            },
-            {
-              name: "Oriron Block",
               quantity: 2,
             },
           ],
@@ -2029,7 +1553,51 @@ const RECIPES: RecipeBook = {
               quantity: 2,
             },
             {
-              name: "Polyester Lump",
+              name: "RMA70-24",
+              quantity: 2,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 1,
+            },
+            {
+              name: "Oriron Cluster",
+              quantity: 2,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 2,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 2,
+            },
+            {
+              name: "Sugar Lump",
               quantity: 2,
             },
           ],
@@ -2049,8 +1617,8 @@ const RECIPES: RecipeBook = {
             quantity: 2,
           },
           {
-            name: "Damaged Device",
-            quantity: 2,
+            name: "Oriron Shard",
+            quantity: 3,
           },
         ],
         4: [
@@ -2059,7 +1627,7 @@ const RECIPES: RecipeBook = {
             quantity: 3,
           },
           {
-            name: "Orirock Cube",
+            name: "Polyketon",
             quantity: 2,
           },
         ],
@@ -2069,8 +1637,8 @@ const RECIPES: RecipeBook = {
             quantity: 3,
           },
           {
-            name: "Sugar",
-            quantity: 3,
+            name: "Device",
+            quantity: 2,
           },
         ],
         6: [
@@ -2079,7 +1647,7 @@ const RECIPES: RecipeBook = {
             quantity: 3,
           },
           {
-            name: "Orirock Cluster",
+            name: "Polyester Pack",
             quantity: 3,
           },
         ],
@@ -2089,111 +1657,270 @@ const RECIPES: RecipeBook = {
             quantity: 4,
           },
           {
-            name: "Sugar Pack",
+            name: "Oriron Cluster",
             quantity: 3,
           },
         ],
       },
     },
-    Fang: {
+    Shining: {
       elite: {
         1: [
           {
             name: "LMD",
-            quantity: 10000,
+            quantity: 30000,
+          },
+          {
+            name: "Medic Chip",
+            quantity: 5,
+          },
+          {
+            name: "Polyketon",
+            quantity: 6,
+          },
+          {
+            name: "Polyester",
+            quantity: 5,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 180000,
+          },
+          {
+            name: "Medic Dualchip",
+            quantity: 4,
+          },
+          {
+            name: "Bipolar Nanoflake",
+            quantity: 4,
+          },
+          {
+            name: "Oriron Block",
+            quantity: 5,
           },
         ],
       },
-      rarity: 3,
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 4,
+            },
+            {
+              name: "Manganese Ore",
+              quantity: 5,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 4,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 10,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 15,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 6,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 4,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 4,
+            },
+            {
+              name: "Grindstone",
+              quantity: 7,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 4,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 7,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 15,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 6,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 5,
+            },
+          ],
+        },
+        3: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 4,
+            },
+            {
+              name: "RMA70-12",
+              quantity: 5,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 4,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 7,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 15,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 6,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 6,
+            },
+          ],
+        },
+      },
+      rarity: 6,
       skillLevels: {
         2: [
           {
             name: "Skill Summary - 1",
-            quantity: 1,
+            quantity: 5,
           },
         ],
         3: [
           {
             name: "Skill Summary - 1",
-            quantity: 2,
+            quantity: 5,
           },
           {
             name: "Orirock",
-            quantity: 2,
+            quantity: 6,
+          },
+          {
+            name: "Damaged Device",
+            quantity: 4,
           },
         ],
         4: [
           {
             name: "Skill Summary - 2",
-            quantity: 1,
+            quantity: 8,
           },
           {
-            name: "Sugar",
-            quantity: 1,
+            name: "Device",
+            quantity: 3,
           },
         ],
         5: [
           {
-            name: "Polyester",
-            quantity: 2,
+            name: "Skill Summary - 2",
+            quantity: 8,
           },
           {
-            name: "Skill Summary - 2",
-            quantity: 1,
+            name: "Orirock Cube",
+            quantity: 5,
+          },
+          {
+            name: "Device",
+            quantity: 3,
           },
         ],
         6: [
           {
-            name: "Oriron Cluster",
-            quantity: 1,
+            name: "Skill Summary - 2",
+            quantity: 8,
           },
           {
-            name: "Skill Summary - 2",
-            quantity: 1,
+            name: "Manganese Ore",
+            quantity: 6,
           },
         ],
         7: [
           {
-            name: "Aketon",
-            quantity: 2,
+            name: "Skill Summary - 3",
+            quantity: 8,
           },
           {
-            name: "Skill Summary - 3",
-            quantity: 2,
+            name: "Grindstone",
+            quantity: 4,
+          },
+          {
+            name: "Orirock Cluster",
+            quantity: 5,
           },
         ],
       },
     },
-    Steward: {
+    Deepcolor: {
       elite: {
         1: [
           {
             name: "LMD",
-            quantity: 10000,
-          },
-        ],
-      },
-      rarity: 3,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 1,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
+            quantity: 15000,
           },
           {
-            name: "Diketon",
-            quantity: 1,
+            name: "Supporter Chip",
+            quantity: 3,
           },
-        ],
-        4: [
           {
-            name: "Skill Summary - 2",
+            name: "Polyester",
             quantity: 1,
           },
           {
@@ -2201,53 +1928,121 @@ const RECIPES: RecipeBook = {
             quantity: 1,
           },
         ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 3,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Oriron Cluster",
-            quantity: 1,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 2,
-          },
-          {
-            name: "Aketon",
-            quantity: 2,
-          },
-        ],
-      },
-    },
-    Catapult: {
-      elite: {
-        1: [
+        2: [
           {
             name: "LMD",
-            quantity: 10000,
+            quantity: 60000,
+          },
+          {
+            name: "Supporter Chip Pack",
+            quantity: 5,
+          },
+          {
+            name: "Orirock Cluster",
+            quantity: 20,
+          },
+          {
+            name: "Manganese Ore",
+            quantity: 9,
           },
         ],
       },
-      rarity: 3,
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 1,
+            },
+            {
+              name: "Oriron Cluster",
+              quantity: 2,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 2,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 2,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 2,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 1,
+            },
+            {
+              name: "Aketon",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 2,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 3,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 2,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 2,
+            },
+          ],
+        },
+      },
+      rarity: 4,
       skillLevels: {
         2: [
           {
             name: "Skill Summary - 1",
-            quantity: 1,
+            quantity: 2,
           },
         ],
         3: [
@@ -2257,23 +2052,23 @@ const RECIPES: RecipeBook = {
           },
           {
             name: "Ester",
-            quantity: 1,
+            quantity: 4,
           },
         ],
         4: [
           {
             name: "Skill Summary - 2",
-            quantity: 1,
+            quantity: 3,
           },
           {
             name: "Oriron",
-            quantity: 1,
+            quantity: 2,
           },
         ],
         5: [
           {
             name: "Skill Summary - 2",
-            quantity: 1,
+            quantity: 3,
           },
           {
             name: "Polyketon",
@@ -2283,228 +2078,21 @@ const RECIPES: RecipeBook = {
         6: [
           {
             name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Manganese Ore",
-            quantity: 1,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 2,
-          },
-          {
-            name: "Grindstone",
-            quantity: 1,
-          },
-        ],
-      },
-    },
-    Spot: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 10000,
-          },
-        ],
-      },
-      rarity: 3,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 1,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Diketon",
-            quantity: 1,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Device",
-            quantity: 1,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Orirock Cube",
             quantity: 3,
           },
-        ],
-        6: [
           {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "RMA70-12",
-            quantity: 1,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 2,
-          },
-          {
-            name: "Orirock Cluster",
-            quantity: 2,
-          },
-        ],
-      },
-    },
-    Orchid: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 10000,
-          },
-        ],
-      },
-      rarity: 3,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 1,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Orirock",
-            quantity: 2,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Sugar",
-            quantity: 1,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Polyester",
-            quantity: 2,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Integrated Device",
-            quantity: 1,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 2,
-          },
-          {
-            name: "Loxic Kohl",
-            quantity: 2,
-          },
-        ],
-      },
-    },
-    Lava: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 10000,
-          },
-        ],
-      },
-      rarity: 3,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 1,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Sugar Substitute",
-            quantity: 1,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Polyester",
-            quantity: 1,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Oriron",
-            quantity: 2,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Orirock Cluster",
+            name: "Oriron Cluster",
             quantity: 2,
           },
         ],
         7: [
           {
             name: "Skill Summary - 3",
-            quantity: 2,
+            quantity: 4,
           },
           {
-            name: "Sugar Pack",
-            quantity: 2,
+            name: "Aketon",
+            quantity: 3,
           },
         ],
       },
@@ -2754,42 +2342,42 @@ const RECIPES: RecipeBook = {
         ],
       },
     },
-    Exusiai: {
+    Executor: {
       elite: {
         1: [
           {
             name: "LMD",
-            quantity: 30000,
+            quantity: 20000,
           },
           {
             name: "Sniper Chip",
+            quantity: 4,
+          },
+          {
+            name: "Sugar",
             quantity: 5,
           },
           {
-            name: "Orirock Cube",
-            quantity: 12,
-          },
-          {
-            name: "Polyketon",
-            quantity: 4,
+            name: "Device",
+            quantity: 2,
           },
         ],
         2: [
           {
             name: "LMD",
-            quantity: 180000,
+            quantity: 120000,
           },
           {
             name: "Sniper Dualchip",
-            quantity: 4,
+            quantity: 3,
           },
           {
-            name: "Polymerization Preparation",
-            quantity: 4,
+            name: "Manganese Trihydrate",
+            quantity: 8,
           },
           {
-            name: "Sugar Lump",
-            quantity: 5,
+            name: "Grindstone",
+            quantity: 9,
           },
         ],
       },
@@ -2798,43 +2386,43 @@ const RECIPES: RecipeBook = {
           1: [
             {
               name: "Skill Summary - 3",
-              quantity: 6,
+              quantity: 5,
             },
             {
-              name: "Optimized Device",
+              name: "Oriron Block",
               quantity: 3,
             },
             {
-              name: "Oriron Cluster",
-              quantity: 4,
+              name: "Sugar Pack",
+              quantity: 1,
             },
           ],
           2: [
             {
               name: "Skill Summary - 3",
-              quantity: 12,
+              quantity: 6,
             },
             {
-              name: "Grindstone Pentahydrate",
-              quantity: 4,
+              name: "Optimized Device",
+              quantity: 2,
             },
             {
-              name: "White Horse Kohl",
-              quantity: 9,
+              name: "Oriron Block",
+              quantity: 5,
             },
           ],
           3: [
             {
               name: "Skill Summary - 3",
-              quantity: 15,
+              quantity: 10,
             },
             {
-              name: "Polymerization Preparation",
-              quantity: 6,
+              name: "Bipolar Nanoflake",
+              quantity: 4,
             },
             {
-              name: "Sugar Lump",
-              quantity: 6,
+              name: "Grindstone Pentahydrate",
+              quantity: 4,
             },
           ],
         },
@@ -2842,7 +2430,156 @@ const RECIPES: RecipeBook = {
           1: [
             {
               name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 3,
+            },
+            {
+              name: "Polyester Pack",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
               quantity: 6,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 3,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 4,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 3,
+            },
+          ],
+        },
+      },
+      rarity: 5,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+          {
+            name: "Sugar Substitute",
+            quantity: 7,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Polyester",
+            quantity: 3,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Oriron",
+            quantity: 4,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Orirock Cluster",
+            quantity: 5,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 6,
+          },
+          {
+            name: "Sugar Pack",
+            quantity: 3,
+          },
+          {
+            name: "Oriron Cluster",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Bagpipe: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 30000,
+          },
+          {
+            name: "Vanguard Chip",
+            quantity: 5,
+          },
+          {
+            name: "Polyester",
+            quantity: 10,
+          },
+          {
+            name: "Polyketon",
+            quantity: 3,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 180000,
+          },
+          {
+            name: "Vanguard Dualchip",
+            quantity: 4,
+          },
+          {
+            name: "Polymerization Preparation",
+            quantity: 4,
+          },
+          {
+            name: "Orirock Concentration",
+            quantity: 9,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 8,
             },
             {
               name: "White Horse Kohl",
@@ -2873,20 +2610,20 @@ const RECIPES: RecipeBook = {
               quantity: 15,
             },
             {
-              name: "Polymerization Preparation",
+              name: "Bipolar Nanoflake",
               quantity: 6,
             },
             {
-              name: "White Horse Kohl",
-              quantity: 7,
+              name: "Keton Colloid",
+              quantity: 5,
             },
           ],
         },
-        3: {
+        2: {
           1: [
             {
               name: "Skill Summary - 3",
-              quantity: 6,
+              quantity: 8,
             },
             {
               name: "Manganese Trihydrate",
@@ -2903,12 +2640,12 @@ const RECIPES: RecipeBook = {
               quantity: 12,
             },
             {
-              name: "Orirock Concentration",
+              name: "Incandescent Alloy Block",
               quantity: 4,
             },
             {
-              name: "Grindstone Pentahydrate",
-              quantity: 9,
+              name: "RMA70-24",
+              quantity: 8,
             },
           ],
           3: [
@@ -2921,8 +2658,52 @@ const RECIPES: RecipeBook = {
               quantity: 6,
             },
             {
-              name: "Polyester Lump",
+              name: "White Horse Kohl",
+              quantity: 7,
+            },
+          ],
+        },
+        3: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 8,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 4,
+            },
+            {
+              name: "Loxic Kohl",
+              quantity: 7,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "Polymerized Gel",
+              quantity: 4,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 10,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 15,
+            },
+            {
+              name: "Bipolar Nanoflake",
               quantity: 6,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 4,
             },
           ],
         },
@@ -2941,11 +2722,11 @@ const RECIPES: RecipeBook = {
             quantity: 5,
           },
           {
-            name: "Orirock",
+            name: "Ester",
             quantity: 6,
           },
           {
-            name: "Damaged Device",
+            name: "Oriron Shard",
             quantity: 4,
           },
         ],
@@ -2955,8 +2736,8 @@ const RECIPES: RecipeBook = {
             quantity: 8,
           },
           {
-            name: "Sugar",
-            quantity: 5,
+            name: "Oriron",
+            quantity: 4,
           },
         ],
         5: [
@@ -2965,12 +2746,12 @@ const RECIPES: RecipeBook = {
             quantity: 8,
           },
           {
-            name: "Polyester",
+            name: "Polyketon",
             quantity: 4,
           },
           {
-            name: "Oriron",
-            quantity: 4,
+            name: "Orirock Cube",
+            quantity: 5,
           },
         ],
         6: [
@@ -2989,17 +2770,17 @@ const RECIPES: RecipeBook = {
             quantity: 8,
           },
           {
-            name: "Aketon",
-            quantity: 3,
+            name: "Loxic Kohl",
+            quantity: 5,
           },
           {
-            name: "Loxic Kohl",
-            quantity: 6,
+            name: "Aketon",
+            quantity: 4,
           },
         ],
       },
     },
-    Hung: {
+    "Waai Fu": {
       elite: {
         1: [
           {
@@ -3007,16 +2788,16 @@ const RECIPES: RecipeBook = {
             quantity: 20000,
           },
           {
-            name: "Defender Chip",
+            name: "Specialist Chip",
             quantity: 4,
           },
           {
-            name: "Polyester",
-            quantity: 5,
+            name: "Oriron",
+            quantity: 4,
           },
           {
-            name: "Device",
-            quantity: 2,
+            name: "Sugar",
+            quantity: 3,
           },
         ],
         2: [
@@ -3025,16 +2806,16 @@ const RECIPES: RecipeBook = {
             quantity: 120000,
           },
           {
-            name: "Defender Dualchip",
+            name: "Specialist Dualchip",
             quantity: 3,
           },
           {
-            name: "Incandescent Alloy Block",
+            name: "RMA70-24",
             quantity: 7,
           },
           {
-            name: "Aketon",
-            quantity: 15,
+            name: "Orirock Cluster",
+            quantity: 16,
           },
         ],
       },
@@ -3046,12 +2827,12 @@ const RECIPES: RecipeBook = {
               quantity: 5,
             },
             {
-              name: "RMA70-24",
+              name: "Keton Colloid",
               quantity: 3,
             },
             {
-              name: "Manganese Ore",
-              quantity: 2,
+              name: "Polyester Pack",
+              quantity: 3,
             },
           ],
           2: [
@@ -3060,12 +2841,12 @@ const RECIPES: RecipeBook = {
               quantity: 6,
             },
             {
-              name: "Polymerized Gel",
+              name: "White Horse Kohl",
               quantity: 3,
             },
             {
-              name: "Orirock Concentration",
-              quantity: 7,
+              name: "Keton Colloid",
+              quantity: 5,
             },
           ],
           3: [
@@ -3074,7 +2855,7 @@ const RECIPES: RecipeBook = {
               quantity: 10,
             },
             {
-              name: "Polymerization Preparation",
+              name: "D32 Steel",
               quantity: 4,
             },
             {
@@ -3090,11 +2871,11 @@ const RECIPES: RecipeBook = {
               quantity: 5,
             },
             {
-              name: "Incandescent Alloy Block",
-              quantity: 3,
+              name: "Optimized Device",
+              quantity: 2,
             },
             {
-              name: "RMA70-12",
+              name: "Oriron Cluster",
               quantity: 3,
             },
           ],
@@ -3104,12 +2885,161 @@ const RECIPES: RecipeBook = {
               quantity: 6,
             },
             {
-              name: "Oriron Block",
+              name: "Manganese Trihydrate",
               quantity: 3,
             },
             {
-              name: "Incandescent Alloy Block",
+              name: "Optimized Device",
+              quantity: 4,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 4,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 4,
+            },
+          ],
+        },
+      },
+      rarity: 5,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+          {
+            name: "Oriron Shard",
+            quantity: 5,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Polyketon",
+            quantity: 3,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Device",
+            quantity: 3,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Polyester Pack",
+            quantity: 5,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 6,
+          },
+          {
+            name: "Oriron Cluster",
+            quantity: 2,
+          },
+          {
+            name: "Grindstone",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Zima: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 20000,
+          },
+          {
+            name: "Vanguard Chip",
+            quantity: 4,
+          },
+          {
+            name: "Sugar",
+            quantity: 4,
+          },
+          {
+            name: "Polyester",
+            quantity: 3,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 120000,
+          },
+          {
+            name: "Vanguard Dualchip",
+            quantity: 3,
+          },
+          {
+            name: "Sugar Lump",
+            quantity: 7,
+          },
+          {
+            name: "RMA70-12",
+            quantity: 11,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
               quantity: 5,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 3,
+            },
+            {
+              name: "Aketon",
+              quantity: 5,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 3,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 6,
             },
           ],
           3: [
@@ -3122,8 +3052,830 @@ const RECIPES: RecipeBook = {
               quantity: 4,
             },
             {
-              name: "Incandescent Alloy Block",
+              name: "Orirock Concentration",
               quantity: 4,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 3,
+            },
+            {
+              name: "Integrated Device",
+              quantity: 2,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 3,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 4,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 4,
+            },
+          ],
+        },
+      },
+      rarity: 5,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+          {
+            name: "Sugar Substitute",
+            quantity: 7,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Polyester",
+            quantity: 3,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Oriron",
+            quantity: 4,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Aketon",
+            quantity: 4,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 6,
+          },
+          {
+            name: "Integrated Device",
+            quantity: 2,
+          },
+          {
+            name: "Sugar Pack",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Melantha: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 10000,
+          },
+        ],
+      },
+      rarity: 3,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 1,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Ester",
+            quantity: 1,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Oriron",
+            quantity: 1,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Polyketon",
+            quantity: 2,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Integrated Device",
+            quantity: 1,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 2,
+          },
+          {
+            name: "Loxic Kohl",
+            quantity: 2,
+          },
+        ],
+      },
+    },
+    Utage: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 15000,
+          },
+          {
+            name: "Guard Chip",
+            quantity: 3,
+          },
+          {
+            name: "Device",
+            quantity: 1,
+          },
+          {
+            name: "Sugar",
+            quantity: 1,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 60000,
+          },
+          {
+            name: "Guard Chip Pack",
+            quantity: 5,
+          },
+          {
+            name: "Aketon",
+            quantity: 14,
+          },
+          {
+            name: "Orirock Cluster",
+            quantity: 14,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 1,
+            },
+            {
+              name: "Manganese Ore",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 2,
+            },
+            {
+              name: "Incandescent Alloy Block",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 2,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 2,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Incandescent Alloy Block",
+              quantity: 1,
+            },
+            {
+              name: "RMA70-12",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 2,
+            },
+            {
+              name: "Polymerized Gel",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 2,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 2,
+            },
+          ],
+        },
+      },
+      rarity: 4,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Damaged Device",
+            quantity: 2,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 2,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Sugar",
+            quantity: 3,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Loxic Kohl",
+            quantity: 2,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 4,
+          },
+          {
+            name: "Manganese Ore",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Catapult: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 10000,
+          },
+        ],
+      },
+      rarity: 3,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 1,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Ester",
+            quantity: 1,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Oriron",
+            quantity: 1,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Polyketon",
+            quantity: 2,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Manganese Ore",
+            quantity: 1,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 2,
+          },
+          {
+            name: "Grindstone",
+            quantity: 1,
+          },
+        ],
+      },
+    },
+    Ambriel: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 15000,
+          },
+          {
+            name: "Sniper Chip",
+            quantity: 3,
+          },
+          {
+            name: "Polyketon",
+            quantity: 1,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 1,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 60000,
+          },
+          {
+            name: "Sniper Chip Pack",
+            quantity: 5,
+          },
+          {
+            name: "Oriron Cluster",
+            quantity: 16,
+          },
+          {
+            name: "RMA70-12",
+            quantity: 6,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 1,
+            },
+            {
+              name: "Integrated Device",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Incandescent Alloy Block",
+              quantity: 2,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 2,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 2,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 1,
+            },
+            {
+              name: "Loxic Kohl",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Polymerized Gel",
+              quantity: 2,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 3,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 2,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 2,
+            },
+          ],
+        },
+      },
+      rarity: 4,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Oriron Shard",
+            quantity: 3,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Polyketon",
+            quantity: 2,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Device",
+            quantity: 2,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Coagulating Gel",
+            quantity: 2,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 4,
+          },
+          {
+            name: "Incandescent Alloy",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Hibiscus: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 10000,
+          },
+        ],
+      },
+      rarity: 3,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 1,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Ester",
+            quantity: 1,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Oriron",
+            quantity: 1,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Polyketon",
+            quantity: 2,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Sugar Pack",
+            quantity: 2,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 2,
+          },
+          {
+            name: "Polyester Pack",
+            quantity: 2,
+          },
+        ],
+      },
+    },
+    Croissant: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 20000,
+          },
+          {
+            name: "Defender Chip",
+            quantity: 4,
+          },
+          {
+            name: "Polyester",
+            quantity: 4,
+          },
+          {
+            name: "Sugar",
+            quantity: 3,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 120000,
+          },
+          {
+            name: "Defender Dualchip",
+            quantity: 3,
+          },
+          {
+            name: "RMA70-24",
+            quantity: 8,
+          },
+          {
+            name: "Integrated Device",
+            quantity: 8,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 2,
+            },
+            {
+              name: "Oriron Cluster",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 3,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 4,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 4,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 4,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 3,
+            },
+            {
+              name: "Aketon",
+              quantity: 5,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 3,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 6,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 4,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 3,
             },
           ],
         },
@@ -3172,8 +3924,8 @@ const RECIPES: RecipeBook = {
             quantity: 6,
           },
           {
-            name: "Grindstone",
-            quantity: 3,
+            name: "Oriron Cluster",
+            quantity: 4,
           },
         ],
         7: [
@@ -3182,17 +3934,17 @@ const RECIPES: RecipeBook = {
             quantity: 6,
           },
           {
-            name: "Incandescent Alloy",
-            quantity: 3,
+            name: "Aketon",
+            quantity: 2,
           },
           {
-            name: "Manganese Ore",
-            quantity: 3,
+            name: "Loxic Kohl",
+            quantity: 4,
           },
         ],
       },
     },
-    Flamebringer: {
+    Skyfire: {
       elite: {
         1: [
           {
@@ -3200,12 +3952,12 @@ const RECIPES: RecipeBook = {
             quantity: 20000,
           },
           {
-            name: "Guard Chip",
+            name: "Caster Chip",
             quantity: 4,
           },
           {
-            name: "Orirock Cube",
-            quantity: 6,
+            name: "Sugar",
+            quantity: 4,
           },
           {
             name: "Polyketon",
@@ -3218,15 +3970,15 @@ const RECIPES: RecipeBook = {
             quantity: 120000,
           },
           {
-            name: "Guard Dualchip",
+            name: "Caster Dualchip",
             quantity: 3,
           },
           {
-            name: "White Horse Kohl",
-            quantity: 9,
+            name: "Polyester Lump",
+            quantity: 7,
           },
           {
-            name: "Manganese Ore",
+            name: "Grindstone",
             quantity: 13,
           },
         ],
@@ -3239,12 +3991,12 @@ const RECIPES: RecipeBook = {
               quantity: 5,
             },
             {
-              name: "Sugar Lump",
+              name: "Grindstone Pentahydrate",
               quantity: 3,
             },
             {
-              name: "RMA70-12",
-              quantity: 3,
+              name: "Loxic Kohl",
+              quantity: 4,
             },
           ],
           2: [
@@ -3253,11 +4005,55 @@ const RECIPES: RecipeBook = {
               quantity: 6,
             },
             {
-              name: "Oriron Block",
+              name: "Orirock Concentration",
               quantity: 3,
             },
             {
+              name: "Grindstone Pentahydrate",
+              quantity: 6,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 4,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 4,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 3,
+            },
+            {
+              name: "Manganese Ore",
+              quantity: 2,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
               name: "Sugar Lump",
+              quantity: 3,
+            },
+            {
+              name: "RMA70-24",
               quantity: 5,
             },
           ],
@@ -3268,243 +4064,6 @@ const RECIPES: RecipeBook = {
             },
             {
               name: "D32 Steel",
-              quantity: 4,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 3,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 3,
-            },
-            {
-              name: "Orirock Cluster",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 3,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 4,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 4,
-            },
-          ],
-        },
-      },
-      rarity: 5,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-          {
-            name: "Orirock",
-            quantity: 10,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Sugar",
-            quantity: 3,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Polyester",
-            quantity: 5,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "RMA70-12",
-            quantity: 3,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 6,
-          },
-          {
-            name: "Orirock Cluster",
-            quantity: 4,
-          },
-          {
-            name: "Integrated Device",
-            quantity: 2,
-          },
-        ],
-      },
-    },
-    Pramanix: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 20000,
-          },
-          {
-            name: "Supporter Chip",
-            quantity: 4,
-          },
-          {
-            name: "Sugar",
-            quantity: 4,
-          },
-          {
-            name: "Oriron",
-            quantity: 3,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 120000,
-          },
-          {
-            name: "Supporter Dualchip",
-            quantity: 3,
-          },
-          {
-            name: "Keton Colloid",
-            quantity: 7,
-          },
-          {
-            name: "Grindstone",
-            quantity: 11,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 3,
-            },
-            {
-              name: "Grindstone",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 3,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 6,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 4,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 3,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 3,
-            },
-            {
-              name: "RMA70-12",
-              quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 3,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Bipolar Nanoflake",
               quantity: 4,
             },
             {
@@ -3550,6 +4109,444 @@ const RECIPES: RecipeBook = {
           {
             name: "Oriron",
             quantity: 4,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Loxic Kohl",
+            quantity: 4,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 6,
+          },
+          {
+            name: "Manganese Ore",
+            quantity: 2,
+          },
+          {
+            name: "RMA70-12",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Ifrit: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 30000,
+          },
+          {
+            name: "Caster Chip",
+            quantity: 5,
+          },
+          {
+            name: "Polyester",
+            quantity: 8,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 8,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 180000,
+          },
+          {
+            name: "Caster Dualchip",
+            quantity: 4,
+          },
+          {
+            name: "D32 Steel",
+            quantity: 4,
+          },
+          {
+            name: "Polyester Lump",
+            quantity: 7,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 4,
+            },
+            {
+              name: "Integrated Device",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 4,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 9,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 15,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 6,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 6,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 4,
+            },
+            {
+              name: "Loxic Kohl",
+              quantity: 7,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 4,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 8,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 15,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 6,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 5,
+            },
+          ],
+        },
+        3: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 4,
+            },
+            {
+              name: "Manganese Ore",
+              quantity: 5,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 4,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 10,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 15,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 6,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 4,
+            },
+          ],
+        },
+      },
+      rarity: 6,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 5,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 5,
+          },
+          {
+            name: "Ester",
+            quantity: 6,
+          },
+          {
+            name: "Oriron Shard",
+            quantity: 4,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 8,
+          },
+          {
+            name: "Oriron",
+            quantity: 4,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 8,
+          },
+          {
+            name: "Polyketon",
+            quantity: 4,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 5,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 8,
+          },
+          {
+            name: "Integrated Device",
+            quantity: 4,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 8,
+          },
+          {
+            name: "Loxic Kohl",
+            quantity: 5,
+          },
+          {
+            name: "Aketon",
+            quantity: 4,
+          },
+        ],
+      },
+    },
+    Breeze: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 20000,
+          },
+          {
+            name: "Medic Chip",
+            quantity: 4,
+          },
+          {
+            name: "Device",
+            quantity: 3,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 4,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 120000,
+          },
+          {
+            name: "Medic Dualchip",
+            quantity: 3,
+          },
+          {
+            name: "Optimized Device",
+            quantity: 5,
+          },
+          {
+            name: "Loxic Kohl",
+            quantity: 18,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 3,
+            },
+            {
+              name: "Manganese Ore",
+              quantity: 2,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 3,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 4,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 5,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 3,
+            },
+            {
+              name: "Grindstone",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 3,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 6,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 4,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 4,
+            },
+          ],
+        },
+      },
+      rarity: 5,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+          {
+            name: "Damaged Device",
+            quantity: 4,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 4,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Sugar",
+            quantity: 5,
           },
         ],
         6: [
@@ -3771,7 +4768,385 @@ const RECIPES: RecipeBook = {
         ],
       },
     },
-    Liskarm: {
+    Gitano: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 15000,
+          },
+          {
+            name: "Caster Chip",
+            quantity: 3,
+          },
+          {
+            name: "Sugar",
+            quantity: 1,
+          },
+          {
+            name: "Oriron",
+            quantity: 1,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 60000,
+          },
+          {
+            name: "Caster Chip Pack",
+            quantity: 5,
+          },
+          {
+            name: "Sugar Pack",
+            quantity: 17,
+          },
+          {
+            name: "Orirock Cluster",
+            quantity: 14,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 1,
+            },
+            {
+              name: "Aketon",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 2,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 3,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 2,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 2,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 1,
+            },
+            {
+              name: "Integrated Device",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 2,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 2,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 2,
+            },
+          ],
+        },
+      },
+      rarity: 4,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Sugar Substitute",
+            quantity: 4,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Polyester",
+            quantity: 2,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Oriron",
+            quantity: 2,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Aketon",
+            quantity: 2,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 4,
+          },
+          {
+            name: "Integrated Device",
+            quantity: 2,
+          },
+        ],
+      },
+    },
+    Shirayuki: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 15000,
+          },
+          {
+            name: "Sniper Chip",
+            quantity: 3,
+          },
+          {
+            name: "Polyketon",
+            quantity: 1,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 1,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 60000,
+          },
+          {
+            name: "Sniper Chip Pack",
+            quantity: 5,
+          },
+          {
+            name: "Aketon",
+            quantity: 15,
+          },
+          {
+            name: "Oriron Cluster",
+            quantity: 9,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 1,
+            },
+            {
+              name: "Manganese Ore",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 2,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 2,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 2,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 1,
+            },
+            {
+              name: "Grindstone",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 2,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 3,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 2,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 2,
+            },
+          ],
+        },
+      },
+      rarity: 4,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Diketon",
+            quantity: 3,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Device",
+            quantity: 1,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 4,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Manganese Ore",
+            quantity: 2,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 4,
+          },
+          {
+            name: "Grindstone",
+            quantity: 2,
+          },
+        ],
+      },
+    },
+    Specter: {
       elite: {
         1: [
           {
@@ -3779,15 +5154,15 @@ const RECIPES: RecipeBook = {
             quantity: 20000,
           },
           {
-            name: "Defender Chip",
+            name: "Guard Chip",
             quantity: 4,
           },
           {
-            name: "Sugar",
-            quantity: 5,
+            name: "Orirock Cube",
+            quantity: 6,
           },
           {
-            name: "Orirock Cube",
+            name: "Polyketon",
             quantity: 3,
           },
         ],
@@ -3797,12 +5172,12 @@ const RECIPES: RecipeBook = {
             quantity: 120000,
           },
           {
-            name: "Defender Dualchip",
+            name: "Guard Dualchip",
             quantity: 3,
           },
           {
-            name: "Grindstone Pentahydrate",
-            quantity: 7,
+            name: "White Horse Kohl",
+            quantity: 8,
           },
           {
             name: "Aketon",
@@ -3812,6 +5187,574 @@ const RECIPES: RecipeBook = {
       },
       masteries: {
         1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 3,
+            },
+            {
+              name: "RMA70-12",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 3,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 4,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 4,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 3,
+            },
+            {
+              name: "Orirock Cluster",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 3,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 4,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 3,
+            },
+          ],
+        },
+      },
+      rarity: 5,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+          {
+            name: "Orirock",
+            quantity: 10,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Sugar",
+            quantity: 3,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Polyester",
+            quantity: 5,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "RMA70-12",
+            quantity: 3,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 6,
+          },
+          {
+            name: "Orirock Cluster",
+            quantity: 4,
+          },
+          {
+            name: "Integrated Device",
+            quantity: 2,
+          },
+        ],
+      },
+    },
+    Cardigan: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 10000,
+          },
+        ],
+      },
+      rarity: 3,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 1,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Oriron Shard",
+            quantity: 1,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Polyketon",
+            quantity: 1,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Device",
+            quantity: 1,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Loxic Kohl",
+            quantity: 2,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 2,
+          },
+          {
+            name: "Manganese Ore",
+            quantity: 2,
+          },
+        ],
+      },
+    },
+    Fang: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 10000,
+          },
+        ],
+      },
+      rarity: 3,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 1,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Orirock",
+            quantity: 2,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Sugar",
+            quantity: 1,
+          },
+        ],
+        5: [
+          {
+            name: "Polyester",
+            quantity: 2,
+          },
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+        ],
+        6: [
+          {
+            name: "Oriron Cluster",
+            quantity: 1,
+          },
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+        ],
+        7: [
+          {
+            name: "Aketon",
+            quantity: 2,
+          },
+          {
+            name: "Skill Summary - 3",
+            quantity: 2,
+          },
+        ],
+      },
+    },
+    Flamebringer: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 20000,
+          },
+          {
+            name: "Guard Chip",
+            quantity: 4,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 6,
+          },
+          {
+            name: "Polyketon",
+            quantity: 3,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 120000,
+          },
+          {
+            name: "Guard Dualchip",
+            quantity: 3,
+          },
+          {
+            name: "White Horse Kohl",
+            quantity: 9,
+          },
+          {
+            name: "Manganese Ore",
+            quantity: 13,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 3,
+            },
+            {
+              name: "RMA70-12",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 3,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 4,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 3,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 3,
+            },
+            {
+              name: "Orirock Cluster",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 3,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 4,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 4,
+            },
+          ],
+        },
+      },
+      rarity: 5,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+          {
+            name: "Orirock",
+            quantity: 10,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Sugar",
+            quantity: 3,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Polyester",
+            quantity: 5,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "RMA70-12",
+            quantity: 3,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 6,
+          },
+          {
+            name: "Orirock Cluster",
+            quantity: 4,
+          },
+          {
+            name: "Integrated Device",
+            quantity: 2,
+          },
+        ],
+      },
+    },
+    "Projekt Red": {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 20000,
+          },
+          {
+            name: "Specialist Chip",
+            quantity: 4,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 7,
+          },
+          {
+            name: "Device",
+            quantity: 2,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 120000,
+          },
+          {
+            name: "Specialist Dualchip",
+            quantity: 3,
+          },
+          {
+            name: "Manganese Trihydrate",
+            quantity: 7,
+          },
+          {
+            name: "Oriron Cluster",
+            quantity: 14,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 3,
+            },
+            {
+              name: "Sugar Pack",
+              quantity: 1,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 2,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 4,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 4,
+            },
+          ],
+        },
+        2: {
           1: [
             {
               name: "Skill Summary - 3",
@@ -3855,7 +5798,748 @@ const RECIPES: RecipeBook = {
             },
           ],
         },
+      },
+      rarity: 5,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+          {
+            name: "Orirock",
+            quantity: 10,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Sugar",
+            quantity: 3,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Polyester",
+            quantity: 5,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Sugar Pack",
+            quantity: 5,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 6,
+          },
+          {
+            name: "Polyester Pack",
+            quantity: 3,
+          },
+          {
+            name: "Manganese Ore",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Cuora: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 15000,
+          },
+          {
+            name: "Defender Chip",
+            quantity: 3,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 1,
+          },
+          {
+            name: "Oriron",
+            quantity: 1,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 60000,
+          },
+          {
+            name: "Defender Chip Pack",
+            quantity: 5,
+          },
+          {
+            name: "Grindstone",
+            quantity: 14,
+          },
+          {
+            name: "Loxic Kohl",
+            quantity: 10,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 1,
+            },
+            {
+              name: "Sugar Pack",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 1,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 2,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 2,
+            },
+          ],
+        },
         2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 1,
+            },
+            {
+              name: "Polyester Pack",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 2,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 2,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 2,
+            },
+          ],
+        },
+      },
+      rarity: 4,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Orirock",
+            quantity: 5,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Sugar",
+            quantity: 2,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Polyester",
+            quantity: 3,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Sugar Pack",
+            quantity: 3,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 4,
+          },
+          {
+            name: "Polyester Pack",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Jessica: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 15000,
+          },
+          {
+            name: "Sniper Chip",
+            quantity: 3,
+          },
+          {
+            name: "Polyester",
+            quantity: 1,
+          },
+          {
+            name: "Sugar",
+            quantity: 1,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 60000,
+          },
+          {
+            name: "Sniper Chip Pack",
+            quantity: 5,
+          },
+          {
+            name: "Loxic Kohl",
+            quantity: 20,
+          },
+          {
+            name: "Oriron Cluster",
+            quantity: 7,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 1,
+            },
+            {
+              name: "RMA70-12",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 2,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 2,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 2,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 1,
+            },
+            {
+              name: "Orirock Cluster",
+              quantity: 5,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 2,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 2,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 2,
+            },
+          ],
+        },
+      },
+      rarity: 4,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Ester",
+            quantity: 4,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Oriron",
+            quantity: 2,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Polyketon",
+            quantity: 2,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "RMA70-12",
+            quantity: 2,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 4,
+          },
+          {
+            name: "Orirock Cluster",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Ethan: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 15000,
+          },
+          {
+            name: "Specialist Chip",
+            quantity: 3,
+          },
+          {
+            name: "Sugar",
+            quantity: 1,
+          },
+          {
+            name: "Oriron",
+            quantity: 1,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 60000,
+          },
+          {
+            name: "Specialist Chip Pack",
+            quantity: 5,
+          },
+          {
+            name: "Sugar Pack",
+            quantity: 17,
+          },
+          {
+            name: "Orirock Cluster",
+            quantity: 14,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 1,
+            },
+            {
+              name: "Aketon",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 2,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 3,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 2,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 2,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 1,
+            },
+            {
+              name: "Integrated Device",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 2,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 2,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 2,
+            },
+          ],
+        },
+      },
+      rarity: 4,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Sugar Substitute",
+            quantity: 4,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Polyester",
+            quantity: 2,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Oriron",
+            quantity: 2,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Aketon",
+            quantity: 2,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 4,
+          },
+          {
+            name: "Integrated Device",
+            quantity: 2,
+          },
+        ],
+      },
+    },
+    Popukar: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 10000,
+          },
+        ],
+      },
+      rarity: 3,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 1,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Sugar Substitute",
+            quantity: 1,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Polyester",
+            quantity: 1,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Oriron",
+            quantity: 2,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Loxic Kohl",
+            quantity: 2,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 2,
+          },
+          {
+            name: "Manganese Ore",
+            quantity: 2,
+          },
+        ],
+      },
+    },
+    Ptilopsis: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 20000,
+          },
+          {
+            name: "Medic Chip",
+            quantity: 4,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 8,
+          },
+          {
+            name: "Sugar",
+            quantity: 2,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 120000,
+          },
+          {
+            name: "Medic Dualchip",
+            quantity: 3,
+          },
+          {
+            name: "Orirock Concentration",
+            quantity: 9,
+          },
+          {
+            name: "Grindstone",
+            quantity: 10,
+          },
+        ],
+      },
+      masteries: {
+        1: {
           1: [
             {
               name: "Skill Summary - 3",
@@ -3890,7 +6574,1266 @@ const RECIPES: RecipeBook = {
               quantity: 10,
             },
             {
+              name: "Polymerization Preparation",
+              quantity: 4,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 4,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 3,
+            },
+            {
+              name: "Aketon",
+              quantity: 5,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 3,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 6,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 4,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 4,
+            },
+          ],
+        },
+      },
+      rarity: 5,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+          {
+            name: "Orirock",
+            quantity: 10,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Sugar",
+            quantity: 3,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Polyester",
+            quantity: 5,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Oriron Cluster",
+            quantity: 4,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 6,
+          },
+          {
+            name: "Aketon",
+            quantity: 2,
+          },
+          {
+            name: "Loxic Kohl",
+            quantity: 4,
+          },
+        ],
+      },
+    },
+    Vulcan: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 20000,
+          },
+          {
+            name: "Defender Chip",
+            quantity: 4,
+          },
+          {
+            name: "Oriron",
+            quantity: 4,
+          },
+          {
+            name: "Polyester",
+            quantity: 3,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 120000,
+          },
+          {
+            name: "Defender Dualchip",
+            quantity: 3,
+          },
+          {
+            name: "Orirock Concentration",
+            quantity: 8,
+          },
+          {
+            name: "Aketon",
+            quantity: 15,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 3,
+            },
+            {
+              name: "Aketon",
+              quantity: 5,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 3,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 6,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 4,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 3,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 3,
+            },
+            {
+              name: "Integrated Device",
+              quantity: 2,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 3,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 4,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 4,
+            },
+          ],
+        },
+      },
+      rarity: 5,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+          {
+            name: "Oriron Shard",
+            quantity: 5,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Polyketon",
+            quantity: 3,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Device",
+            quantity: 3,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Aketon",
+            quantity: 4,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 6,
+          },
+          {
+            name: "Integrated Device",
+            quantity: 2,
+          },
+          {
+            name: "Sugar Pack",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Rope: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 15000,
+          },
+          {
+            name: "Specialist Chip",
+            quantity: 3,
+          },
+          {
+            name: "Sugar",
+            quantity: 1,
+          },
+          {
+            name: "Device",
+            quantity: 1,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 60000,
+          },
+          {
+            name: "Specialist Chip Pack",
+            quantity: 5,
+          },
+          {
+            name: "Oriron Cluster",
+            quantity: 15,
+          },
+          {
+            name: "Sugar Pack",
+            quantity: 11,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 1,
+            },
+            {
+              name: "Loxic Kohl",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 2,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 3,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 2,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 2,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 1,
+            },
+            {
+              name: "Manganese Ore",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 2,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
               name: "D32 Steel",
+              quantity: 2,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 2,
+            },
+          ],
+        },
+      },
+      rarity: 4,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Sugar Substitute",
+            quantity: 4,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Polyester",
+            quantity: 2,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Oriron",
+            quantity: 2,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Loxic Kohl",
+            quantity: 2,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 4,
+          },
+          {
+            name: "Manganese Ore",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Matoimaru: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 15000,
+          },
+          {
+            name: "Guard Chip",
+            quantity: 3,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 1,
+          },
+          {
+            name: "Device",
+            quantity: 1,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 60000,
+          },
+          {
+            name: "Guard Chip Pack",
+            quantity: 5,
+          },
+          {
+            name: "Aketon",
+            quantity: 16,
+          },
+          {
+            name: "Sugar Pack",
+            quantity: 10,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 1,
+            },
+            {
+              name: "Manganese Ore",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 2,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 2,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 2,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 1,
+            },
+            {
+              name: "Grindstone",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 2,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 3,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 2,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 2,
+            },
+          ],
+        },
+      },
+      rarity: 4,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Orirock",
+            quantity: 5,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Sugar",
+            quantity: 2,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Polyester",
+            quantity: 3,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Manganese Ore",
+            quantity: 2,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 4,
+          },
+          {
+            name: "Grindstone",
+            quantity: 2,
+          },
+        ],
+      },
+    },
+    Matterhorn: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 15000,
+          },
+          {
+            name: "Defender Chip",
+            quantity: 3,
+          },
+          {
+            name: "Device",
+            quantity: 1,
+          },
+          {
+            name: "Oriron",
+            quantity: 1,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 60000,
+          },
+          {
+            name: "Defender Chip Pack",
+            quantity: 5,
+          },
+          {
+            name: "Manganese Ore",
+            quantity: 14,
+          },
+          {
+            name: "Integrated Device",
+            quantity: 7,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 1,
+            },
+            {
+              name: "Orirock Cluster",
+              quantity: 5,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 2,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 2,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 2,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 1,
+            },
+            {
+              name: "Sugar Pack",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 1,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 2,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 2,
+            },
+          ],
+        },
+      },
+      rarity: 4,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Damaged Device",
+            quantity: 2,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 2,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Sugar",
+            quantity: 3,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Orirock Cluster",
+            quantity: 3,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 4,
+          },
+          {
+            name: "Sugar Pack",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Beagle: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 10000,
+          },
+        ],
+      },
+      rarity: 3,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 1,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Diketon",
+            quantity: 1,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Device",
+            quantity: 1,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 3,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Manganese Ore",
+            quantity: 1,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 2,
+          },
+          {
+            name: "Grindstone",
+            quantity: 1,
+          },
+        ],
+      },
+    },
+    Manticore: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 20000,
+          },
+          {
+            name: "Specialist Chip",
+            quantity: 4,
+          },
+          {
+            name: "Polyketon",
+            quantity: 4,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 4,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 120000,
+          },
+          {
+            name: "Specialist Dualchip",
+            quantity: 3,
+          },
+          {
+            name: "Manganese Trihydrate",
+            quantity: 8,
+          },
+          {
+            name: "Sugar Pack",
+            quantity: 12,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 3,
+            },
+            {
+              name: "Sugar Pack",
+              quantity: 1,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 2,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 4,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 4,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 3,
+            },
+            {
+              name: "Polyester Pack",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 3,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 4,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 3,
+            },
+          ],
+        },
+      },
+      rarity: 5,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+          {
+            name: "Diketon",
+            quantity: 5,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Device",
+            quantity: 2,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 8,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Sugar Pack",
+            quantity: 5,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 6,
+          },
+          {
+            name: "Polyester Pack",
+            quantity: 3,
+          },
+          {
+            name: "Manganese Ore",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Savage: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 20000,
+          },
+          {
+            name: "Guard Chip",
+            quantity: 4,
+          },
+          {
+            name: "Sugar",
+            quantity: 4,
+          },
+          {
+            name: "Polyester",
+            quantity: 3,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 120000,
+          },
+          {
+            name: "Guard Dualchip",
+            quantity: 3,
+          },
+          {
+            name: "Orirock Concentration",
+            quantity: 9,
+          },
+          {
+            name: "Sugar Pack",
+            quantity: 18,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 3,
+            },
+            {
+              name: "Aketon",
+              quantity: 5,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 3,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 6,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 4,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 4,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 3,
+            },
+            {
+              name: "Integrated Device",
+              quantity: 2,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 3,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Bipolar Nanoflake",
               quantity: 4,
             },
             {
@@ -3944,8 +7887,8 @@ const RECIPES: RecipeBook = {
             quantity: 6,
           },
           {
-            name: "Polyester Pack",
-            quantity: 5,
+            name: "Aketon",
+            quantity: 4,
           },
         ],
         7: [
@@ -3954,210 +7897,17 @@ const RECIPES: RecipeBook = {
             quantity: 6,
           },
           {
-            name: "Oriron Cluster",
+            name: "Aketon",
             quantity: 2,
           },
           {
-            name: "Grindstone",
-            quantity: 3,
+            name: "Loxic Kohl",
+            quantity: 4,
           },
         ],
       },
     },
-    Istina: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 20000,
-          },
-          {
-            name: "Supporter Chip",
-            quantity: 4,
-          },
-          {
-            name: "Polyester",
-            quantity: 5,
-          },
-          {
-            name: "Polyketon",
-            quantity: 2,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 120000,
-          },
-          {
-            name: "Supporter Dualchip",
-            quantity: 3,
-          },
-          {
-            name: "Optimized Device",
-            quantity: 5,
-          },
-          {
-            name: "RMA70-12",
-            quantity: 9,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 3,
-            },
-            {
-              name: "RMA70-12",
-              quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 3,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 4,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 3,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 3,
-            },
-            {
-              name: "Orirock Cluster",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 3,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 4,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 4,
-            },
-          ],
-        },
-      },
-      rarity: 5,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-          {
-            name: "Ester",
-            quantity: 7,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Oriron",
-            quantity: 3,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Polyketon",
-            quantity: 4,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "RMA70-12",
-            quantity: 3,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 6,
-          },
-          {
-            name: "Orirock Cluster",
-            quantity: 4,
-          },
-          {
-            name: "Integrated Device",
-            quantity: 2,
-          },
-        ],
-      },
-    },
-    "Blue Poison": {
+    Provence: {
       elite: {
         1: [
           {
@@ -4169,12 +7919,12 @@ const RECIPES: RecipeBook = {
             quantity: 4,
           },
           {
-            name: "Polyester",
-            quantity: 5,
+            name: "Polyketon",
+            quantity: 4,
           },
           {
-            name: "Orirock Cube",
-            quantity: 4,
+            name: "Oriron",
+            quantity: 3,
           },
         ],
         2: [
@@ -4187,12 +7937,12 @@ const RECIPES: RecipeBook = {
             quantity: 3,
           },
           {
-            name: "Manganese Trihydrate",
-            quantity: 8,
+            name: "Sugar Lump",
+            quantity: 9,
           },
           {
             name: "Integrated Device",
-            quantity: 8,
+            quantity: 7,
           },
         ],
       },
@@ -4204,57 +7954,13 @@ const RECIPES: RecipeBook = {
               quantity: 5,
             },
             {
-              name: "Oriron Block",
+              name: "Manganese Trihydrate",
               quantity: 3,
             },
             {
-              name: "Sugar Pack",
-              quantity: 1,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Optimized Device",
+              name: "Integrated Device",
               quantity: 2,
             },
-            {
-              name: "Oriron Block",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 4,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 5,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 3,
-            },
-            {
-              name: "Polyester Pack",
-              quantity: 3,
-            },
           ],
           2: [
             {
@@ -4262,11 +7968,11 @@ const RECIPES: RecipeBook = {
               quantity: 6,
             },
             {
-              name: "White Horse Kohl",
+              name: "RMA70-24",
               quantity: 3,
             },
             {
-              name: "Keton Colloid",
+              name: "Manganese Trihydrate",
               quantity: 5,
             },
           ],
@@ -4280,7 +7986,51 @@ const RECIPES: RecipeBook = {
               quantity: 4,
             },
             {
-              name: "RMA70-24",
+              name: "Sugar Lump",
+              quantity: 4,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 3,
+            },
+            {
+              name: "Loxic Kohl",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 3,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 6,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 4,
+            },
+            {
+              name: "Orirock Concentration",
               quantity: 4,
             },
           ],
@@ -4300,240 +8050,51 @@ const RECIPES: RecipeBook = {
             quantity: 4,
           },
           {
-            name: "Ester",
-            quantity: 7,
+            name: "Diketon",
+            quantity: 5,
           },
         ],
         4: [
           {
             name: "Skill Summary - 2",
             quantity: 6,
-          },
-          {
-            name: "Oriron",
-            quantity: 3,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Polyketon",
-            quantity: 4,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Sugar Pack",
-            quantity: 5,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 6,
-          },
-          {
-            name: "Polyester Pack",
-            quantity: 3,
-          },
-          {
-            name: "Manganese Ore",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Greyy: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 15000,
-          },
-          {
-            name: "Caster Chip",
-            quantity: 3,
-          },
-          {
-            name: "Oriron",
-            quantity: 1,
-          },
-          {
-            name: "Polyester",
-            quantity: 1,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 60000,
-          },
-          {
-            name: "Caster Chip Pack",
-            quantity: 5,
-          },
-          {
-            name: "Manganese Ore",
-            quantity: 15,
-          },
-          {
-            name: "Aketon",
-            quantity: 9,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 1,
-            },
-            {
-              name: "Orirock Cluster",
-              quantity: 5,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 2,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 2,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 2,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 1,
-            },
-            {
-              name: "Sugar Pack",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 1,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 2,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 2,
-            },
-          ],
-        },
-      },
-      rarity: 4,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Oriron Shard",
-            quantity: 3,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Polyketon",
-            quantity: 2,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
           },
           {
             name: "Device",
             quantity: 2,
           },
         ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 8,
+          },
+        ],
         6: [
           {
             name: "Skill Summary - 2",
-            quantity: 3,
+            quantity: 6,
           },
           {
-            name: "Orirock Cluster",
+            name: "Integrated Device",
             quantity: 3,
           },
         ],
         7: [
           {
             name: "Skill Summary - 3",
-            quantity: 4,
+            quantity: 6,
           },
           {
-            name: "Sugar Pack",
+            name: "Loxic Kohl",
+            quantity: 3,
+          },
+          {
+            name: "Aketon",
             quantity: 3,
           },
         ],
@@ -4732,7 +8293,7 @@ const RECIPES: RecipeBook = {
         ],
       },
     },
-    Courier: {
+    Earthspirit: {
       elite: {
         1: [
           {
@@ -4740,15 +8301,15 @@ const RECIPES: RecipeBook = {
             quantity: 15000,
           },
           {
-            name: "Vanguard Chip",
+            name: "Supporter Chip",
             quantity: 3,
           },
           {
-            name: "Device",
+            name: "Oriron",
             quantity: 1,
           },
           {
-            name: "Sugar",
+            name: "Orirock Cube",
             quantity: 1,
           },
         ],
@@ -4758,16 +8319,16 @@ const RECIPES: RecipeBook = {
             quantity: 60000,
           },
           {
-            name: "Vanguard Chip Pack",
+            name: "Supporter Chip Pack",
             quantity: 5,
           },
           {
-            name: "Integrated Device",
-            quantity: 11,
+            name: "Sugar Pack",
+            quantity: 20,
           },
           {
-            name: "Aketon",
-            quantity: 10,
+            name: "Grindstone",
+            quantity: 7,
           },
         ],
       },
@@ -4779,11 +8340,11 @@ const RECIPES: RecipeBook = {
               quantity: 2,
             },
             {
-              name: "Orirock Concentration",
+              name: "White Horse Kohl",
               quantity: 1,
             },
             {
-              name: "Grindstone",
+              name: "Aketon",
               quantity: 4,
             },
           ],
@@ -4793,11 +8354,11 @@ const RECIPES: RecipeBook = {
               quantity: 4,
             },
             {
-              name: "Polyester Lump",
+              name: "Grindstone Pentahydrate",
               quantity: 2,
             },
             {
-              name: "Orirock Concentration",
+              name: "White Horse Kohl",
               quantity: 3,
             },
           ],
@@ -4807,11 +8368,11 @@ const RECIPES: RecipeBook = {
               quantity: 6,
             },
             {
-              name: "D32 Steel",
+              name: "Bipolar Nanoflake",
               quantity: 2,
             },
             {
-              name: "Keton Colloid",
+              name: "RMA70-24",
               quantity: 2,
             },
           ],
@@ -4823,11 +8384,11 @@ const RECIPES: RecipeBook = {
               quantity: 2,
             },
             {
-              name: "Sugar Lump",
+              name: "Manganese Trihydrate",
               quantity: 1,
             },
             {
-              name: "RMA70-12",
+              name: "Integrated Device",
               quantity: 3,
             },
           ],
@@ -4837,11 +8398,11 @@ const RECIPES: RecipeBook = {
               quantity: 4,
             },
             {
-              name: "Oriron Block",
+              name: "RMA70-24",
               quantity: 2,
             },
             {
-              name: "Sugar Lump",
+              name: "Manganese Trihydrate",
               quantity: 2,
             },
           ],
@@ -4855,7 +8416,7 @@ const RECIPES: RecipeBook = {
               quantity: 2,
             },
             {
-              name: "Grindstone Pentahydrate",
+              name: "Sugar Lump",
               quantity: 2,
             },
           ],
@@ -4875,8 +8436,8 @@ const RECIPES: RecipeBook = {
             quantity: 2,
           },
           {
-            name: "Damaged Device",
-            quantity: 2,
+            name: "Oriron Shard",
+            quantity: 3,
           },
         ],
         4: [
@@ -4885,7 +8446,7 @@ const RECIPES: RecipeBook = {
             quantity: 3,
           },
           {
-            name: "Orirock Cube",
+            name: "Polyketon",
             quantity: 2,
           },
         ],
@@ -4895,226 +8456,102 @@ const RECIPES: RecipeBook = {
             quantity: 3,
           },
           {
-            name: "Sugar",
-            quantity: 3,
+            name: "Device",
+            quantity: 2,
           },
         ],
         6: [
           {
             name: "Skill Summary - 2",
             quantity: 3,
-          },
-          {
-            name: "Grindstone",
-            quantity: 2,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 4,
-          },
-          {
-            name: "RMA70-12",
-            quantity: 2,
-          },
-        ],
-      },
-    },
-    Zima: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 20000,
-          },
-          {
-            name: "Vanguard Chip",
-            quantity: 4,
-          },
-          {
-            name: "Sugar",
-            quantity: 4,
-          },
-          {
-            name: "Polyester",
-            quantity: 3,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 120000,
-          },
-          {
-            name: "Vanguard Dualchip",
-            quantity: 3,
-          },
-          {
-            name: "Sugar Lump",
-            quantity: 7,
-          },
-          {
-            name: "RMA70-12",
-            quantity: 11,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 3,
-            },
-            {
-              name: "Aketon",
-              quantity: 5,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 3,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 6,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 4,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 4,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 3,
-            },
-            {
-              name: "Integrated Device",
-              quantity: 2,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 3,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 4,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 4,
-            },
-          ],
-        },
-      },
-      rarity: 5,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-          {
-            name: "Sugar Substitute",
-            quantity: 7,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Polyester",
-            quantity: 3,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Oriron",
-            quantity: 4,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
           },
           {
             name: "Aketon",
-            quantity: 4,
+            quantity: 2,
           },
         ],
         7: [
           {
             name: "Skill Summary - 3",
-            quantity: 6,
+            quantity: 4,
           },
           {
             name: "Integrated Device",
             quantity: 2,
           },
+        ],
+      },
+    },
+    Steward: {
+      elite: {
+        1: [
           {
-            name: "Sugar Pack",
+            name: "LMD",
+            quantity: 10000,
+          },
+        ],
+      },
+      rarity: 3,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 1,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Diketon",
+            quantity: 1,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Device",
+            quantity: 1,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Orirock Cube",
             quantity: 3,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Oriron Cluster",
+            quantity: 1,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 2,
+          },
+          {
+            name: "Aketon",
+            quantity: 2,
           },
         ],
       },
     },
-    Gravel: {
+    Meteor: {
       elite: {
         1: [
           {
@@ -5122,15 +8559,15 @@ const RECIPES: RecipeBook = {
             quantity: 15000,
           },
           {
-            name: "Specialist Chip",
+            name: "Sniper Chip",
             quantity: 3,
           },
           {
-            name: "Orirock Cube",
+            name: "Oriron",
             quantity: 1,
           },
           {
-            name: "Polyketon",
+            name: "Device",
             quantity: 1,
           },
         ],
@@ -5140,65 +8577,21 @@ const RECIPES: RecipeBook = {
             quantity: 60000,
           },
           {
-            name: "Specialist Chip Pack",
+            name: "Sniper Chip Pack",
             quantity: 5,
           },
           {
-            name: "Polyester Pack",
-            quantity: 18,
+            name: "Oriron Cluster",
+            quantity: 14,
           },
           {
-            name: "Orirock Cluster",
-            quantity: 13,
+            name: "Polyester Pack",
+            quantity: 12,
           },
         ],
       },
       masteries: {
         1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 1,
-            },
-            {
-              name: "Integrated Device",
-              quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 2,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 2,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 2,
-            },
-          ],
-        },
-        2: {
           1: [
             {
               name: "Skill Summary - 3",
@@ -5233,156 +8626,11 @@ const RECIPES: RecipeBook = {
               quantity: 6,
             },
             {
-              name: "Bipolar Nanoflake",
+              name: "Polymerization Preparation",
               quantity: 2,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 2,
-            },
-          ],
-        },
-      },
-      rarity: 4,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Orirock",
-            quantity: 5,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Sugar",
-            quantity: 2,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Polyester",
-            quantity: 3,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Integrated Device",
-            quantity: 2,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 4,
-          },
-          {
-            name: "Loxic Kohl",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Frostleaf: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 15000,
-          },
-          {
-            name: "Guard Chip",
-            quantity: 3,
-          },
-          {
-            name: "Polyester",
-            quantity: 1,
-          },
-          {
-            name: "Oriron",
-            quantity: 1,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 60000,
-          },
-          {
-            name: "Guard Chip Pack",
-            quantity: 5,
-          },
-          {
-            name: "Grindstone",
-            quantity: 15,
-          },
-          {
-            name: "Manganese Ore",
-            quantity: 7,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 1,
-            },
-            {
-              name: "Sugar Pack",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
             },
             {
               name: "Optimized Device",
-              quantity: 1,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 2,
-            },
-            {
-              name: "White Horse Kohl",
               quantity: 2,
             },
           ],
@@ -5394,12 +8642,12 @@ const RECIPES: RecipeBook = {
               quantity: 2,
             },
             {
-              name: "Keton Colloid",
+              name: "RMA70-24",
               quantity: 1,
             },
             {
-              name: "Polyester Pack",
-              quantity: 4,
+              name: "Manganese Ore",
+              quantity: 3,
             },
           ],
           2: [
@@ -5408,21 +8656,7 @@ const RECIPES: RecipeBook = {
               quantity: 4,
             },
             {
-              name: "White Horse Kohl",
-              quantity: 2,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Polymerization Preparation",
+              name: "Sugar Lump",
               quantity: 2,
             },
             {
@@ -5430,206 +8664,6 @@ const RECIPES: RecipeBook = {
               quantity: 2,
             },
           ],
-        },
-      },
-      rarity: 4,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Ester",
-            quantity: 4,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Oriron",
-            quantity: 2,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Polyketon",
-            quantity: 2,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Sugar Pack",
-            quantity: 3,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 4,
-          },
-          {
-            name: "Polyester Pack",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Melantha: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 10000,
-          },
-        ],
-      },
-      rarity: 3,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 1,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Ester",
-            quantity: 1,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Oriron",
-            quantity: 1,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Polyketon",
-            quantity: 2,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Integrated Device",
-            quantity: 1,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 2,
-          },
-          {
-            name: "Loxic Kohl",
-            quantity: 2,
-          },
-        ],
-      },
-    },
-    Mousse: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 15000,
-          },
-          {
-            name: "Guard Chip",
-            quantity: 3,
-          },
-          {
-            name: "Polyketon",
-            quantity: 1,
-          },
-          {
-            name: "Device",
-            quantity: 1,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 60000,
-          },
-          {
-            name: "Guard Chip Pack",
-            quantity: 5,
-          },
-          {
-            name: "Orirock Cluster",
-            quantity: 20,
-          },
-          {
-            name: "Grindstone",
-            quantity: 8,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 1,
-            },
-            {
-              name: "Oriron Cluster",
-              quantity: 2,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 2,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 2,
-            },
-          ],
           3: [
             {
               name: "Skill Summary - 3",
@@ -5640,51 +8674,7 @@ const RECIPES: RecipeBook = {
               quantity: 2,
             },
             {
-              name: "Sugar Lump",
-              quantity: 2,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 1,
-            },
-            {
-              name: "Aketon",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 2,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 3,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 2,
-            },
-            {
-              name: "Orirock Concentration",
+              name: "Oriron Block",
               quantity: 2,
             },
           ],
@@ -5704,103 +8694,34 @@ const RECIPES: RecipeBook = {
             quantity: 2,
           },
           {
-            name: "Diketon",
+            name: "Oriron Shard",
             quantity: 3,
           },
         ],
         4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Polyketon",
+            quantity: 2,
+          },
+        ],
+        5: [
           {
             name: "Skill Summary - 2",
             quantity: 3,
           },
           {
             name: "Device",
-            quantity: 1,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 4,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Oriron Cluster",
-            quantity: 2,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 4,
-          },
-          {
-            name: "Aketon",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Popukar: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 10000,
-          },
-        ],
-      },
-      rarity: 3,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 1,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Sugar Substitute",
-            quantity: 1,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Polyester",
-            quantity: 1,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Oriron",
             quantity: 2,
           },
         ],
         6: [
           {
             name: "Skill Summary - 2",
-            quantity: 1,
+            quantity: 3,
           },
           {
             name: "Loxic Kohl",
@@ -5810,16 +8731,16 @@ const RECIPES: RecipeBook = {
         7: [
           {
             name: "Skill Summary - 3",
-            quantity: 2,
+            quantity: 4,
           },
           {
             name: "Manganese Ore",
-            quantity: 2,
+            quantity: 3,
           },
         ],
       },
     },
-    Nearl: {
+    GreyThroat: {
       elite: {
         1: [
           {
@@ -5827,15 +8748,15 @@ const RECIPES: RecipeBook = {
             quantity: 20000,
           },
           {
-            name: "Defender Chip",
+            name: "Sniper Chip",
             quantity: 4,
           },
           {
-            name: "Device",
-            quantity: 3,
+            name: "Orirock Cube",
+            quantity: 7,
           },
           {
-            name: "Polyester",
+            name: "Oriron",
             quantity: 3,
           },
         ],
@@ -5845,21 +8766,520 @@ const RECIPES: RecipeBook = {
             quantity: 120000,
           },
           {
-            name: "Defender Dualchip",
+            name: "Sniper Dualchip",
             quantity: 3,
           },
           {
-            name: "White Horse Kohl",
-            quantity: 9,
+            name: "Oriron Block",
+            quantity: 7,
           },
           {
-            name: "Polyester Pack",
-            quantity: 16,
+            name: "Integrated Device",
+            quantity: 9,
           },
         ],
       },
       masteries: {
         1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 2,
+            },
+            {
+              name: "Oriron Cluster",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 3,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 4,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 4,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 4,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 3,
+            },
+            {
+              name: "Aketon",
+              quantity: 5,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 3,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 6,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 4,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 3,
+            },
+          ],
+        },
+      },
+      rarity: 5,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+          {
+            name: "Orirock",
+            quantity: 10,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Sugar",
+            quantity: 3,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Polyester",
+            quantity: 5,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Integrated Device",
+            quantity: 3,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 6,
+          },
+          {
+            name: "Manganese Ore",
+            quantity: 2,
+          },
+          {
+            name: "RMA70-12",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Nightmare: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 20000,
+          },
+          {
+            name: "Caster Chip",
+            quantity: 4,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 7,
+          },
+          {
+            name: "Oriron",
+            quantity: 3,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 120000,
+          },
+          {
+            name: "Caster Dualchip",
+            quantity: 3,
+          },
+          {
+            name: "Sugar Lump",
+            quantity: 7,
+          },
+          {
+            name: "Manganese Ore",
+            quantity: 14,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 3,
+            },
+            {
+              name: "Integrated Device",
+              quantity: 2,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 3,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 4,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 5,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 3,
+            },
+            {
+              name: "Loxic Kohl",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 3,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 6,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 4,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 4,
+            },
+          ],
+        },
+      },
+      rarity: 5,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+          {
+            name: "Orirock",
+            quantity: 10,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Sugar",
+            quantity: 3,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Polyester",
+            quantity: 5,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Integrated Device",
+            quantity: 3,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 6,
+          },
+          {
+            name: "Loxic Kohl",
+            quantity: 3,
+          },
+          {
+            name: "Aketon",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Adnachiel: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 10000,
+          },
+        ],
+      },
+      rarity: 3,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 1,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Orirock",
+            quantity: 2,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Sugar",
+            quantity: 1,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Polyester",
+            quantity: 2,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "RMA70-12",
+            quantity: 1,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 2,
+          },
+          {
+            name: "Orirock Cluster",
+            quantity: 2,
+          },
+        ],
+      },
+    },
+    Istina: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 20000,
+          },
+          {
+            name: "Supporter Chip",
+            quantity: 4,
+          },
+          {
+            name: "Polyester",
+            quantity: 5,
+          },
+          {
+            name: "Polyketon",
+            quantity: 2,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 120000,
+          },
+          {
+            name: "Supporter Dualchip",
+            quantity: 3,
+          },
+          {
+            name: "Optimized Device",
+            quantity: 5,
+          },
+          {
+            name: "RMA70-12",
+            quantity: 9,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 3,
+            },
+            {
+              name: "RMA70-12",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 3,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 4,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 3,
+            },
+          ],
+        },
+        2: {
           1: [
             {
               name: "Skill Summary - 3",
@@ -5898,245 +9318,8 @@ const RECIPES: RecipeBook = {
               quantity: 4,
             },
             {
-              name: "Optimized Device",
-              quantity: 3,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 3,
-            },
-            {
-              name: "Sugar Pack",
-              quantity: 1,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 2,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Polymerization Preparation",
+              name: "Keton Colloid",
               quantity: 4,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 4,
-            },
-          ],
-        },
-      },
-      rarity: 5,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-          {
-            name: "Damaged Device",
-            quantity: 4,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 4,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Sugar",
-            quantity: 5,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Orirock Cluster",
-            quantity: 5,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 6,
-          },
-          {
-            name: "Sugar Pack",
-            quantity: 3,
-          },
-          {
-            name: "Oriron Cluster",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Croissant: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 20000,
-          },
-          {
-            name: "Defender Chip",
-            quantity: 4,
-          },
-          {
-            name: "Polyester",
-            quantity: 4,
-          },
-          {
-            name: "Sugar",
-            quantity: 3,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 120000,
-          },
-          {
-            name: "Defender Dualchip",
-            quantity: 3,
-          },
-          {
-            name: "RMA70-24",
-            quantity: 8,
-          },
-          {
-            name: "Integrated Device",
-            quantity: 8,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 2,
-            },
-            {
-              name: "Oriron Cluster",
-              quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 3,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 4,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 4,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 4,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 3,
-            },
-            {
-              name: "Aketon",
-              quantity: 5,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 3,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 6,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 4,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 3,
             },
           ],
         },
@@ -6185,6 +9368,461 @@ const RECIPES: RecipeBook = {
             quantity: 6,
           },
           {
+            name: "RMA70-12",
+            quantity: 3,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 6,
+          },
+          {
+            name: "Orirock Cluster",
+            quantity: 4,
+          },
+          {
+            name: "Integrated Device",
+            quantity: 2,
+          },
+        ],
+      },
+    },
+    Platinum: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 20000,
+          },
+          {
+            name: "Sniper Chip",
+            quantity: 4,
+          },
+          {
+            name: "Oriron",
+            quantity: 4,
+          },
+          {
+            name: "Sugar",
+            quantity: 3,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 120000,
+          },
+          {
+            name: "Sniper Dualchip",
+            quantity: 3,
+          },
+          {
+            name: "Grindstone Pentahydrate",
+            quantity: 8,
+          },
+          {
+            name: "Loxic Kohl",
+            quantity: 15,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 3,
+            },
+            {
+              name: "Polyester Pack",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 3,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 4,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 4,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 2,
+            },
+            {
+              name: "Oriron Cluster",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 3,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 4,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 4,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 4,
+            },
+          ],
+        },
+      },
+      rarity: 5,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+          {
+            name: "Oriron Shard",
+            quantity: 5,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Polyketon",
+            quantity: 3,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Device",
+            quantity: 3,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Polyester Pack",
+            quantity: 5,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 6,
+          },
+          {
+            name: "Oriron Cluster",
+            quantity: 2,
+          },
+          {
+            name: "Grindstone",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Lava: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 10000,
+          },
+        ],
+      },
+      rarity: 3,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 1,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Sugar Substitute",
+            quantity: 1,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Polyester",
+            quantity: 1,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Oriron",
+            quantity: 2,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Orirock Cluster",
+            quantity: 2,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 2,
+          },
+          {
+            name: "Sugar Pack",
+            quantity: 2,
+          },
+        ],
+      },
+    },
+    Grani: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 20000,
+          },
+          {
+            name: "Vanguard Chip",
+            quantity: 4,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 8,
+          },
+          {
+            name: "Sugar",
+            quantity: 8,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 120000,
+          },
+          {
+            name: "Vanguard Dualchip",
+            quantity: 3,
+          },
+          {
+            name: "RMA70-24",
+            quantity: 7,
+          },
+          {
+            name: "Oriron Cluster",
+            quantity: 13,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 2,
+            },
+            {
+              name: "Oriron Cluster",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 3,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 4,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 4,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 5,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 3,
+            },
+            {
+              name: "Aketon",
+              quantity: 5,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 3,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 6,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 4,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 4,
+            },
+          ],
+        },
+      },
+      rarity: 5,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+          {
+            name: "Orirock",
+            quantity: 10,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Sugar",
+            quantity: 3,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Polyester",
+            quantity: 5,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
             name: "Oriron Cluster",
             quantity: 4,
           },
@@ -6201,6 +9839,392 @@ const RECIPES: RecipeBook = {
           {
             name: "Loxic Kohl",
             quantity: 4,
+          },
+        ],
+      },
+    },
+    Cliffheart: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 20000,
+          },
+          {
+            name: "Specialist Chip",
+            quantity: 4,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 6,
+          },
+          {
+            name: "Polyester",
+            quantity: 3,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 120000,
+          },
+          {
+            name: "Specialist Dualchip",
+            quantity: 3,
+          },
+          {
+            name: "Oriron Block",
+            quantity: 6,
+          },
+          {
+            name: "Manganese Ore",
+            quantity: 13,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 3,
+            },
+            {
+              name: "Manganese Ore",
+              quantity: 2,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 3,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 4,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 4,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 3,
+            },
+            {
+              name: "Grindstone",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 3,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 6,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 4,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 3,
+            },
+          ],
+        },
+      },
+      rarity: 5,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+          {
+            name: "Orirock",
+            quantity: 10,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Sugar",
+            quantity: 3,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Polyester",
+            quantity: 5,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Manganese Ore",
+            quantity: 4,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 6,
+          },
+          {
+            name: "Grindstone",
+            quantity: 2,
+          },
+          {
+            name: "Orirock Cluster",
+            quantity: 4,
+          },
+        ],
+      },
+    },
+    Bibeak: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 20000,
+          },
+          {
+            name: "Guard Chip",
+            quantity: 4,
+          },
+          {
+            name: "Oriron",
+            quantity: 4,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 3,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 120000,
+          },
+          {
+            name: "Guard Dualchip",
+            quantity: 3,
+          },
+          {
+            name: "Manganese Trihydrate",
+            quantity: 8,
+          },
+          {
+            name: "RMA70-12",
+            quantity: 8,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Polymerized Gel",
+              quantity: 3,
+            },
+            {
+              name: "Orirock Cluster",
+              quantity: 6,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 3,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 4,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 4,
+            },
+            {
+              name: "Polymerized Gel",
+              quantity: 4,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 3,
+            },
+            {
+              name: "Incandescent Alloy",
+              quantity: 1,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 3,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 6,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 4,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 4,
+            },
+          ],
+        },
+      },
+      rarity: 5,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+          {
+            name: "Oriron Shard",
+            quantity: 5,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Polyketon",
+            quantity: 3,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Device",
+            quantity: 3,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Manganese Ore",
+            quantity: 4,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 6,
+          },
+          {
+            name: "Loxic Kohl",
+            quantity: 3,
+          },
+          {
+            name: "Aketon",
+            quantity: 3,
           },
         ],
       },
@@ -6450,7 +10474,7 @@ const RECIPES: RecipeBook = {
         ],
       },
     },
-    Angelina: {
+    Mostima: {
       elite: {
         1: [
           {
@@ -6458,7 +10482,7 @@ const RECIPES: RecipeBook = {
             quantity: 30000,
           },
           {
-            name: "Supporter Chip",
+            name: "Caster Chip",
             quantity: 5,
           },
           {
@@ -6466,7 +10490,7 @@ const RECIPES: RecipeBook = {
             quantity: 7,
           },
           {
-            name: "Sugar",
+            name: "Oriron",
             quantity: 4,
           },
         ],
@@ -6476,7 +10500,7 @@ const RECIPES: RecipeBook = {
             quantity: 180000,
           },
           {
-            name: "Supporter Dualchip",
+            name: "Caster Dualchip",
             quantity: 4,
           },
           {
@@ -6484,8 +10508,8 @@ const RECIPES: RecipeBook = {
             quantity: 4,
           },
           {
-            name: "Sugar Lump",
-            quantity: 5,
+            name: "Grindstone Pentahydrate",
+            quantity: 7,
           },
         ],
       },
@@ -6494,15 +10518,15 @@ const RECIPES: RecipeBook = {
           1: [
             {
               name: "Skill Summary - 3",
-              quantity: 6,
+              quantity: 8,
             },
             {
-              name: "Optimized Device",
-              quantity: 3,
-            },
-            {
-              name: "Oriron Cluster",
+              name: "Orirock Concentration",
               quantity: 4,
+            },
+            {
+              name: "Grindstone",
+              quantity: 7,
             },
           ],
           2: [
@@ -6511,12 +10535,12 @@ const RECIPES: RecipeBook = {
               quantity: 12,
             },
             {
-              name: "Grindstone Pentahydrate",
+              name: "Oriron Block",
               quantity: 4,
             },
             {
-              name: "White Horse Kohl",
-              quantity: 9,
+              name: "Sugar Lump",
+              quantity: 7,
             },
           ],
           3: [
@@ -6529,7 +10553,7 @@ const RECIPES: RecipeBook = {
               quantity: 6,
             },
             {
-              name: "Sugar Lump",
+              name: "Grindstone Pentahydrate",
               quantity: 5,
             },
           ],
@@ -6538,14 +10562,58 @@ const RECIPES: RecipeBook = {
           1: [
             {
               name: "Skill Summary - 3",
-              quantity: 6,
+              quantity: 8,
             },
             {
-              name: "White Horse Kohl",
+              name: "Sugar Lump",
               quantity: 4,
             },
             {
-              name: "Aketon",
+              name: "RMA70-12",
+              quantity: 5,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 4,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 7,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 15,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 6,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 6,
+            },
+          ],
+        },
+        3: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 8,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 4,
+            },
+            {
+              name: "Orirock Cluster",
               quantity: 8,
             },
           ],
@@ -6555,12 +10623,12 @@ const RECIPES: RecipeBook = {
               quantity: 12,
             },
             {
-              name: "RMA70-24",
-              quantity: 4,
+              name: "Optimized Device",
+              quantity: 3,
             },
             {
-              name: "Manganese Trihydrate",
-              quantity: 7,
+              name: "Oriron Block",
+              quantity: 6,
             },
           ],
           3: [
@@ -6573,52 +10641,8 @@ const RECIPES: RecipeBook = {
               quantity: 6,
             },
             {
-              name: "Sugar Lump",
+              name: "Polyester Lump",
               quantity: 6,
-            },
-          ],
-        },
-        3: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 4,
-            },
-            {
-              name: "Integrated Device",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 4,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 9,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 6,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 7,
             },
           ],
         },
@@ -6675,8 +10699,8 @@ const RECIPES: RecipeBook = {
             quantity: 8,
           },
           {
-            name: "Oriron Cluster",
-            quantity: 6,
+            name: "RMA70-12",
+            quantity: 4,
           },
         ],
         7: [
@@ -6685,17 +10709,17 @@ const RECIPES: RecipeBook = {
             quantity: 8,
           },
           {
-            name: "Aketon",
-            quantity: 3,
+            name: "Orirock Cluster",
+            quantity: 5,
           },
           {
-            name: "Loxic Kohl",
-            quantity: 6,
+            name: "Integrated Device",
+            quantity: 4,
           },
         ],
       },
     },
-    Snowsant: {
+    Amiya: {
       elite: {
         1: [
           {
@@ -6703,16 +10727,16 @@ const RECIPES: RecipeBook = {
             quantity: 20000,
           },
           {
-            name: "Specialist Chip",
-            quantity: 4,
-          },
-          {
-            name: "Sugar",
-            quantity: 4,
-          },
-          {
-            name: "Polyketon",
+            name: "Caster Chip",
             quantity: 3,
+          },
+          {
+            name: "Device",
+            quantity: 4,
+          },
+          {
+            name: "Oriron",
+            quantity: 4,
           },
         ],
         2: [
@@ -6721,21 +10745,65 @@ const RECIPES: RecipeBook = {
             quantity: 120000,
           },
           {
-            name: "Specialist Dualchip",
+            name: "Caster Dualchip",
             quantity: 3,
           },
           {
-            name: "Polymerized Gel",
-            quantity: 8,
+            name: "Orirock Concentration",
+            quantity: 10,
           },
           {
-            name: "Oriron Cluster",
-            quantity: 15,
+            name: "Loxic Kohl",
+            quantity: 10,
           },
         ],
       },
       masteries: {
         1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 3,
+            },
+            {
+              name: "Aketon",
+              quantity: 5,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 3,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 6,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 4,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 5,
+            },
+          ],
+        },
+        2: {
           1: [
             {
               name: "Skill Summary - 3",
@@ -6770,16 +10838,16 @@ const RECIPES: RecipeBook = {
               quantity: 10,
             },
             {
-              name: "D32 Steel",
+              name: "Polymerization Preparation",
               quantity: 4,
             },
             {
-              name: "Polymerized Gel",
-              quantity: 4,
+              name: "White Horse Kohl",
+              quantity: 5,
             },
           ],
         },
-        2: {
+        3: {
           1: [
             {
               name: "Skill Summary - 3",
@@ -6800,12 +10868,12 @@ const RECIPES: RecipeBook = {
               quantity: 6,
             },
             {
-              name: "Incandescent Alloy Block",
+              name: "Orirock Concentration",
               quantity: 3,
             },
             {
-              name: "RMA70-24",
-              quantity: 5,
+              name: "Grindstone Pentahydrate",
+              quantity: 6,
             },
           ],
           3: [
@@ -6818,8 +10886,8 @@ const RECIPES: RecipeBook = {
               quantity: 4,
             },
             {
-              name: "Keton Colloid",
-              quantity: 3,
+              name: "Polyester Lump",
+              quantity: 4,
             },
           ],
         },
@@ -6838,8 +10906,8 @@ const RECIPES: RecipeBook = {
             quantity: 4,
           },
           {
-            name: "Sugar Substitute",
-            quantity: 7,
+            name: "Damaged Device",
+            quantity: 4,
           },
         ],
         4: [
@@ -6848,8 +10916,8 @@ const RECIPES: RecipeBook = {
             quantity: 6,
           },
           {
-            name: "Polyester",
-            quantity: 3,
+            name: "Orirock Cube",
+            quantity: 4,
           },
         ],
         5: [
@@ -6858,8 +10926,8 @@ const RECIPES: RecipeBook = {
             quantity: 6,
           },
           {
-            name: "Oriron",
-            quantity: 4,
+            name: "Sugar",
+            quantity: 5,
           },
         ],
         6: [
@@ -6868,7 +10936,7 @@ const RECIPES: RecipeBook = {
             quantity: 6,
           },
           {
-            name: "Loxic Kohl",
+            name: "Aketon",
             quantity: 4,
           },
         ],
@@ -6878,12 +10946,12 @@ const RECIPES: RecipeBook = {
             quantity: 6,
           },
           {
-            name: "Coagulating Gel",
-            quantity: 3,
+            name: "Integrated Device",
+            quantity: 2,
           },
           {
-            name: "Oriron Cluster",
-            quantity: 2,
+            name: "Sugar Pack",
+            quantity: 3,
           },
         ],
       },
@@ -7081,7 +11149,579 @@ const RECIPES: RecipeBook = {
         ],
       },
     },
-    Bibeak: {
+    Scavenger: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 15000,
+          },
+          {
+            name: "Vanguard Chip",
+            quantity: 3,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 1,
+          },
+          {
+            name: "Sugar",
+            quantity: 1,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 60000,
+          },
+          {
+            name: "Vanguard Chip Pack",
+            quantity: 5,
+          },
+          {
+            name: "Loxic Kohl",
+            quantity: 20,
+          },
+          {
+            name: "Integrated Device",
+            quantity: 6,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 1,
+            },
+            {
+              name: "RMA70-12",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 2,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 2,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 2,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 1,
+            },
+            {
+              name: "Orirock Cluster",
+              quantity: 5,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 2,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 2,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 2,
+            },
+          ],
+        },
+      },
+      rarity: 4,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Orirock",
+            quantity: 5,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Sugar",
+            quantity: 2,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Polyester",
+            quantity: 3,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "RMA70-12",
+            quantity: 2,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 4,
+          },
+          {
+            name: "Orirock Cluster",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Orchid: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 10000,
+          },
+        ],
+      },
+      rarity: 3,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 1,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Orirock",
+            quantity: 2,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Sugar",
+            quantity: 1,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Polyester",
+            quantity: 2,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Integrated Device",
+            quantity: 1,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 2,
+          },
+          {
+            name: "Loxic Kohl",
+            quantity: 2,
+          },
+        ],
+      },
+    },
+    Midnight: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 10000,
+          },
+        ],
+      },
+      rarity: 3,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 1,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Oriron Shard",
+            quantity: 1,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Polyketon",
+            quantity: 1,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Device",
+            quantity: 1,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Grindstone",
+            quantity: 1,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 2,
+          },
+          {
+            name: "RMA70-12",
+            quantity: 1,
+          },
+        ],
+      },
+    },
+    Hellagur: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 30000,
+          },
+          {
+            name: "Guard Chip",
+            quantity: 5,
+          },
+          {
+            name: "Sugar",
+            quantity: 10,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 6,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 180000,
+          },
+          {
+            name: "Guard Dualchip",
+            quantity: 4,
+          },
+          {
+            name: "Bipolar Nanoflake",
+            quantity: 4,
+          },
+          {
+            name: "Polyester Lump",
+            quantity: 7,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 8,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 4,
+            },
+            {
+              name: "RMA70-12",
+              quantity: 5,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 4,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 7,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 15,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 6,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 5,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 8,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 4,
+            },
+            {
+              name: "Orirock Cluster",
+              quantity: 8,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 3,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 6,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 15,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 6,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 4,
+            },
+          ],
+        },
+        3: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 8,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 4,
+            },
+            {
+              name: "Sugar Pack",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 4,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 8,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 15,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 6,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 5,
+            },
+          ],
+        },
+      },
+      rarity: 6,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 5,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 5,
+          },
+          {
+            name: "Ester",
+            quantity: 6,
+          },
+          {
+            name: "Oriron Shard",
+            quantity: 4,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 8,
+          },
+          {
+            name: "Oriron",
+            quantity: 4,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 8,
+          },
+          {
+            name: "Polyketon",
+            quantity: 4,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 5,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 8,
+          },
+          {
+            name: "Manganese Ore",
+            quantity: 6,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 8,
+          },
+          {
+            name: "Grindstone",
+            quantity: 4,
+          },
+          {
+            name: "Orirock Cluster",
+            quantity: 5,
+          },
+        ],
+      },
+    },
+    Nearl: {
       elite: {
         1: [
           {
@@ -7089,7 +11729,956 @@ const RECIPES: RecipeBook = {
             quantity: 20000,
           },
           {
+            name: "Defender Chip",
+            quantity: 4,
+          },
+          {
+            name: "Device",
+            quantity: 3,
+          },
+          {
+            name: "Polyester",
+            quantity: 3,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 120000,
+          },
+          {
+            name: "Defender Dualchip",
+            quantity: 3,
+          },
+          {
+            name: "White Horse Kohl",
+            quantity: 9,
+          },
+          {
+            name: "Polyester Pack",
+            quantity: 16,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 3,
+            },
+            {
+              name: "Orirock Cluster",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 3,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 4,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 3,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 3,
+            },
+            {
+              name: "Sugar Pack",
+              quantity: 1,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 2,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 4,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 4,
+            },
+          ],
+        },
+      },
+      rarity: 5,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+          {
+            name: "Damaged Device",
+            quantity: 4,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 4,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Sugar",
+            quantity: 5,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Orirock Cluster",
+            quantity: 5,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 6,
+          },
+          {
+            name: "Sugar Pack",
+            quantity: 3,
+          },
+          {
+            name: "Oriron Cluster",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Greyy: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 15000,
+          },
+          {
+            name: "Caster Chip",
+            quantity: 3,
+          },
+          {
+            name: "Oriron",
+            quantity: 1,
+          },
+          {
+            name: "Polyester",
+            quantity: 1,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 60000,
+          },
+          {
+            name: "Caster Chip Pack",
+            quantity: 5,
+          },
+          {
+            name: "Manganese Ore",
+            quantity: 15,
+          },
+          {
+            name: "Aketon",
+            quantity: 9,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 1,
+            },
+            {
+              name: "Orirock Cluster",
+              quantity: 5,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 2,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 2,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 2,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 1,
+            },
+            {
+              name: "Sugar Pack",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 1,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 2,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 2,
+            },
+          ],
+        },
+      },
+      rarity: 4,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Oriron Shard",
+            quantity: 3,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Polyketon",
+            quantity: 2,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Device",
+            quantity: 2,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Orirock Cluster",
+            quantity: 3,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 4,
+          },
+          {
+            name: "Sugar Pack",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Myrrh: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 15000,
+          },
+          {
+            name: "Medic Chip",
+            quantity: 3,
+          },
+          {
+            name: "Polyester",
+            quantity: 1,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 1,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 60000,
+          },
+          {
+            name: "Medic Chip Pack",
+            quantity: 5,
+          },
+          {
+            name: "Aketon",
+            quantity: 14,
+          },
+          {
+            name: "Polyester Pack",
+            quantity: 12,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 1,
+            },
+            {
+              name: "Manganese Ore",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 2,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 2,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 2,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 1,
+            },
+            {
+              name: "Grindstone",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 2,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 3,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 2,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 2,
+            },
+          ],
+        },
+      },
+      rarity: 4,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Ester",
+            quantity: 4,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Oriron",
+            quantity: 2,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Polyketon",
+            quantity: 2,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Manganese Ore",
+            quantity: 2,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 4,
+          },
+          {
+            name: "Grindstone",
+            quantity: 2,
+          },
+        ],
+      },
+    },
+    Perfumer: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 15000,
+          },
+          {
+            name: "Medic Chip",
+            quantity: 3,
+          },
+          {
+            name: "Polyketon",
+            quantity: 1,
+          },
+          {
+            name: "Polyester",
+            quantity: 1,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 60000,
+          },
+          {
+            name: "Medic Chip Pack",
+            quantity: 5,
+          },
+          {
+            name: "Loxic Kohl",
+            quantity: 19,
+          },
+          {
+            name: "Aketon",
+            quantity: 8,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 1,
+            },
+            {
+              name: "RMA70-12",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 2,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 2,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 2,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 1,
+            },
+            {
+              name: "Orirock Cluster",
+              quantity: 5,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 2,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 2,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 2,
+            },
+          ],
+        },
+      },
+      rarity: 4,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Diketon",
+            quantity: 3,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Device",
+            quantity: 1,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 4,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "RMA70-12",
+            quantity: 2,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 4,
+          },
+          {
+            name: "Orirock Cluster",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Frostleaf: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 15000,
+          },
+          {
             name: "Guard Chip",
+            quantity: 3,
+          },
+          {
+            name: "Polyester",
+            quantity: 1,
+          },
+          {
+            name: "Oriron",
+            quantity: 1,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 60000,
+          },
+          {
+            name: "Guard Chip Pack",
+            quantity: 5,
+          },
+          {
+            name: "Grindstone",
+            quantity: 15,
+          },
+          {
+            name: "Manganese Ore",
+            quantity: 7,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 1,
+            },
+            {
+              name: "Sugar Pack",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 1,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 2,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 2,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 1,
+            },
+            {
+              name: "Polyester Pack",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 2,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 2,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 2,
+            },
+          ],
+        },
+      },
+      rarity: 4,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Ester",
+            quantity: 4,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Oriron",
+            quantity: 2,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Polyketon",
+            quantity: 2,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Sugar Pack",
+            quantity: 3,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 4,
+          },
+          {
+            name: "Polyester Pack",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Silence: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 20000,
+          },
+          {
+            name: "Medic Chip",
             quantity: 4,
           },
           {
@@ -7107,16 +12696,16 @@ const RECIPES: RecipeBook = {
             quantity: 120000,
           },
           {
-            name: "Guard Dualchip",
+            name: "Medic Dualchip",
             quantity: 3,
           },
           {
-            name: "Manganese Trihydrate",
-            quantity: 8,
+            name: "Keton Colloid",
+            quantity: 7,
           },
           {
-            name: "RMA70-12",
-            quantity: 8,
+            name: "Orirock Cluster",
+            quantity: 18,
           },
         ],
       },
@@ -7128,12 +12717,12 @@ const RECIPES: RecipeBook = {
               quantity: 5,
             },
             {
-              name: "Polymerized Gel",
+              name: "Orirock Concentration",
               quantity: 3,
             },
             {
-              name: "Orirock Cluster",
-              quantity: 6,
+              name: "Grindstone",
+              quantity: 4,
             },
           ],
           2: [
@@ -7142,12 +12731,56 @@ const RECIPES: RecipeBook = {
               quantity: 6,
             },
             {
-              name: "Manganese Trihydrate",
+              name: "Polyester Lump",
               quantity: 3,
             },
             {
-              name: "Optimized Device",
+              name: "Orirock Concentration",
+              quantity: 6,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Polymerization Preparation",
               quantity: 4,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 4,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 3,
+            },
+            {
+              name: "RMA70-12",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 3,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 5,
             },
           ],
           3: [
@@ -7160,51 +12793,7 @@ const RECIPES: RecipeBook = {
               quantity: 4,
             },
             {
-              name: "Polymerized Gel",
-              quantity: 4,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 3,
-            },
-            {
-              name: "Incandescent Alloy",
-              quantity: 1,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 3,
-            },
-            {
               name: "Grindstone Pentahydrate",
-              quantity: 6,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 4,
-            },
-            {
-              name: "Keton Colloid",
               quantity: 4,
             },
           ],
@@ -7254,8 +12843,8 @@ const RECIPES: RecipeBook = {
             quantity: 6,
           },
           {
-            name: "Manganese Ore",
-            quantity: 4,
+            name: "Grindstone",
+            quantity: 3,
           },
         ],
         7: [
@@ -7264,11 +12853,642 @@ const RECIPES: RecipeBook = {
             quantity: 6,
           },
           {
-            name: "Loxic Kohl",
+            name: "RMA70-12",
+            quantity: 2,
+          },
+          {
+            name: "Polyester Pack",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Saria: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 30000,
+          },
+          {
+            name: "Defender Chip",
+            quantity: 5,
+          },
+          {
+            name: "Sugar",
+            quantity: 8,
+          },
+          {
+            name: "Polyketon",
+            quantity: 5,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 180000,
+          },
+          {
+            name: "Defender Dualchip",
+            quantity: 4,
+          },
+          {
+            name: "Bipolar Nanoflake",
+            quantity: 4,
+          },
+          {
+            name: "Manganese Trihydrate",
+            quantity: 5,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 4,
+            },
+            {
+              name: "Orirock Cluster",
+              quantity: 8,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 3,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 6,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 15,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 6,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 5,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 4,
+            },
+            {
+              name: "Sugar Pack",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 4,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 8,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 15,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 6,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 5,
+            },
+          ],
+        },
+        3: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 4,
+            },
+            {
+              name: "Polyester Pack",
+              quantity: 6,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 4,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 15,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 6,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 6,
+            },
+          ],
+        },
+      },
+      rarity: 6,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 5,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 5,
+          },
+          {
+            name: "Oriron Shard",
+            quantity: 5,
+          },
+          {
+            name: "Sugar Substitute",
+            quantity: 4,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 8,
+          },
+          {
+            name: "Polyester",
+            quantity: 5,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 8,
+          },
+          {
+            name: "Oriron",
+            quantity: 4,
+          },
+          {
+            name: "Sugar",
+            quantity: 3,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 8,
+          },
+          {
+            name: "Orirock Cluster",
+            quantity: 8,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 8,
+          },
+          {
+            name: "Sugar Pack",
+            quantity: 4,
+          },
+          {
+            name: "Oriron Cluster",
+            quantity: 5,
+          },
+        ],
+      },
+    },
+    Lappland: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 20000,
+          },
+          {
+            name: "Guard Chip",
+            quantity: 4,
+          },
+          {
+            name: "Device",
             quantity: 3,
           },
           {
-            name: "Aketon",
+            name: "Orirock Cube",
+            quantity: 4,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 120000,
+          },
+          {
+            name: "Guard Dualchip",
+            quantity: 3,
+          },
+          {
+            name: "Optimized Device",
+            quantity: 6,
+          },
+          {
+            name: "Oriron Cluster",
+            quantity: 10,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 3,
+            },
+            {
+              name: "Grindstone",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 3,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 6,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 4,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 4,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 3,
+            },
+            {
+              name: "RMA70-12",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 3,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 4,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 4,
+            },
+          ],
+        },
+      },
+      rarity: 5,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+          {
+            name: "Damaged Device",
+            quantity: 4,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 4,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Sugar",
+            quantity: 5,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Grindstone",
+            quantity: 3,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 6,
+          },
+          {
+            name: "RMA70-12",
+            quantity: 2,
+          },
+          {
+            name: "Polyester Pack",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    "Blue Poison": {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 20000,
+          },
+          {
+            name: "Sniper Chip",
+            quantity: 4,
+          },
+          {
+            name: "Polyester",
+            quantity: 5,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 4,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 120000,
+          },
+          {
+            name: "Sniper Dualchip",
+            quantity: 3,
+          },
+          {
+            name: "Manganese Trihydrate",
+            quantity: 8,
+          },
+          {
+            name: "Integrated Device",
+            quantity: 8,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 3,
+            },
+            {
+              name: "Sugar Pack",
+              quantity: 1,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 2,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 4,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 5,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 3,
+            },
+            {
+              name: "Polyester Pack",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 3,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 4,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 4,
+            },
+          ],
+        },
+      },
+      rarity: 5,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+          {
+            name: "Ester",
+            quantity: 7,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Oriron",
+            quantity: 3,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Polyketon",
+            quantity: 4,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Sugar Pack",
+            quantity: 5,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 6,
+          },
+          {
+            name: "Polyester Pack",
+            quantity: 3,
+          },
+          {
+            name: "Manganese Ore",
             quantity: 3,
           },
         ],
@@ -7656,7 +13876,7 @@ const RECIPES: RecipeBook = {
         ],
       },
     },
-    Perfumer: {
+    Courier: {
       elite: {
         1: [
           {
@@ -7664,586 +13884,11 @@ const RECIPES: RecipeBook = {
             quantity: 15000,
           },
           {
-            name: "Medic Chip",
-            quantity: 3,
-          },
-          {
-            name: "Polyketon",
-            quantity: 1,
-          },
-          {
-            name: "Polyester",
-            quantity: 1,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 60000,
-          },
-          {
-            name: "Medic Chip Pack",
-            quantity: 5,
-          },
-          {
-            name: "Loxic Kohl",
-            quantity: 19,
-          },
-          {
-            name: "Aketon",
-            quantity: 8,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 1,
-            },
-            {
-              name: "RMA70-12",
-              quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 2,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 2,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 2,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 1,
-            },
-            {
-              name: "Orirock Cluster",
-              quantity: 5,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 2,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 2,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 2,
-            },
-          ],
-        },
-      },
-      rarity: 4,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Diketon",
-            quantity: 3,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
+            name: "Vanguard Chip",
             quantity: 3,
           },
           {
             name: "Device",
-            quantity: 1,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 4,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "RMA70-12",
-            quantity: 2,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 4,
-          },
-          {
-            name: "Orirock Cluster",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Ptilopsis: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 20000,
-          },
-          {
-            name: "Medic Chip",
-            quantity: 4,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 8,
-          },
-          {
-            name: "Sugar",
-            quantity: 2,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 120000,
-          },
-          {
-            name: "Medic Dualchip",
-            quantity: 3,
-          },
-          {
-            name: "Orirock Concentration",
-            quantity: 9,
-          },
-          {
-            name: "Grindstone",
-            quantity: 10,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 2,
-            },
-            {
-              name: "Oriron Cluster",
-              quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 3,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 4,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 4,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 4,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 3,
-            },
-            {
-              name: "Aketon",
-              quantity: 5,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 3,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 6,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 4,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 4,
-            },
-          ],
-        },
-      },
-      rarity: 5,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-          {
-            name: "Orirock",
-            quantity: 10,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Sugar",
-            quantity: 3,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Polyester",
-            quantity: 5,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Oriron Cluster",
-            quantity: 4,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 6,
-          },
-          {
-            name: "Aketon",
-            quantity: 2,
-          },
-          {
-            name: "Loxic Kohl",
-            quantity: 4,
-          },
-        ],
-      },
-    },
-    Astesia: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 20000,
-          },
-          {
-            name: "Guard Chip",
-            quantity: 4,
-          },
-          {
-            name: "Polyester",
-            quantity: 5,
-          },
-          {
-            name: "Oriron",
-            quantity: 3,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 120000,
-          },
-          {
-            name: "Guard Dualchip",
-            quantity: 3,
-          },
-          {
-            name: "Polyester Lump",
-            quantity: 7,
-          },
-          {
-            name: "Oriron Cluster",
-            quantity: 14,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 3,
-            },
-            {
-              name: "Orirock Cluster",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 3,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 4,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 3,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 3,
-            },
-            {
-              name: "Sugar Pack",
-              quantity: 1,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 2,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 4,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 5,
-            },
-          ],
-        },
-      },
-      rarity: 5,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-          {
-            name: "Sugar Substitute",
-            quantity: 7,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Polyester",
-            quantity: 3,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Oriron",
-            quantity: 4,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Orirock Cluster",
-            quantity: 5,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 6,
-          },
-          {
-            name: "Sugar Pack",
-            quantity: 3,
-          },
-          {
-            name: "Oriron Cluster",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Jessica: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 15000,
-          },
-          {
-            name: "Sniper Chip",
-            quantity: 3,
-          },
-          {
-            name: "Polyester",
             quantity: 1,
           },
           {
@@ -8257,5565 +13902,17 @@ const RECIPES: RecipeBook = {
             quantity: 60000,
           },
           {
-            name: "Sniper Chip Pack",
-            quantity: 5,
-          },
-          {
-            name: "Loxic Kohl",
-            quantity: 20,
-          },
-          {
-            name: "Oriron Cluster",
-            quantity: 7,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 1,
-            },
-            {
-              name: "RMA70-12",
-              quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 2,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 2,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 2,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 1,
-            },
-            {
-              name: "Orirock Cluster",
-              quantity: 5,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 2,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 2,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 2,
-            },
-          ],
-        },
-      },
-      rarity: 4,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Ester",
-            quantity: 4,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Oriron",
-            quantity: 2,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Polyketon",
-            quantity: 2,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "RMA70-12",
-            quantity: 2,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 4,
-          },
-          {
-            name: "Orirock Cluster",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Plume: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 10000,
-          },
-        ],
-      },
-      rarity: 3,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 1,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Damaged Device",
-            quantity: 1,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 2,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Sugar",
-            quantity: 2,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 1,
-          },
-          {
-            name: "Aketon",
-            quantity: 1,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 2,
-          },
-          {
-            name: "Integrated Device",
-            quantity: 1,
-          },
-        ],
-      },
-    },
-    Beehunter: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 15000,
-          },
-          {
-            name: "Guard Chip",
-            quantity: 3,
-          },
-          {
-            name: "Device",
-            quantity: 1,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 1,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 60000,
-          },
-          {
-            name: "Guard Chip Pack",
-            quantity: 5,
-          },
-          {
-            name: "Sugar Pack",
-            quantity: 19,
-          },
-          {
-            name: "RMA70-12",
-            quantity: 7,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 1,
-            },
-            {
-              name: "Aketon",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 2,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 3,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 2,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 2,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 1,
-            },
-            {
-              name: "Integrated Device",
-              quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 2,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 2,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 2,
-            },
-          ],
-        },
-      },
-      rarity: 4,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Damaged Device",
-            quantity: 2,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 2,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Sugar",
-            quantity: 3,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Aketon",
-            quantity: 2,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 4,
-          },
-          {
-            name: "Integrated Device",
-            quantity: 2,
-          },
-        ],
-      },
-    },
-    Matoimaru: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 15000,
-          },
-          {
-            name: "Guard Chip",
-            quantity: 3,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 1,
-          },
-          {
-            name: "Device",
-            quantity: 1,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 60000,
-          },
-          {
-            name: "Guard Chip Pack",
-            quantity: 5,
-          },
-          {
-            name: "Aketon",
-            quantity: 16,
-          },
-          {
-            name: "Sugar Pack",
-            quantity: 10,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 1,
-            },
-            {
-              name: "Manganese Ore",
-              quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 2,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 2,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 2,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 1,
-            },
-            {
-              name: "Grindstone",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 2,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 3,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 2,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 2,
-            },
-          ],
-        },
-      },
-      rarity: 4,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Orirock",
-            quantity: 5,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Sugar",
-            quantity: 2,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Polyester",
-            quantity: 3,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Manganese Ore",
-            quantity: 2,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 4,
-          },
-          {
-            name: "Grindstone",
-            quantity: 2,
-          },
-        ],
-      },
-    },
-    Cuora: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 15000,
-          },
-          {
-            name: "Defender Chip",
-            quantity: 3,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 1,
-          },
-          {
-            name: "Oriron",
-            quantity: 1,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 60000,
-          },
-          {
-            name: "Defender Chip Pack",
-            quantity: 5,
-          },
-          {
-            name: "Grindstone",
-            quantity: 14,
-          },
-          {
-            name: "Loxic Kohl",
-            quantity: 10,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 1,
-            },
-            {
-              name: "Sugar Pack",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 1,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 2,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 2,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 1,
-            },
-            {
-              name: "Polyester Pack",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 2,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 2,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 2,
-            },
-          ],
-        },
-      },
-      rarity: 4,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Orirock",
-            quantity: 5,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Sugar",
-            quantity: 2,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Polyester",
-            quantity: 3,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Sugar Pack",
-            quantity: 3,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 4,
-          },
-          {
-            name: "Polyester Pack",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Estelle: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 15000,
-          },
-          {
-            name: "Guard Chip",
-            quantity: 3,
-          },
-          {
-            name: "Oriron",
-            quantity: 1,
-          },
-          {
-            name: "Polyketon",
-            quantity: 1,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 60000,
-          },
-          {
-            name: "Guard Chip Pack",
-            quantity: 5,
-          },
-          {
-            name: "RMA70-12",
-            quantity: 12,
-          },
-          {
-            name: "Grindstone",
-            quantity: 8,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 1,
-            },
-            {
-              name: "Polyester Pack",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 2,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 2,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 2,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 1,
-            },
-            {
-              name: "Oriron Cluster",
-              quantity: 2,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 2,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 2,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 2,
-            },
-          ],
-        },
-      },
-      rarity: 4,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Oriron Shard",
-            quantity: 3,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Polyketon",
-            quantity: 2,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Device",
-            quantity: 2,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Polyester Pack",
-            quantity: 3,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 4,
-          },
-          {
-            name: "Oriron Cluster",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Sora: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 20000,
-          },
-          {
-            name: "Supporter Chip",
-            quantity: 4,
-          },
-          {
-            name: "Oriron",
-            quantity: 4,
-          },
-          {
-            name: "Device",
-            quantity: 2,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 120000,
-          },
-          {
-            name: "Supporter Dualchip",
-            quantity: 3,
-          },
-          {
-            name: "White Horse Kohl",
-            quantity: 9,
-          },
-          {
-            name: "Orirock Cluster",
-            quantity: 17,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 3,
-            },
-            {
-              name: "Orirock Cluster",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 3,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 4,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 4,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 3,
-            },
-            {
-              name: "Sugar Pack",
-              quantity: 1,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 2,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 4,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 4,
-            },
-          ],
-        },
-      },
-      rarity: 5,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-          {
-            name: "Oriron Shard",
-            quantity: 5,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Polyketon",
-            quantity: 3,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Device",
-            quantity: 3,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Orirock Cluster",
-            quantity: 5,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 6,
-          },
-          {
-            name: "Sugar Pack",
-            quantity: 3,
-          },
-          {
-            name: "Oriron Cluster",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Ceobe: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 30000,
-          },
-          {
-            name: "Caster Chip",
-            quantity: 5,
-          },
-          {
-            name: "Oriron",
-            quantity: 8,
-          },
-          {
-            name: "Device",
-            quantity: 3,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 180000,
-          },
-          {
-            name: "Caster Dualchip",
-            quantity: 4,
-          },
-          {
-            name: "Bipolar Nanoflake",
-            quantity: 4,
-          },
-          {
-            name: "Incandescent Alloy Block",
-            quantity: 5,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 8,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 4,
-            },
-            {
-              name: "Manganese Ore",
-              quantity: 5,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 4,
-            },
-            {
-              name: "Incandescent Alloy Block",
-              quantity: 7,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 6,
-            },
-            {
-              name: "Polymerized Gel",
-              quantity: 7,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 8,
-            },
-            {
-              name: "Incandescent Alloy Block",
-              quantity: 4,
-            },
-            {
-              name: "RMA70-12",
-              quantity: 5,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 4,
-            },
-            {
-              name: "Polymerized Gel",
-              quantity: 9,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 6,
-            },
-            {
-              name: "Incandescent Alloy Block",
-              quantity: 6,
-            },
-          ],
-        },
-        3: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 8,
-            },
-            {
-              name: "Polymerized Gel",
-              quantity: 4,
-            },
-            {
-              name: "Orirock Cluster",
-              quantity: 11,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 3,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 6,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 6,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 6,
-            },
-          ],
-        },
-      },
-      rarity: 6,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 5,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 5,
-          },
-          {
-            name: "Oriron Shard",
-            quantity: 5,
-          },
-          {
-            name: "Sugar Substitute",
-            quantity: 4,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "Polyketon",
-            quantity: 4,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "Device",
-            quantity: 3,
-          },
-          {
-            name: "Polyester",
-            quantity: 3,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "Aketon",
-            quantity: 6,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 8,
-          },
-          {
-            name: "Grindstone",
-            quantity: 4,
-          },
-          {
-            name: "Orirock Cluster",
-            quantity: 5,
-          },
-        ],
-      },
-    },
-    Mostima: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 30000,
-          },
-          {
-            name: "Caster Chip",
-            quantity: 5,
-          },
-          {
-            name: "Polyketon",
-            quantity: 7,
-          },
-          {
-            name: "Oriron",
-            quantity: 4,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 180000,
-          },
-          {
-            name: "Caster Dualchip",
-            quantity: 4,
-          },
-          {
-            name: "Bipolar Nanoflake",
-            quantity: 4,
-          },
-          {
-            name: "Grindstone Pentahydrate",
-            quantity: 7,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 8,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 4,
-            },
-            {
-              name: "Grindstone",
-              quantity: 7,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 4,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 7,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 6,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 5,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 8,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 4,
-            },
-            {
-              name: "RMA70-12",
-              quantity: 5,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 4,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 7,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 6,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 6,
-            },
-          ],
-        },
-        3: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 8,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 4,
-            },
-            {
-              name: "Orirock Cluster",
-              quantity: 8,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 3,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 6,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 6,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 6,
-            },
-          ],
-        },
-      },
-      rarity: 6,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 5,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 5,
-          },
-          {
-            name: "Diketon",
-            quantity: 6,
-          },
-          {
-            name: "Orirock",
-            quantity: 4,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "Device",
-            quantity: 3,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 5,
-          },
-          {
-            name: "Device",
-            quantity: 3,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "RMA70-12",
-            quantity: 4,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 8,
-          },
-          {
-            name: "Orirock Cluster",
+            name: "Vanguard Chip Pack",
             quantity: 5,
           },
           {
             name: "Integrated Device",
-            quantity: 4,
-          },
-        ],
-      },
-    },
-    Hellagur: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 30000,
-          },
-          {
-            name: "Guard Chip",
-            quantity: 5,
-          },
-          {
-            name: "Sugar",
-            quantity: 10,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 6,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 180000,
-          },
-          {
-            name: "Guard Dualchip",
-            quantity: 4,
-          },
-          {
-            name: "Bipolar Nanoflake",
-            quantity: 4,
-          },
-          {
-            name: "Polyester Lump",
-            quantity: 7,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 8,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 4,
-            },
-            {
-              name: "RMA70-12",
-              quantity: 5,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 4,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 7,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 6,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 5,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 8,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 4,
-            },
-            {
-              name: "Orirock Cluster",
-              quantity: 8,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 3,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 6,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 6,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 4,
-            },
-          ],
-        },
-        3: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 8,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 4,
-            },
-            {
-              name: "Sugar Pack",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 4,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 8,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 6,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 5,
-            },
-          ],
-        },
-      },
-      rarity: 6,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 5,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 5,
-          },
-          {
-            name: "Ester",
-            quantity: 6,
-          },
-          {
-            name: "Oriron Shard",
-            quantity: 4,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "Oriron",
-            quantity: 4,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "Polyketon",
-            quantity: 4,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 5,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "Manganese Ore",
-            quantity: 6,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 8,
-          },
-          {
-            name: "Grindstone",
-            quantity: 4,
-          },
-          {
-            name: "Orirock Cluster",
-            quantity: 5,
-          },
-        ],
-      },
-    },
-    "Ch'en": {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 30000,
-          },
-          {
-            name: "Guard Chip",
-            quantity: 5,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 12,
-          },
-          {
-            name: "Device",
-            quantity: 3,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 180000,
-          },
-          {
-            name: "Guard Dualchip",
-            quantity: 4,
-          },
-          {
-            name: "Polymerization Preparation",
-            quantity: 4,
-          },
-          {
-            name: "White Horse Kohl",
-            quantity: 6,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 8,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 4,
-            },
-            {
-              name: "Integrated Device",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 4,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 9,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 6,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 7,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 8,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 4,
-            },
-            {
-              name: "Loxic Kohl",
-              quantity: 7,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 4,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 8,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 6,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 6,
-            },
-          ],
-        },
-        3: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 8,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 4,
-            },
-            {
-              name: "Manganese Ore",
-              quantity: 5,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 4,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 8,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 6,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 5,
-            },
-          ],
-        },
-      },
-      rarity: 6,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 5,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 5,
-          },
-          {
-            name: "Orirock",
-            quantity: 6,
-          },
-          {
-            name: "Damaged Device",
-            quantity: 4,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "Sugar",
-            quantity: 5,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "Polyester",
-            quantity: 4,
-          },
-          {
-            name: "Oriron",
-            quantity: 4,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "Integrated Device",
-            quantity: 4,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 8,
-          },
-          {
-            name: "Loxic Kohl",
-            quantity: 5,
-          },
-          {
-            name: "Aketon",
-            quantity: 4,
-          },
-        ],
-      },
-    },
-    Ifrit: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 30000,
-          },
-          {
-            name: "Caster Chip",
-            quantity: 5,
-          },
-          {
-            name: "Polyester",
-            quantity: 8,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 8,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 180000,
-          },
-          {
-            name: "Caster Dualchip",
-            quantity: 4,
-          },
-          {
-            name: "D32 Steel",
-            quantity: 4,
-          },
-          {
-            name: "Polyester Lump",
-            quantity: 7,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 4,
-            },
-            {
-              name: "Integrated Device",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 4,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 9,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 6,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 6,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 4,
-            },
-            {
-              name: "Loxic Kohl",
-              quantity: 7,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 4,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 8,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 6,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 5,
-            },
-          ],
-        },
-        3: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 4,
-            },
-            {
-              name: "Manganese Ore",
-              quantity: 5,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 4,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 10,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 6,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 4,
-            },
-          ],
-        },
-      },
-      rarity: 6,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 5,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 5,
-          },
-          {
-            name: "Ester",
-            quantity: 6,
-          },
-          {
-            name: "Oriron Shard",
-            quantity: 4,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "Oriron",
-            quantity: 4,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "Polyketon",
-            quantity: 4,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 5,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "Integrated Device",
-            quantity: 4,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 8,
-          },
-          {
-            name: "Loxic Kohl",
-            quantity: 5,
-          },
-          {
-            name: "Aketon",
-            quantity: 4,
-          },
-        ],
-      },
-    },
-    Shining: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 30000,
-          },
-          {
-            name: "Medic Chip",
-            quantity: 5,
-          },
-          {
-            name: "Polyketon",
-            quantity: 6,
-          },
-          {
-            name: "Polyester",
-            quantity: 5,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 180000,
-          },
-          {
-            name: "Medic Dualchip",
-            quantity: 4,
-          },
-          {
-            name: "Bipolar Nanoflake",
-            quantity: 4,
-          },
-          {
-            name: "Oriron Block",
-            quantity: 5,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 4,
-            },
-            {
-              name: "Manganese Ore",
-              quantity: 5,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 4,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 10,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 6,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 4,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 4,
-            },
-            {
-              name: "Grindstone",
-              quantity: 7,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 4,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 7,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 6,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 5,
-            },
-          ],
-        },
-        3: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 4,
-            },
-            {
-              name: "RMA70-12",
-              quantity: 5,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 4,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 7,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 6,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 6,
-            },
-          ],
-        },
-      },
-      rarity: 6,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 5,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 5,
-          },
-          {
-            name: "Orirock",
-            quantity: 6,
-          },
-          {
-            name: "Damaged Device",
-            quantity: 4,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "Device",
-            quantity: 3,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 5,
-          },
-          {
-            name: "Device",
-            quantity: 3,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "Manganese Ore",
-            quantity: 6,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 8,
-          },
-          {
-            name: "Grindstone",
-            quantity: 4,
-          },
-          {
-            name: "Orirock Cluster",
-            quantity: 5,
-          },
-        ],
-      },
-    },
-    Provence: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 20000,
-          },
-          {
-            name: "Sniper Chip",
-            quantity: 4,
-          },
-          {
-            name: "Polyketon",
-            quantity: 4,
-          },
-          {
-            name: "Oriron",
-            quantity: 3,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 120000,
-          },
-          {
-            name: "Sniper Dualchip",
-            quantity: 3,
-          },
-          {
-            name: "Sugar Lump",
-            quantity: 9,
-          },
-          {
-            name: "Integrated Device",
-            quantity: 7,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 3,
-            },
-            {
-              name: "Integrated Device",
-              quantity: 2,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 3,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 4,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 4,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 3,
-            },
-            {
-              name: "Loxic Kohl",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 3,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 6,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 4,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 4,
-            },
-          ],
-        },
-      },
-      rarity: 5,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-          {
-            name: "Diketon",
-            quantity: 5,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Device",
-            quantity: 2,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 8,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Integrated Device",
-            quantity: 3,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 6,
-          },
-          {
-            name: "Loxic Kohl",
-            quantity: 3,
-          },
-          {
-            name: "Aketon",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Swire: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 20000,
-          },
-          {
-            name: "Guard Chip",
-            quantity: 4,
-          },
-          {
-            name: "Sugar",
-            quantity: 5,
-          },
-          {
-            name: "Device",
-            quantity: 2,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 120000,
-          },
-          {
-            name: "Guard Dualchip",
-            quantity: 3,
-          },
-          {
-            name: "Sugar Lump",
-            quantity: 7,
-          },
-          {
-            name: "Polyester Pack",
-            quantity: 17,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 3,
-            },
-            {
-              name: "Integrated Device",
-              quantity: 2,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 3,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 4,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 4,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 3,
-            },
-            {
-              name: "Loxic Kohl",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 3,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 6,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 4,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 5,
-            },
-          ],
-        },
-      },
-      rarity: 5,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-          {
-            name: "Ester",
-            quantity: 7,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Oriron",
-            quantity: 3,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Polyketon",
-            quantity: 4,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Integrated Device",
-            quantity: 3,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 6,
-          },
-          {
-            name: "Loxic Kohl",
-            quantity: 3,
-          },
-          {
-            name: "Aketon",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Ethan: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 15000,
-          },
-          {
-            name: "Specialist Chip",
-            quantity: 3,
-          },
-          {
-            name: "Sugar",
-            quantity: 1,
-          },
-          {
-            name: "Oriron",
-            quantity: 1,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 60000,
-          },
-          {
-            name: "Specialist Chip Pack",
-            quantity: 5,
-          },
-          {
-            name: "Sugar Pack",
-            quantity: 17,
-          },
-          {
-            name: "Orirock Cluster",
-            quantity: 14,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 1,
-            },
-            {
-              name: "Aketon",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 2,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 3,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 2,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 2,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 1,
-            },
-            {
-              name: "Integrated Device",
-              quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 2,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 2,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 2,
-            },
-          ],
-        },
-      },
-      rarity: 4,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Sugar Substitute",
-            quantity: 4,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Polyester",
-            quantity: 2,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Oriron",
-            quantity: 2,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Aketon",
-            quantity: 2,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 4,
-          },
-          {
-            name: "Integrated Device",
-            quantity: 2,
-          },
-        ],
-      },
-    },
-    Gummy: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 15000,
-          },
-          {
-            name: "Defender Chip",
-            quantity: 3,
-          },
-          {
-            name: "Sugar",
-            quantity: 1,
-          },
-          {
-            name: "Polyketon",
-            quantity: 1,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 60000,
-          },
-          {
-            name: "Defender Chip Pack",
-            quantity: 5,
-          },
-          {
-            name: "RMA70-12",
-            quantity: 13,
-          },
-          {
-            name: "Manganese Ore",
-            quantity: 7,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 1,
-            },
-            {
-              name: "Polyester Pack",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 2,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 2,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 2,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 1,
-            },
-            {
-              name: "Oriron Cluster",
-              quantity: 2,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 2,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 2,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 2,
-            },
-          ],
-        },
-      },
-      rarity: 4,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Sugar Substitute",
-            quantity: 4,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Polyester",
-            quantity: 2,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Oriron",
-            quantity: 2,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Polyester Pack",
-            quantity: 3,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 4,
-          },
-          {
-            name: "Oriron Cluster",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    "Dur-nar": {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 15000,
-          },
-          {
-            name: "Defender Chip",
-            quantity: 3,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 1,
-          },
-          {
-            name: "Polyester",
-            quantity: 1,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 60000,
-          },
-          {
-            name: "Defender Chip Pack",
-            quantity: 5,
-          },
-          {
-            name: "Orirock Cluster",
-            quantity: 19,
-          },
-          {
-            name: "RMA70-12",
-            quantity: 8,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 1,
-            },
-            {
-              name: "Polyester Pack",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 2,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 2,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 2,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 1,
-            },
-            {
-              name: "Oriron Cluster",
-              quantity: 2,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 2,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 2,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 2,
-            },
-          ],
-        },
-      },
-      rarity: 4,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Orirock",
-            quantity: 5,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Sugar",
-            quantity: 2,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Polyester",
-            quantity: 3,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Oriron Cluster",
-            quantity: 2,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 4,
-          },
-          {
-            name: "Aketon",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Nightmare: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 20000,
-          },
-          {
-            name: "Caster Chip",
-            quantity: 4,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 7,
-          },
-          {
-            name: "Oriron",
-            quantity: 3,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 120000,
-          },
-          {
-            name: "Caster Dualchip",
-            quantity: 3,
-          },
-          {
-            name: "Sugar Lump",
-            quantity: 7,
-          },
-          {
-            name: "Manganese Ore",
-            quantity: 14,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 3,
-            },
-            {
-              name: "Integrated Device",
-              quantity: 2,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 3,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 4,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 5,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 3,
-            },
-            {
-              name: "Loxic Kohl",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 3,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 6,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 4,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 4,
-            },
-          ],
-        },
-      },
-      rarity: 5,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-          {
-            name: "Orirock",
-            quantity: 10,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Sugar",
-            quantity: 3,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Polyester",
-            quantity: 5,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Integrated Device",
-            quantity: 3,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 6,
-          },
-          {
-            name: "Loxic Kohl",
-            quantity: 3,
-          },
-          {
-            name: "Aketon",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Manticore: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 20000,
-          },
-          {
-            name: "Specialist Chip",
-            quantity: 4,
-          },
-          {
-            name: "Polyketon",
-            quantity: 4,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 4,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 120000,
-          },
-          {
-            name: "Specialist Dualchip",
-            quantity: 3,
-          },
-          {
-            name: "Manganese Trihydrate",
-            quantity: 8,
-          },
-          {
-            name: "Sugar Pack",
-            quantity: 12,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 3,
-            },
-            {
-              name: "Sugar Pack",
-              quantity: 1,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 2,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 4,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 4,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 3,
-            },
-            {
-              name: "Polyester Pack",
-              quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 3,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 4,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 3,
-            },
-          ],
-        },
-      },
-      rarity: 5,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-          {
-            name: "Diketon",
-            quantity: 5,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Device",
-            quantity: 2,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 8,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Sugar Pack",
-            quantity: 5,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 6,
-          },
-          {
-            name: "Polyester Pack",
-            quantity: 3,
-          },
-          {
-            name: "Manganese Ore",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Ceylon: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 20000,
-          },
-          {
-            name: "Medic Chip",
-            quantity: 4,
-          },
-          {
-            name: "Oriron",
-            quantity: 4,
-          },
-          {
-            name: "Polyketon",
-            quantity: 2,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 120000,
-          },
-          {
-            name: "Medic Dualchip",
-            quantity: 3,
-          },
-          {
-            name: "Oriron Block",
-            quantity: 7,
-          },
-          {
-            name: "Aketon",
-            quantity: 10,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 3,
-            },
-            {
-              name: "Loxic Kohl",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 3,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 4,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 5,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 3,
-            },
-            {
-              name: "Manganese Ore",
-              quantity: 2,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 3,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 6,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 4,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 4,
-            },
-          ],
-        },
-      },
-      rarity: 5,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-          {
-            name: "Oriron Shard",
-            quantity: 5,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Polyketon",
-            quantity: 3,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Device",
-            quantity: 3,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Loxic Kohl",
-            quantity: 4,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 6,
-          },
-          {
-            name: "Manganese Ore",
-            quantity: 2,
-          },
-          {
-            name: "RMA70-12",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Earthspirit: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 15000,
-          },
-          {
-            name: "Supporter Chip",
-            quantity: 3,
-          },
-          {
-            name: "Oriron",
-            quantity: 1,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 1,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 60000,
-          },
-          {
-            name: "Supporter Chip Pack",
-            quantity: 5,
-          },
-          {
-            name: "Sugar Pack",
-            quantity: 20,
-          },
-          {
-            name: "Grindstone",
-            quantity: 7,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 1,
-            },
-            {
-              name: "Aketon",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 2,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 3,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 2,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 2,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 1,
-            },
-            {
-              name: "Integrated Device",
-              quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 2,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 2,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 2,
-            },
-          ],
-        },
-      },
-      rarity: 4,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Oriron Shard",
-            quantity: 3,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Polyketon",
-            quantity: 2,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Device",
-            quantity: 2,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Aketon",
-            quantity: 2,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 4,
-          },
-          {
-            name: "Integrated Device",
-            quantity: 2,
-          },
-        ],
-      },
-    },
-    "Waai Fu": {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 20000,
-          },
-          {
-            name: "Specialist Chip",
-            quantity: 4,
-          },
-          {
-            name: "Oriron",
-            quantity: 4,
-          },
-          {
-            name: "Sugar",
-            quantity: 3,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 120000,
-          },
-          {
-            name: "Specialist Dualchip",
-            quantity: 3,
-          },
-          {
-            name: "RMA70-24",
-            quantity: 7,
-          },
-          {
-            name: "Orirock Cluster",
-            quantity: 16,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 3,
-            },
-            {
-              name: "Polyester Pack",
-              quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 3,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 4,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 3,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 2,
-            },
-            {
-              name: "Oriron Cluster",
-              quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 3,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 4,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 4,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 4,
-            },
-          ],
-        },
-      },
-      rarity: 5,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-          {
-            name: "Oriron Shard",
-            quantity: 5,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Polyketon",
-            quantity: 3,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Device",
-            quantity: 3,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Polyester Pack",
-            quantity: 5,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 6,
-          },
-          {
-            name: "Oriron Cluster",
-            quantity: 2,
-          },
-          {
-            name: "Grindstone",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Meteorite: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 20000,
-          },
-          {
-            name: "Sniper Chip",
-            quantity: 4,
-          },
-          {
-            name: "Polyketon",
-            quantity: 4,
-          },
-          {
-            name: "Polyester",
-            quantity: 3,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 120000,
-          },
-          {
-            name: "Sniper Dualchip",
-            quantity: 3,
-          },
-          {
-            name: "RMA70-24",
-            quantity: 7,
-          },
-          {
-            name: "Manganese Ore",
-            quantity: 14,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 2,
-            },
-            {
-              name: "Oriron Cluster",
-              quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 3,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 4,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 4,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 4,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 3,
-            },
-            {
-              name: "Aketon",
-              quantity: 5,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 3,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 6,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 4,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 5,
-            },
-          ],
-        },
-      },
-      rarity: 5,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-          {
-            name: "Diketon",
-            quantity: 5,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Device",
-            quantity: 2,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 8,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Oriron Cluster",
-            quantity: 4,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 6,
-          },
-          {
-            name: "Aketon",
-            quantity: 2,
-          },
-          {
-            name: "Loxic Kohl",
-            quantity: 4,
-          },
-        ],
-      },
-    },
-    Specter: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 20000,
-          },
-          {
-            name: "Guard Chip",
-            quantity: 4,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 6,
-          },
-          {
-            name: "Polyketon",
-            quantity: 3,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 120000,
-          },
-          {
-            name: "Guard Dualchip",
-            quantity: 3,
-          },
-          {
-            name: "White Horse Kohl",
-            quantity: 8,
-          },
-          {
-            name: "Aketon",
-            quantity: 15,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 3,
-            },
-            {
-              name: "RMA70-12",
-              quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 3,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 4,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 4,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 3,
-            },
-            {
-              name: "Orirock Cluster",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 3,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 4,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 3,
-            },
-          ],
-        },
-      },
-      rarity: 5,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-          {
-            name: "Orirock",
-            quantity: 10,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Sugar",
-            quantity: 3,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Polyester",
-            quantity: 5,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "RMA70-12",
-            quantity: 3,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 6,
-          },
-          {
-            name: "Orirock Cluster",
-            quantity: 4,
-          },
-          {
-            name: "Integrated Device",
-            quantity: 2,
-          },
-        ],
-      },
-    },
-    Meteor: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 15000,
-          },
-          {
-            name: "Sniper Chip",
-            quantity: 3,
-          },
-          {
-            name: "Oriron",
-            quantity: 1,
-          },
-          {
-            name: "Device",
-            quantity: 1,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 60000,
-          },
-          {
-            name: "Sniper Chip Pack",
-            quantity: 5,
-          },
-          {
-            name: "Oriron Cluster",
-            quantity: 14,
-          },
-          {
-            name: "Polyester Pack",
-            quantity: 12,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 1,
-            },
-            {
-              name: "Loxic Kohl",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 2,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 3,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 2,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 2,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 1,
-            },
-            {
-              name: "Manganese Ore",
-              quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 2,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 2,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 2,
-            },
-          ],
-        },
-      },
-      rarity: 4,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Oriron Shard",
-            quantity: 3,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Polyketon",
-            quantity: 2,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Device",
-            quantity: 2,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Loxic Kohl",
-            quantity: 2,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 4,
-          },
-          {
-            name: "Manganese Ore",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Franka: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 20000,
-          },
-          {
-            name: "Guard Chip",
-            quantity: 4,
-          },
-          {
-            name: "Oriron",
-            quantity: 4,
-          },
-          {
-            name: "Polyketon",
-            quantity: 2,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 120000,
-          },
-          {
-            name: "Guard Dualchip",
-            quantity: 3,
-          },
-          {
-            name: "Oriron Block",
-            quantity: 6,
-          },
-          {
-            name: "Sugar Pack",
-            quantity: 18,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 3,
-            },
-            {
-              name: "Loxic Kohl",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 3,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 6,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 4,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 3,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 3,
-            },
-            {
-              name: "Manganese Ore",
-              quantity: 2,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 3,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 4,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 3,
-            },
-          ],
-        },
-      },
-      rarity: 5,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-          {
-            name: "Oriron Shard",
-            quantity: 5,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Polyketon",
-            quantity: 3,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Device",
-            quantity: 3,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Loxic Kohl",
-            quantity: 4,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 6,
-          },
-          {
-            name: "Manganese Ore",
-            quantity: 2,
-          },
-          {
-            name: "RMA70-12",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Gavial: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 15000,
-          },
-          {
-            name: "Medic Chip",
-            quantity: 3,
-          },
-          {
-            name: "Oriron",
-            quantity: 1,
-          },
-          {
-            name: "Sugar",
-            quantity: 1,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 60000,
-          },
-          {
-            name: "Medic Chip Pack",
-            quantity: 5,
-          },
-          {
-            name: "Integrated Device",
-            quantity: 13,
-          },
-          {
-            name: "Oriron Cluster",
-            quantity: 6,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 1,
-            },
-            {
-              name: "Grindstone",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 2,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 3,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 2,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 2,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 1,
-            },
-            {
-              name: "RMA70-12",
-              quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 2,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 2,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 2,
-            },
-          ],
-        },
-      },
-      rarity: 4,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Oriron Shard",
-            quantity: 3,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Polyketon",
-            quantity: 2,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Device",
-            quantity: 2,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Grindstone",
-            quantity: 2,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 4,
-          },
-          {
-            name: "RMA70-12",
-            quantity: 2,
-          },
-        ],
-      },
-    },
-    Rope: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 15000,
-          },
-          {
-            name: "Specialist Chip",
-            quantity: 3,
-          },
-          {
-            name: "Sugar",
-            quantity: 1,
-          },
-          {
-            name: "Device",
-            quantity: 1,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 60000,
-          },
-          {
-            name: "Specialist Chip Pack",
-            quantity: 5,
-          },
-          {
-            name: "Oriron Cluster",
-            quantity: 15,
-          },
-          {
-            name: "Sugar Pack",
             quantity: 11,
           },
+          {
+            name: "Aketon",
+            quantity: 10,
+          },
         ],
       },
       masteries: {
@@ -13824,432 +13921,10 @@ const RECIPES: RecipeBook = {
             {
               name: "Skill Summary - 3",
               quantity: 2,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 1,
-            },
-            {
-              name: "Loxic Kohl",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
             },
             {
               name: "Orirock Concentration",
-              quantity: 2,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 3,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 2,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 2,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "RMA70-24",
               quantity: 1,
-            },
-            {
-              name: "Manganese Ore",
-              quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 2,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 2,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 2,
-            },
-          ],
-        },
-      },
-      rarity: 4,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Sugar Substitute",
-            quantity: 4,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Polyester",
-            quantity: 2,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Oriron",
-            quantity: 2,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Loxic Kohl",
-            quantity: 2,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 4,
-          },
-          {
-            name: "Manganese Ore",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Dobermann: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 15000,
-          },
-          {
-            name: "Guard Chip",
-            quantity: 3,
-          },
-          {
-            name: "Sugar",
-            quantity: 1,
-          },
-          {
-            name: "Polyester",
-            quantity: 1,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 60000,
-          },
-          {
-            name: "Guard Chip Pack",
-            quantity: 5,
-          },
-          {
-            name: "Manganese Ore",
-            quantity: 15,
-          },
-          {
-            name: "Loxic Kohl",
-            quantity: 11,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 1,
-            },
-            {
-              name: "Orirock Cluster",
-              quantity: 5,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 2,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 2,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 2,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 1,
-            },
-            {
-              name: "Sugar Pack",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 1,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 2,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 2,
-            },
-          ],
-        },
-      },
-      rarity: 4,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Sugar Substitute",
-            quantity: 4,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Polyester",
-            quantity: 2,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Oriron",
-            quantity: 2,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Orirock Cluster",
-            quantity: 3,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 4,
-          },
-          {
-            name: "Sugar Pack",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Breeze: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 20000,
-          },
-          {
-            name: "Medic Chip",
-            quantity: 4,
-          },
-          {
-            name: "Device",
-            quantity: 3,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 4,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 120000,
-          },
-          {
-            name: "Medic Dualchip",
-            quantity: 3,
-          },
-          {
-            name: "Optimized Device",
-            quantity: 5,
-          },
-          {
-            name: "Loxic Kohl",
-            quantity: 18,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 3,
-            },
-            {
-              name: "Manganese Ore",
-              quantity: 2,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 3,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 4,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 5,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 3,
             },
             {
               name: "Grindstone",
@@ -14259,371 +13934,29 @@ const RECIPES: RecipeBook = {
           2: [
             {
               name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 3,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 6,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Bipolar Nanoflake",
               quantity: 4,
             },
             {
               name: "Polyester Lump",
-              quantity: 4,
-            },
-          ],
-        },
-      },
-      rarity: 5,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-          {
-            name: "Damaged Device",
-            quantity: 4,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 4,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Sugar",
-            quantity: 5,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Grindstone",
-            quantity: 3,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 6,
-          },
-          {
-            name: "RMA70-12",
-            quantity: 2,
-          },
-          {
-            name: "Polyester Pack",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    FEater: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 20000,
-          },
-          {
-            name: "Specialist Chip",
-            quantity: 4,
-          },
-          {
-            name: "Device",
-            quantity: 3,
-          },
-          {
-            name: "Sugar",
-            quantity: 3,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 120000,
-          },
-          {
-            name: "Specialist Dualchip",
-            quantity: 3,
-          },
-          {
-            name: "Grindstone Pentahydrate",
-            quantity: 8,
-          },
-          {
-            name: "Polyester Pack",
-            quantity: 15,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 3,
-            },
-            {
-              name: "Polyester Pack",
-              quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 3,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 4,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 3,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Optimized Device",
               quantity: 2,
             },
             {
-              name: "Oriron Cluster",
+              name: "Orirock Concentration",
               quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 3,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 4,
             },
           ],
           3: [
             {
               name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 4,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 5,
-            },
-          ],
-        },
-      },
-      rarity: 5,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-          {
-            name: "Damaged Device",
-            quantity: 4,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 4,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Sugar",
-            quantity: 5,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Polyester Pack",
-            quantity: 5,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 6,
-          },
-          {
-            name: "Oriron Cluster",
-            quantity: 2,
-          },
-          {
-            name: "Grindstone",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Blaze: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 30000,
-          },
-          {
-            name: "Guard Chip",
-            quantity: 5,
-          },
-          {
-            name: "Device",
-            quantity: 5,
-          },
-          {
-            name: "Polyketon",
-            quantity: 4,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 180000,
-          },
-          {
-            name: "Guard Dualchip",
-            quantity: 4,
-          },
-          {
-            name: "D32 Steel",
-            quantity: 4,
-          },
-          {
-            name: "Optimized Device",
-            quantity: 6,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 8,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 3,
-            },
-            {
-              name: "Oriron Cluster",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 3,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 6,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "D32 Steel",
               quantity: 6,
             },
             {
-              name: "Optimized Device",
-              quantity: 4,
+              name: "D32 Steel",
+              quantity: 2,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 2,
             },
           ],
         },
@@ -14631,404 +13964,103 @@ const RECIPES: RecipeBook = {
           1: [
             {
               name: "Skill Summary - 3",
-              quantity: 8,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 4,
-            },
-            {
-              name: "Aketon",
-              quantity: 8,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 4,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 8,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 6,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 5,
-            },
-          ],
-        },
-        3: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 8,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 4,
-            },
-            {
-              name: "Integrated Device",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 4,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 6,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 4,
-            },
-          ],
-        },
-      },
-      rarity: 6,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 5,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 5,
-          },
-          {
-            name: "Damaged Device",
-            quantity: 4,
-          },
-          {
-            name: "Ester",
-            quantity: 4,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 7,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "Sugar",
-            quantity: 4,
-          },
-          {
-            name: "Polyketon",
-            quantity: 4,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "Orirock Cluster",
-            quantity: 8,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 8,
-          },
-          {
-            name: "Coagulating Gel",
-            quantity: 4,
-          },
-          {
-            name: "Oriron Cluster",
-            quantity: 4,
-          },
-        ],
-      },
-    },
-    Magallan: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 30000,
-          },
-          {
-            name: "Supporter Chip",
-            quantity: 5,
-          },
-          {
-            name: "Oriron",
-            quantity: 7,
-          },
-          {
-            name: "Polyester",
-            quantity: 4,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 180000,
-          },
-          {
-            name: "Supporter Dualchip",
-            quantity: 4,
-          },
-          {
-            name: "Polymerization Preparation",
-            quantity: 4,
-          },
-          {
-            name: "Manganese Trihydrate",
-            quantity: 6,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 8,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 4,
-            },
-            {
-              name: "Manganese Ore",
-              quantity: 5,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 4,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 10,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 6,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 6,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 8,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 4,
-            },
-            {
-              name: "Grindstone",
-              quantity: 7,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 4,
+              quantity: 2,
             },
             {
               name: "Sugar Lump",
-              quantity: 7,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 6,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 5,
-            },
-          ],
-        },
-        3: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 8,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 4,
+              quantity: 1,
             },
             {
               name: "RMA70-12",
-              quantity: 5,
+              quantity: 3,
             },
           ],
           2: [
             {
               name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Keton Colloid",
               quantity: 4,
             },
             {
-              name: "Polyester Lump",
-              quantity: 7,
+              name: "Oriron Block",
+              quantity: 2,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 2,
             },
           ],
           3: [
             {
               name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "D32 Steel",
               quantity: 6,
             },
             {
-              name: "Optimized Device",
-              quantity: 4,
+              name: "Polymerization Preparation",
+              quantity: 2,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 2,
             },
           ],
         },
       },
-      rarity: 6,
+      rarity: 4,
       skillLevels: {
         2: [
           {
             name: "Skill Summary - 1",
-            quantity: 5,
+            quantity: 2,
           },
         ],
         3: [
           {
             name: "Skill Summary - 1",
-            quantity: 5,
+            quantity: 2,
           },
           {
-            name: "Oriron Shard",
-            quantity: 5,
-          },
-          {
-            name: "Sugar Substitute",
-            quantity: 4,
+            name: "Damaged Device",
+            quantity: 2,
           },
         ],
         4: [
           {
             name: "Skill Summary - 2",
-            quantity: 8,
+            quantity: 3,
           },
           {
-            name: "Polyketon",
-            quantity: 4,
+            name: "Orirock Cube",
+            quantity: 2,
           },
         ],
         5: [
           {
             name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "Device",
             quantity: 3,
           },
           {
-            name: "Polyester",
+            name: "Sugar",
             quantity: 3,
           },
         ],
         6: [
           {
             name: "Skill Summary - 2",
-            quantity: 8,
+            quantity: 3,
           },
           {
             name: "Grindstone",
-            quantity: 5,
+            quantity: 2,
           },
         ],
         7: [
           {
             name: "Skill Summary - 3",
-            quantity: 8,
+            quantity: 4,
           },
           {
             name: "RMA70-12",
-            quantity: 3,
-          },
-          {
-            name: "Polyester Pack",
-            quantity: 5,
+            quantity: 2,
           },
         ],
       },
@@ -15278,7 +14310,7 @@ const RECIPES: RecipeBook = {
         ],
       },
     },
-    Leizi: {
+    Snowsant: {
       elite: {
         1: [
           {
@@ -15286,208 +14318,15 @@ const RECIPES: RecipeBook = {
             quantity: 20000,
           },
           {
-            name: "Caster Chip",
+            name: "Specialist Chip",
             quantity: 4,
-          },
-          {
-            name: "Device",
-            quantity: 3,
-          },
-          {
-            name: "Polyester",
-            quantity: 3,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 120000,
-          },
-          {
-            name: "Caster Dualchip",
-            quantity: 3,
-          },
-          {
-            name: "RMA70-24",
-            quantity: 7,
-          },
-          {
-            name: "Coagulating Gel",
-            quantity: 13,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 2,
-            },
-            {
-              name: "Oriron Cluster",
-              quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 2,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 4,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 3,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 3,
-            },
-            {
-              name: "Aketon",
-              quantity: 5,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 3,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 4,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 4,
-            },
-          ],
-        },
-      },
-      rarity: 5,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-          {
-            name: "Damaged Device",
-            quantity: 4,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 4,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
           },
           {
             name: "Sugar",
-            quantity: 5,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Coagulating Gel",
-            quantity: 4,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 6,
-          },
-          {
-            name: "Integrated Device",
-            quantity: 2,
-          },
-          {
-            name: "Coagulating Gel",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Reed: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 20000,
-          },
-          {
-            name: "Vanguard Chip",
             quantity: 4,
           },
           {
             name: "Polyketon",
-            quantity: 4,
-          },
-          {
-            name: "Polyester",
             quantity: 3,
           },
         ],
@@ -15497,65 +14336,21 @@ const RECIPES: RecipeBook = {
             quantity: 120000,
           },
           {
-            name: "Vanguard Dualchip",
+            name: "Specialist Dualchip",
             quantity: 3,
           },
           {
-            name: "Orirock Concentration",
-            quantity: 9,
+            name: "Polymerized Gel",
+            quantity: 8,
           },
           {
-            name: "Manganese Ore",
-            quantity: 12,
+            name: "Oriron Cluster",
+            quantity: 15,
           },
         ],
       },
       masteries: {
         1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 3,
-            },
-            {
-              name: "Aketon",
-              quantity: 5,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 3,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 6,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 4,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 3,
-            },
-          ],
-        },
-        2: {
           1: [
             {
               name: "Skill Summary - 3",
@@ -15594,8 +14389,52 @@ const RECIPES: RecipeBook = {
               quantity: 4,
             },
             {
-              name: "Sugar Lump",
+              name: "Polymerized Gel",
               quantity: 4,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 3,
+            },
+            {
+              name: "Loxic Kohl",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Incandescent Alloy Block",
+              quantity: 3,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 4,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 3,
             },
           ],
         },
@@ -15614,8 +14453,8 @@ const RECIPES: RecipeBook = {
             quantity: 4,
           },
           {
-            name: "Diketon",
-            quantity: 5,
+            name: "Sugar Substitute",
+            quantity: 7,
           },
         ],
         4: [
@@ -15624,8 +14463,8 @@ const RECIPES: RecipeBook = {
             quantity: 6,
           },
           {
-            name: "Device",
-            quantity: 2,
+            name: "Polyester",
+            quantity: 3,
           },
         ],
         5: [
@@ -15634,8 +14473,8 @@ const RECIPES: RecipeBook = {
             quantity: 6,
           },
           {
-            name: "Orirock Cube",
-            quantity: 8,
+            name: "Oriron",
+            quantity: 4,
           },
         ],
         6: [
@@ -15644,7 +14483,7 @@ const RECIPES: RecipeBook = {
             quantity: 6,
           },
           {
-            name: "Oriron Cluster",
+            name: "Loxic Kohl",
             quantity: 4,
           },
         ],
@@ -15654,17 +14493,17 @@ const RECIPES: RecipeBook = {
             quantity: 6,
           },
           {
-            name: "Aketon",
-            quantity: 2,
+            name: "Coagulating Gel",
+            quantity: 3,
           },
           {
-            name: "Loxic Kohl",
-            quantity: 4,
+            name: "Oriron Cluster",
+            quantity: 2,
           },
         ],
       },
     },
-    Bison: {
+    Hung: {
       elite: {
         1: [
           {
@@ -15680,8 +14519,8 @@ const RECIPES: RecipeBook = {
             quantity: 5,
           },
           {
-            name: "Orirock Cube",
-            quantity: 4,
+            name: "Device",
+            quantity: 2,
           },
         ],
         2: [
@@ -15694,394 +14533,12 @@ const RECIPES: RecipeBook = {
             quantity: 3,
           },
           {
-            name: "Grindstone Pentahydrate",
+            name: "Incandescent Alloy Block",
             quantity: 7,
-          },
-          {
-            name: "RMA70-12",
-            quantity: 11,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 3,
-            },
-            {
-              name: "Orirock Cluster",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 3,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 4,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 4,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 3,
-            },
-            {
-              name: "Sugar Pack",
-              quantity: 1,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 2,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 4,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 4,
-            },
-          ],
-        },
-      },
-      rarity: 5,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-          {
-            name: "Ester",
-            quantity: 7,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Oriron",
-            quantity: 3,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Polyketon",
-            quantity: 4,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Sugar Pack",
-            quantity: 5,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 6,
-          },
-          {
-            name: "Polyester Pack",
-            quantity: 3,
-          },
-          {
-            name: "Manganese Ore",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Gitano: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 15000,
-          },
-          {
-            name: "Caster Chip",
-            quantity: 3,
-          },
-          {
-            name: "Sugar",
-            quantity: 1,
-          },
-          {
-            name: "Oriron",
-            quantity: 1,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 60000,
-          },
-          {
-            name: "Caster Chip Pack",
-            quantity: 5,
-          },
-          {
-            name: "Sugar Pack",
-            quantity: 17,
-          },
-          {
-            name: "Orirock Cluster",
-            quantity: 14,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 1,
-            },
-            {
-              name: "Aketon",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 2,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 3,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 2,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 2,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 1,
-            },
-            {
-              name: "Integrated Device",
-              quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 2,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 2,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 2,
-            },
-          ],
-        },
-      },
-      rarity: 4,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Sugar Substitute",
-            quantity: 4,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Polyester",
-            quantity: 2,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Oriron",
-            quantity: 2,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
           },
           {
             name: "Aketon",
-            quantity: 2,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 4,
-          },
-          {
-            name: "Integrated Device",
-            quantity: 2,
-          },
-        ],
-      },
-    },
-    Silence: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 20000,
-          },
-          {
-            name: "Medic Chip",
-            quantity: 4,
-          },
-          {
-            name: "Oriron",
-            quantity: 4,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 3,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 120000,
-          },
-          {
-            name: "Medic Dualchip",
-            quantity: 3,
-          },
-          {
-            name: "Keton Colloid",
-            quantity: 7,
-          },
-          {
-            name: "Orirock Cluster",
-            quantity: 18,
+            quantity: 15,
           },
         ],
       },
@@ -16091,396 +14548,14 @@ const RECIPES: RecipeBook = {
             {
               name: "Skill Summary - 3",
               quantity: 5,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 3,
-            },
-            {
-              name: "Grindstone",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 3,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 6,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 4,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 4,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 3,
-            },
-            {
-              name: "RMA70-12",
-              quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 3,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 4,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 4,
-            },
-          ],
-        },
-      },
-      rarity: 5,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-          {
-            name: "Oriron Shard",
-            quantity: 5,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Polyketon",
-            quantity: 3,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Device",
-            quantity: 3,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Grindstone",
-            quantity: 3,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 6,
-          },
-          {
-            name: "RMA70-12",
-            quantity: 2,
-          },
-          {
-            name: "Polyester Pack",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Vermeil: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 15000,
-          },
-          {
-            name: "Sniper Chip",
-            quantity: 3,
-          },
-          {
-            name: "Polyester",
-            quantity: 1,
-          },
-          {
-            name: "Polyketon",
-            quantity: 1,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 60000,
-          },
-          {
-            name: "Sniper Chip Pack",
-            quantity: 5,
-          },
-          {
-            name: "Polyester Pack",
-            quantity: 18,
-          },
-          {
-            name: "Sugar Pack",
-            quantity: 12,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 1,
-            },
-            {
-              name: "Loxic Kohl",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 2,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 3,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 2,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 3,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
             },
             {
               name: "RMA70-24",
-              quantity: 1,
+              quantity: 3,
             },
             {
               name: "Manganese Ore",
-              quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Sugar Lump",
               quantity: 2,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 2,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 2,
-            },
-          ],
-        },
-      },
-      rarity: 4,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Ester",
-            quantity: 4,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Oriron",
-            quantity: 2,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Polyketon",
-            quantity: 2,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Integrated Device",
-            quantity: 2,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 4,
-          },
-          {
-            name: "Loxic Kohl",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Lappland: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 20000,
-          },
-          {
-            name: "Guard Chip",
-            quantity: 4,
-          },
-          {
-            name: "Device",
-            quantity: 3,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 4,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 120000,
-          },
-          {
-            name: "Guard Dualchip",
-            quantity: 3,
-          },
-          {
-            name: "Optimized Device",
-            quantity: 6,
-          },
-          {
-            name: "Oriron Cluster",
-            quantity: 10,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 3,
-            },
-            {
-              name: "Grindstone",
-              quantity: 4,
             },
           ],
           2: [
@@ -16489,12 +14564,12 @@ const RECIPES: RecipeBook = {
               quantity: 6,
             },
             {
-              name: "Polyester Lump",
+              name: "Polymerized Gel",
               quantity: 3,
             },
             {
               name: "Orirock Concentration",
-              quantity: 6,
+              quantity: 7,
             },
           ],
           3: [
@@ -16503,12 +14578,12 @@ const RECIPES: RecipeBook = {
               quantity: 10,
             },
             {
-              name: "D32 Steel",
+              name: "Polymerization Preparation",
               quantity: 4,
             },
             {
-              name: "Keton Colloid",
-              quantity: 4,
+              name: "Optimized Device",
+              quantity: 3,
             },
           ],
         },
@@ -16519,7 +14594,7 @@ const RECIPES: RecipeBook = {
               quantity: 5,
             },
             {
-              name: "Sugar Lump",
+              name: "Incandescent Alloy Block",
               quantity: 3,
             },
             {
@@ -16537,157 +14612,8 @@ const RECIPES: RecipeBook = {
               quantity: 3,
             },
             {
-              name: "Sugar Lump",
+              name: "Incandescent Alloy Block",
               quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 4,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 4,
-            },
-          ],
-        },
-      },
-      rarity: 5,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-          {
-            name: "Damaged Device",
-            quantity: 4,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 4,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Sugar",
-            quantity: 5,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Grindstone",
-            quantity: 3,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 6,
-          },
-          {
-            name: "RMA70-12",
-            quantity: 2,
-          },
-          {
-            name: "Polyester Pack",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Glaucus: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 20000,
-          },
-          {
-            name: "Supporter Chip",
-            quantity: 4,
-          },
-          {
-            name: "Polyketon",
-            quantity: 4,
-          },
-          {
-            name: "Device",
-            quantity: 2,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 120000,
-          },
-          {
-            name: "Supporter Dualchip",
-            quantity: 3,
-          },
-          {
-            name: "Keton Colloid",
-            quantity: 7,
-          },
-          {
-            name: "Integrated Device",
-            quantity: 10,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 3,
-            },
-            {
-              name: "Grindstone",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 3,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 6,
             },
           ],
           3: [
@@ -16700,52 +14626,8 @@ const RECIPES: RecipeBook = {
               quantity: 4,
             },
             {
-              name: "Polyester Lump",
+              name: "Incandescent Alloy Block",
               quantity: 4,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 3,
-            },
-            {
-              name: "RMA70-12",
-              quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 3,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 4,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 3,
             },
           ],
         },
@@ -16764,8 +14646,8 @@ const RECIPES: RecipeBook = {
             quantity: 4,
           },
           {
-            name: "Diketon",
-            quantity: 5,
+            name: "Ester",
+            quantity: 7,
           },
         ],
         4: [
@@ -16774,8 +14656,8 @@ const RECIPES: RecipeBook = {
             quantity: 6,
           },
           {
-            name: "Device",
-            quantity: 2,
+            name: "Oriron",
+            quantity: 3,
           },
         ],
         5: [
@@ -16784,8 +14666,8 @@ const RECIPES: RecipeBook = {
             quantity: 6,
           },
           {
-            name: "Orirock Cube",
-            quantity: 8,
+            name: "Polyketon",
+            quantity: 4,
           },
         ],
         6: [
@@ -16794,8 +14676,8 @@ const RECIPES: RecipeBook = {
             quantity: 6,
           },
           {
-            name: "Manganese Ore",
-            quantity: 4,
+            name: "Grindstone",
+            quantity: 3,
           },
         ],
         7: [
@@ -16804,17 +14686,17 @@ const RECIPES: RecipeBook = {
             quantity: 6,
           },
           {
-            name: "Grindstone",
-            quantity: 2,
+            name: "Incandescent Alloy",
+            quantity: 3,
           },
           {
-            name: "Orirock Cluster",
-            quantity: 4,
+            name: "Manganese Ore",
+            quantity: 3,
           },
         ],
       },
     },
-    Utage: {
+    Mousse: {
       elite: {
         1: [
           {
@@ -16826,11 +14708,11 @@ const RECIPES: RecipeBook = {
             quantity: 3,
           },
           {
-            name: "Device",
+            name: "Polyketon",
             quantity: 1,
           },
           {
-            name: "Sugar",
+            name: "Device",
             quantity: 1,
           },
         ],
@@ -16844,390 +14726,12 @@ const RECIPES: RecipeBook = {
             quantity: 5,
           },
           {
-            name: "Aketon",
-            quantity: 14,
-          },
-          {
             name: "Orirock Cluster",
-            quantity: 14,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 1,
-            },
-            {
-              name: "Manganese Ore",
-              quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 2,
-            },
-            {
-              name: "Incandescent Alloy Block",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 2,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 2,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Incandescent Alloy Block",
-              quantity: 1,
-            },
-            {
-              name: "RMA70-12",
-              quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 2,
-            },
-            {
-              name: "Polymerized Gel",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 2,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 2,
-            },
-          ],
-        },
-      },
-      rarity: 4,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Damaged Device",
-            quantity: 2,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 2,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Sugar",
-            quantity: 3,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Loxic Kohl",
-            quantity: 2,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 4,
-          },
-          {
-            name: "Manganese Ore",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Myrrh: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 15000,
-          },
-          {
-            name: "Medic Chip",
-            quantity: 3,
-          },
-          {
-            name: "Polyester",
-            quantity: 1,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 1,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 60000,
-          },
-          {
-            name: "Medic Chip Pack",
-            quantity: 5,
-          },
-          {
-            name: "Aketon",
-            quantity: 14,
-          },
-          {
-            name: "Polyester Pack",
-            quantity: 12,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 1,
-            },
-            {
-              name: "Manganese Ore",
-              quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 2,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 2,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 2,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 1,
-            },
-            {
-              name: "Grindstone",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 2,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 3,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 2,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 2,
-            },
-          ],
-        },
-      },
-      rarity: 4,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Ester",
-            quantity: 4,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Oriron",
-            quantity: 2,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Polyketon",
-            quantity: 2,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Manganese Ore",
-            quantity: 2,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 4,
+            quantity: 20,
           },
           {
             name: "Grindstone",
-            quantity: 2,
-          },
-        ],
-      },
-    },
-    "Projekt Red": {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 20000,
-          },
-          {
-            name: "Specialist Chip",
-            quantity: 4,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 7,
-          },
-          {
-            name: "Device",
-            quantity: 2,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 120000,
-          },
-          {
-            name: "Specialist Dualchip",
-            quantity: 3,
-          },
-          {
-            name: "Manganese Trihydrate",
-            quantity: 7,
-          },
-          {
-            name: "Oriron Cluster",
-            quantity: 14,
+            quantity: 8,
           },
         ],
       },
@@ -17236,43 +14740,43 @@ const RECIPES: RecipeBook = {
           1: [
             {
               name: "Skill Summary - 3",
-              quantity: 5,
+              quantity: 2,
             },
             {
-              name: "Oriron Block",
-              quantity: 3,
-            },
-            {
-              name: "Sugar Pack",
+              name: "Optimized Device",
               quantity: 1,
+            },
+            {
+              name: "Oriron Cluster",
+              quantity: 2,
             },
           ],
           2: [
             {
               name: "Skill Summary - 3",
-              quantity: 6,
+              quantity: 4,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 2,
             },
             {
               name: "Optimized Device",
               quantity: 2,
             },
-            {
-              name: "Oriron Block",
-              quantity: 5,
-            },
           ],
           3: [
             {
               name: "Skill Summary - 3",
-              quantity: 10,
+              quantity: 6,
             },
             {
-              name: "Polymerization Preparation",
-              quantity: 4,
+              name: "Bipolar Nanoflake",
+              quantity: 2,
             },
             {
-              name: "Polyester Lump",
-              quantity: 4,
+              name: "Sugar Lump",
+              quantity: 2,
             },
           ],
         },
@@ -17280,1087 +14784,172 @@ const RECIPES: RecipeBook = {
           1: [
             {
               name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 3,
-            },
-            {
-              name: "Polyester Pack",
-              quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
+              quantity: 2,
             },
             {
               name: "White Horse Kohl",
-              quantity: 3,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 4,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 3,
-            },
-          ],
-        },
-      },
-      rarity: 5,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-          {
-            name: "Orirock",
-            quantity: 10,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Sugar",
-            quantity: 3,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Polyester",
-            quantity: 5,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Sugar Pack",
-            quantity: 5,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 6,
-          },
-          {
-            name: "Polyester Pack",
-            quantity: 3,
-          },
-          {
-            name: "Manganese Ore",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Bagpipe: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 30000,
-          },
-          {
-            name: "Vanguard Chip",
-            quantity: 5,
-          },
-          {
-            name: "Polyester",
-            quantity: 10,
-          },
-          {
-            name: "Polyketon",
-            quantity: 3,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 180000,
-          },
-          {
-            name: "Vanguard Dualchip",
-            quantity: 4,
-          },
-          {
-            name: "Polymerization Preparation",
-            quantity: 4,
-          },
-          {
-            name: "Orirock Concentration",
-            quantity: 9,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 8,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 4,
+              quantity: 1,
             },
             {
               name: "Aketon",
-              quantity: 8,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 4,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 7,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 6,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 5,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 8,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 4,
-            },
-            {
-              name: "Integrated Device",
               quantity: 4,
             },
           ],
           2: [
             {
               name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Incandescent Alloy Block",
               quantity: 4,
             },
             {
-              name: "RMA70-24",
-              quantity: 8,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 6,
+              name: "Grindstone Pentahydrate",
+              quantity: 2,
             },
             {
               name: "White Horse Kohl",
-              quantity: 7,
-            },
-          ],
-        },
-        3: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 8,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 4,
-            },
-            {
-              name: "Loxic Kohl",
-              quantity: 7,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Polymerized Gel",
-              quantity: 4,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 10,
+              quantity: 3,
             },
           ],
           3: [
             {
               name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "Bipolar Nanoflake",
               quantity: 6,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 4,
-            },
-          ],
-        },
-      },
-      rarity: 6,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 5,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 5,
-          },
-          {
-            name: "Ester",
-            quantity: 6,
-          },
-          {
-            name: "Oriron Shard",
-            quantity: 4,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "Oriron",
-            quantity: 4,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "Polyketon",
-            quantity: 4,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 5,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "Oriron Cluster",
-            quantity: 6,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 8,
-          },
-          {
-            name: "Loxic Kohl",
-            quantity: 5,
-          },
-          {
-            name: "Aketon",
-            quantity: 4,
-          },
-        ],
-      },
-    },
-    Aak: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 30000,
-          },
-          {
-            name: "Specialist Chip",
-            quantity: 5,
-          },
-          {
-            name: "Sugar",
-            quantity: 8,
-          },
-          {
-            name: "Oriron",
-            quantity: 5,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 180000,
-          },
-          {
-            name: "Specialist Dualchip",
-            quantity: 4,
-          },
-          {
-            name: "D32 Steel",
-            quantity: 4,
-          },
-          {
-            name: "Polymerized Gel",
-            quantity: 7,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 8,
-            },
-            {
-              name: "Polymerized Gel",
-              quantity: 4,
-            },
-            {
-              name: "Orirock Cluster",
-              quantity: 11,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 4,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 9,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 6,
-            },
-            {
-              name: "Incandescent Alloy Block",
-              quantity: 6,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 8,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 4,
-            },
-            {
-              name: "Incandescent Alloy",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 4,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 7,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
             },
             {
               name: "D32 Steel",
-              quantity: 6,
+              quantity: 2,
             },
             {
-              name: "Polymerized Gel",
-              quantity: 6,
-            },
-          ],
-        },
-        3: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 8,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 4,
-            },
-            {
-              name: "Coagulating Gel",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Incandescent Alloy Block",
-              quantity: 4,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 8,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 6,
-            },
-            {
-              name: "Incandescent Alloy Block",
-              quantity: 5,
+              name: "Orirock Concentration",
+              quantity: 2,
             },
           ],
         },
       },
-      rarity: 6,
+      rarity: 4,
       skillLevels: {
         2: [
           {
             name: "Skill Summary - 1",
-            quantity: 5,
+            quantity: 2,
           },
         ],
         3: [
           {
             name: "Skill Summary - 1",
-            quantity: 5,
-          },
-          {
-            name: "Sugar Substitute",
-            quantity: 5,
+            quantity: 2,
           },
           {
             name: "Diketon",
-            quantity: 4,
+            quantity: 3,
           },
         ],
         4: [
           {
             name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "Polyester",
-            quantity: 5,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "Oriron",
-            quantity: 4,
-          },
-          {
-            name: "Sugar",
             quantity: 3,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "Incandescent Alloy",
-            quantity: 6,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 8,
-          },
-          {
-            name: "Aketon",
-            quantity: 3,
-          },
-          {
-            name: "Loxic Kohl",
-            quantity: 6,
-          },
-        ],
-      },
-    },
-    Schwarz: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 30000,
-          },
-          {
-            name: "Sniper Chip",
-            quantity: 5,
-          },
-          {
-            name: "Polyester",
-            quantity: 8,
-          },
-          {
-            name: "Sugar",
-            quantity: 6,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 180000,
-          },
-          {
-            name: "Sniper Dualchip",
-            quantity: 4,
-          },
-          {
-            name: "D32 Steel",
-            quantity: 4,
-          },
-          {
-            name: "Oriron Block",
-            quantity: 5,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 8,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 4,
-            },
-            {
-              name: "Loxic Kohl",
-              quantity: 7,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 4,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 8,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 6,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 5,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 8,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 4,
-            },
-            {
-              name: "Manganese Ore",
-              quantity: 5,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 4,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 10,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 6,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 4,
-            },
-          ],
-        },
-        3: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 8,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 4,
-            },
-            {
-              name: "Grindstone",
-              quantity: 7,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 4,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 7,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 6,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 6,
-            },
-          ],
-        },
-      },
-      rarity: 6,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 5,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 5,
-          },
-          {
-            name: "Sugar Substitute",
-            quantity: 5,
-          },
-          {
-            name: "Diketon",
-            quantity: 4,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "Polyester",
-            quantity: 5,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "Oriron",
-            quantity: 4,
-          },
-          {
-            name: "Sugar",
-            quantity: 3,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "Loxic Kohl",
-            quantity: 7,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 8,
-          },
-          {
-            name: "Manganese Ore",
-            quantity: 3,
-          },
-          {
-            name: "RMA70-12",
-            quantity: 4,
-          },
-        ],
-      },
-    },
-    Nightingale: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 30000,
-          },
-          {
-            name: "Medic Chip",
-            quantity: 5,
           },
           {
             name: "Device",
-            quantity: 6,
-          },
-          {
-            name: "Oriron",
-            quantity: 3,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 180000,
-          },
-          {
-            name: "Medic Dualchip",
-            quantity: 4,
-          },
-          {
-            name: "D32 Steel",
-            quantity: 4,
-          },
-          {
-            name: "Keton Colloid",
-            quantity: 6,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 4,
-            },
-            {
-              name: "Grindstone",
-              quantity: 7,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 4,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 7,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 6,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 5,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 4,
-            },
-            {
-              name: "RMA70-12",
-              quantity: 5,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 4,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 7,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 6,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 4,
-            },
-          ],
-        },
-        3: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 4,
-            },
-            {
-              name: "Orirock Cluster",
-              quantity: 8,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 3,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 6,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 6,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 5,
-            },
-          ],
-        },
-      },
-      rarity: 6,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 5,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 5,
-          },
-          {
-            name: "Sugar Substitute",
-            quantity: 5,
-          },
-          {
-            name: "Diketon",
-            quantity: 4,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 7,
+            quantity: 1,
           },
         ],
         5: [
           {
             name: "Skill Summary - 2",
-            quantity: 8,
+            quantity: 3,
           },
           {
-            name: "Sugar",
-            quantity: 4,
-          },
-          {
-            name: "Polyketon",
+            name: "Orirock Cube",
             quantity: 4,
           },
         ],
         6: [
           {
             name: "Skill Summary - 2",
-            quantity: 8,
+            quantity: 3,
           },
           {
-            name: "Grindstone",
-            quantity: 5,
+            name: "Oriron Cluster",
+            quantity: 2,
           },
         ],
         7: [
           {
             name: "Skill Summary - 3",
-            quantity: 8,
+            quantity: 4,
           },
           {
-            name: "RMA70-12",
+            name: "Aketon",
             quantity: 3,
           },
+        ],
+      },
+    },
+    Vanilla: {
+      elite: {
+        1: [
           {
-            name: "Polyester Pack",
-            quantity: 5,
+            name: "LMD",
+            quantity: 10000,
+          },
+        ],
+      },
+      rarity: 3,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 1,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Sugar Substitute",
+            quantity: 1,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Polyester",
+            quantity: 1,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Oriron",
+            quantity: 2,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Aketon",
+            quantity: 1,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 2,
+          },
+          {
+            name: "Integrated Device",
+            quantity: 1,
           },
         ],
       },
@@ -18610,42 +15199,42 @@ const RECIPES: RecipeBook = {
         ],
       },
     },
-    Eyjafjalla: {
+    Indra: {
       elite: {
         1: [
           {
             name: "LMD",
-            quantity: 30000,
+            quantity: 20000,
           },
           {
-            name: "Caster Chip",
-            quantity: 5,
+            name: "Guard Chip",
+            quantity: 4,
           },
           {
-            name: "Oriron",
-            quantity: 7,
+            name: "Polyketon",
+            quantity: 4,
           },
           {
-            name: "Sugar",
-            quantity: 5,
+            name: "Device",
+            quantity: 2,
           },
         ],
         2: [
           {
             name: "LMD",
-            quantity: 180000,
+            quantity: 120000,
           },
           {
-            name: "Caster Dualchip",
-            quantity: 4,
+            name: "Guard Dualchip",
+            quantity: 3,
           },
           {
-            name: "Polymerization Preparation",
-            quantity: 4,
+            name: "Keton Colloid",
+            quantity: 7,
           },
           {
-            name: "Optimized Device",
-            quantity: 5,
+            name: "Polyester Pack",
+            quantity: 16,
           },
         ],
       },
@@ -18654,43 +15243,43 @@ const RECIPES: RecipeBook = {
           1: [
             {
               name: "Skill Summary - 3",
-              quantity: 6,
+              quantity: 5,
             },
             {
-              name: "Grindstone Pentahydrate",
-              quantity: 4,
+              name: "RMA70-24",
+              quantity: 3,
             },
             {
-              name: "Loxic Kohl",
-              quantity: 7,
+              name: "Manganese Ore",
+              quantity: 2,
             },
           ],
           2: [
             {
               name: "Skill Summary - 3",
-              quantity: 12,
+              quantity: 6,
             },
             {
               name: "Sugar Lump",
-              quantity: 4,
+              quantity: 3,
             },
             {
               name: "RMA70-24",
-              quantity: 8,
+              quantity: 5,
             },
           ],
           3: [
             {
               name: "Skill Summary - 3",
-              quantity: 15,
+              quantity: 10,
             },
             {
-              name: "Polymerization Preparation",
-              quantity: 6,
-            },
-            {
-              name: "Optimized Device",
+              name: "Bipolar Nanoflake",
               quantity: 4,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 3,
             },
           ],
         },
@@ -18698,714 +15287,83 @@ const RECIPES: RecipeBook = {
           1: [
             {
               name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 4,
-            },
-            {
-              name: "Manganese Ore",
               quantity: 5,
             },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 4,
-            },
             {
               name: "Orirock Concentration",
-              quantity: 10,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 15,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 6,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 6,
-            },
-          ],
-        },
-        3: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 4,
+              quantity: 3,
             },
             {
               name: "Grindstone",
-              quantity: 7,
+              quantity: 4,
             },
           ],
           2: [
             {
               name: "Skill Summary - 3",
-              quantity: 12,
+              quantity: 6,
             },
             {
-              name: "Oriron Block",
-              quantity: 4,
+              name: "Polyester Lump",
+              quantity: 3,
             },
             {
-              name: "Sugar Lump",
-              quantity: 7,
+              name: "Orirock Concentration",
+              quantity: 6,
             },
           ],
           3: [
             {
               name: "Skill Summary - 3",
-              quantity: 15,
+              quantity: 10,
             },
             {
               name: "D32 Steel",
-              quantity: 6,
+              quantity: 4,
             },
             {
               name: "Keton Colloid",
-              quantity: 5,
+              quantity: 4,
             },
           ],
         },
       },
-      rarity: 6,
+      rarity: 5,
       skillLevels: {
         2: [
           {
             name: "Skill Summary - 1",
-            quantity: 5,
+            quantity: 4,
           },
         ],
         3: [
           {
             name: "Skill Summary - 1",
-            quantity: 5,
-          },
-          {
-            name: "Oriron Shard",
-            quantity: 5,
-          },
-          {
-            name: "Sugar Substitute",
             quantity: 4,
+          },
+          {
+            name: "Diketon",
+            quantity: 5,
           },
         ],
         4: [
           {
             name: "Skill Summary - 2",
-            quantity: 8,
+            quantity: 6,
           },
           {
-            name: "Polyketon",
-            quantity: 4,
+            name: "Device",
+            quantity: 2,
           },
         ],
         5: [
           {
             name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "Device",
-            quantity: 3,
-          },
-          {
-            name: "Polyester",
-            quantity: 3,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 8,
-          },
-          {
-            name: "Loxic Kohl",
-            quantity: 7,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 8,
-          },
-          {
-            name: "Manganese Ore",
-            quantity: 3,
-          },
-          {
-            name: "RMA70-12",
-            quantity: 4,
-          },
-        ],
-      },
-    },
-    GreyThroat: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 20000,
-          },
-          {
-            name: "Sniper Chip",
-            quantity: 4,
+            quantity: 6,
           },
           {
             name: "Orirock Cube",
-            quantity: 7,
-          },
-          {
-            name: "Oriron",
-            quantity: 3,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 120000,
-          },
-          {
-            name: "Sniper Dualchip",
-            quantity: 3,
-          },
-          {
-            name: "Oriron Block",
-            quantity: 7,
-          },
-          {
-            name: "Integrated Device",
-            quantity: 9,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 2,
-            },
-            {
-              name: "Oriron Cluster",
-              quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 3,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 4,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 4,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 4,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 3,
-            },
-            {
-              name: "Aketon",
-              quantity: 5,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 3,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 6,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 4,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 3,
-            },
-          ],
-        },
-      },
-      rarity: 5,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-          {
-            name: "Orirock",
-            quantity: 10,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Sugar",
-            quantity: 3,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Polyester",
-            quantity: 5,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Integrated Device",
-            quantity: 3,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 6,
-          },
-          {
-            name: "Manganese Ore",
-            quantity: 2,
-          },
-          {
-            name: "RMA70-12",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Vulcan: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 20000,
-          },
-          {
-            name: "Defender Chip",
-            quantity: 4,
-          },
-          {
-            name: "Oriron",
-            quantity: 4,
-          },
-          {
-            name: "Polyester",
-            quantity: 3,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 120000,
-          },
-          {
-            name: "Defender Dualchip",
-            quantity: 3,
-          },
-          {
-            name: "Orirock Concentration",
             quantity: 8,
-          },
-          {
-            name: "Aketon",
-            quantity: 15,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 3,
-            },
-            {
-              name: "Aketon",
-              quantity: 5,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 3,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 6,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 4,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 3,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 3,
-            },
-            {
-              name: "Integrated Device",
-              quantity: 2,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 3,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 4,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 4,
-            },
-          ],
-        },
-      },
-      rarity: 5,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-          {
-            name: "Oriron Shard",
-            quantity: 5,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Polyketon",
-            quantity: 3,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Device",
-            quantity: 3,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Aketon",
-            quantity: 4,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 6,
-          },
-          {
-            name: "Integrated Device",
-            quantity: 2,
-          },
-          {
-            name: "Sugar Pack",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Mayer: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 20000,
-          },
-          {
-            name: "Supporter Chip",
-            quantity: 4,
-          },
-          {
-            name: "Polyester",
-            quantity: 5,
-          },
-          {
-            name: "Device",
-            quantity: 2,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 120000,
-          },
-          {
-            name: "Supporter Dualchip",
-            quantity: 3,
-          },
-          {
-            name: "Oriron Block",
-            quantity: 6,
-          },
-          {
-            name: "RMA70-12",
-            quantity: 11,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 3,
-            },
-            {
-              name: "Manganese Ore",
-              quantity: 2,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 3,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 4,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 3,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 3,
-            },
-            {
-              name: "Grindstone",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 3,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 6,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 4,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 4,
-            },
-          ],
-        },
-      },
-      rarity: 5,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-          {
-            name: "Ester",
-            quantity: 7,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Oriron",
-            quantity: 3,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Polyketon",
-            quantity: 4,
           },
         ],
         6: [
@@ -19434,7 +15392,7 @@ const RECIPES: RecipeBook = {
         ],
       },
     },
-    Platinum: {
+    FEater: {
       elite: {
         1: [
           {
@@ -19442,12 +15400,12 @@ const RECIPES: RecipeBook = {
             quantity: 20000,
           },
           {
-            name: "Sniper Chip",
+            name: "Specialist Chip",
             quantity: 4,
           },
           {
-            name: "Oriron",
-            quantity: 4,
+            name: "Device",
+            quantity: 3,
           },
           {
             name: "Sugar",
@@ -19460,7 +15418,7 @@ const RECIPES: RecipeBook = {
             quantity: 120000,
           },
           {
-            name: "Sniper Dualchip",
+            name: "Specialist Dualchip",
             quantity: 3,
           },
           {
@@ -19468,7 +15426,7 @@ const RECIPES: RecipeBook = {
             quantity: 8,
           },
           {
-            name: "Loxic Kohl",
+            name: "Polyester Pack",
             quantity: 15,
           },
         ],
@@ -19509,12 +15467,12 @@ const RECIPES: RecipeBook = {
               quantity: 10,
             },
             {
-              name: "Polymerization Preparation",
+              name: "Bipolar Nanoflake",
               quantity: 4,
             },
             {
-              name: "RMA70-24",
-              quantity: 4,
+              name: "Manganese Trihydrate",
+              quantity: 3,
             },
           ],
         },
@@ -19553,200 +15511,7 @@ const RECIPES: RecipeBook = {
               quantity: 10,
             },
             {
-              name: "Bipolar Nanoflake",
-              quantity: 4,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 4,
-            },
-          ],
-        },
-      },
-      rarity: 5,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-          {
-            name: "Oriron Shard",
-            quantity: 5,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Polyketon",
-            quantity: 3,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Device",
-            quantity: 3,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Polyester Pack",
-            quantity: 5,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 6,
-          },
-          {
-            name: "Oriron Cluster",
-            quantity: 2,
-          },
-          {
-            name: "Grindstone",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Amiya: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 20000,
-          },
-          {
-            name: "Caster Chip",
-            quantity: 3,
-          },
-          {
-            name: "Device",
-            quantity: 4,
-          },
-          {
-            name: "Oriron",
-            quantity: 4,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 120000,
-          },
-          {
-            name: "Caster Dualchip",
-            quantity: 3,
-          },
-          {
-            name: "Orirock Concentration",
-            quantity: 10,
-          },
-          {
-            name: "Loxic Kohl",
-            quantity: 10,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 3,
-            },
-            {
-              name: "Aketon",
-              quantity: 5,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 3,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 6,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
               name: "D32 Steel",
-              quantity: 4,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 5,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 3,
-            },
-            {
-              name: "Integrated Device",
-              quantity: 2,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 3,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Polymerization Preparation",
               quantity: 4,
             },
             {
@@ -19800,220 +15565,27 @@ const RECIPES: RecipeBook = {
             quantity: 6,
           },
           {
-            name: "Aketon",
-            quantity: 4,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 6,
-          },
-          {
-            name: "Integrated Device",
-            quantity: 2,
-          },
-          {
-            name: "Sugar Pack",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Cliffheart: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 20000,
-          },
-          {
-            name: "Specialist Chip",
-            quantity: 4,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 6,
-          },
-          {
-            name: "Polyester",
-            quantity: 3,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 120000,
-          },
-          {
-            name: "Specialist Dualchip",
-            quantity: 3,
-          },
-          {
-            name: "Oriron Block",
-            quantity: 6,
-          },
-          {
-            name: "Manganese Ore",
-            quantity: 13,
-          },
-        ],
-      },
-      masteries: {
-        1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 3,
-            },
-            {
-              name: "Manganese Ore",
-              quantity: 2,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 3,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 5,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 4,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 4,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 3,
-            },
-            {
-              name: "Grindstone",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Polyester Lump",
-              quantity: 3,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 6,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 4,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 3,
-            },
-          ],
-        },
-      },
-      rarity: 5,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-          {
-            name: "Orirock",
-            quantity: 10,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Sugar",
-            quantity: 3,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Polyester",
+            name: "Polyester Pack",
             quantity: 5,
           },
         ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Manganese Ore",
-            quantity: 4,
-          },
-        ],
         7: [
           {
             name: "Skill Summary - 3",
             quantity: 6,
           },
           {
-            name: "Grindstone",
+            name: "Oriron Cluster",
             quantity: 2,
           },
           {
-            name: "Orirock Cluster",
-            quantity: 4,
+            name: "Grindstone",
+            quantity: 3,
           },
         ],
       },
     },
-    May: {
+    Beehunter: {
       elite: {
         1: [
           {
@@ -20021,17 +15593,17 @@ const RECIPES: RecipeBook = {
             quantity: 15000,
           },
           {
-            name: "Sniper Chip",
+            name: "Guard Chip",
             quantity: 3,
-          },
-          {
-            name: "Oriron",
-            quantity: 1,
           },
           {
             name: "Device",
             quantity: 1,
           },
+          {
+            name: "Orirock Cube",
+            quantity: 1,
+          },
         ],
         2: [
           {
@@ -20039,16 +15611,16 @@ const RECIPES: RecipeBook = {
             quantity: 60000,
           },
           {
-            name: "Sniper Chip Pack",
+            name: "Guard Chip Pack",
             quantity: 5,
           },
           {
-            name: "Oriron Cluster",
-            quantity: 14,
+            name: "Sugar Pack",
+            quantity: 19,
           },
           {
-            name: "Polyester Pack",
-            quantity: 12,
+            name: "RMA70-12",
+            quantity: 7,
           },
         ],
       },
@@ -20060,12 +15632,12 @@ const RECIPES: RecipeBook = {
               quantity: 2,
             },
             {
-              name: "Manganese Trihydrate",
+              name: "White Horse Kohl",
               quantity: 1,
             },
             {
-              name: "Integrated Device",
-              quantity: 3,
+              name: "Aketon",
+              quantity: 4,
             },
           ],
           2: [
@@ -20074,12 +15646,12 @@ const RECIPES: RecipeBook = {
               quantity: 4,
             },
             {
-              name: "RMA70-24",
+              name: "Grindstone Pentahydrate",
               quantity: 2,
             },
             {
-              name: "Manganese Trihydrate",
-              quantity: 2,
+              name: "White Horse Kohl",
+              quantity: 3,
             },
           ],
           3: [
@@ -20092,157 +15664,12 @@ const RECIPES: RecipeBook = {
               quantity: 2,
             },
             {
-              name: "Polyester Lump",
+              name: "Orirock Concentration",
               quantity: 2,
             },
           ],
         },
         2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 1,
-            },
-            {
-              name: "Loxic Kohl",
-              quantity: 4,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Orirock Concentration",
-              quantity: 2,
-            },
-            {
-              name: "Grindstone Pentahydrate",
-              quantity: 3,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Polymerization Preparation",
-              quantity: 2,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 2,
-            },
-          ],
-        },
-      },
-      rarity: 4,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 2,
-          },
-          {
-            name: "Ester",
-            quantity: 4,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Oriron",
-            quantity: 2,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Polyketon",
-            quantity: 2,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 3,
-          },
-          {
-            name: "Integrated Device",
-            quantity: 2,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 4,
-          },
-          {
-            name: "Loxic Kohl",
-            quantity: 3,
-          },
-        ],
-      },
-    },
-    Ambriel: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 15000,
-          },
-          {
-            name: "Sniper Chip",
-            quantity: 3,
-          },
-          {
-            name: "Polyketon",
-            quantity: 1,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 1,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 60000,
-          },
-          {
-            name: "Sniper Chip Pack",
-            quantity: 5,
-          },
-          {
-            name: "Oriron Cluster",
-            quantity: 16,
-          },
-          {
-            name: "RMA70-12",
-            quantity: 6,
-          },
-        ],
-      },
-      masteries: {
-        1: {
           1: [
             {
               name: "Skill Summary - 3",
@@ -20263,11 +15690,11 @@ const RECIPES: RecipeBook = {
               quantity: 4,
             },
             {
-              name: "Incandescent Alloy Block",
+              name: "RMA70-24",
               quantity: 2,
             },
             {
-              name: "RMA70-24",
+              name: "Manganese Trihydrate",
               quantity: 2,
             },
           ],
@@ -20286,6 +15713,413 @@ const RECIPES: RecipeBook = {
             },
           ],
         },
+      },
+      rarity: 4,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Damaged Device",
+            quantity: 2,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 2,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Sugar",
+            quantity: 3,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Aketon",
+            quantity: 2,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 4,
+          },
+          {
+            name: "Integrated Device",
+            quantity: 2,
+          },
+        ],
+      },
+    },
+    Plume: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 10000,
+          },
+        ],
+      },
+      rarity: 3,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 1,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Damaged Device",
+            quantity: 1,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 2,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Sugar",
+            quantity: 2,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Aketon",
+            quantity: 1,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 2,
+          },
+          {
+            name: "Integrated Device",
+            quantity: 1,
+          },
+        ],
+      },
+    },
+    Sora: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 20000,
+          },
+          {
+            name: "Supporter Chip",
+            quantity: 4,
+          },
+          {
+            name: "Oriron",
+            quantity: 4,
+          },
+          {
+            name: "Device",
+            quantity: 2,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 120000,
+          },
+          {
+            name: "Supporter Dualchip",
+            quantity: 3,
+          },
+          {
+            name: "White Horse Kohl",
+            quantity: 9,
+          },
+          {
+            name: "Orirock Cluster",
+            quantity: 17,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 3,
+            },
+            {
+              name: "Orirock Cluster",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 3,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 4,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 4,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 3,
+            },
+            {
+              name: "Sugar Pack",
+              quantity: 1,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 2,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 4,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 4,
+            },
+          ],
+        },
+      },
+      rarity: 5,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+          {
+            name: "Oriron Shard",
+            quantity: 5,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Polyketon",
+            quantity: 3,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Device",
+            quantity: 3,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Orirock Cluster",
+            quantity: 5,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 6,
+          },
+          {
+            name: "Sugar Pack",
+            quantity: 3,
+          },
+          {
+            name: "Oriron Cluster",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Haze: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 15000,
+          },
+          {
+            name: "Caster Chip",
+            quantity: 3,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 1,
+          },
+          {
+            name: "Polyester",
+            quantity: 1,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 60000,
+          },
+          {
+            name: "Caster Chip Pack",
+            quantity: 5,
+          },
+          {
+            name: "Orirock Cluster",
+            quantity: 19,
+          },
+          {
+            name: "RMA70-12",
+            quantity: 8,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 1,
+            },
+            {
+              name: "Oriron Cluster",
+              quantity: 2,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 2,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 2,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 2,
+            },
+          ],
+        },
         2: {
           1: [
             {
@@ -20293,11 +16127,11 @@ const RECIPES: RecipeBook = {
               quantity: 2,
             },
             {
-              name: "Grindstone Pentahydrate",
+              name: "White Horse Kohl",
               quantity: 1,
             },
             {
-              name: "Loxic Kohl",
+              name: "Aketon",
               quantity: 4,
             },
           ],
@@ -20307,11 +16141,11 @@ const RECIPES: RecipeBook = {
               quantity: 4,
             },
             {
-              name: "Polymerized Gel",
+              name: "Grindstone Pentahydrate",
               quantity: 2,
             },
             {
-              name: "Orirock Concentration",
+              name: "White Horse Kohl",
               quantity: 3,
             },
           ],
@@ -20321,11 +16155,11 @@ const RECIPES: RecipeBook = {
               quantity: 6,
             },
             {
-              name: "D32 Steel",
+              name: "Bipolar Nanoflake",
               quantity: 2,
             },
             {
-              name: "Oriron Block",
+              name: "Orirock Concentration",
               quantity: 2,
             },
           ],
@@ -20345,8 +16179,8 @@ const RECIPES: RecipeBook = {
             quantity: 2,
           },
           {
-            name: "Oriron Shard",
-            quantity: 3,
+            name: "Orirock",
+            quantity: 5,
           },
         ],
         4: [
@@ -20355,7 +16189,7 @@ const RECIPES: RecipeBook = {
             quantity: 3,
           },
           {
-            name: "Polyketon",
+            name: "Sugar",
             quantity: 2,
           },
         ],
@@ -20365,8 +16199,8 @@ const RECIPES: RecipeBook = {
             quantity: 3,
           },
           {
-            name: "Device",
-            quantity: 2,
+            name: "Polyester",
+            quantity: 3,
           },
         ],
         6: [
@@ -20375,7 +16209,7 @@ const RECIPES: RecipeBook = {
             quantity: 3,
           },
           {
-            name: "Coagulating Gel",
+            name: "Oriron Cluster",
             quantity: 2,
           },
         ],
@@ -20385,48 +16219,48 @@ const RECIPES: RecipeBook = {
             quantity: 4,
           },
           {
-            name: "Incandescent Alloy",
+            name: "Aketon",
             quantity: 3,
           },
         ],
       },
     },
-    Skyfire: {
+    "Ch'en": {
       elite: {
         1: [
           {
             name: "LMD",
-            quantity: 20000,
+            quantity: 30000,
           },
           {
-            name: "Caster Chip",
-            quantity: 4,
+            name: "Guard Chip",
+            quantity: 5,
           },
           {
-            name: "Sugar",
-            quantity: 4,
+            name: "Orirock Cube",
+            quantity: 12,
           },
           {
-            name: "Polyketon",
+            name: "Device",
             quantity: 3,
           },
         ],
         2: [
           {
             name: "LMD",
-            quantity: 120000,
+            quantity: 180000,
           },
           {
-            name: "Caster Dualchip",
-            quantity: 3,
+            name: "Guard Dualchip",
+            quantity: 4,
           },
           {
-            name: "Polyester Lump",
-            quantity: 7,
+            name: "Polymerization Preparation",
+            quantity: 4,
           },
           {
-            name: "Grindstone",
-            quantity: 13,
+            name: "White Horse Kohl",
+            quantity: 6,
           },
         ],
       },
@@ -20435,43 +16269,43 @@ const RECIPES: RecipeBook = {
           1: [
             {
               name: "Skill Summary - 3",
-              quantity: 5,
+              quantity: 8,
             },
             {
-              name: "Grindstone Pentahydrate",
-              quantity: 3,
+              name: "Manganese Trihydrate",
+              quantity: 4,
             },
             {
-              name: "Loxic Kohl",
+              name: "Integrated Device",
               quantity: 4,
             },
           ],
           2: [
             {
               name: "Skill Summary - 3",
-              quantity: 6,
+              quantity: 12,
             },
             {
               name: "Orirock Concentration",
-              quantity: 3,
+              quantity: 4,
             },
             {
               name: "Grindstone Pentahydrate",
-              quantity: 6,
+              quantity: 9,
             },
           ],
           3: [
             {
               name: "Skill Summary - 3",
-              quantity: 10,
+              quantity: 15,
             },
             {
-              name: "Bipolar Nanoflake",
-              quantity: 4,
+              name: "Polymerization Preparation",
+              quantity: 6,
             },
             {
-              name: "Polyester Lump",
-              quantity: 4,
+              name: "White Horse Kohl",
+              quantity: 7,
             },
           ],
         },
@@ -20479,79 +16313,131 @@ const RECIPES: RecipeBook = {
           1: [
             {
               name: "Skill Summary - 3",
-              quantity: 5,
+              quantity: 8,
             },
             {
-              name: "RMA70-24",
-              quantity: 3,
+              name: "Grindstone Pentahydrate",
+              quantity: 4,
             },
             {
-              name: "Manganese Ore",
-              quantity: 2,
+              name: "Loxic Kohl",
+              quantity: 7,
             },
           ],
           2: [
             {
               name: "Skill Summary - 3",
-              quantity: 6,
+              quantity: 12,
             },
             {
               name: "Sugar Lump",
-              quantity: 3,
+              quantity: 4,
             },
             {
               name: "RMA70-24",
-              quantity: 5,
+              quantity: 8,
             },
           ],
           3: [
             {
               name: "Skill Summary - 3",
-              quantity: 10,
+              quantity: 15,
             },
             {
               name: "D32 Steel",
+              quantity: 6,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 6,
+            },
+          ],
+        },
+        3: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 8,
+            },
+            {
+              name: "RMA70-24",
               quantity: 4,
             },
             {
+              name: "Manganese Ore",
+              quantity: 5,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 4,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 8,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 15,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 6,
+            },
+            {
               name: "Oriron Block",
-              quantity: 3,
+              quantity: 5,
             },
           ],
         },
       },
-      rarity: 5,
+      rarity: 6,
       skillLevels: {
         2: [
           {
             name: "Skill Summary - 1",
-            quantity: 4,
+            quantity: 5,
           },
         ],
         3: [
           {
             name: "Skill Summary - 1",
-            quantity: 4,
+            quantity: 5,
           },
           {
-            name: "Sugar Substitute",
-            quantity: 7,
+            name: "Orirock",
+            quantity: 6,
+          },
+          {
+            name: "Damaged Device",
+            quantity: 4,
           },
         ],
         4: [
           {
             name: "Skill Summary - 2",
-            quantity: 6,
+            quantity: 8,
           },
           {
-            name: "Polyester",
-            quantity: 3,
+            name: "Sugar",
+            quantity: 5,
           },
         ],
         5: [
           {
             name: "Skill Summary - 2",
-            quantity: 6,
+            quantity: 8,
+          },
+          {
+            name: "Polyester",
+            quantity: 4,
           },
           {
             name: "Oriron",
@@ -20561,25 +16447,25 @@ const RECIPES: RecipeBook = {
         6: [
           {
             name: "Skill Summary - 2",
-            quantity: 6,
+            quantity: 8,
           },
           {
-            name: "Loxic Kohl",
+            name: "Integrated Device",
             quantity: 4,
           },
         ],
         7: [
           {
             name: "Skill Summary - 3",
-            quantity: 6,
+            quantity: 8,
           },
           {
-            name: "Manganese Ore",
-            quantity: 2,
+            name: "Loxic Kohl",
+            quantity: 5,
           },
           {
-            name: "RMA70-12",
-            quantity: 3,
+            name: "Aketon",
+            quantity: 4,
           },
         ],
       },
@@ -20773,7 +16659,7 @@ const RECIPES: RecipeBook = {
         ],
       },
     },
-    Shirayuki: {
+    Shaw: {
       elite: {
         1: [
           {
@@ -20781,11 +16667,11 @@ const RECIPES: RecipeBook = {
             quantity: 15000,
           },
           {
-            name: "Sniper Chip",
+            name: "Specialist Chip",
             quantity: 3,
           },
           {
-            name: "Polyketon",
+            name: "Sugar",
             quantity: 1,
           },
           {
@@ -20799,65 +16685,21 @@ const RECIPES: RecipeBook = {
             quantity: 60000,
           },
           {
-            name: "Sniper Chip Pack",
+            name: "Specialist Chip Pack",
             quantity: 5,
           },
           {
-            name: "Aketon",
-            quantity: 15,
+            name: "Integrated Device",
+            quantity: 12,
           },
           {
-            name: "Oriron Cluster",
-            quantity: 9,
+            name: "Polyester Pack",
+            quantity: 11,
           },
         ],
       },
       masteries: {
         1: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 2,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 1,
-            },
-            {
-              name: "Manganese Ore",
-              quantity: 3,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 4,
-            },
-            {
-              name: "Sugar Lump",
-              quantity: 2,
-            },
-            {
-              name: "RMA70-24",
-              quantity: 2,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Bipolar Nanoflake",
-              quantity: 2,
-            },
-            {
-              name: "Oriron Block",
-              quantity: 2,
-            },
-          ],
-        },
-        2: {
           1: [
             {
               name: "Skill Summary - 3",
@@ -20892,11 +16734,55 @@ const RECIPES: RecipeBook = {
               quantity: 6,
             },
             {
-              name: "D32 Steel",
+              name: "Polymerization Preparation",
               quantity: 2,
             },
             {
-              name: "Keton Colloid",
+              name: "Optimized Device",
+              quantity: 2,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 1,
+            },
+            {
+              name: "RMA70-12",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 2,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 2,
+            },
+            {
+              name: "Oriron Block",
               quantity: 2,
             },
           ],
@@ -20916,8 +16802,8 @@ const RECIPES: RecipeBook = {
             quantity: 2,
           },
           {
-            name: "Diketon",
-            quantity: 3,
+            name: "Sugar Substitute",
+            quantity: 4,
           },
         ],
         4: [
@@ -20926,8 +16812,8 @@ const RECIPES: RecipeBook = {
             quantity: 3,
           },
           {
-            name: "Device",
-            quantity: 1,
+            name: "Polyester",
+            quantity: 2,
           },
         ],
         5: [
@@ -20936,8 +16822,8 @@ const RECIPES: RecipeBook = {
             quantity: 3,
           },
           {
-            name: "Orirock Cube",
-            quantity: 4,
+            name: "Oriron",
+            quantity: 2,
           },
         ],
         6: [
@@ -20946,7 +16832,7 @@ const RECIPES: RecipeBook = {
             quantity: 3,
           },
           {
-            name: "Manganese Ore",
+            name: "Grindstone",
             quantity: 2,
           },
         ],
@@ -20956,13 +16842,151 @@ const RECIPES: RecipeBook = {
             quantity: 4,
           },
           {
-            name: "Grindstone",
+            name: "RMA70-12",
             quantity: 2,
           },
         ],
       },
     },
-    Saria: {
+    Spot: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 10000,
+          },
+        ],
+      },
+      rarity: 3,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 1,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Diketon",
+            quantity: 1,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Device",
+            quantity: 1,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 3,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "RMA70-12",
+            quantity: 1,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 2,
+          },
+          {
+            name: "Orirock Cluster",
+            quantity: 2,
+          },
+        ],
+      },
+    },
+    Ansel: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 10000,
+          },
+        ],
+      },
+      rarity: 3,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 1,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Oriron Shard",
+            quantity: 1,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Polyketon",
+            quantity: 1,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Device",
+            quantity: 1,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Polyester Pack",
+            quantity: 2,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 2,
+          },
+          {
+            name: "Oriron Cluster",
+            quantity: 2,
+          },
+        ],
+      },
+    },
+    Schwarz: {
       elite: {
         1: [
           {
@@ -20970,16 +16994,16 @@ const RECIPES: RecipeBook = {
             quantity: 30000,
           },
           {
-            name: "Defender Chip",
+            name: "Sniper Chip",
             quantity: 5,
           },
           {
-            name: "Sugar",
+            name: "Polyester",
             quantity: 8,
           },
           {
-            name: "Polyketon",
-            quantity: 5,
+            name: "Sugar",
+            quantity: 6,
           },
         ],
         2: [
@@ -20988,21 +17012,1118 @@ const RECIPES: RecipeBook = {
             quantity: 180000,
           },
           {
-            name: "Defender Dualchip",
+            name: "Sniper Dualchip",
             quantity: 4,
           },
           {
-            name: "Bipolar Nanoflake",
+            name: "D32 Steel",
             quantity: 4,
           },
           {
-            name: "Manganese Trihydrate",
+            name: "Oriron Block",
             quantity: 5,
           },
         ],
       },
       masteries: {
         1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 8,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 4,
+            },
+            {
+              name: "Loxic Kohl",
+              quantity: 7,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 4,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 8,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 15,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 6,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 5,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 8,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 4,
+            },
+            {
+              name: "Manganese Ore",
+              quantity: 5,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 4,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 10,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 15,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 6,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 4,
+            },
+          ],
+        },
+        3: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 8,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 4,
+            },
+            {
+              name: "Grindstone",
+              quantity: 7,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 4,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 7,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 15,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 6,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 6,
+            },
+          ],
+        },
+      },
+      rarity: 6,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 5,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 5,
+          },
+          {
+            name: "Sugar Substitute",
+            quantity: 5,
+          },
+          {
+            name: "Diketon",
+            quantity: 4,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 8,
+          },
+          {
+            name: "Polyester",
+            quantity: 5,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 8,
+          },
+          {
+            name: "Oriron",
+            quantity: 4,
+          },
+          {
+            name: "Sugar",
+            quantity: 3,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 8,
+          },
+          {
+            name: "Loxic Kohl",
+            quantity: 7,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 8,
+          },
+          {
+            name: "Manganese Ore",
+            quantity: 3,
+          },
+          {
+            name: "RMA70-12",
+            quantity: 4,
+          },
+        ],
+      },
+    },
+    Swire: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 20000,
+          },
+          {
+            name: "Guard Chip",
+            quantity: 4,
+          },
+          {
+            name: "Sugar",
+            quantity: 5,
+          },
+          {
+            name: "Device",
+            quantity: 2,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 120000,
+          },
+          {
+            name: "Guard Dualchip",
+            quantity: 3,
+          },
+          {
+            name: "Sugar Lump",
+            quantity: 7,
+          },
+          {
+            name: "Polyester Pack",
+            quantity: 17,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 3,
+            },
+            {
+              name: "Integrated Device",
+              quantity: 2,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 3,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 4,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 4,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 3,
+            },
+            {
+              name: "Loxic Kohl",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 3,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 6,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 4,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 5,
+            },
+          ],
+        },
+      },
+      rarity: 5,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+          {
+            name: "Ester",
+            quantity: 7,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Oriron",
+            quantity: 3,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Polyketon",
+            quantity: 4,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Integrated Device",
+            quantity: 3,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 6,
+          },
+          {
+            name: "Loxic Kohl",
+            quantity: 3,
+          },
+          {
+            name: "Aketon",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Liskarm: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 20000,
+          },
+          {
+            name: "Defender Chip",
+            quantity: 4,
+          },
+          {
+            name: "Sugar",
+            quantity: 5,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 3,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 120000,
+          },
+          {
+            name: "Defender Dualchip",
+            quantity: 3,
+          },
+          {
+            name: "Grindstone Pentahydrate",
+            quantity: 7,
+          },
+          {
+            name: "Aketon",
+            quantity: 15,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 3,
+            },
+            {
+              name: "Polyester Pack",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 3,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 4,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 3,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 2,
+            },
+            {
+              name: "Oriron Cluster",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 3,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 4,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 4,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 4,
+            },
+          ],
+        },
+      },
+      rarity: 5,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+          {
+            name: "Sugar Substitute",
+            quantity: 7,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Polyester",
+            quantity: 3,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Oriron",
+            quantity: 4,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Polyester Pack",
+            quantity: 5,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 6,
+          },
+          {
+            name: "Oriron Cluster",
+            quantity: 2,
+          },
+          {
+            name: "Grindstone",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Vigna: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 15000,
+          },
+          {
+            name: "Vanguard Chip",
+            quantity: 3,
+          },
+          {
+            name: "Device",
+            quantity: 1,
+          },
+          {
+            name: "Polyester",
+            quantity: 1,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 60000,
+          },
+          {
+            name: "Vanguard Chip Pack",
+            quantity: 5,
+          },
+          {
+            name: "Oriron Cluster",
+            quantity: 16,
+          },
+          {
+            name: "Orirock Cluster",
+            quantity: 11,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 1,
+            },
+            {
+              name: "Loxic Kohl",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 2,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 3,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 2,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 2,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 1,
+            },
+            {
+              name: "Manganese Ore",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 2,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 2,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 2,
+            },
+          ],
+        },
+      },
+      rarity: 4,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Damaged Device",
+            quantity: 2,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 2,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Sugar",
+            quantity: 3,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Loxic Kohl",
+            quantity: 2,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 4,
+          },
+          {
+            name: "Manganese Ore",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Gravel: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 15000,
+          },
+          {
+            name: "Specialist Chip",
+            quantity: 3,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 1,
+          },
+          {
+            name: "Polyketon",
+            quantity: 1,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 60000,
+          },
+          {
+            name: "Specialist Chip Pack",
+            quantity: 5,
+          },
+          {
+            name: "Polyester Pack",
+            quantity: 18,
+          },
+          {
+            name: "Orirock Cluster",
+            quantity: 13,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 1,
+            },
+            {
+              name: "Integrated Device",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 2,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 2,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 2,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 1,
+            },
+            {
+              name: "Loxic Kohl",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 2,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 3,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 2,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 2,
+            },
+          ],
+        },
+      },
+      rarity: 4,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Orirock",
+            quantity: 5,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Sugar",
+            quantity: 2,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Polyester",
+            quantity: 3,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Integrated Device",
+            quantity: 2,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 4,
+          },
+          {
+            name: "Loxic Kohl",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Nightingale: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 30000,
+          },
+          {
+            name: "Medic Chip",
+            quantity: 5,
+          },
+          {
+            name: "Device",
+            quantity: 6,
+          },
+          {
+            name: "Oriron",
+            quantity: 3,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 180000,
+          },
+          {
+            name: "Medic Dualchip",
+            quantity: 4,
+          },
+          {
+            name: "D32 Steel",
+            quantity: 4,
+          },
+          {
+            name: "Keton Colloid",
+            quantity: 6,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 4,
+            },
+            {
+              name: "Grindstone",
+              quantity: 7,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 4,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 7,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 15,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 6,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 5,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 4,
+            },
+            {
+              name: "RMA70-12",
+              quantity: 5,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 4,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 7,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 15,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 6,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 4,
+            },
+          ],
+        },
+        3: {
           1: [
             {
               name: "Skill Summary - 3",
@@ -21046,15 +18167,940 @@ const RECIPES: RecipeBook = {
             },
           ],
         },
+      },
+      rarity: 6,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 5,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 5,
+          },
+          {
+            name: "Sugar Substitute",
+            quantity: 5,
+          },
+          {
+            name: "Diketon",
+            quantity: 4,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 8,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 7,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 8,
+          },
+          {
+            name: "Sugar",
+            quantity: 4,
+          },
+          {
+            name: "Polyketon",
+            quantity: 4,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 8,
+          },
+          {
+            name: "Grindstone",
+            quantity: 5,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 8,
+          },
+          {
+            name: "RMA70-12",
+            quantity: 3,
+          },
+          {
+            name: "Polyester Pack",
+            quantity: 5,
+          },
+        ],
+      },
+    },
+    Bison: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 20000,
+          },
+          {
+            name: "Defender Chip",
+            quantity: 4,
+          },
+          {
+            name: "Polyester",
+            quantity: 5,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 4,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 120000,
+          },
+          {
+            name: "Defender Dualchip",
+            quantity: 3,
+          },
+          {
+            name: "Grindstone Pentahydrate",
+            quantity: 7,
+          },
+          {
+            name: "RMA70-12",
+            quantity: 11,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 3,
+            },
+            {
+              name: "Orirock Cluster",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 3,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 4,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 4,
+            },
+          ],
+        },
         2: {
           1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 3,
+            },
+            {
+              name: "Sugar Pack",
+              quantity: 1,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 2,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 4,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 4,
+            },
+          ],
+        },
+      },
+      rarity: 5,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+          {
+            name: "Ester",
+            quantity: 7,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Oriron",
+            quantity: 3,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Polyketon",
+            quantity: 4,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Sugar Pack",
+            quantity: 5,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 6,
+          },
+          {
+            name: "Polyester Pack",
+            quantity: 3,
+          },
+          {
+            name: "Manganese Ore",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    "Dur-nar": {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 15000,
+          },
+          {
+            name: "Defender Chip",
+            quantity: 3,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 1,
+          },
+          {
+            name: "Polyester",
+            quantity: 1,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 60000,
+          },
+          {
+            name: "Defender Chip Pack",
+            quantity: 5,
+          },
+          {
+            name: "Orirock Cluster",
+            quantity: 19,
+          },
+          {
+            name: "RMA70-12",
+            quantity: 8,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 1,
+            },
+            {
+              name: "Polyester Pack",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 2,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 2,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 2,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 1,
+            },
+            {
+              name: "Oriron Cluster",
+              quantity: 2,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 2,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 2,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 2,
+            },
+          ],
+        },
+      },
+      rarity: 4,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Orirock",
+            quantity: 5,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Sugar",
+            quantity: 2,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Polyester",
+            quantity: 3,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Oriron Cluster",
+            quantity: 2,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 4,
+          },
+          {
+            name: "Aketon",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Pramanix: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 20000,
+          },
+          {
+            name: "Supporter Chip",
+            quantity: 4,
+          },
+          {
+            name: "Sugar",
+            quantity: 4,
+          },
+          {
+            name: "Oriron",
+            quantity: 3,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 120000,
+          },
+          {
+            name: "Supporter Dualchip",
+            quantity: 3,
+          },
+          {
+            name: "Keton Colloid",
+            quantity: 7,
+          },
+          {
+            name: "Grindstone",
+            quantity: 11,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 3,
+            },
+            {
+              name: "Grindstone",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 3,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 6,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 4,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 3,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 3,
+            },
+            {
+              name: "RMA70-12",
+              quantity: 3,
+            },
+          ],
+          2: [
             {
               name: "Skill Summary - 3",
               quantity: 6,
             },
             {
               name: "Oriron Block",
+              quantity: 3,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Bipolar Nanoflake",
               quantity: 4,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 3,
+            },
+          ],
+        },
+      },
+      rarity: 5,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+          {
+            name: "Sugar Substitute",
+            quantity: 7,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Polyester",
+            quantity: 3,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Oriron",
+            quantity: 4,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Grindstone",
+            quantity: 3,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 6,
+          },
+          {
+            name: "RMA70-12",
+            quantity: 2,
+          },
+          {
+            name: "Polyester Pack",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Franka: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 20000,
+          },
+          {
+            name: "Guard Chip",
+            quantity: 4,
+          },
+          {
+            name: "Oriron",
+            quantity: 4,
+          },
+          {
+            name: "Polyketon",
+            quantity: 2,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 120000,
+          },
+          {
+            name: "Guard Dualchip",
+            quantity: 3,
+          },
+          {
+            name: "Oriron Block",
+            quantity: 6,
+          },
+          {
+            name: "Sugar Pack",
+            quantity: 18,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 3,
+            },
+            {
+              name: "Loxic Kohl",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 3,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 6,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 4,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 3,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 3,
+            },
+            {
+              name: "Manganese Ore",
+              quantity: 2,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 3,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 4,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 3,
+            },
+          ],
+        },
+      },
+      rarity: 5,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+          {
+            name: "Oriron Shard",
+            quantity: 5,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Polyketon",
+            quantity: 3,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Device",
+            quantity: 3,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Loxic Kohl",
+            quantity: 4,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 6,
+          },
+          {
+            name: "Manganese Ore",
+            quantity: 2,
+          },
+          {
+            name: "RMA70-12",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Dobermann: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 15000,
+          },
+          {
+            name: "Guard Chip",
+            quantity: 3,
+          },
+          {
+            name: "Sugar",
+            quantity: 1,
+          },
+          {
+            name: "Polyester",
+            quantity: 1,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 60000,
+          },
+          {
+            name: "Guard Chip Pack",
+            quantity: 5,
+          },
+          {
+            name: "Manganese Ore",
+            quantity: 15,
+          },
+          {
+            name: "Loxic Kohl",
+            quantity: 11,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 1,
+            },
+            {
+              name: "Orirock Cluster",
+              quantity: 5,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 2,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 2,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 2,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 1,
             },
             {
               name: "Sugar Pack",
@@ -21064,15 +19110,422 @@ const RECIPES: RecipeBook = {
           2: [
             {
               name: "Skill Summary - 3",
-              quantity: 12,
-            },
-            {
-              name: "White Horse Kohl",
               quantity: 4,
             },
             {
-              name: "Keton Colloid",
-              quantity: 8,
+              name: "Optimized Device",
+              quantity: 1,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 2,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 2,
+            },
+          ],
+        },
+      },
+      rarity: 4,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Sugar Substitute",
+            quantity: 4,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Polyester",
+            quantity: 2,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Oriron",
+            quantity: 2,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Orirock Cluster",
+            quantity: 3,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 4,
+          },
+          {
+            name: "Sugar Pack",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Kroos: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 10000,
+          },
+        ],
+      },
+      rarity: 3,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 1,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Damaged Device",
+            quantity: 1,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 2,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Sugar",
+            quantity: 2,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 1,
+          },
+          {
+            name: "Grindstone",
+            quantity: 1,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 2,
+          },
+          {
+            name: "RMA70-12",
+            quantity: 1,
+          },
+        ],
+      },
+    },
+    Glaucus: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 20000,
+          },
+          {
+            name: "Supporter Chip",
+            quantity: 4,
+          },
+          {
+            name: "Polyketon",
+            quantity: 4,
+          },
+          {
+            name: "Device",
+            quantity: 2,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 120000,
+          },
+          {
+            name: "Supporter Dualchip",
+            quantity: 3,
+          },
+          {
+            name: "Keton Colloid",
+            quantity: 7,
+          },
+          {
+            name: "Integrated Device",
+            quantity: 10,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 3,
+            },
+            {
+              name: "Grindstone",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 3,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 6,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 4,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 4,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 3,
+            },
+            {
+              name: "RMA70-12",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 3,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 4,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 3,
+            },
+          ],
+        },
+      },
+      rarity: 5,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+          {
+            name: "Diketon",
+            quantity: 5,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Device",
+            quantity: 2,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 8,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Manganese Ore",
+            quantity: 4,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 6,
+          },
+          {
+            name: "Grindstone",
+            quantity: 2,
+          },
+          {
+            name: "Orirock Cluster",
+            quantity: 4,
+          },
+        ],
+      },
+    },
+    Angelina: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 30000,
+          },
+          {
+            name: "Supporter Chip",
+            quantity: 5,
+          },
+          {
+            name: "Polyketon",
+            quantity: 7,
+          },
+          {
+            name: "Sugar",
+            quantity: 4,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 180000,
+          },
+          {
+            name: "Supporter Dualchip",
+            quantity: 4,
+          },
+          {
+            name: "Bipolar Nanoflake",
+            quantity: 4,
+          },
+          {
+            name: "Sugar Lump",
+            quantity: 5,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 3,
+            },
+            {
+              name: "Oriron Cluster",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 4,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 9,
             },
           ],
           3: [
@@ -21085,24 +19538,24 @@ const RECIPES: RecipeBook = {
               quantity: 6,
             },
             {
-              name: "Keton Colloid",
+              name: "Sugar Lump",
               quantity: 5,
             },
           ],
         },
-        3: {
+        2: {
           1: [
             {
               name: "Skill Summary - 3",
               quantity: 6,
             },
             {
-              name: "Keton Colloid",
+              name: "White Horse Kohl",
               quantity: 4,
             },
             {
-              name: "Polyester Pack",
-              quantity: 6,
+              name: "Aketon",
+              quantity: 8,
             },
           ],
           2: [
@@ -21111,12 +19564,12 @@ const RECIPES: RecipeBook = {
               quantity: 12,
             },
             {
-              name: "Manganese Trihydrate",
+              name: "RMA70-24",
               quantity: 4,
             },
             {
-              name: "Optimized Device",
-              quantity: 5,
+              name: "Manganese Trihydrate",
+              quantity: 7,
             },
           ],
           3: [
@@ -21129,8 +19582,1439 @@ const RECIPES: RecipeBook = {
               quantity: 6,
             },
             {
-              name: "RMA70-24",
+              name: "Sugar Lump",
               quantity: 6,
+            },
+          ],
+        },
+        3: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 4,
+            },
+            {
+              name: "Integrated Device",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 4,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 9,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 15,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 6,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 7,
+            },
+          ],
+        },
+      },
+      rarity: 6,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 5,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 5,
+          },
+          {
+            name: "Diketon",
+            quantity: 6,
+          },
+          {
+            name: "Orirock",
+            quantity: 4,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 8,
+          },
+          {
+            name: "Device",
+            quantity: 3,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 8,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 5,
+          },
+          {
+            name: "Device",
+            quantity: 3,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 8,
+          },
+          {
+            name: "Oriron Cluster",
+            quantity: 6,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 8,
+          },
+          {
+            name: "Aketon",
+            quantity: 3,
+          },
+          {
+            name: "Loxic Kohl",
+            quantity: 6,
+          },
+        ],
+      },
+    },
+    May: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 15000,
+          },
+          {
+            name: "Sniper Chip",
+            quantity: 3,
+          },
+          {
+            name: "Oriron",
+            quantity: 1,
+          },
+          {
+            name: "Device",
+            quantity: 1,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 60000,
+          },
+          {
+            name: "Sniper Chip Pack",
+            quantity: 5,
+          },
+          {
+            name: "Oriron Cluster",
+            quantity: 14,
+          },
+          {
+            name: "Polyester Pack",
+            quantity: 12,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 1,
+            },
+            {
+              name: "Integrated Device",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 2,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 2,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 2,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 1,
+            },
+            {
+              name: "Loxic Kohl",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 2,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 3,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 2,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 2,
+            },
+          ],
+        },
+      },
+      rarity: 4,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Ester",
+            quantity: 4,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Oriron",
+            quantity: 2,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Polyketon",
+            quantity: 2,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Integrated Device",
+            quantity: 2,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 4,
+          },
+          {
+            name: "Loxic Kohl",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Gavial: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 15000,
+          },
+          {
+            name: "Medic Chip",
+            quantity: 3,
+          },
+          {
+            name: "Oriron",
+            quantity: 1,
+          },
+          {
+            name: "Sugar",
+            quantity: 1,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 60000,
+          },
+          {
+            name: "Medic Chip Pack",
+            quantity: 5,
+          },
+          {
+            name: "Integrated Device",
+            quantity: 13,
+          },
+          {
+            name: "Oriron Cluster",
+            quantity: 6,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 1,
+            },
+            {
+              name: "Grindstone",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 2,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 3,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 2,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 2,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 1,
+            },
+            {
+              name: "RMA70-12",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 2,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 2,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 2,
+            },
+          ],
+        },
+      },
+      rarity: 4,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Oriron Shard",
+            quantity: 3,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Polyketon",
+            quantity: 2,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Device",
+            quantity: 2,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Grindstone",
+            quantity: 2,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 4,
+          },
+          {
+            name: "RMA70-12",
+            quantity: 2,
+          },
+        ],
+      },
+    },
+    Gummy: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 15000,
+          },
+          {
+            name: "Defender Chip",
+            quantity: 3,
+          },
+          {
+            name: "Sugar",
+            quantity: 1,
+          },
+          {
+            name: "Polyketon",
+            quantity: 1,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 60000,
+          },
+          {
+            name: "Defender Chip Pack",
+            quantity: 5,
+          },
+          {
+            name: "RMA70-12",
+            quantity: 13,
+          },
+          {
+            name: "Manganese Ore",
+            quantity: 7,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 1,
+            },
+            {
+              name: "Polyester Pack",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 2,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 2,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 2,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 1,
+            },
+            {
+              name: "Oriron Cluster",
+              quantity: 2,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 2,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 2,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 2,
+            },
+          ],
+        },
+      },
+      rarity: 4,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Sugar Substitute",
+            quantity: 4,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Polyester",
+            quantity: 2,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Oriron",
+            quantity: 2,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Polyester Pack",
+            quantity: 3,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 4,
+          },
+          {
+            name: "Oriron Cluster",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Vermeil: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 15000,
+          },
+          {
+            name: "Sniper Chip",
+            quantity: 3,
+          },
+          {
+            name: "Polyester",
+            quantity: 1,
+          },
+          {
+            name: "Polyketon",
+            quantity: 1,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 60000,
+          },
+          {
+            name: "Sniper Chip Pack",
+            quantity: 5,
+          },
+          {
+            name: "Polyester Pack",
+            quantity: 18,
+          },
+          {
+            name: "Sugar Pack",
+            quantity: 12,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 1,
+            },
+            {
+              name: "Loxic Kohl",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 2,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 3,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 2,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 3,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 2,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 1,
+            },
+            {
+              name: "Manganese Ore",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 4,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 2,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 2,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 2,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 2,
+            },
+          ],
+        },
+      },
+      rarity: 4,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 2,
+          },
+          {
+            name: "Ester",
+            quantity: 4,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Oriron",
+            quantity: 2,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Polyketon",
+            quantity: 2,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 3,
+          },
+          {
+            name: "Integrated Device",
+            quantity: 2,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 4,
+          },
+          {
+            name: "Loxic Kohl",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Reed: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 20000,
+          },
+          {
+            name: "Vanguard Chip",
+            quantity: 4,
+          },
+          {
+            name: "Polyketon",
+            quantity: 4,
+          },
+          {
+            name: "Polyester",
+            quantity: 3,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 120000,
+          },
+          {
+            name: "Vanguard Dualchip",
+            quantity: 3,
+          },
+          {
+            name: "Orirock Concentration",
+            quantity: 9,
+          },
+          {
+            name: "Manganese Ore",
+            quantity: 12,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 3,
+            },
+            {
+              name: "Aketon",
+              quantity: 5,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 3,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 6,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 4,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 3,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 3,
+            },
+            {
+              name: "Integrated Device",
+              quantity: 2,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 3,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 4,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 4,
+            },
+          ],
+        },
+      },
+      rarity: 5,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+          {
+            name: "Diketon",
+            quantity: 5,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Device",
+            quantity: 2,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 8,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Oriron Cluster",
+            quantity: 4,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 6,
+          },
+          {
+            name: "Aketon",
+            quantity: 2,
+          },
+          {
+            name: "Loxic Kohl",
+            quantity: 4,
+          },
+        ],
+      },
+    },
+    Leizi: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 20000,
+          },
+          {
+            name: "Caster Chip",
+            quantity: 4,
+          },
+          {
+            name: "Device",
+            quantity: 3,
+          },
+          {
+            name: "Polyester",
+            quantity: 3,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 120000,
+          },
+          {
+            name: "Caster Dualchip",
+            quantity: 3,
+          },
+          {
+            name: "RMA70-24",
+            quantity: 7,
+          },
+          {
+            name: "Coagulating Gel",
+            quantity: 13,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 2,
+            },
+            {
+              name: "Oriron Cluster",
+              quantity: 3,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 2,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Bipolar Nanoflake",
+              quantity: 4,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 3,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 5,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 3,
+            },
+            {
+              name: "Aketon",
+              quantity: 5,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 3,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 5,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 10,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 4,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 4,
+            },
+          ],
+        },
+      },
+      rarity: 5,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 4,
+          },
+          {
+            name: "Damaged Device",
+            quantity: 4,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 4,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Sugar",
+            quantity: 5,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 6,
+          },
+          {
+            name: "Coagulating Gel",
+            quantity: 4,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 6,
+          },
+          {
+            name: "Integrated Device",
+            quantity: 2,
+          },
+          {
+            name: "Coagulating Gel",
+            quantity: 3,
+          },
+        ],
+      },
+    },
+    Magallan: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 30000,
+          },
+          {
+            name: "Supporter Chip",
+            quantity: 5,
+          },
+          {
+            name: "Oriron",
+            quantity: 7,
+          },
+          {
+            name: "Polyester",
+            quantity: 4,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 180000,
+          },
+          {
+            name: "Supporter Dualchip",
+            quantity: 4,
+          },
+          {
+            name: "Polymerization Preparation",
+            quantity: 4,
+          },
+          {
+            name: "Manganese Trihydrate",
+            quantity: 6,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 8,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 4,
+            },
+            {
+              name: "Manganese Ore",
+              quantity: 5,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 4,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 10,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 15,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 6,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 6,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 8,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 4,
+            },
+            {
+              name: "Grindstone",
+              quantity: 7,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 4,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 7,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 15,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 6,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 5,
+            },
+          ],
+        },
+        3: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 8,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 4,
+            },
+            {
+              name: "RMA70-12",
+              quantity: 5,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "Keton Colloid",
+              quantity: 4,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 7,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 15,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 6,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 4,
             },
           ],
         },
@@ -21163,8 +21047,8 @@ const RECIPES: RecipeBook = {
             quantity: 8,
           },
           {
-            name: "Polyester",
-            quantity: 5,
+            name: "Polyketon",
+            quantity: 4,
           },
         ],
         5: [
@@ -21173,11 +21057,11 @@ const RECIPES: RecipeBook = {
             quantity: 8,
           },
           {
-            name: "Oriron",
-            quantity: 4,
+            name: "Device",
+            quantity: 3,
           },
           {
-            name: "Sugar",
+            name: "Polyester",
             quantity: 3,
           },
         ],
@@ -21187,8 +21071,8 @@ const RECIPES: RecipeBook = {
             quantity: 8,
           },
           {
-            name: "Orirock Cluster",
-            quantity: 8,
+            name: "Grindstone",
+            quantity: 5,
           },
         ],
         7: [
@@ -21197,12 +21081,257 @@ const RECIPES: RecipeBook = {
             quantity: 8,
           },
           {
-            name: "Sugar Pack",
+            name: "RMA70-12",
+            quantity: 3,
+          },
+          {
+            name: "Polyester Pack",
+            quantity: 5,
+          },
+        ],
+      },
+    },
+    Exusiai: {
+      elite: {
+        1: [
+          {
+            name: "LMD",
+            quantity: 30000,
+          },
+          {
+            name: "Sniper Chip",
+            quantity: 5,
+          },
+          {
+            name: "Orirock Cube",
+            quantity: 12,
+          },
+          {
+            name: "Polyketon",
+            quantity: 4,
+          },
+        ],
+        2: [
+          {
+            name: "LMD",
+            quantity: 180000,
+          },
+          {
+            name: "Sniper Dualchip",
             quantity: 4,
           },
           {
-            name: "Oriron Cluster",
+            name: "Polymerization Preparation",
+            quantity: 4,
+          },
+          {
+            name: "Sugar Lump",
             quantity: 5,
+          },
+        ],
+      },
+      masteries: {
+        1: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Optimized Device",
+              quantity: 3,
+            },
+            {
+              name: "Oriron Cluster",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 4,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 9,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 15,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 6,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 6,
+            },
+          ],
+        },
+        2: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 4,
+            },
+            {
+              name: "Aketon",
+              quantity: 8,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 4,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 7,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 15,
+            },
+            {
+              name: "Polymerization Preparation",
+              quantity: 6,
+            },
+            {
+              name: "White Horse Kohl",
+              quantity: 7,
+            },
+          ],
+        },
+        3: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Manganese Trihydrate",
+              quantity: 4,
+            },
+            {
+              name: "Integrated Device",
+              quantity: 4,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 4,
+            },
+            {
+              name: "Grindstone Pentahydrate",
+              quantity: 9,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 15,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 6,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 6,
+            },
+          ],
+        },
+      },
+      rarity: 6,
+      skillLevels: {
+        2: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 5,
+          },
+        ],
+        3: [
+          {
+            name: "Skill Summary - 1",
+            quantity: 5,
+          },
+          {
+            name: "Orirock",
+            quantity: 6,
+          },
+          {
+            name: "Damaged Device",
+            quantity: 4,
+          },
+        ],
+        4: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 8,
+          },
+          {
+            name: "Sugar",
+            quantity: 5,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 8,
+          },
+          {
+            name: "Polyester",
+            quantity: 4,
+          },
+          {
+            name: "Oriron",
+            quantity: 4,
+          },
+        ],
+        6: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 8,
+          },
+          {
+            name: "Oriron Cluster",
+            quantity: 6,
+          },
+        ],
+        7: [
+          {
+            name: "Skill Summary - 3",
+            quantity: 8,
+          },
+          {
+            name: "Aketon",
+            quantity: 3,
+          },
+          {
+            name: "Loxic Kohl",
+            quantity: 6,
           },
         ],
       },
@@ -21452,42 +21581,42 @@ const RECIPES: RecipeBook = {
         ],
       },
     },
-    Grani: {
+    Aak: {
       elite: {
         1: [
           {
             name: "LMD",
-            quantity: 20000,
+            quantity: 30000,
           },
           {
-            name: "Vanguard Chip",
-            quantity: 4,
-          },
-          {
-            name: "Orirock Cube",
-            quantity: 8,
+            name: "Specialist Chip",
+            quantity: 5,
           },
           {
             name: "Sugar",
             quantity: 8,
           },
+          {
+            name: "Oriron",
+            quantity: 5,
+          },
         ],
         2: [
           {
             name: "LMD",
-            quantity: 120000,
+            quantity: 180000,
           },
           {
-            name: "Vanguard Dualchip",
-            quantity: 3,
+            name: "Specialist Dualchip",
+            quantity: 4,
           },
           {
-            name: "RMA70-24",
+            name: "D32 Steel",
+            quantity: 4,
+          },
+          {
+            name: "Polymerized Gel",
             quantity: 7,
-          },
-          {
-            name: "Oriron Cluster",
-            quantity: 13,
           },
         ],
       },
@@ -21496,380 +21625,243 @@ const RECIPES: RecipeBook = {
           1: [
             {
               name: "Skill Summary - 3",
-              quantity: 5,
+              quantity: 8,
             },
             {
-              name: "Optimized Device",
-              quantity: 2,
+              name: "Polymerized Gel",
+              quantity: 4,
             },
             {
-              name: "Oriron Cluster",
-              quantity: 3,
+              name: "Orirock Cluster",
+              quantity: 11,
             },
           ],
           2: [
             {
               name: "Skill Summary - 3",
-              quantity: 6,
-            },
-            {
-              name: "Manganese Trihydrate",
-              quantity: 3,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 4,
-            },
-          ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 4,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 5,
-            },
-          ],
-        },
-        2: {
-          1: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 5,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 3,
-            },
-            {
-              name: "Aketon",
-              quantity: 5,
-            },
-          ],
-          2: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 6,
+              quantity: 12,
             },
             {
               name: "Grindstone Pentahydrate",
-              quantity: 3,
+              quantity: 4,
             },
             {
               name: "White Horse Kohl",
-              quantity: 6,
+              quantity: 9,
             },
           ],
           3: [
             {
               name: "Skill Summary - 3",
-              quantity: 10,
+              quantity: 15,
             },
             {
               name: "Polymerization Preparation",
-              quantity: 4,
+              quantity: 6,
             },
             {
-              name: "RMA70-24",
-              quantity: 4,
+              name: "Incandescent Alloy Block",
+              quantity: 6,
             },
           ],
         },
-      },
-      rarity: 5,
-      skillLevels: {
-        2: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-        ],
-        3: [
-          {
-            name: "Skill Summary - 1",
-            quantity: 4,
-          },
-          {
-            name: "Orirock",
-            quantity: 10,
-          },
-        ],
-        4: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Sugar",
-            quantity: 3,
-          },
-        ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Polyester",
-            quantity: 5,
-          },
-        ],
-        6: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Oriron Cluster",
-            quantity: 4,
-          },
-        ],
-        7: [
-          {
-            name: "Skill Summary - 3",
-            quantity: 6,
-          },
-          {
-            name: "Aketon",
-            quantity: 2,
-          },
-          {
-            name: "Loxic Kohl",
-            quantity: 4,
-          },
-        ],
-      },
-    },
-    Deepcolor: {
-      elite: {
-        1: [
-          {
-            name: "LMD",
-            quantity: 15000,
-          },
-          {
-            name: "Supporter Chip",
-            quantity: 3,
-          },
-          {
-            name: "Polyester",
-            quantity: 1,
-          },
-          {
-            name: "Device",
-            quantity: 1,
-          },
-        ],
-        2: [
-          {
-            name: "LMD",
-            quantity: 60000,
-          },
-          {
-            name: "Supporter Chip Pack",
-            quantity: 5,
-          },
-          {
-            name: "Orirock Cluster",
-            quantity: 20,
-          },
-          {
-            name: "Manganese Ore",
-            quantity: 9,
-          },
-        ],
-      },
-      masteries: {
-        1: {
+        2: {
           1: [
             {
               name: "Skill Summary - 3",
-              quantity: 2,
+              quantity: 8,
             },
             {
-              name: "Optimized Device",
-              quantity: 1,
+              name: "Oriron Block",
+              quantity: 4,
             },
             {
-              name: "Oriron Cluster",
-              quantity: 2,
+              name: "Incandescent Alloy",
+              quantity: 4,
             },
           ],
           2: [
             {
               name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "RMA70-24",
               quantity: 4,
             },
             {
               name: "Manganese Trihydrate",
-              quantity: 2,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 2,
+              quantity: 7,
             },
           ],
           3: [
             {
               name: "Skill Summary - 3",
-              quantity: 6,
+              quantity: 15,
             },
             {
               name: "D32 Steel",
-              quantity: 2,
+              quantity: 6,
             },
             {
-              name: "Sugar Lump",
-              quantity: 2,
+              name: "Polymerized Gel",
+              quantity: 6,
             },
           ],
         },
-        2: {
+        3: {
           1: [
             {
               name: "Skill Summary - 3",
-              quantity: 2,
+              quantity: 8,
             },
             {
-              name: "White Horse Kohl",
-              quantity: 1,
+              name: "Keton Colloid",
+              quantity: 4,
             },
             {
-              name: "Aketon",
+              name: "Coagulating Gel",
               quantity: 4,
             },
           ],
           2: [
             {
               name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "Incandescent Alloy Block",
               quantity: 4,
             },
             {
-              name: "Grindstone Pentahydrate",
-              quantity: 2,
-            },
-            {
-              name: "White Horse Kohl",
-              quantity: 3,
+              name: "RMA70-24",
+              quantity: 8,
             },
           ],
           3: [
             {
               name: "Skill Summary - 3",
-              quantity: 6,
+              quantity: 15,
             },
             {
               name: "Bipolar Nanoflake",
-              quantity: 2,
+              quantity: 6,
             },
             {
-              name: "RMA70-24",
-              quantity: 2,
+              name: "Incandescent Alloy Block",
+              quantity: 5,
             },
           ],
         },
       },
-      rarity: 4,
+      rarity: 6,
       skillLevels: {
         2: [
           {
             name: "Skill Summary - 1",
-            quantity: 2,
+            quantity: 5,
           },
         ],
         3: [
           {
             name: "Skill Summary - 1",
-            quantity: 2,
+            quantity: 5,
           },
           {
-            name: "Ester",
+            name: "Sugar Substitute",
+            quantity: 5,
+          },
+          {
+            name: "Diketon",
             quantity: 4,
           },
         ],
         4: [
           {
             name: "Skill Summary - 2",
-            quantity: 3,
+            quantity: 8,
           },
           {
-            name: "Oriron",
-            quantity: 2,
+            name: "Polyester",
+            quantity: 5,
           },
         ],
         5: [
           {
             name: "Skill Summary - 2",
-            quantity: 3,
+            quantity: 8,
           },
           {
-            name: "Polyketon",
-            quantity: 2,
+            name: "Oriron",
+            quantity: 4,
+          },
+          {
+            name: "Sugar",
+            quantity: 3,
           },
         ],
         6: [
           {
             name: "Skill Summary - 2",
-            quantity: 3,
+            quantity: 8,
           },
           {
-            name: "Oriron Cluster",
-            quantity: 2,
+            name: "Incandescent Alloy",
+            quantity: 6,
           },
         ],
         7: [
           {
             name: "Skill Summary - 3",
-            quantity: 4,
+            quantity: 8,
           },
           {
             name: "Aketon",
             quantity: 3,
           },
+          {
+            name: "Loxic Kohl",
+            quantity: 6,
+          },
         ],
       },
     },
-    Executor: {
+    Eyjafjalla: {
       elite: {
         1: [
           {
             name: "LMD",
-            quantity: 20000,
+            quantity: 30000,
           },
           {
-            name: "Sniper Chip",
-            quantity: 4,
+            name: "Caster Chip",
+            quantity: 5,
+          },
+          {
+            name: "Oriron",
+            quantity: 7,
           },
           {
             name: "Sugar",
             quantity: 5,
           },
-          {
-            name: "Device",
-            quantity: 2,
-          },
         ],
         2: [
           {
             name: "LMD",
-            quantity: 120000,
+            quantity: 180000,
           },
           {
-            name: "Sniper Dualchip",
-            quantity: 3,
+            name: "Caster Dualchip",
+            quantity: 4,
           },
           {
-            name: "Manganese Trihydrate",
-            quantity: 8,
+            name: "Polymerization Preparation",
+            quantity: 4,
           },
           {
-            name: "Grindstone",
-            quantity: 9,
+            name: "Optimized Device",
+            quantity: 5,
           },
         ],
       },
@@ -21878,42 +21870,42 @@ const RECIPES: RecipeBook = {
           1: [
             {
               name: "Skill Summary - 3",
-              quantity: 5,
+              quantity: 6,
             },
             {
-              name: "Oriron Block",
-              quantity: 3,
+              name: "Grindstone Pentahydrate",
+              quantity: 4,
             },
             {
-              name: "Sugar Pack",
-              quantity: 1,
+              name: "Loxic Kohl",
+              quantity: 7,
             },
           ],
           2: [
             {
               name: "Skill Summary - 3",
-              quantity: 6,
+              quantity: 12,
             },
             {
-              name: "Optimized Device",
-              quantity: 2,
+              name: "Sugar Lump",
+              quantity: 4,
             },
             {
-              name: "Oriron Block",
-              quantity: 5,
+              name: "RMA70-24",
+              quantity: 8,
             },
           ],
           3: [
             {
               name: "Skill Summary - 3",
-              quantity: 10,
+              quantity: 15,
             },
             {
-              name: "Bipolar Nanoflake",
-              quantity: 4,
+              name: "Polymerization Preparation",
+              quantity: 6,
             },
             {
-              name: "Grindstone Pentahydrate",
+              name: "Optimized Device",
               quantity: 4,
             },
           ],
@@ -21922,107 +21914,159 @@ const RECIPES: RecipeBook = {
           1: [
             {
               name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "RMA70-24",
+              quantity: 4,
+            },
+            {
+              name: "Manganese Ore",
               quantity: 5,
-            },
-            {
-              name: "Keton Colloid",
-              quantity: 3,
-            },
-            {
-              name: "Polyester Pack",
-              quantity: 3,
             },
           ],
           2: [
             {
               name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "Polyester Lump",
+              quantity: 4,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 10,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 15,
+            },
+            {
+              name: "Polymerization Preparation",
               quantity: 6,
             },
             {
-              name: "White Horse Kohl",
-              quantity: 3,
+              name: "Manganese Trihydrate",
+              quantity: 6,
+            },
+          ],
+        },
+        3: {
+          1: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 6,
+            },
+            {
+              name: "Orirock Concentration",
+              quantity: 4,
+            },
+            {
+              name: "Grindstone",
+              quantity: 7,
+            },
+          ],
+          2: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 12,
+            },
+            {
+              name: "Oriron Block",
+              quantity: 4,
+            },
+            {
+              name: "Sugar Lump",
+              quantity: 7,
+            },
+          ],
+          3: [
+            {
+              name: "Skill Summary - 3",
+              quantity: 15,
+            },
+            {
+              name: "D32 Steel",
+              quantity: 6,
             },
             {
               name: "Keton Colloid",
               quantity: 5,
             },
           ],
-          3: [
-            {
-              name: "Skill Summary - 3",
-              quantity: 10,
-            },
-            {
-              name: "D32 Steel",
-              quantity: 4,
-            },
-            {
-              name: "Optimized Device",
-              quantity: 3,
-            },
-          ],
         },
       },
-      rarity: 5,
+      rarity: 6,
       skillLevels: {
         2: [
           {
             name: "Skill Summary - 1",
-            quantity: 4,
+            quantity: 5,
           },
         ],
         3: [
           {
             name: "Skill Summary - 1",
-            quantity: 4,
+            quantity: 5,
+          },
+          {
+            name: "Oriron Shard",
+            quantity: 5,
           },
           {
             name: "Sugar Substitute",
-            quantity: 7,
+            quantity: 4,
           },
         ],
         4: [
           {
             name: "Skill Summary - 2",
-            quantity: 6,
+            quantity: 8,
+          },
+          {
+            name: "Polyketon",
+            quantity: 4,
+          },
+        ],
+        5: [
+          {
+            name: "Skill Summary - 2",
+            quantity: 8,
+          },
+          {
+            name: "Device",
+            quantity: 3,
           },
           {
             name: "Polyester",
             quantity: 3,
           },
         ],
-        5: [
-          {
-            name: "Skill Summary - 2",
-            quantity: 6,
-          },
-          {
-            name: "Oriron",
-            quantity: 4,
-          },
-        ],
         6: [
           {
             name: "Skill Summary - 2",
-            quantity: 6,
+            quantity: 8,
           },
           {
-            name: "Orirock Cluster",
-            quantity: 5,
+            name: "Loxic Kohl",
+            quantity: 7,
           },
         ],
         7: [
           {
             name: "Skill Summary - 3",
-            quantity: 6,
+            quantity: 8,
           },
           {
-            name: "Sugar Pack",
+            name: "Manganese Ore",
             quantity: 3,
           },
           {
-            name: "Oriron Cluster",
-            quantity: 3,
+            name: "RMA70-12",
+            quantity: 4,
           },
         ],
       },

@@ -41,7 +41,7 @@ export function goalsForOperator(name: string): GoalData[] {
       // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
       requiredItems: operatorData.elite[2]!,
     });
-    const skillSlots = operatorData.rarity === 6 ? 3 : 2;
+    const skillSlots = operatorData.rarity === 6 || name === "Amiya" ? 3 : 2;
     goals.push(
       ...Array(skillSlots * 3)
         .fill(0)
