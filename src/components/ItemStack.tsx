@@ -21,10 +21,14 @@ export function formatQuantity(quantity: number): string {
 interface ItemStackProps {
   name: string;
   quantity: number;
+  complete?: boolean;
 }
 
-export default function ItemStack(props: ItemStackProps): React.ReactElement {
-  const { name, quantity } = props;
+export default function ItemStack({
+  name,
+  quantity,
+  complete = false,
+}: ItemStackProps): React.ReactElement {
   const classes = useStyles();
 
   return (
@@ -34,7 +38,7 @@ export default function ItemStack(props: ItemStackProps): React.ReactElement {
       height={backgroundSize}
       margin="auto"
     >
-      <Item name={name} />
+      <Item name={name} complete={complete} />
       <Box
         className={classes.quantityWrapper}
         position="absolute"

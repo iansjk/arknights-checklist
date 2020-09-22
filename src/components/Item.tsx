@@ -1,3 +1,4 @@
+import CheckCircleIcon from "@material-ui/icons/CheckCircle";
 import { makeStyles, Box, Tooltip } from "@material-ui/core";
 import React from "react";
 import slugify from "slugify";
@@ -19,6 +20,14 @@ const useStyles = makeStyles({
     height: imageSize,
     objectFit: "contain",
   },
+  overlay: {
+    display: "flex",
+    position: "absolute",
+    width: "100%",
+    height: "100%",
+    alignItems: "center",
+    justifyContent: "center",
+  },
 });
 
 const useTooltipStyles = makeStyles((theme) => ({
@@ -33,38 +42,42 @@ const useTooltipStyles = makeStyles((theme) => ({
 
 interface ItemProps {
   name: string;
+  complete?: boolean;
 }
 
-export default function Item(props: ItemProps): React.ReactElement {
-  const { name } = props;
+export default function Item({
+  name,
+  complete = false,
+}: ItemProps): React.ReactElement {
   const classes = useStyles();
   const tooltipClasses = useTooltipStyles();
 
   return (
-    <div
-      className={classes.ingredientBackground}
-      style={{
-        backgroundImage: `url(${process.env.PUBLIC_URL}/images/item-bgs/tier${MATERIALS[name].tier}.png)`,
-      }}
-    >
-      <Box
-        display="flex"
-        position="absolute"
-        width="100%"
-        height="100%"
-        alignItems="center"
-        justifyContent="center"
+    <Box position="relative">
+      <div
+        className={classes.ingredientBackground}
+        style={{
+          backgroundImage: `url(${process.env.PUBLIC_URL}/images/item-bgs/tier${MATERIALS[name].tier}.png)`,
+          opacity: complete ? 0.3 : 1,
+        }}
       >
-        <Tooltip arrow classes={tooltipClasses} title={name} placement="top">
-          <img
-            className={classes.ingredientImage}
-            src={`${process.env.PUBLIC_URL}/images/items/${slugify(name, {
-              lower: true,
-            })}.png`}
-            alt={name}
-          />
-        </Tooltip>
-      </Box>
-    </div>
+        <Box className={classes.overlay}>
+          <Tooltip arrow classes={tooltipClasses} title={name} placement="top">
+            <img
+              className={classes.ingredientImage}
+              src={`${process.env.PUBLIC_URL}/images/items/${slugify(name, {
+                lower: true,
+              })}.png`}
+              alt={name}
+            />
+          </Tooltip>
+        </Box>
+      </div>
+      {complete && (
+        <Box className={classes.overlay} top="0">
+          <CheckCircleIcon htmlColor="greenyellow" fontSize="large" />
+        </Box>
+      )}
+    </Box>
   );
 }

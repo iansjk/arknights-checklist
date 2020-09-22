@@ -59,6 +59,7 @@ export default function GoalOverview(
           <ItemNeeded
             {...{ name, needed }}
             owned={materialsOwned[name] || 0}
+            complete={materialsOwned[name] >= needed}
             onIncrement={handleIncrementOwned}
             onDecrement={handleDecrementOwned}
             onChange={handleChangeOwned}

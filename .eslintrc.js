@@ -30,6 +30,12 @@ module.exports = {
   },
   rules: {
     'linebreak-style': 'off',
+    'react/require-default-props': [
+      'error',
+      {
+        ignoreFunctionalComponents: true,
+      },
+    ],
     'prettier/prettier': [
       'error',
       {

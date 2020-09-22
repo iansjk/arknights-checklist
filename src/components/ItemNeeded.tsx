@@ -37,19 +37,27 @@ interface ItemNeededProps {
   name: string;
   owned: number;
   needed: number;
+  complete?: boolean;
   onIncrement: (itemName: string) => void;
   onDecrement: (itemName: string) => void;
   onChange: (itemName: string, newCount: number) => void;
 }
 
-export default function ItemNeeded(props: ItemNeededProps): React.ReactElement {
-  const { name, owned, needed, onIncrement, onDecrement, onChange } = props;
+export default function ItemNeeded({
+  name,
+  owned,
+  needed,
+  complete = false,
+  onIncrement,
+  onDecrement,
+  onChange,
+}: ItemNeededProps): React.ReactElement {
   const outlinedInputClasses = useOutlinedInputStyles();
   const inputAdornmentClasses = useInputAdornmentStyles();
 
   return (
     <>
-      <Item name={name} />
+      <Item name={name} complete={complete} />
       <Box position="relative">
         <TextField
           size="small"
