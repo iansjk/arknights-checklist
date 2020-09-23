@@ -62,7 +62,7 @@ function App(): React.ReactElement {
       ]);
       return Object.values(deduplicated);
     });
-    setOperatorName("");
+    setOperatorName(null);
     setGoals([]);
   }
 
