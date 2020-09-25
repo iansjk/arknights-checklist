@@ -4,6 +4,7 @@ import {
   InputAdornment,
   makeStyles,
   TextField,
+  Typography,
 } from "@material-ui/core";
 import AddCircleIcon from "@material-ui/icons/AddCircle";
 import RemoveCircleIcon from "@material-ui/icons/RemoveCircle";
@@ -95,6 +96,7 @@ export default function ItemNeeded({
             ),
             endAdornment: (
               <InputAdornment position="end" classes={inputAdornmentClasses}>
+                {name === "LMD" && <Typography>K</Typography>}
                 <IconButton
                   aria-label="add 1 to owned amount"
                   edge="end"

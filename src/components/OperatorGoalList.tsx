@@ -51,6 +51,14 @@ export default function GoalOverview(
     }
   }
 
+  function isMaterialComplete(name: string): boolean {
+    let multiplier = 1;
+    if (name === "LMD") {
+      multiplier = 1000;
+    }
+    return (materialsOwned[name] || 0) * multiplier >= materialsNeeded[name];
+  }
+
   function renderItemsNeeded(
     objectEntries: [string, number][]
   ): React.ReactElement[] {
@@ -69,11 +77,11 @@ export default function GoalOverview(
   }
 
   const requiredMaterials = Object.entries(materialsNeeded).filter(
-    ([name, needed]) => !materialsOwned[name] || materialsOwned[name] < needed
+    ([name, _]) => !isMaterialComplete(name)
   );
-  const completedMaterials = Object.entries(materialsNeeded).filter(
-    ([name, needed]) => materialsOwned[name] >= needed
-  );
+  const completedMaterials = Object.entries(
+    materialsNeeded
+  ).filter(([name, _]) => isMaterialComplete(name));
 
   return (
     <Grid container spacing={2}>

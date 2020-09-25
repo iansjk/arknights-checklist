@@ -30,6 +30,13 @@ module.exports = {
   },
   rules: {
     'linebreak-style': 'off',
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': [
+      'warning',
+      {
+        'argsIgnorePattern': '^_',
+      },
+    ],
     'react/jsx-no-duplicate-props': [
       'error',
       {
