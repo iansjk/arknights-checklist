@@ -40,8 +40,10 @@ const useStyles = makeStyles({
       "-webkit-appearance": "none",
       margin: 0,
     },
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  } as any,
+    "&": {
+      "-moz-appearance": "textfield",
+    },
+  },
   notCraftableDisabledButton: {
     height: "2rem",
     fontSize: "smaller",
