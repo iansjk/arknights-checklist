@@ -3,8 +3,14 @@ export interface Ingredient {
   quantity: number;
 }
 
+enum MaterialCategory {
+  "Chip" = 1,
+  "Skill Summary",
+}
+
 export interface Material {
   tier: number;
+  category?: MaterialCategory;
   ingredients?: Ingredient[];
 }
 
@@ -401,9 +407,11 @@ const MATERIALS: Record<string, Material> = {
   },
   "Skill Summary - 1": {
     tier: 1,
+    category: MaterialCategory["Skill Summary"],
   },
   "Skill Summary - 2": {
     tier: 2,
+    category: MaterialCategory["Skill Summary"],
     ingredients: [
       {
         name: "Skill Summary - 1",
@@ -413,6 +421,7 @@ const MATERIALS: Record<string, Material> = {
   },
   "Skill Summary - 3": {
     tier: 3,
+    category: MaterialCategory["Skill Summary"],
     ingredients: [
       {
         name: "Skill Summary - 2",
@@ -425,12 +434,15 @@ const MATERIALS: Record<string, Material> = {
   },
   "Caster Chip": {
     tier: 2,
+    category: MaterialCategory.Chip,
   },
   "Caster Chip Pack": {
     tier: 3,
+    category: MaterialCategory.Chip,
   },
   "Caster Dualchip": {
     tier: 4,
+    category: MaterialCategory.Chip,
     ingredients: [
       {
         name: "Caster Chip Pack",
@@ -444,12 +456,15 @@ const MATERIALS: Record<string, Material> = {
   },
   "Vanguard Chip": {
     tier: 2,
+    category: MaterialCategory.Chip,
   },
   "Vanguard Chip Pack": {
     tier: 3,
+    category: MaterialCategory.Chip,
   },
   "Vanguard Dualchip": {
     tier: 4,
+    category: MaterialCategory.Chip,
     ingredients: [
       {
         name: "Vanguard Chip Pack",
@@ -463,12 +478,15 @@ const MATERIALS: Record<string, Material> = {
   },
   "Defender Chip": {
     tier: 2,
+    category: MaterialCategory.Chip,
   },
   "Defender Chip Pack": {
     tier: 3,
+    category: MaterialCategory.Chip,
   },
   "Defender Dualchip": {
     tier: 4,
+    category: MaterialCategory.Chip,
     ingredients: [
       {
         name: "Defender Chip Pack",
@@ -482,12 +500,15 @@ const MATERIALS: Record<string, Material> = {
   },
   "Sniper Chip": {
     tier: 2,
+    category: MaterialCategory.Chip,
   },
   "Sniper Chip Pack": {
     tier: 3,
+    category: MaterialCategory.Chip,
   },
   "Sniper Dualchip": {
     tier: 4,
+    category: MaterialCategory.Chip,
     ingredients: [
       {
         name: "Sniper Chip Pack",
@@ -501,12 +522,15 @@ const MATERIALS: Record<string, Material> = {
   },
   "Guard Chip": {
     tier: 2,
+    category: MaterialCategory.Chip,
   },
   "Guard Chip Pack": {
     tier: 3,
+    category: MaterialCategory.Chip,
   },
   "Guard Dualchip": {
     tier: 4,
+    category: MaterialCategory.Chip,
     ingredients: [
       {
         name: "Guard Chip Pack",
@@ -520,12 +544,15 @@ const MATERIALS: Record<string, Material> = {
   },
   "Supporter Chip": {
     tier: 2,
+    category: MaterialCategory.Chip,
   },
   "Supporter Chip Pack": {
     tier: 3,
+    category: MaterialCategory.Chip,
   },
   "Supporter Dualchip": {
     tier: 4,
+    category: MaterialCategory.Chip,
     ingredients: [
       {
         name: "Supporter Chip Pack",
@@ -539,12 +566,15 @@ const MATERIALS: Record<string, Material> = {
   },
   "Medic Chip": {
     tier: 2,
+    category: MaterialCategory.Chip,
   },
   "Medic Chip Pack": {
     tier: 3,
+    category: MaterialCategory.Chip,
   },
   "Medic Dualchip": {
     tier: 4,
+    category: MaterialCategory.Chip,
     ingredients: [
       {
         name: "Medic Chip Pack",
@@ -558,12 +588,15 @@ const MATERIALS: Record<string, Material> = {
   },
   "Specialist Chip": {
     tier: 2,
+    category: MaterialCategory.Chip,
   },
   "Specialist Chip Pack": {
     tier: 3,
+    category: MaterialCategory.Chip,
   },
   "Specialist Dualchip": {
     tier: 4,
+    category: MaterialCategory.Chip,
     ingredients: [
       {
         name: "Specialist Chip Pack",
