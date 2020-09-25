@@ -85,11 +85,11 @@ export default function GoalOverview(
 
   return (
     <Grid container spacing={2}>
-      <Grid item lg={6}>
+      <Grid item lg={7}>
         {requiredMaterials.length > 0 && (
           <Card>
             <CardContent>
-              <Typography component="h2" variant="h5">
+              <Typography component="h2" variant="h5" gutterBottom>
                 Required materials
               </Typography>
               <Grid container spacing={1}>
@@ -102,7 +102,7 @@ export default function GoalOverview(
           <Box mt={1}>
             <Card>
               <CardContent>
-                <Typography component="h3" variant="h5">
+                <Typography component="h3" variant="h5" gutterBottom>
                   Completed materials
                 </Typography>
                 <Grid container spacing={1}>
@@ -113,7 +113,7 @@ export default function GoalOverview(
           </Box>
         )}
       </Grid>
-      <Grid item xs={12} lg={6}>
+      <Grid item xs={12} lg={5}>
         {goals.map((goal) => (
           <OperatorGoal
             key={`${goal.operatorName}${goal.name}`}
