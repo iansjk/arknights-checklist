@@ -36,7 +36,7 @@ export default function Goal(props: GoalProps): React.ReactElement {
       <Card>
         <CardContent>
           <Grid container className={classes.goalOuterGridContainer}>
-            <Grid item xs={3} md={2} lg={3}>
+            <Grid item xs={3} md={2} lg={4}>
               <Box alignSelf="center">
                 <Typography component="h4" variant="h5">
                   {goal.operatorName}
@@ -46,11 +46,15 @@ export default function Goal(props: GoalProps): React.ReactElement {
                 </Typography>
               </Box>
             </Grid>
-            <Grid item xs={9}>
+            <Grid item xs={8}>
               <Grid container>
                 {goal.requiredItems.map((item) => (
                   <Grid item xs={3} md={2} lg={3} key={item.name}>
-                    <ItemStack name={item.name} quantity={item.quantity} />
+                    <ItemStack
+                      name={item.name}
+                      quantity={item.quantity}
+                      size={75}
+                    />
                   </Grid>
                 ))}
               </Grid>
