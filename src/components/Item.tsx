@@ -76,7 +76,7 @@ export default function Item({
         </Box>
       </div>
       {complete && (
-        <Box className={classes.overlay} top="0">
+        <Box className={classes.overlay} top="0" zIndex="1">
           <CheckCircleIcon htmlColor="greenyellow" fontSize="large" />
         </Box>
       )}
