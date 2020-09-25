@@ -32,7 +32,7 @@ module.exports = {
     'linebreak-style': 'off',
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': [
-      'warning',
+      'warn',
       {
         'argsIgnorePattern': '^_',
       },
