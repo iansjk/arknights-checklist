@@ -30,6 +30,12 @@ module.exports = {
   },
   rules: {
     'linebreak-style': 'off',
+    'react/jsx-no-duplicate-props': [
+      'error',
+      {
+        ignoreCase: false,
+      },
+    ],
     'react/require-default-props': [
       'error',
       {

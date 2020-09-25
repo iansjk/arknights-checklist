@@ -8,13 +8,11 @@ import {
 import AddCircleIcon from "@material-ui/icons/AddCircle";
 import RemoveCircleIcon from "@material-ui/icons/RemoveCircle";
 import React from "react";
-import Item from "./Item";
-import { formatQuantity } from "./ItemStack";
+import ItemStack from "./ItemStack";
 
 const useOutlinedInputStyles = makeStyles((theme) => ({
   input: {
-    textAlign: "right",
-    paddingRight: theme.spacing(0.5),
+    textAlign: "center",
   },
   adornedStart: {
     paddingLeft: theme.spacing(1),
@@ -33,14 +31,24 @@ const useInputAdornmentStyles = makeStyles({
   },
 });
 
+const useInputStyles = makeStyles({
+  input: {
+    "&::-webkit-inner-spin-button, &::-webkit-outer-spin-button": {
+      "-webkit-appearance": "none",
+      margin: 0,
+    },
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  } as any,
+});
+
 interface ItemNeededProps {
   name: string;
-  owned: number;
+  owned: number | null;
   needed: number;
   complete?: boolean;
   onIncrement: (itemName: string) => void;
   onDecrement: (itemName: string) => void;
-  onChange: (itemName: string, newCount: number) => void;
+  onChange: (itemName: string, rawInput: string) => void;
 }
 
 export default function ItemNeeded({
@@ -54,6 +62,7 @@ export default function ItemNeeded({
 }: ItemNeededProps): React.ReactElement {
   const outlinedInputClasses = useOutlinedInputStyles();
   const inputAdornmentClasses = useInputAdornmentStyles();
+  const inputClasses = useInputStyles();
 
   return (
     <>
@@ -63,9 +72,12 @@ export default function ItemNeeded({
           size="small"
           variant="outlined"
           value={owned}
-          onChange={(event) => {
-            const newValue = parseInt(event.target.value, 10) || 0;
-            onChange(name, newValue);
+          onChange={(event) => onChange(name, event.target.value)}
+          inputProps={{
+            type: "number",
+            className: inputClasses.input,
+            min: 0,
+            step: 1,
           }}
           InputProps={{
             classes: outlinedInputClasses,

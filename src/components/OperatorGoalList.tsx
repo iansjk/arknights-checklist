@@ -3,7 +3,6 @@ import React from "react";
 import { useLocalStorage } from "web-api-hooks";
 import { OperatorGoalData } from "../operator-goals";
 import ItemNeeded from "./ItemNeeded";
-import ItemStack from "./ItemStack";
 import OperatorGoal from "./OperatorGoal";
 
 interface GoalOverviewProps {
@@ -17,7 +16,7 @@ export default function GoalOverview(
   const { goals, onGoalDeleted } = props;
   const [materialsOwned, setMaterialsOwned] = useLocalStorage(
     "materialsOwned",
-    {} as Record<string, number>
+    {} as Record<string, number | null>
   );
   const materialsNeeded: Record<string, number> = {};
 
@@ -42,31 +41,31 @@ export default function GoalOverview(
     }));
   }
 
-  function handleChangeOwned(itemName: string, newCount: number): void {
-    setMaterialsOwned((prevOwned) => ({ ...prevOwned, [itemName]: newCount }));
+  function handleChangeOwned(itemName: string, rawInput: string): void {
+    const newValue: number | null = !rawInput ? null : parseInt(rawInput, 10);
+    if (newValue === null || !Number.isNaN(newValue)) {
+      setMaterialsOwned((prevOwned) => ({
+        ...prevOwned,
+        [itemName]: newValue,
+      }));
+    }
   }
 
   function renderItemsNeeded(
     objectEntries: [string, number][]
   ): React.ReactElement[] {
-    return objectEntries.map(([name, needed]) =>
-      name === "LMD" ? (
-        <Grid item key={name} xs={3} md={2} lg={3}>
-          <ItemStack name={name} quantity={needed} />
-        </Grid>
-      ) : (
-        <Grid item key={name} xs={3} md={2} lg={3}>
-          <ItemNeeded
-            {...{ name, needed }}
-            owned={materialsOwned[name] || 0}
-            complete={materialsOwned[name] >= needed}
-            onIncrement={handleIncrementOwned}
-            onDecrement={handleDecrementOwned}
-            onChange={handleChangeOwned}
-          />
-        </Grid>
-      )
-    );
+    return objectEntries.map(([name, needed]) => (
+      <Box width="20%">
+        <ItemNeeded
+          {...{ name, needed }}
+          owned={materialsOwned[name] === undefined ? 0 : materialsOwned[name]}
+          complete={isMaterialComplete(name)}
+          onIncrement={handleIncrementOwned}
+          onDecrement={handleDecrementOwned}
+          onChange={handleChangeOwned}
+        />
+      </Box>
+    ));
   }
 
   const requiredMaterials = Object.entries(materialsNeeded).filter(
