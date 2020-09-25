@@ -1,15 +1,17 @@
 import {
   Box,
+  Button,
   IconButton,
   InputAdornment,
   makeStyles,
   TextField,
-  Typography,
 } from "@material-ui/core";
 import AddCircleIcon from "@material-ui/icons/AddCircle";
 import RemoveCircleIcon from "@material-ui/icons/RemoveCircle";
+import GavelIcon from "@material-ui/icons/Gavel";
 import React from "react";
 import ItemStack from "./ItemStack";
+import MATERIALS from "../materials";
 
 const useOutlinedInputStyles = makeStyles((theme) => ({
   input: {
@@ -32,7 +34,7 @@ const useInputAdornmentStyles = makeStyles({
   },
 });
 
-const useInputStyles = makeStyles({
+const useStyles = makeStyles({
   input: {
     "&::-webkit-inner-spin-button, &::-webkit-outer-spin-button": {
       "-webkit-appearance": "none",
@@ -40,6 +42,10 @@ const useInputStyles = makeStyles({
     },
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
   } as any,
+  notCraftableDisabledButton: {
+    height: "2rem",
+    fontSize: "smaller",
+  },
 });
 
 interface ItemNeededProps {
@@ -47,9 +53,11 @@ interface ItemNeededProps {
   owned: number | null;
   needed: number;
   complete?: boolean;
+  crafting?: boolean;
   onIncrement: (itemName: string) => void;
   onDecrement: (itemName: string) => void;
   onChange: (itemName: string, rawInput: string) => void;
+  onCraftingToggle: (itemName: string) => void;
 }
 
 export default function ItemNeeded({
@@ -57,26 +65,29 @@ export default function ItemNeeded({
   owned,
   needed,
   complete = false,
+  crafting = false,
   onIncrement,
   onDecrement,
   onChange,
+  onCraftingToggle,
 }: ItemNeededProps): React.ReactElement {
   const outlinedInputClasses = useOutlinedInputStyles();
   const inputAdornmentClasses = useInputAdornmentStyles();
-  const inputClasses = useInputStyles();
+  const classes = useStyles();
 
   return (
     <>
-      <ItemStack name={name} quantity={needed} complete={complete} />
       <Box position="relative">
+        <ItemStack name={name} quantity={needed} complete={complete} />
         <TextField
           size="small"
           variant="outlined"
           value={owned}
+          onFocus={(event) => event.target.select()}
           onChange={(event) => onChange(name, event.target.value)}
           inputProps={{
             type: "number",
-            className: inputClasses.input,
+            className: classes.input,
             min: 0,
             step: 1,
           }}
@@ -108,6 +119,28 @@ export default function ItemNeeded({
             ),
           }}
         />
+        {MATERIALS[name]?.ingredients ? (
+          <Button
+            size="small"
+            fullWidth
+            color="secondary"
+            variant={crafting ? "contained" : "outlined"}
+            onClick={() => onCraftingToggle(name)}
+          >
+            <GavelIcon />
+            {crafting ? "Crafting" : "Craft"}
+          </Button>
+        ) : (
+          <Button
+            className={classes.notCraftableDisabledButton}
+            size="small"
+            fullWidth
+            variant="outlined"
+            disabled
+          >
+            (Not Craftable)
+          </Button>
+        )}
       </Box>
     </>
   );
