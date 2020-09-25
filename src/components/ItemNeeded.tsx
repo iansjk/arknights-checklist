@@ -96,7 +96,7 @@ export default function ItemNeeded({
             ),
             endAdornment: (
               <InputAdornment position="end" classes={inputAdornmentClasses}>
-                {name === "LMD" && <Typography>K</Typography>}
+                {name === "LMD" ? "K" : null}
                 <IconButton
                   aria-label="add 1 to owned amount"
                   edge="end"
