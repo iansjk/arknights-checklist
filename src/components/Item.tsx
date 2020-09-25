@@ -4,20 +4,12 @@ import React from "react";
 import slugify from "slugify";
 import MATERIALS from "../materials";
 
-const imageSize = 95;
-export const backgroundSize = imageSize + 5;
-
 const useStyles = makeStyles({
   ingredientBackground: {
-    width: backgroundSize,
-    height: backgroundSize,
-    backgroundSize: `${backgroundSize}px ${backgroundSize}px`,
     position: "relative",
     margin: "auto",
   },
   ingredientImage: {
-    width: imageSize,
-    height: imageSize,
     objectFit: "contain",
   },
   overlay: {
@@ -42,15 +34,18 @@ const useTooltipStyles = makeStyles((theme) => ({
 
 interface ItemProps {
   name: string;
+  size: number;
   complete?: boolean;
 }
 
 export default function Item({
   name,
+  size,
   complete = false,
 }: ItemProps): React.ReactElement {
   const classes = useStyles();
   const tooltipClasses = useTooltipStyles();
+  const backgroundSize = size - 5;
 
   return (
     <Box position="relative">
@@ -59,12 +54,19 @@ export default function Item({
         style={{
           backgroundImage: `url(${process.env.PUBLIC_URL}/images/item-bgs/tier${MATERIALS[name].tier}.png)`,
           opacity: complete ? 0.3 : 1,
+          width: backgroundSize,
+          height: backgroundSize,
+          backgroundSize: `${backgroundSize}px ${backgroundSize}px`,
         }}
       >
         <Box className={classes.overlay}>
           <Tooltip arrow classes={tooltipClasses} title={name} placement="top">
             <img
               className={classes.ingredientImage}
+              style={{
+                width: size,
+                height: size,
+              }}
               src={`${process.env.PUBLIC_URL}/images/items/${slugify(name, {
                 lower: true,
               })}.png`}

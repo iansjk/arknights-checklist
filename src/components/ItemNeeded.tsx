@@ -57,7 +57,7 @@ export default function ItemNeeded({
 
   return (
     <>
-      <Item name={name} complete={complete} />
+      <ItemStack name={name} quantity={needed} complete={complete} />
       <Box position="relative">
         <TextField
           size="small"
@@ -83,7 +83,6 @@ export default function ItemNeeded({
             ),
             endAdornment: (
               <InputAdornment position="end" classes={inputAdornmentClasses}>
-                / {formatQuantity(needed)}
                 <IconButton
                   aria-label="add 1 to owned amount"
                   edge="end"
