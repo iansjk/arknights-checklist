@@ -11,23 +11,29 @@ const getOperatorRecipeBook = async (
   const response = await got(url);
   const $ = cheerio.load(response.body);
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   function getIngredientList($tableCell: any): Ingredient[] {
-    return $tableCell
-      .find("div[data-item]")
-      .toArray()
-      .map((ingredientTag: any) => {
-        const $ingredient = $(ingredientTag);
-        const name = $ingredient.attr("data-item")!;
-        const rawQuantity = $ingredient
-          .find(".material-quantity")
-          ?.text()
-          ?.match(/x(?<quantity>\d+)/)?.groups?.quantity;
-        const quantity = parseInt(rawQuantity!, 10);
-        return {
-          name,
-          quantity,
-        };
-      });
+    return (
+      $tableCell
+        .find("div[data-item]")
+        .toArray()
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        .map((ingredientTag: any) => {
+          const $ingredient = $(ingredientTag);
+          // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+          const name = $ingredient.attr("data-item")!;
+          const rawQuantity = $ingredient
+            .find(".material-quantity")
+            ?.text()
+            ?.match(/x(?<quantity>\d+)/)?.groups?.quantity;
+          // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+          const quantity = parseInt(rawQuantity!, 10);
+          return {
+            name,
+            quantity,
+          };
+        })
+    );
   }
 
   const rarity = $(".rarity-cell").children().length;
