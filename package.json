@@ -20,7 +20,7 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
     "slugify": "^1.4.5",
-    "typescript": "~3.7.2",
+    "typescript": "^4.0.3",
     "web-api-hooks": "^3.0.2"
   },
   "scripts": {
@@ -28,8 +28,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "postinstall": "patch-package",
-    "update:operators": "ts-node -P ./tsconfig.scripts.json scripts/scrape-gamepress-operator-data.ts"
+    "update:operators": "ts-node-script scripts/scrape-gamepress-operator-data.ts"
   },
   "browserslist": {
     "production": [
@@ -53,7 +52,6 @@
     "eslint-config-airbnb": "18.2.0",
     "eslint-config-airbnb-typescript": "^10.0.0",
     "eslint-config-prettier": "^6.11.0",
-    "eslint-config-react-app": "^5.2.1",
     "eslint-plugin-cypress": "^2.11.2",
     "eslint-plugin-import": "^2.21.2",
     "eslint-plugin-jest": "^24.0.1",
@@ -61,8 +59,6 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-hooks": "4.0.0",
-    "patch-package": "^6.2.2",
-    "postinstall-postinstall": "^2.1.0",
     "prettier": "^2.1.2",
     "ts-node": "^9.0.0"
   }
