@@ -131,7 +131,7 @@ export default function GoalOverview(
 
   return (
     <Grid container spacing={2}>
-      <Grid item lg={7}>
+      <Grid item lg={7} data-testid="materialsLists">
         {requiredMaterials.length > 0 && (
           <Card>
             <CardContent>
