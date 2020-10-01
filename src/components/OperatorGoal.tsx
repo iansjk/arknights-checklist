@@ -61,6 +61,7 @@ export default function Goal(props: GoalProps): React.ReactElement {
             </Grid>
           </Grid>
           <IconButton
+            aria-label="Delete this goal"
             className={classes.deleteIconButton}
             onClick={() => onDelete(goal)}
           >
