@@ -53,7 +53,9 @@ export default function ItemStack({
         px={1.5}
         boxShadow={3}
       >
-        <Typography variant="button">{formatQuantity(quantity)}</Typography>
+        <Typography variant="button" data-testid="quantity">
+          {formatQuantity(quantity)}
+        </Typography>
       </Box>
     </Box>
   );

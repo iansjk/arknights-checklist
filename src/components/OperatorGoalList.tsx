@@ -1,7 +1,7 @@
 import { Box, Card, CardContent, Grid, Typography } from "@material-ui/core";
 import React from "react";
 import { useLocalStorage } from "web-api-hooks";
-import MATERIALS from "../materials";
+import MATERIALS, { Ingredient } from "../materials";
 import { OperatorGoalData } from "../operator-goals";
 import ItemNeeded from "./ItemNeeded";
 import OperatorGoal from "./OperatorGoal";
@@ -29,29 +29,60 @@ export default function GoalOverview(
     goal.requiredItems.forEach((item) => {
       materialsNeeded[item.name] =
         item.quantity + (materialsNeeded[item.name] || 0);
+      if (Object.prototype.hasOwnProperty.call(itemsToCraft, item.name)) {
+        let curr = [item];
+        let next: Ingredient[];
+        do {
+          next = [];
+          for (const craftedItem of curr) {
+            const ingredients = MATERIALS[craftedItem.name].ingredients || [];
+            for (const ingredient of ingredients) {
+              materialsNeeded[ingredient.name] =
+                ingredient.quantity *
+                Math.max(
+                  materialsNeeded[craftedItem.name] -
+                    (materialsOwned[craftedItem.name] || 0),
+                  0
+                );
+              if (
+                Object.prototype.hasOwnProperty.call(
+                  itemsToCraft,
+                  ingredient.name
+                )
+              ) {
+                next.push(ingredient);
+              }
+            }
+          }
+          curr = next;
+        } while (next.length > 0);
+      }
     })
   );
-  Object.keys(itemsToCraft).forEach((craftedItem) => {
-    // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-    const { ingredients } = MATERIALS[craftedItem]!;
-    const craftedItemQuantity = Math.max(
-      materialsNeeded[craftedItem] - (materialsOwned[craftedItem] || 0),
-      0
-    );
-    ingredients?.forEach(({ name, quantity }) => {
-      materialsNeeded[name] =
-        craftedItemQuantity * quantity + (materialsNeeded[name] || 0);
+  const craftingMaterialsOwned = { ...materialsOwned };
+  Object.keys(itemsToCraft)
+    .filter(
+      (itemName) => materialsNeeded[itemName] && materialsNeeded[itemName] > 0
+    )
+    .sort((a, b) => MATERIALS[a].tier - MATERIALS[b].tier)
+    .forEach((craftedItemName) => {
+      const { ingredients } = MATERIALS[craftedItemName];
+      const numCraftable = Math.min(
+        ...ingredients?.map((ingredient) => {
+          return Math.floor(
+            (craftingMaterialsOwned[ingredient.name] || 0) / ingredient.quantity
+          );
+        })
+      );
+      ingredients?.forEach((ingredient) => {
+        craftingMaterialsOwned[ingredient.name] = Math.max(
+          (craftingMaterialsOwned[ingredient.name] || 0) -
+            ingredient.quantity * numCraftable,
+          0
+        );
+      });
+      materialsNeeded[craftedItemName] -= numCraftable;
     });
-    const amountCraftable = Math.min(
-      ...ingredients?.map(({ name, quantity }) =>
-        Math.floor((materialsOwned[name] || 0) / quantity)
-      )
-    );
-    materialsNeeded[craftedItem] = Math.max(
-      materialsNeeded[craftedItem] - amountCraftable,
-      0
-    );
-  });
 
   function handleIncrementOwned(itemName: string): void {
     setMaterialsOwned((prevOwned) => ({
@@ -110,7 +141,7 @@ export default function GoalOverview(
           nameA.localeCompare(nameB)
       )
       .map(([name, needed]) => (
-        <Box key={name} width="20%" px={0.5} mt={1}>
+        <Box key={name} width="20%" px={0.5} mt={1} data-testid={name}>
           <ItemNeeded
             {...{ name, needed }}
             owned={
