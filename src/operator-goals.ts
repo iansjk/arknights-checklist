@@ -29,7 +29,7 @@ export function goalsForOperator(name: string): GoalData[] {
     ...Array(6)
       .fill(0)
       .map((_, i) => ({
-        name: `Skill Level ${i + 1} -> ${i + 2}`,
+        name: `Skill Level ${i + 1} → ${i + 2}`,
         category: GoalCategory["Skill Level"],
         requiredItems: operatorData.skillLevels[i + 2],
       })),

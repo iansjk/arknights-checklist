@@ -105,7 +105,7 @@ describe("item requirements for crafted items", () => {
       JSON.stringify([
         {
           operatorName: "FEater",
-          name: "Skill Level 6 -> 7",
+          name: "Skill Level 6 → 7",
           category: 2,
           requiredItems: [
             { name: "Skill Summary - 3", quantity: 6 },
