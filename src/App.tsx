@@ -16,6 +16,7 @@ import {
   Toolbar,
   Typography,
 } from "@material-ui/core";
+import { pink, blue } from "@material-ui/core/colors";
 import AddIcon from "@material-ui/icons/Add";
 import Autocomplete from "@material-ui/lab/Autocomplete";
 import React, { useState } from "react";
@@ -32,6 +33,21 @@ import RECIPES from "./recipes";
 let appTheme = createMuiTheme({
   palette: {
     type: "dark",
+    primary: {
+      main: blue[700],
+    },
+    secondary: {
+      main: pink.A700,
+    },
+  },
+  overrides: {
+    MuiFormLabel: {
+      root: {
+        "&$focused": {
+          color: "white",
+        },
+      },
+    },
   },
 });
 appTheme = responsiveFontSizes(appTheme);
