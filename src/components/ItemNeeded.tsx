@@ -83,6 +83,7 @@ export default function ItemNeeded({
         <ItemStack name={name} quantity={needed} complete={complete} />
         <TextField
           size="small"
+          fullWidth
           variant="outlined"
           value={owned}
           onFocus={(event) => event.target.select()}

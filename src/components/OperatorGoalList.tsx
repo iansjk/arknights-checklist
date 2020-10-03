@@ -1,4 +1,12 @@
-import { Box, Card, CardContent, Grid, Typography } from "@material-ui/core";
+import {
+  Box,
+  Card,
+  CardContent,
+  Grid,
+  Typography,
+  useMediaQuery,
+  useTheme,
+} from "@material-ui/core";
 import React from "react";
 import { useLocalStorage } from "web-api-hooks";
 import MATERIALS, { Ingredient } from "../materials";
@@ -23,6 +31,8 @@ export default function GoalOverview(
     "itemsToCraft",
     {} as Record<string, boolean>
   );
+  const theme = useTheme();
+  const isLargeScreen = useMediaQuery(theme.breakpoints.up("lg"));
 
   const materialsNeeded: Record<string, number> = {};
   goals.forEach((goal) =>
@@ -64,6 +74,7 @@ export default function GoalOverview(
     .filter(
       (itemName) => materialsNeeded[itemName] && materialsNeeded[itemName] > 0
     )
+    // TODO sort order really ought to be by tier first, then by goal priority
     .sort((a, b) => MATERIALS[a].tier - MATERIALS[b].tier)
     .forEach((craftedItemName) => {
       const { ingredients } = MATERIALS[craftedItemName];
@@ -140,8 +151,8 @@ export default function GoalOverview(
           (MATERIALS[nameB].category || 0) - (MATERIALS[nameA].category || 0) ||
           nameA.localeCompare(nameB)
       )
-      .map(([name, needed]) => (
-        <Box key={name} width="20%" px={0.5} mt={1} data-testid={name}>
+      .map(([name, needed]) => {
+        const inner = (
           <ItemNeeded
             {...{ name, needed }}
             owned={
@@ -154,8 +165,18 @@ export default function GoalOverview(
             onChange={handleChangeOwned}
             onCraftingToggle={handleCraftingToggle}
           />
-        </Box>
-      ));
+        );
+        const outer = isLargeScreen ? (
+          <Box key={name} data-testid={name} width="20%" px={0.5} mt={1}>
+            {inner}
+          </Box>
+        ) : (
+          <Grid key={name} data-testid={name} item xs={6} sm={3} md={2}>
+            {inner}
+          </Grid>
+        );
+        return outer;
+      });
   }
 
   const requiredMaterials = Object.entries(materialsNeeded);

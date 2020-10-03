@@ -6,6 +6,8 @@ import {
   IconButton,
   makeStyles,
   Typography,
+  useTheme,
+  useMediaQuery,
 } from "@material-ui/core";
 import React from "react";
 import CancelIcon from "@material-ui/icons/Cancel";
@@ -31,22 +33,46 @@ interface GoalProps {
 export default function Goal(props: GoalProps): React.ReactElement {
   const { goal, onDelete } = props;
   const classes = useStyles();
+  const theme = useTheme();
+  const isXSmallScreen = useMediaQuery(theme.breakpoints.down("xs"));
+
   return (
     <Box mb={1} position="relative">
       <Card>
         <CardContent>
           <Grid container className={classes.goalOuterGridContainer}>
-            <Grid item xs={3} md={2} lg={4}>
+            <Grid item xs={12} sm={4}>
               <Box alignSelf="center">
-                <Typography component="h4" variant="h5">
+                <Typography
+                  component="h4"
+                  variant="h5"
+                  style={
+                    isXSmallScreen
+                      ? {
+                          display: "inline-block",
+                          marginRight: "1rem",
+                        }
+                      : {}
+                  }
+                >
                   {goal.operatorName}
                 </Typography>
-                <Typography component="h5" variant="subtitle1">
+                <Typography
+                  component="h5"
+                  variant="subtitle1"
+                  style={
+                    isXSmallScreen
+                      ? {
+                          display: "inline-block",
+                        }
+                      : {}
+                  }
+                >
                   {goal.name}
                 </Typography>
               </Box>
             </Grid>
-            <Grid item xs={8}>
+            <Grid item xs={12} sm={8}>
               <Grid container>
                 {goal.requiredItems.map((item) => (
                   <Grid item xs={3} md={2} lg={3} key={item.name}>
