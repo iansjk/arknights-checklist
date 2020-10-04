@@ -8,10 +8,22 @@ enum MaterialCategory {
   "Skill Summary",
 }
 
+interface Stage {
+  name: string;
+  dropRate: number; // as a percentage
+  sanityCost: number;
+  extraMaterial?: string;
+}
+
 export interface Material {
   tier: number;
   category?: MaterialCategory;
   ingredients?: Ingredient[];
+  recommendedStages?: {
+    mostEfficient: Stage;
+    leastSanity?: Stage;
+  };
+  craftingRecommended?: boolean;
 }
 
 const MATERIALS: Record<string, Material> = {
@@ -29,6 +41,13 @@ const MATERIALS: Record<string, Material> = {
         quantity: 3,
       },
     ],
+    recommendedStages: {
+      mostEfficient: {
+        dropRate: 124,
+        name: "1-7",
+        sanityCost: 6,
+      },
+    },
   },
   "Orirock Cluster": {
     tier: 2,
@@ -38,6 +57,20 @@ const MATERIALS: Record<string, Material> = {
         quantity: 5,
       },
     ],
+    recommendedStages: {
+      mostEfficient: {
+        name: "4-6",
+        sanityCost: 18,
+        dropRate: 45,
+        extraMaterial: "Orirock Concentration",
+      },
+      leastSanity: {
+        name: "2-4",
+        sanityCost: 12,
+        dropRate: 42,
+      },
+    },
+    craftingRecommended: true,
   },
   "Orirock Concentration": {
     tier: 3,
@@ -59,6 +92,18 @@ const MATERIALS: Record<string, Material> = {
         quantity: 3,
       },
     ],
+    recommendedStages: {
+      mostEfficient: {
+        name: "5-3",
+        dropRate: 85,
+        sanityCost: 18,
+      },
+      leastSanity: {
+        name: "S3-1",
+        dropRate: 151,
+        sanityCost: 15,
+      },
+    },
   },
   "Sugar Pack": {
     tier: 2,
@@ -68,6 +113,19 @@ const MATERIALS: Record<string, Material> = {
         quantity: 4,
       },
     ],
+    recommendedStages: {
+      mostEfficient: {
+        name: "4-2",
+        sanityCost: 18,
+        dropRate: 40,
+        extraMaterial: "Sugar Lump",
+      },
+      leastSanity: {
+        name: "2-5",
+        sanityCost: 12,
+        dropRate: 37,
+      },
+    },
   },
   "Sugar Lump": {
     tier: 3,
@@ -97,6 +155,13 @@ const MATERIALS: Record<string, Material> = {
         quantity: 3,
       },
     ],
+    recommendedStages: {
+      mostEfficient: {
+        name: "1-8",
+        sanityCost: 9,
+        dropRate: 92,
+      },
+    },
   },
   "Polyester Pack": {
     tier: 2,
@@ -106,6 +171,13 @@ const MATERIALS: Record<string, Material> = {
         quantity: 4,
       },
     ],
+    recommendedStages: {
+      mostEfficient: {
+        name: "2-6",
+        dropRate: 37,
+        sanityCost: 12,
+      },
+    },
   },
   "Polyester Lump": {
     tier: 3,
@@ -135,6 +207,19 @@ const MATERIALS: Record<string, Material> = {
         quantity: 3,
       },
     ],
+    recommendedStages: {
+      mostEfficient: {
+        name: "5-7",
+        dropRate: 106,
+        sanityCost: 21,
+        extraMaterial: "Grindstone",
+      },
+      leastSanity: {
+        name: "S3-3",
+        dropRate: 121,
+        sanityCost: 15,
+      },
+    },
   },
   "Oriron Cluster": {
     tier: 2,
@@ -144,6 +229,19 @@ const MATERIALS: Record<string, Material> = {
         quantity: 4,
       },
     ],
+    recommendedStages: {
+      mostEfficient: {
+        name: "S4-1",
+        dropRate: 32,
+        sanityCost: 18,
+        extraMaterial: "Oriron Block",
+      },
+      leastSanity: {
+        name: "2-8",
+        dropRate: 22,
+        sanityCost: 12,
+      },
+    },
   },
   "Oriron Block": {
     tier: 3,
@@ -173,6 +271,19 @@ const MATERIALS: Record<string, Material> = {
         quantity: 3,
       },
     ],
+    recommendedStages: {
+      mostEfficient: {
+        name: "6-16",
+        dropRate: 100,
+        sanityCost: 21,
+        extraMaterial: "Integrated Device",
+      },
+      leastSanity: {
+        name: "3-7",
+        dropRate: 123,
+        sanityCost: 15,
+      },
+    },
   },
   Aketon: {
     tier: 2,
@@ -182,6 +293,19 @@ const MATERIALS: Record<string, Material> = {
         quantity: 4,
       },
     ],
+    recommendedStages: {
+      mostEfficient: {
+        name: "4-5",
+        sanityCost: 18,
+        dropRate: 31,
+        extraMaterial: "Keton Colloid",
+      },
+      leastSanity: {
+        name: "3-1",
+        sanityCost: 15,
+        dropRate: 37,
+      },
+    },
   },
   "Keton Colloid": {
     tier: 3,
@@ -211,6 +335,19 @@ const MATERIALS: Record<string, Material> = {
         quantity: 3,
       },
     ],
+    recommendedStages: {
+      mostEfficient: {
+        name: "6-11",
+        dropRate: 76,
+        sanityCost: 21,
+        extraMaterial: "Loxic Kohl",
+      },
+      leastSanity: {
+        name: "S3-4",
+        dropRate: 92,
+        sanityCost: 15,
+      },
+    },
   },
   "Integrated Device": {
     tier: 2,
@@ -220,6 +357,19 @@ const MATERIALS: Record<string, Material> = {
         quantity: 4,
       },
     ],
+    recommendedStages: {
+      mostEfficient: {
+        name: "4-10",
+        dropRate: 30,
+        sanityCost: 21,
+        extraMaterial: "Optimized Device",
+      },
+      leastSanity: {
+        name: "3-4",
+        dropRate: 28,
+        sanityCost: 15,
+      },
+    },
   },
   "Optimized Device": {
     tier: 3,
@@ -240,21 +390,94 @@ const MATERIALS: Record<string, Material> = {
   },
   Grindstone: {
     tier: 2,
+    recommendedStages: {
+      mostEfficient: {
+        name: "4-8",
+        dropRate: 35,
+        sanityCost: 21,
+        extraMaterial: "Grindstone Pentahydrate",
+      },
+      leastSanity: {
+        name: "3-3",
+        dropRate: 32,
+        sanityCost: 15,
+      },
+    },
   },
   "Manganese Ore": {
     tier: 2,
+    recommendedStages: {
+      mostEfficient: {
+        name: "4-7",
+        sanityCost: 18,
+        dropRate: 30,
+        extraMaterial: "Manganese Trihydrate",
+      },
+      leastSanity: {
+        name: "3-2",
+        sanityCost: 15,
+        dropRate: 37,
+      },
+    },
   },
   "Loxic Kohl": {
     tier: 2,
+    recommendedStages: {
+      mostEfficient: {
+        name: "4-4",
+        sanityCost: 18,
+        dropRate: 37,
+        extraMaterial: "White Horse Kohl",
+      },
+      leastSanity: {
+        name: "6-11",
+        dropRate: 49,
+        sanityCost: 21,
+        extraMaterial: "Device",
+      },
+    },
   },
   "RMA70-12": {
     tier: 2,
+    recommendedStages: {
+      mostEfficient: {
+        name: "4-9",
+        dropRate: 30,
+        extraMaterial: "RMA70-24",
+        sanityCost: 21,
+      },
+      leastSanity: {
+        name: "2-10",
+        dropRate: 28,
+        sanityCost: 15,
+      },
+    },
   },
   "Coagulating Gel": {
     tier: 2,
+    recommendedStages: {
+      mostEfficient: {
+        name: "S5-7",
+        dropRate: 26,
+        extraMaterial: "Polymerizing Gel",
+        sanityCost: 18,
+      },
+      leastSanity: {
+        name: "S4-10",
+        dropRate: 29,
+        sanityCost: 18,
+      },
+    },
   },
   "Incandescent Alloy": {
     tier: 2,
+    recommendedStages: {
+      mostEfficient: {
+        name: "S3-6",
+        dropRate: 39,
+        sanityCost: 15,
+      },
+    },
   },
   "White Horse Kohl": {
     tier: 3,
