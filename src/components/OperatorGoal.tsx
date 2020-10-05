@@ -13,6 +13,7 @@ import React from "react";
 import CancelIcon from "@material-ui/icons/Cancel";
 import { OperatorGoalData } from "../operator-goals";
 import ItemStack from "./ItemStack";
+import { getOperatorImagePath } from "../util";
 
 const useStyles = makeStyles((theme) => ({
   deleteIconButton: {
@@ -22,6 +23,10 @@ const useStyles = makeStyles((theme) => ({
   },
   goalOuterGridContainer: {
     alignItems: "center",
+  },
+  goalCard: {
+    backgroundSize: "contain",
+    backgroundRepeat: "no-repeat",
   },
 }));
 
@@ -36,11 +41,23 @@ export default function Goal(props: GoalProps): React.ReactElement {
   const theme = useTheme();
   const isXSmallScreen = useMediaQuery(theme.breakpoints.down("xs"));
   const isMdScreen = useMediaQuery(theme.breakpoints.only("md"));
-  const useVerticalStack = isXSmallScreen || isMdScreen;
+  const shouldTextBeCollapsed = isXSmallScreen || isMdScreen;
+  const eliteLevel =
+    goal.name.includes("Mastery") || goal.name === "Elite 2" ? 2 : undefined;
 
   return (
-    <Box mb={1} position="relative">
-      <Card>
+    <Box mb={1}>
+      <Card
+        className={classes.goalCard}
+        style={{
+          backgroundImage: `linear-gradient(to right, transparent, #424242 20%), url("${getOperatorImagePath(
+            goal.operatorName,
+            eliteLevel
+          )}")`,
+          paddingLeft: shouldTextBeCollapsed ? "2.5rem" : "3rem",
+          backgroundPositionX: shouldTextBeCollapsed ? "-15%" : "-5%",
+        }}
+      >
         <CardContent>
           <Grid container className={classes.goalOuterGridContainer}>
             <Grid item xs={12} sm={4} md={12} lg={4}>
@@ -49,7 +66,7 @@ export default function Goal(props: GoalProps): React.ReactElement {
                   component="h4"
                   variant="h5"
                   style={
-                    useVerticalStack
+                    shouldTextBeCollapsed
                       ? {
                           display: "inline-block",
                           marginRight: "1rem",
@@ -63,7 +80,7 @@ export default function Goal(props: GoalProps): React.ReactElement {
                   component="h5"
                   variant="subtitle1"
                   style={
-                    useVerticalStack
+                    shouldTextBeCollapsed
                       ? {
                           display: "inline-block",
                         }
@@ -81,7 +98,7 @@ export default function Goal(props: GoalProps): React.ReactElement {
                     <ItemStack
                       name={item.name}
                       quantity={item.quantity}
-                      size={75}
+                      size={70}
                     />
                   </Grid>
                 ))}
