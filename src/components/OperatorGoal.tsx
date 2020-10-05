@@ -35,19 +35,21 @@ export default function Goal(props: GoalProps): React.ReactElement {
   const classes = useStyles();
   const theme = useTheme();
   const isXSmallScreen = useMediaQuery(theme.breakpoints.down("xs"));
+  const isMdScreen = useMediaQuery(theme.breakpoints.only("md"));
+  const useVerticalStack = isXSmallScreen || isMdScreen;
 
   return (
     <Box mb={1} position="relative">
       <Card>
         <CardContent>
           <Grid container className={classes.goalOuterGridContainer}>
-            <Grid item xs={12} sm={4}>
+            <Grid item xs={12} sm={4} md={12} lg={4}>
               <Box alignSelf="center">
                 <Typography
                   component="h4"
                   variant="h5"
                   style={
-                    isXSmallScreen
+                    useVerticalStack
                       ? {
                           display: "inline-block",
                           marginRight: "1rem",
@@ -61,7 +63,7 @@ export default function Goal(props: GoalProps): React.ReactElement {
                   component="h5"
                   variant="subtitle1"
                   style={
-                    isXSmallScreen
+                    useVerticalStack
                       ? {
                           display: "inline-block",
                         }
@@ -72,10 +74,10 @@ export default function Goal(props: GoalProps): React.ReactElement {
                 </Typography>
               </Box>
             </Grid>
-            <Grid item xs={12} sm={8}>
+            <Grid item xs={12} sm={8} md={12} lg={8}>
               <Grid container>
                 {goal.requiredItems.map((item) => (
-                  <Grid item xs={3} md={2} lg={3} key={item.name}>
+                  <Grid item xs={3} key={item.name}>
                     <ItemStack
                       name={item.name}
                       quantity={item.quantity}
