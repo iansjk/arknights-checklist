@@ -52,7 +52,9 @@ export default function Goal(props: GoalProps): React.ReactElement {
       <Card
         className={classes.goalCard}
         style={{
-          backgroundImage: `linear-gradient(to right, transparent, #424242 ${gradientEnd}), url("${getOperatorImagePath(
+          backgroundImage: `linear-gradient(to right, transparent, ${
+            theme.palette.background.paper
+          } ${gradientEnd}), url("${getOperatorImagePath(
             goal.operatorName,
             eliteLevel
           )}")`,
