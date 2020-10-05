@@ -14,9 +14,13 @@ const OPERATOR_IMAGE_DIR = path.join(
 const avatarImageRegex = /(?<internalName>char_\d{3}_[a-z]+)(?:_(?<eliteLevel>[12])\+?)?\.png/;
 
 (async () => {
-  const characterData = await import(
+  const aceshipCharacterData = await import(
     path.join(ACESHIP_BASEDIR, "json", "tl-char.json")
   );
+  const patchCharacterData = await import(
+    path.join(__dirname, "character-data.patch.json")
+  );
+  const characterData = { ...patchCharacterData, ...aceshipCharacterData };
   const lookup = Object.fromEntries(
     Object.keys(characterData).map((internalName) => [
       internalName,
