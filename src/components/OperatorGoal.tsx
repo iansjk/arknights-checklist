@@ -48,7 +48,7 @@ export default function Goal(props: GoalProps): React.ReactElement {
   const bgImagePositionX = shouldTextBeCollapsed ? "-20%" : "-7%";
 
   return (
-    <Box mb={1}>
+    <Box mb={1} position="relative">
       <Card
         className={classes.goalCard}
         style={{
