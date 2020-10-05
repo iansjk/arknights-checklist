@@ -44,18 +44,20 @@ export default function Goal(props: GoalProps): React.ReactElement {
   const shouldTextBeCollapsed = isXSmallScreen || isMdScreen;
   const eliteLevel =
     goal.name.includes("Mastery") || goal.name === "Elite 2" ? 2 : undefined;
+  const gradientEnd = shouldTextBeCollapsed ? "20%" : "15%";
+  const bgImagePositionX = shouldTextBeCollapsed ? "-20%" : "-7%";
 
   return (
     <Box mb={1}>
       <Card
         className={classes.goalCard}
         style={{
-          backgroundImage: `linear-gradient(to right, transparent, #424242 20%), url("${getOperatorImagePath(
+          backgroundImage: `linear-gradient(to right, transparent, #424242 ${gradientEnd}), url("${getOperatorImagePath(
             goal.operatorName,
             eliteLevel
           )}")`,
           paddingLeft: shouldTextBeCollapsed ? "2.5rem" : "3rem",
-          backgroundPositionX: shouldTextBeCollapsed ? "-15%" : "-5%",
+          backgroundPositionX: bgImagePositionX,
         }}
       >
         <CardContent>
