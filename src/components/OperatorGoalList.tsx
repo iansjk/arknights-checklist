@@ -32,6 +32,7 @@ export default function GoalOverview(
     {} as Record<string, boolean>
   );
   const theme = useTheme();
+  const isXSmallScreen = useMediaQuery(theme.breakpoints.down("xs"));
   const isLargeScreen = useMediaQuery(theme.breakpoints.up("lg"));
 
   const materialsNeeded: Record<string, number> = {};
@@ -154,6 +155,7 @@ export default function GoalOverview(
       .map(([name, needed]) => {
         const inner = (
           <ItemNeeded
+            size={isXSmallScreen ? 75 : undefined}
             {...{ name, needed }}
             owned={
               materialsOwned[name] === undefined ? 0 : materialsOwned[name]
@@ -171,7 +173,7 @@ export default function GoalOverview(
             {inner}
           </Box>
         ) : (
-          <Grid key={name} data-testid={name} item xs={6} sm={3} md={3}>
+          <Grid key={name} data-testid={name} item xs={4} sm={3} md={3}>
             {inner}
           </Grid>
         );

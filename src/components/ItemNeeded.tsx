@@ -10,7 +10,7 @@ import AddCircleIcon from "@material-ui/icons/AddCircle";
 import RemoveCircleIcon from "@material-ui/icons/RemoveCircle";
 import GavelIcon from "@material-ui/icons/Gavel";
 import React from "react";
-import ItemStack from "./ItemStack";
+import ItemStack, { defaultSize } from "./ItemStack";
 import MATERIALS from "../materials";
 
 const useOutlinedInputStyles = makeStyles((theme) => ({
@@ -34,6 +34,15 @@ const useInputAdornmentStyles = makeStyles({
   },
 });
 
+const useIconButtonStyles = makeStyles({
+  edgeStart: {
+    paddingRight: 0,
+  },
+  edgeEnd: {
+    paddingLeft: 0,
+  },
+});
+
 const useStyles = makeStyles({
   input: {
     "&::-webkit-inner-spin-button, &::-webkit-outer-spin-button": {
@@ -54,6 +63,7 @@ interface ItemNeededProps {
   name: string;
   owned: number | null;
   needed: number;
+  size?: number;
   complete?: boolean;
   crafting?: boolean;
   onIncrement: (itemName: string) => void;
@@ -66,6 +76,7 @@ export default function ItemNeeded({
   name,
   owned,
   needed,
+  size = defaultSize,
   complete = false,
   crafting = false,
   onIncrement,
@@ -75,12 +86,13 @@ export default function ItemNeeded({
 }: ItemNeededProps): React.ReactElement {
   const outlinedInputClasses = useOutlinedInputStyles();
   const inputAdornmentClasses = useInputAdornmentStyles();
+  const iconButtonClasses = useIconButtonStyles();
   const classes = useStyles();
 
   return (
     <>
       <Box position="relative">
-        <ItemStack name={name} quantity={needed} complete={complete} />
+        <ItemStack {...{ name, size, complete }} quantity={needed} />
         <TextField
           size="small"
           fullWidth
@@ -99,6 +111,7 @@ export default function ItemNeeded({
             startAdornment: (
               <InputAdornment position="start" classes={inputAdornmentClasses}>
                 <IconButton
+                  classes={iconButtonClasses}
                   aria-label="remove 1 from owned amount"
                   edge="start"
                   disabled={owned === 0}
@@ -112,6 +125,7 @@ export default function ItemNeeded({
               <InputAdornment position="end" classes={inputAdornmentClasses}>
                 {name === "LMD" ? "K" : null}
                 <IconButton
+                  classes={iconButtonClasses}
                   aria-label="add 1 to owned amount"
                   edge="end"
                   onClick={() => onIncrement(name)}
@@ -141,7 +155,7 @@ export default function ItemNeeded({
             variant="outlined"
             disabled
           >
-            (Not Craftable)
+            (Uncraftable)
           </Button>
         )}
       </Box>

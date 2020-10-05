@@ -2,7 +2,7 @@ import { makeStyles, Box, Typography } from "@material-ui/core";
 import React from "react";
 import Item from "./Item";
 
-const defaultSize = 100;
+export const defaultSize = 100;
 
 const useStyles = makeStyles({
   quantityWrapper: {
