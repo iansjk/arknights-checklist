@@ -17,12 +17,10 @@ const useCommonStyles = makeStyles((theme) => ({
   itemInfoSection: {
     position: "relative",
     marginBottom: theme.spacing(1),
-    paddingBottom: theme.spacing(3),
   },
   itemInfoSectionHeader: {
     display: "inline-block",
-    whiteSpace: "nowrap",
-    position: "absolute",
+    position: "relative",
     backgroundColor: "#888",
     color: "#fff",
     borderRadius: theme.spacing(0.5),
