@@ -5,13 +5,23 @@ import {
   InputAdornment,
   makeStyles,
   TextField,
+  ButtonBase,
+  Popover,
+  Backdrop,
 } from "@material-ui/core";
 import AddCircleIcon from "@material-ui/icons/AddCircle";
 import RemoveCircleIcon from "@material-ui/icons/RemoveCircle";
 import GavelIcon from "@material-ui/icons/Gavel";
 import React from "react";
+import slugify from "slugify";
+import {
+  bindPopover,
+  bindTrigger,
+  usePopupState,
+} from "material-ui-popup-state/hooks";
 import ItemStack, { defaultSize } from "./ItemStack";
 import MATERIALS from "../materials";
+import ItemInfoPopoverContent from "./ItemInfoPopoverContent";
 
 const useOutlinedInputStyles = makeStyles((theme) => ({
   input: {
@@ -57,6 +67,19 @@ const useStyles = makeStyles({
     height: "2rem",
     fontSize: "smaller",
   },
+  itemButton: {
+    "&:focus, &:active": {
+      filter: "brightness(0.5)",
+    },
+  },
+  itemInfoPopover: {
+    opacity: 0.9,
+  },
+  backdrop: {
+    zIndex: 2,
+    backdropFilter: "blur(2px)",
+    backgroundColor: "unset",
+  },
 });
 
 interface ItemNeededProps {
@@ -88,11 +111,40 @@ export default function ItemNeeded({
   const inputAdornmentClasses = useInputAdornmentStyles();
   const iconButtonClasses = useIconButtonStyles();
   const classes = useStyles();
+  const popoverState = usePopupState({
+    variant: "popover",
+    popupId: `${slugify(name, { lower: true })}-popover`,
+  });
 
   return (
     <>
       <Box position="relative">
-        <ItemStack {...{ name, size, complete }} quantity={needed} />
+        <Box width="100%" textAlign="center">
+          <ButtonBase
+            className={classes.itemButton}
+            // eslint-disable-next-line react/jsx-props-no-spreading
+            {...bindTrigger(popoverState)}
+            disableRipple
+          >
+            <ItemStack {...{ name, size, complete }} quantity={needed} />
+          </ButtonBase>
+        </Box>
+        <Backdrop className={classes.backdrop} open={popoverState.isOpen} />
+        <Popover
+          className={classes.itemInfoPopover}
+          anchorOrigin={{
+            vertical: "center",
+            horizontal: "right",
+          }}
+          transformOrigin={{
+            vertical: "center",
+            horizontal: "left",
+          }}
+          // eslint-disable-next-line react/jsx-props-no-spreading
+          {...bindPopover(popoverState)}
+        >
+          <ItemInfoPopoverContent name={name} />
+        </Popover>
         <TextField
           size="small"
           fullWidth

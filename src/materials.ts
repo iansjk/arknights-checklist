@@ -8,7 +8,12 @@ enum MaterialCategory {
   "Skill Summary",
 }
 
-interface Stage {
+export interface RecommendedStages {
+  mostEfficient: Stage;
+  leastSanity?: Stage;
+}
+
+export interface Stage {
   name: string;
   dropRate: number; // as a percentage
   sanityCost: number;
@@ -19,10 +24,7 @@ export interface Material {
   tier: number;
   category?: MaterialCategory;
   ingredients?: Ingredient[];
-  recommendedStages?: {
-    mostEfficient: Stage;
-    leastSanity?: Stage;
-  };
+  recommendedStages?: RecommendedStages;
   craftingRecommended?: boolean;
 }
 

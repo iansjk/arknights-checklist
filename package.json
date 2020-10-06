@@ -16,6 +16,7 @@
     "@types/react-dom": "^16.9.0",
     "cheerio": "^1.0.0-rc.3",
     "got": "^11.7.0",
+    "material-ui-popup-state": "^1.6.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
