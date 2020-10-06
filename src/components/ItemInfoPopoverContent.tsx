@@ -198,9 +198,10 @@ export default function ItemInfoPopoverContent(
         {MATERIALS[name]!.ingredients && (
           <CraftingInfo ingredients={MATERIALS[name]!.ingredients!} />
         )}
-        {MATERIALS[name]!.recommendedStages && (
-          <StageInfo stages={MATERIALS[name]!.recommendedStages!} />
-        )}
+        {MATERIALS[name]!.recommendedStages &&
+          !MATERIALS[name]!.craftingRecommended && (
+            <StageInfo stages={MATERIALS[name]!.recommendedStages!} />
+          )}
       </CardContent>
     </Card>
   );
