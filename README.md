@@ -5,7 +5,7 @@ Track needed materials for [Arknights](https://www.arknights.global/), the tower
 MIT
 
 ## Acknowledgements
-- Operator material cost data from [Gamepress Arknights Wiki](https://gamepress.gg/arknights/tier-list/arknights-operator-tier-list)
+- Operator material cost data from [Gamepress Arknights Wiki](https://gamepress.gg/arknights/tools/interactive-operator-list)
 - Images and localization data from [Aceship](https://github.com/Aceship/AN-EN-Tags)
 - Stage data from [Penguin Statistics](https://penguin-stats.io/)
 - Stage efficiency calculations by `🍑Moe🍑#2568` and `Luzark#8152`

@@ -42,7 +42,7 @@ export default function AppFooter(): React.ReactElement {
         <li>
           operator data:&nbsp;
           <Link
-            href="https://gamepress.gg/arknights/tier-list/arknights-operator-tier-list"
+            href="https://gamepress.gg/arknights/tools/interactive-operator-list"
             target="_blank"
             rel="noopener"
           >
