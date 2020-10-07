@@ -35,7 +35,9 @@ interface GoalProps {
   onDelete: (goal: OperatorGoalData) => void;
 }
 
-export default function Goal(props: GoalProps): React.ReactElement {
+const OperatorGoal = React.memo(function OperatorGoal(
+  props: GoalProps
+): React.ReactElement {
   const { goal, onDelete } = props;
   const classes = useStyles();
   const theme = useTheme();
@@ -121,4 +123,5 @@ export default function Goal(props: GoalProps): React.ReactElement {
       </Card>
     </Box>
   );
-}
+});
+export default OperatorGoal;

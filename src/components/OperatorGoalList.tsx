@@ -19,7 +19,7 @@ interface GoalOverviewProps {
   onGoalDeleted: (goal: OperatorGoalData) => void;
 }
 
-export default function GoalOverview(
+const OperatorGoalList = React.memo(function GoalOverview(
   props: GoalOverviewProps
 ): React.ReactElement {
   const { goals, onGoalDeleted } = props;
@@ -52,7 +52,7 @@ export default function GoalOverview(
                 ingredient.quantity *
                 Math.max(
                   materialsNeeded[craftedItem.name] -
-                    (materialsOwned[craftedItem.name] || 0),
+                  (materialsOwned[craftedItem.name] || 0),
                   0
                 );
               if (
@@ -89,55 +89,70 @@ export default function GoalOverview(
       ingredients?.forEach((ingredient) => {
         craftingMaterialsOwned[ingredient.name] = Math.max(
           (craftingMaterialsOwned[ingredient.name] || 0) -
-            ingredient.quantity * numCraftable,
+          ingredient.quantity * numCraftable,
           0
         );
       });
       materialsNeeded[craftedItemName] -= numCraftable;
     });
 
-  function handleIncrementOwned(itemName: string): void {
-    setMaterialsOwned((prevOwned) => ({
-      ...prevOwned,
-      [itemName]: 1 + (prevOwned[itemName] || 0),
-    }));
-  }
-
-  function handleDecrementOwned(itemName: string): void {
-    setMaterialsOwned((prevOwned) => ({
-      ...prevOwned,
-      [itemName]: Math.max(0, (prevOwned[itemName] || 0) - 1),
-    }));
-  }
-
-  function handleChangeOwned(itemName: string, rawInput: string): void {
-    const newValue: number | null = !rawInput ? null : parseInt(rawInput, 10);
-    if (newValue === null || !Number.isNaN(newValue)) {
+  const handleIncrementOwned = React.useCallback(
+    function handleIncrementOwned(itemName: string): void {
       setMaterialsOwned((prevOwned) => ({
         ...prevOwned,
-        [itemName]: newValue,
+        [itemName]: 1 + (prevOwned[itemName] || 0),
       }));
-    }
-  }
+    },
+    [setMaterialsOwned]
+  );
 
-  function isMaterialComplete(name: string): boolean {
-    let multiplier = 1;
-    if (name === "LMD") {
-      multiplier = 1000;
-    }
-    return (materialsOwned[name] || 0) * multiplier >= materialsNeeded[name];
-  }
+  const handleDecrementOwned = React.useCallback(
+    function handleDecrementOwned(itemName: string): void {
+      setMaterialsOwned((prevOwned) => ({
+        ...prevOwned,
+        [itemName]: Math.max(0, (prevOwned[itemName] || 0) - 1),
+      }));
+    },
+    [setMaterialsOwned]
+  );
 
-  function handleCraftingToggle(itemName: string) {
-    setItemsToCraft((prevObj) => {
-      if (Object.prototype.hasOwnProperty.call(prevObj, itemName)) {
-        const newObj = { ...prevObj };
-        delete newObj[itemName];
-        return newObj;
+  const handleChangeOwned = React.useCallback(
+    function handleChangeOwned(itemName: string, rawInput: string): void {
+      const newValue: number | null = !rawInput ? null : parseInt(rawInput, 10);
+      if (newValue === null || !Number.isNaN(newValue)) {
+        setMaterialsOwned((prevOwned) => ({
+          ...prevOwned,
+          [itemName]: newValue,
+        }));
       }
-      return { ...prevObj, [itemName]: true };
-    });
-  }
+    },
+    [setMaterialsOwned]
+  );
+
+  const isMaterialComplete = React.useCallback(
+    function isMaterialComplete(name: string): boolean {
+      let multiplier = 1;
+      if (name === "LMD") {
+        multiplier = 1000;
+      }
+      return (materialsOwned[name] || 0) * multiplier >= materialsNeeded[name];
+    },
+    [materialsNeeded, materialsOwned]
+  );
+
+  const handleCraftingToggle = React.useCallback(
+    function handleCraftingToggle(itemName: string) {
+      setItemsToCraft((prevObj) => {
+        if (Object.prototype.hasOwnProperty.call(prevObj, itemName)) {
+          const newObj = { ...prevObj };
+          delete newObj[itemName];
+          return newObj;
+        }
+        return { ...prevObj, [itemName]: true };
+      });
+    },
+    [setItemsToCraft]
+  );
 
   function renderItemsNeeded(
     objectEntries: [string, number][]
@@ -147,7 +162,7 @@ export default function GoalOverview(
         ([nameA, neededA], [nameB, neededB]) =>
           (nameB === "LMD" ? 1 : 0) - (nameA === "LMD" ? 1 : 0) ||
           ((materialsOwned[nameA] || 0) >= neededA ? 1 : 0) -
-            ((materialsOwned[nameB] || 0) >= neededB ? 1 : 0) ||
+          ((materialsOwned[nameB] || 0) >= neededB ? 1 : 0) ||
           MATERIALS[nameB].tier - MATERIALS[nameA].tier ||
           (MATERIALS[nameB].category || 0) - (MATERIALS[nameA].category || 0) ||
           nameA.localeCompare(nameB)
@@ -173,10 +188,10 @@ export default function GoalOverview(
             {inner}
           </Box>
         ) : (
-          <Grid key={name} data-testid={name} item xs={4} sm={3} md={3}>
-            {inner}
-          </Grid>
-        );
+            <Grid key={name} data-testid={name} item xs={4} sm={3} md={3}>
+              {inner}
+            </Grid>
+          );
         return outer;
       });
   }
@@ -210,4 +225,5 @@ export default function GoalOverview(
       </Grid>
     </Grid>
   );
-}
+});
+export default OperatorGoalList;

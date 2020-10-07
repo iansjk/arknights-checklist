@@ -27,7 +27,7 @@ interface ItemStackProps {
   size?: number;
 }
 
-export default function ItemStack({
+const ItemStack = React.memo(function ItemStack({
   name,
   quantity,
   complete = false,
@@ -59,4 +59,5 @@ export default function ItemStack({
       </Box>
     </Box>
   );
-}
+});
+export default ItemStack;

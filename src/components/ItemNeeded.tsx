@@ -95,7 +95,7 @@ interface ItemNeededProps {
   onCraftingToggle: (itemName: string) => void;
 }
 
-export default function ItemNeeded({
+const ItemNeeded = React.memo(function ItemNeeded({
   name,
   owned,
   needed,
@@ -213,4 +213,5 @@ export default function ItemNeeded({
       </Box>
     </>
   );
-}
+});
+export default ItemNeeded;

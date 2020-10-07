@@ -43,12 +43,7 @@ module.exports = {
         ignoreCase: false,
       },
     ],
-    'react/require-default-props': [
-      'error',
-      {
-        ignoreFunctionalComponents: true,
-      },
-    ],
+    'react/require-default-props': 'off',
     'prettier/prettier': [
       'error',
       {
