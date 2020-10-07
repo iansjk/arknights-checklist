@@ -4,6 +4,7 @@ import { makeStyles, Container, Link } from "@material-ui/core";
 const useStyles = makeStyles((theme) => ({
   footer: {
     background: theme.palette.background.paper,
+    maxWidth: "100%",
     marginTop: theme.spacing(4),
     flexShrink: 0,
   },
