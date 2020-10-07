@@ -15,6 +15,7 @@ import {
   ThemeProvider,
   Toolbar,
   Typography,
+  makeStyles,
 } from "@material-ui/core";
 import { pink, blue } from "@material-ui/core/colors";
 import AddIcon from "@material-ui/icons/Add";
@@ -29,6 +30,7 @@ import {
   OperatorGoalData,
 } from "./operator-goals";
 import RECIPES from "./recipes";
+import AppFooter from "./components/AppFooter";
 
 let appTheme = createMuiTheme({
   palette: {
@@ -52,6 +54,17 @@ let appTheme = createMuiTheme({
 });
 appTheme = responsiveFontSizes(appTheme);
 
+const useStyles = makeStyles((theme) => ({
+  appContainer: {
+    minHeight: "100vh",
+    display: "flex",
+    flexDirection: "column",
+  },
+  main: {
+    marginTop: theme.spacing(2),
+  },
+}));
+
 function App(): React.ReactElement {
   const [operatorName, setOperatorName] = useState(null as string | null);
   const [goals, setGoals] = useState([] as GoalData[]);
@@ -63,6 +76,7 @@ function App(): React.ReactElement {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     [] as any
   );
+  const classes = useStyles();
 
   function handleAddGoals() {
     setOperatorGoals((prevOperatorGoals: OperatorGoalData[]) => {
@@ -97,98 +111,105 @@ function App(): React.ReactElement {
   return (
     <ThemeProvider theme={appTheme}>
       <CssBaseline />
-      <Container maxWidth="lg">
-        <AppBar>
-          <Toolbar>
-            <Typography component="h1" variant="h4">
-              Arknights Materials Checklist
-            </Typography>
-          </Toolbar>
-        </AppBar>
-        <Toolbar />
-        <Box mt={2} />
-        <Grid container spacing={2}>
-          <Grid item xs={12} lg={3}>
-            <Autocomplete
-              options={Object.keys(RECIPES.operators).sort()}
-              autoComplete
-              autoHighlight
-              value={operatorName}
-              onChange={(_, value) => {
-                setOperatorName(value);
-                setGoals([]);
-              }}
-              renderInput={(params) => (
-                <TextField
-                  {...params}
-                  label="Operator name"
-                  variant="outlined"
-                />
-              )}
-            />
-          </Grid>
-          <Grid item xs={12} lg={9}>
-            <Box display="flex">
-              <Box flexGrow={1} mr={2}>
-                <Autocomplete
-                  options={
-                    operatorName
-                      ? goalsForOperator(operatorName).sort(
-                          (a, b) => a.category - b.category
-                        )
-                      : []
-                  }
-                  getOptionLabel={(goal) => goal.name}
-                  getOptionSelected={(goal, value) => goal.name === value.name}
-                  groupBy={(goal) => GoalCategory[goal.category]}
-                  autoComplete
-                  autoHighlight
-                  multiple
-                  limitTags={4}
-                  noOptionsText="Please select an operator first."
-                  value={goals}
-                  open={goalsOptionsOpen}
-                  onChange={(_, value) =>
-                    setGoals(
-                      value.sort(
-                        (a, b) =>
-                          a.category - b.category + a.name.localeCompare(b.name)
-                      )
-                    )
-                  }
-                  onOpen={() => setGoalsOptionsOpen(true)}
-                  onClose={(_, reason) => {
-                    const actualReason = reason as string;
-                    if (
-                      actualReason !== "select-option" &&
-                      actualReason !== "remove-option"
-                    ) {
-                      setGoalsOptionsOpen(false);
+      <div className={classes.appContainer}>
+        <Container maxWidth="lg">
+          <AppBar>
+            <Toolbar>
+              <Typography component="h1" variant="h4">
+                Arknights Materials Checklist
+              </Typography>
+            </Toolbar>
+          </AppBar>
+          <Toolbar />
+          <Grid component="main" className={classes.main} container spacing={2}>
+            <Grid item xs={12} lg={3}>
+              <Autocomplete
+                options={Object.keys(RECIPES.operators).sort()}
+                autoComplete
+                autoHighlight
+                value={operatorName}
+                onChange={(_, value) => {
+                  setOperatorName(value);
+                  setGoals([]);
+                }}
+                renderInput={(params) => (
+                  <TextField
+                    {...params}
+                    label="Operator name"
+                    variant="outlined"
+                  />
+                )}
+              />
+            </Grid>
+            <Grid item xs={12} lg={9}>
+              <Box display="flex">
+                <Box flexGrow={1} mr={2}>
+                  <Autocomplete
+                    options={
+                      operatorName
+                        ? goalsForOperator(operatorName).sort(
+                            (a, b) => a.category - b.category
+                          )
+                        : []
                     }
-                  }}
-                  renderInput={(params) => (
-                    <TextField {...params} label="Goals" variant="outlined" />
-                  )}
-                />
+                    getOptionLabel={(goal) => goal.name}
+                    getOptionSelected={(goal, value) =>
+                      goal.name === value.name
+                    }
+                    groupBy={(goal) => GoalCategory[goal.category]}
+                    autoComplete
+                    autoHighlight
+                    multiple
+                    limitTags={4}
+                    noOptionsText="Please select an operator first."
+                    value={goals}
+                    open={goalsOptionsOpen}
+                    onChange={(_, value) =>
+                      setGoals(
+                        value.sort(
+                          (a, b) =>
+                            a.category -
+                            b.category +
+                            a.name.localeCompare(b.name)
+                        )
+                      )
+                    }
+                    onOpen={() => setGoalsOptionsOpen(true)}
+                    onClose={(_, reason) => {
+                      const actualReason = reason as string;
+                      if (
+                        actualReason !== "select-option" &&
+                        actualReason !== "remove-option"
+                      ) {
+                        setGoalsOptionsOpen(false);
+                      }
+                    }}
+                    renderInput={(params) => (
+                      <TextField {...params} label="Goals" variant="outlined" />
+                    )}
+                  />
+                </Box>
+                <Button
+                  color="primary"
+                  variant="contained"
+                  startIcon={<AddIcon />}
+                  onClick={handleAddGoals}
+                >
+                  Add
+                </Button>
               </Box>
-              <Button
-                color="primary"
-                variant="contained"
-                startIcon={<AddIcon />}
-                onClick={handleAddGoals}
-              >
-                Add
-              </Button>
-            </Box>
+            </Grid>
+            <Grid item xs={12}>
+              <OperatorGoalList
+                goals={operatorGoals}
+                onGoalDeleted={handleGoalDeleted}
+              />
+            </Grid>
           </Grid>
-          <Grid item xs={12}>
-            <OperatorGoalList
-              goals={operatorGoals}
-              onGoalDeleted={handleGoalDeleted}
-            />
-          </Grid>
-        </Grid>
-      </Container>
+        </Container>
+        <Box flexGrow={1} />
+        <AppFooter />
+      </div>
     </ThemeProvider>
   );
 }
