@@ -1,5 +1,5 @@
 # arknights-materials-checklist
-Allows creation of materials checklists for [Arknights](https://www.arknights.global/), the tower defense mobile game by Hypergryph/Yostar. Hosted by Vercel at [arknights-materials-checklist.vercel.app](https://arknights-materials-checklist.vercel.app/).
+Track needed materials for [Arknights](https://www.arknights.global/), the tower defense mobile game by Hypergryph/Yostar. Hosted by Vercel at [arknights-materials-checklist.vercel.app](https://arknights-materials-checklist.vercel.app/).
 
 ## License
 MIT
