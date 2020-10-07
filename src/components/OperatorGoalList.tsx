@@ -185,7 +185,7 @@ export default function GoalOverview(
 
   return (
     <Grid container spacing={2}>
-      <Grid item md={7} data-testid="materialsLists">
+      <Grid component="section" item md={7} data-testid="materialsLists">
         {requiredMaterials.length > 0 && (
           <Card>
             <CardContent>
@@ -199,7 +199,7 @@ export default function GoalOverview(
           </Card>
         )}
       </Grid>
-      <Grid item xs={12} md={5}>
+      <Grid component="section" item xs={12} md={5}>
         {goals.map((goal) => (
           <OperatorGoal
             key={`${goal.operatorName}${goal.name}`}
