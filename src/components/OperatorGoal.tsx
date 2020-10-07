@@ -44,8 +44,8 @@ export default function Goal(props: GoalProps): React.ReactElement {
   const shouldTextBeCollapsed = isXSmallScreen || isMdScreen;
   const eliteLevel =
     goal.name.includes("Mastery") || goal.name === "Elite 2" ? 2 : undefined;
-  const gradientEnd = shouldTextBeCollapsed ? "20%" : "15%";
-  const bgImagePositionX = shouldTextBeCollapsed ? "-20%" : "-7%";
+  const gradientEnd = shouldTextBeCollapsed ? "130px" : "100px";
+  const bgImagePositionX = shouldTextBeCollapsed ? "-40px" : "-30px";
 
   return (
     <Box mb={1} position="relative">
@@ -59,7 +59,7 @@ export default function Goal(props: GoalProps): React.ReactElement {
             eliteLevel
           )}")`,
           paddingLeft: shouldTextBeCollapsed ? "2.5rem" : "3rem",
-          backgroundPositionX: bgImagePositionX,
+          backgroundPosition: `${bgImagePositionX} center`,
         }}
       >
         <CardContent>
@@ -73,6 +73,7 @@ export default function Goal(props: GoalProps): React.ReactElement {
                     shouldTextBeCollapsed
                       ? {
                           display: "inline-block",
+                          marginLeft: "0.8rem",
                           marginRight: "1rem",
                         }
                       : {}
