@@ -78,35 +78,41 @@ function App(): React.ReactElement {
   );
   const classes = useStyles();
 
-  function handleAddGoals() {
-    setOperatorGoals((prevOperatorGoals: OperatorGoalData[]) => {
-      const deduplicated = Object.fromEntries([
-        ...prevOperatorGoals.map((opGoal: OperatorGoalData) => [
-          `${opGoal.operatorName}${opGoal.name}`,
-          opGoal,
-        ]),
-        ...goals.map((goal) => [
-          `${operatorName}${goal.name}`,
-          { operatorName, ...goal },
-        ]),
-      ]);
-      return Object.values(deduplicated);
-    });
-    setOperatorName(null);
-    setGoals([]);
-  }
+  const handleAddGoals = React.useCallback(
+    function handleAddGoals() {
+      setOperatorGoals((prevOperatorGoals: OperatorGoalData[]) => {
+        const deduplicated = Object.fromEntries([
+          ...prevOperatorGoals.map((opGoal: OperatorGoalData) => [
+            `${opGoal.operatorName}${opGoal.name}`,
+            opGoal,
+          ]),
+          ...goals.map((goal) => [
+            `${operatorName}${goal.name}`,
+            { operatorName, ...goal },
+          ]),
+        ]);
+        return Object.values(deduplicated);
+      });
+      setOperatorName(null);
+      setGoals([]);
+    },
+    [goals, operatorName, setOperatorGoals]
+  );
 
-  function handleGoalDeleted(toDelete: OperatorGoalData) {
-    setOperatorGoals((prevOperatorGoals: OperatorGoalData[]) =>
-      prevOperatorGoals.filter(
-        (opGoal: OperatorGoalData) =>
-          !(
-            opGoal.name === toDelete.name &&
-            opGoal.operatorName === toDelete.operatorName
-          )
-      )
-    );
-  }
+  const handleGoalDeleted = React.useCallback(
+    function handleGoalDeleted(toDelete: OperatorGoalData) {
+      setOperatorGoals((prevOperatorGoals: OperatorGoalData[]) =>
+        prevOperatorGoals.filter(
+          (opGoal: OperatorGoalData) =>
+            !(
+              opGoal.name === toDelete.name &&
+              opGoal.operatorName === toDelete.operatorName
+            )
+        )
+      );
+    },
+    [setOperatorGoals]
+  );
 
   return (
     <ThemeProvider theme={appTheme}>

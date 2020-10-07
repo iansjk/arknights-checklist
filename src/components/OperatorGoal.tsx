@@ -48,6 +48,7 @@ const OperatorGoal = React.memo(function OperatorGoal(
     goal.name.includes("Mastery") || goal.name === "Elite 2" ? 2 : undefined;
   const gradientEnd = shouldTextBeCollapsed ? "130px" : "100px";
   const bgImagePositionX = shouldTextBeCollapsed ? "-40px" : "-30px";
+  const handleClick = React.useCallback(() => onDelete(goal), [goal, onDelete]);
 
   return (
     <Box mb={1} position="relative">
@@ -115,7 +116,7 @@ const OperatorGoal = React.memo(function OperatorGoal(
           <IconButton
             aria-label="Delete this goal"
             className={classes.deleteIconButton}
-            onClick={() => onDelete(goal)}
+            onClick={handleClick}
           >
             <CancelIcon />
           </IconButton>

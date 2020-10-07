@@ -28,7 +28,7 @@ interface ItemProps {
   complete?: boolean;
 }
 
-export default function Item({
+const Item = React.memo(function Item({
   name,
   size,
   complete = false,
@@ -68,4 +68,5 @@ export default function Item({
       )}
     </Box>
   );
-}
+});
+export default Item;

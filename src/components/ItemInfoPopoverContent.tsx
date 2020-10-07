@@ -181,7 +181,7 @@ interface ItemInfoPopoverContentProps {
   name: string;
 }
 
-export default function ItemInfoPopoverContent(
+const ItemInfoPopoverContent = React.memo(function ItemInfoPopoverContent(
   props: ItemInfoPopoverContentProps
 ): React.ReactElement {
   const { name } = props;
@@ -203,4 +203,5 @@ export default function ItemInfoPopoverContent(
       </CardContent>
     </Card>
   );
-}
+});
+export default ItemInfoPopoverContent;
