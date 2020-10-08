@@ -22,15 +22,15 @@ import AddIcon from "@material-ui/icons/Add";
 import Autocomplete from "@material-ui/lab/Autocomplete";
 import React, { useState } from "react";
 import { useLocalStorage } from "web-api-hooks";
-import GoalOverview from "./components/GoalOverview";
+import GoalOverview from "./GoalOverview";
 import {
   GoalCategory,
   GoalData,
   goalsForOperator,
   OperatorGoalData,
-} from "./operator-goals";
-import RECIPES from "./recipes";
-import AppFooter from "./components/AppFooter";
+} from "../operator-goals";
+import RECIPES from "../recipes";
+import AppFooter from "./AppFooter";
 
 let appTheme = createMuiTheme({
   palette: {
