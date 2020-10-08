@@ -4,6 +4,7 @@ import { promises as fs } from "fs";
 import slugify from "slugify";
 
 const ACESHIP_BASEDIR = path.join(__dirname, "../aceship");
+const ARKNIGHTS_DATA_BASEDIR = path.join(__dirname, "../ArknightsData");
 const OPERATOR_IMAGE_DIR = path.join(
   __dirname,
   "..",
@@ -13,22 +14,27 @@ const OPERATOR_IMAGE_DIR = path.join(
 );
 const avatarImageRegex = /(?<internalName>char_\d{3}_[a-z]+)(?:_(?<eliteLevel>[12])\+?)?\.png/;
 
+async function getCharacterNames(): Promise<Record<string, string>> {
+  const characterData = await import(
+    path.join(
+      ARKNIGHTS_DATA_BASEDIR,
+      "en-US",
+      "gamedata",
+      "excel",
+      "character_table.json"
+    )
+  );
+  return Object.fromEntries(
+    Object.keys(characterData).map((id) => [id, characterData[id].name])
+  );
+}
+
 (async () => {
-  const aceshipCharacterData = await import(
-    path.join(ACESHIP_BASEDIR, "json", "tl-char.json")
-  );
-  const patchCharacterData = await import(
-    path.join(__dirname, "character-data.patch.json")
-  );
-  const characterData = { ...patchCharacterData, ...aceshipCharacterData };
-  const lookup = Object.fromEntries(
-    Object.keys(characterData).map((internalName) => [
-      internalName,
-      characterData[internalName].en,
-    ])
-  );
   const sourceDir = path.join(ACESHIP_BASEDIR, "img", "avatars");
-  const imageFiles = await fs.readdir(sourceDir);
+  const [imageFiles, lookup] = await Promise.all([
+    fs.readdir(sourceDir),
+    getCharacterNames(),
+  ]);
   const copyImages = imageFiles
     .filter((filename) => {
       const match = filename.match(avatarImageRegex);
