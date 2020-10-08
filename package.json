@@ -14,8 +14,6 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
-    "cheerio": "^1.0.0-rc.3",
-    "got": "^11.7.0",
     "material-ui-popup-state": "^1.6.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -29,7 +27,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "update:operators": "ts-node-script scripts/scrape-gamepress-operator-data.ts",
+    "update:recipes": "ts-node-script scripts/build-recipe-book.ts",
     "update:images": "git submodule update --remote aceship && ts-node-script scripts/rename-operator-avatars.ts"
   },
   "browserslist": {

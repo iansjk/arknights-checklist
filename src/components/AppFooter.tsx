@@ -40,17 +40,17 @@ export default function AppFooter(): React.ReactElement {
           site made by <code>samidare ☂#5449</code>
         </li>
         <li>
-          operator data:&nbsp;
+          game data:&nbsp;
           <Link
-            href="https://gamepress.gg/arknights/tools/interactive-operator-list"
+            href="https://github.com/Dimbreath/ArknightsData"
             target="_blank"
             rel="noopener"
           >
-            Gamepress Arknights Wiki
+            Dimbreath
           </Link>
         </li>
         <li>
-          images/localization:&nbsp;
+          images:&nbsp;
           <Link
             href="https://github.com/Aceship/AN-EN-Tags"
             target="_blank"
