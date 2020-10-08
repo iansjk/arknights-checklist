@@ -40,7 +40,7 @@ async function getCharacterNames(): Promise<Record<string, string>> {
       const match = filename.match(avatarImageRegex);
       return match?.groups?.internalName && lookup[match?.groups?.internalName];
     })
-    .map((filename) => {
+    .map(async (filename) => {
       const match = filename.match(avatarImageRegex);
       // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
       const newName = lookup[match!.groups!.internalName!];
@@ -50,10 +50,10 @@ async function getCharacterNames(): Promise<Record<string, string>> {
         eliteLevel ? `${newName} elite ${eliteLevel}.png` : `${newName}.png`,
         { lower: true }
       );
-      return fs.copyFile(
-        path.join(sourceDir, filename),
-        path.join(OPERATOR_IMAGE_DIR, newFilename)
-      );
+      // use readFile, writeFile instead of copyFile to guarantee byte-by-byte equality
+      // (otherwise git will think files will change on every script run)
+      const buf = await fs.readFile(path.join(sourceDir, filename));
+      return fs.writeFile(path.join(OPERATOR_IMAGE_DIR, newFilename), buf);
     });
   await Promise.all(copyImages);
 })();
