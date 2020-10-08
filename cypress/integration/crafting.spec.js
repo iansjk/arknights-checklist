@@ -135,3 +135,43 @@ describe("item requirements for crafted items", () => {
     cy.get("@ss2").find("[data-testid=quantity]").should("have.text", 14);
   });
 });
+
+describe("crafted ingredient requirements and regular requirements", () => {
+  beforeEach(() => {
+    window.localStorage.setItem(
+      "operatorGoals",
+      JSON.stringify([
+        {
+          operatorName: "Rosa",
+          name: "Elite 2",
+          category: 0,
+          requiredItems: [
+            { name: "LMD", quantity: 180000 },
+            { name: "Sniper Dualchip", quantity: 4 },
+            { name: "Bipolar Nanoflake", quantity: 4 },
+            { name: "Optimized Device", quantity: 6 },
+          ],
+        },
+        {
+          operatorName: "Siege",
+          name: "Elite 2",
+          category: 0,
+          requiredItems: [
+            { name: "LMD", quantity: 180000 },
+            { name: "Vanguard Dualchip", quantity: 4 },
+            { name: "Bipolar Nanoflake", quantity: 4 },
+            { name: "Orirock Concentration", quantity: 6 },
+          ],
+        },
+      ])
+    );
+    cy.visit("/");
+  });
+
+  it("sums up crafted ingredient requirements and regular item requirements", () => {
+    cy.getByTestId("Optimized Device").as("od");
+    cy.get("@od").find("[data-testid=quantity]").should("have.text", 6);
+    cy.getByTestId("Bipolar Nanoflake").contains(/craft/i).click();
+    cy.get("@od").find("[data-testid=quantity]").should("have.text", 14);
+  });
+});

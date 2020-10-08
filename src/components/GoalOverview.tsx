@@ -40,36 +40,39 @@ const GoalOverview = React.memo(function GoalOverview(
     goal.requiredItems.forEach((item) => {
       materialsNeeded[item.name] =
         item.quantity + (materialsNeeded[item.name] || 0);
-      if (Object.prototype.hasOwnProperty.call(itemsToCraft, item.name)) {
-        let curr = [item];
-        let next: Ingredient[];
-        do {
-          next = [];
-          for (const craftedItem of curr) {
-            const ingredients = MATERIALS[craftedItem.name].ingredients || [];
-            for (const ingredient of ingredients) {
-              materialsNeeded[ingredient.name] =
-                ingredient.quantity *
+    })
+  );
+  Object.keys(itemsToCraft)
+    .filter((itemName) => materialsNeeded[itemName] > 0)
+    .forEach((itemName) => {
+      let curr = [{ name: itemName, quantity: materialsNeeded[itemName] }];
+      let next: Ingredient[];
+      do {
+        next = [];
+        for (const craftedItem of curr) {
+          const ingredients = MATERIALS[craftedItem.name].ingredients || [];
+          for (const ingredient of ingredients) {
+            materialsNeeded[ingredient.name] =
+              ingredient.quantity *
                 Math.max(
                   materialsNeeded[craftedItem.name] -
                     (materialsOwned[craftedItem.name] || 0),
                   0
-                );
-              if (
-                Object.prototype.hasOwnProperty.call(
-                  itemsToCraft,
-                  ingredient.name
-                )
-              ) {
-                next.push(ingredient);
-              }
+                ) +
+              (materialsNeeded[ingredient.name] || 0);
+            if (
+              Object.prototype.hasOwnProperty.call(
+                itemsToCraft,
+                ingredient.name
+              )
+            ) {
+              next.push(ingredient);
             }
           }
-          curr = next;
-        } while (next.length > 0);
-      }
-    })
-  );
+        }
+        curr = next;
+      } while (next.length > 0);
+    });
   const craftingMaterialsOwned = { ...materialsOwned };
   Object.keys(itemsToCraft)
     .filter(
