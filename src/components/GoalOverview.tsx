@@ -52,7 +52,7 @@ const GoalOverview = React.memo(function GoalOverview(
                 ingredient.quantity *
                 Math.max(
                   materialsNeeded[craftedItem.name] -
-                  (materialsOwned[craftedItem.name] || 0),
+                    (materialsOwned[craftedItem.name] || 0),
                   0
                 );
               if (
@@ -89,7 +89,7 @@ const GoalOverview = React.memo(function GoalOverview(
       ingredients?.forEach((ingredient) => {
         craftingMaterialsOwned[ingredient.name] = Math.max(
           (craftingMaterialsOwned[ingredient.name] || 0) -
-          ingredient.quantity * numCraftable,
+            ingredient.quantity * numCraftable,
           0
         );
       });
@@ -162,7 +162,7 @@ const GoalOverview = React.memo(function GoalOverview(
         ([nameA, neededA], [nameB, neededB]) =>
           (nameB === "LMD" ? 1 : 0) - (nameA === "LMD" ? 1 : 0) ||
           ((materialsOwned[nameA] || 0) >= neededA ? 1 : 0) -
-          ((materialsOwned[nameB] || 0) >= neededB ? 1 : 0) ||
+            ((materialsOwned[nameB] || 0) >= neededB ? 1 : 0) ||
           MATERIALS[nameB].tier - MATERIALS[nameA].tier ||
           (MATERIALS[nameB].category || 0) - (MATERIALS[nameA].category || 0) ||
           nameA.localeCompare(nameB)
@@ -188,10 +188,10 @@ const GoalOverview = React.memo(function GoalOverview(
             {inner}
           </Box>
         ) : (
-            <Grid key={name} data-testid={name} item xs={4} sm={3} md={3}>
-              {inner}
-            </Grid>
-          );
+          <Grid key={name} data-testid={name} item xs={4} sm={3} md={3}>
+            {inner}
+          </Grid>
+        );
         return outer;
       });
   }
