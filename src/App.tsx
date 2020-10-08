@@ -22,7 +22,7 @@ import AddIcon from "@material-ui/icons/Add";
 import Autocomplete from "@material-ui/lab/Autocomplete";
 import React, { useState } from "react";
 import { useLocalStorage } from "web-api-hooks";
-import OperatorGoalList from "./components/OperatorGoalList";
+import GoalOverview from "./components/GoalOverview";
 import {
   GoalCategory,
   GoalData,
@@ -206,7 +206,7 @@ function App(): React.ReactElement {
               </Box>
             </Grid>
             <Grid item xs={12}>
-              <OperatorGoalList
+              <GoalOverview
                 goals={operatorGoals}
                 onGoalDeleted={handleGoalDeleted}
               />

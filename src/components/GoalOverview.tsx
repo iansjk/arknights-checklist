@@ -19,7 +19,7 @@ interface GoalOverviewProps {
   onGoalDeleted: (goal: OperatorGoalData) => void;
 }
 
-const OperatorGoalList = React.memo(function GoalOverview(
+const GoalOverview = React.memo(function GoalOverview(
   props: GoalOverviewProps
 ): React.ReactElement {
   const { goals, onGoalDeleted } = props;
@@ -226,4 +226,4 @@ const OperatorGoalList = React.memo(function GoalOverview(
     </Grid>
   );
 });
-export default OperatorGoalList;
+export default GoalOverview;
