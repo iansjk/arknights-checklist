@@ -8,6 +8,7 @@ export interface OperatorRecipeBook {
   skillLevels: { [skillLevel: number]: Ingredient[] };
   masteries?: {
     [skillSlot: number]: {
+      name: string;
       [masteryLevel: number]: Ingredient[];
     };
   };

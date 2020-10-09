@@ -153,7 +153,8 @@
               "name": "Incandescent Alloy Block",
               "quantity": 6
             }
-          ]
+          ],
+          "name": "Rapid Fire"
         },
         "2": {
           "1": [
@@ -197,7 +198,8 @@
               "name": "Polymerized Gel",
               "quantity": 6
             }
-          ]
+          ],
+          "name": "Type-γ Stimpack"
         },
         "3": {
           "1": [
@@ -241,7 +243,8 @@
               "name": "Incandescent Alloy Block",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "Durian-Flavored Stimpack"
         }
       }
     },
@@ -390,7 +393,8 @@
               "name": "Manganese Trihydrate",
               "quantity": 3
             }
-          ]
+          ],
+          "name": "Enforcement Mode"
         },
         "2": {
           "1": [
@@ -434,7 +438,8 @@
               "name": "RMA70-24",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Ultimatum"
         }
       }
     },
@@ -648,7 +653,8 @@
               "name": "White Horse Kohl",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Snaring Shell"
         },
         "2": {
           "1": [
@@ -692,7 +698,8 @@
               "name": "Oriron Block",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Radar Sweep"
         }
       }
     },
@@ -841,7 +848,8 @@
               "name": "Orirock Concentration",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "Tactical Chant γ"
         },
         "2": {
           "1": [
@@ -885,7 +893,8 @@
               "name": "White Horse Kohl",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "Spirit Burst"
         },
         "3": {
           "1": [
@@ -929,7 +938,8 @@
               "name": "Polyester Lump",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Chimera"
         }
       }
     },
@@ -1086,7 +1096,8 @@
               "name": "Sugar Lump",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "Arcane Staff - Quick Charge Mode"
         },
         "2": {
           "1": [
@@ -1130,7 +1141,8 @@
               "name": "Sugar Lump",
               "quantity": 6
             }
-          ]
+          ],
+          "name": "Arcane Staff - Particle Mode"
         },
         "3": {
           "1": [
@@ -1174,7 +1186,8 @@
               "name": "White Horse Kohl",
               "quantity": 7
             }
-          ]
+          ],
+          "name": "Arcane Staff - Anti-Gravity Mode"
         }
       }
     },
@@ -1392,7 +1405,8 @@
               "name": "Manganese Trihydrate",
               "quantity": 3
             }
-          ]
+          ],
+          "name": "Astral Protection"
         },
         "2": {
           "1": [
@@ -1436,7 +1450,8 @@
               "name": "White Horse Kohl",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "Astral Sword"
         }
       }
     },
@@ -1593,7 +1608,8 @@
               "name": "Keton Colloid",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "Swift Strike γ"
         },
         "2": {
           "1": [
@@ -1637,7 +1653,8 @@
               "name": "White Horse Kohl",
               "quantity": 7
             }
-          ]
+          ],
+          "name": "High-Impact Assault"
         },
         "3": {
           "1": [
@@ -1681,7 +1698,8 @@
               "name": "Oriron Block",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Locked Breech Burst"
         }
       }
     },
@@ -1895,7 +1913,8 @@
               "name": "Orirock Concentration",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Flexibility"
         },
         "2": {
           "1": [
@@ -1939,7 +1958,8 @@
               "name": "White Horse Kohl",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Soaring Fists"
         }
       }
     },
@@ -2088,7 +2108,8 @@
               "name": "Polymerized Gel",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Plumage Pins"
         },
         "2": {
           "1": [
@@ -2132,7 +2153,8 @@
               "name": "Keton Colloid",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Blade Swap"
         }
       }
     },
@@ -2281,7 +2303,8 @@
               "name": "Manganese Trihydrate",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "DEF Up γ"
         },
         "2": {
           "1": [
@@ -2325,7 +2348,8 @@
               "name": "Grindstone Pentahydrate",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Intensified Defense"
         }
       }
     },
@@ -2482,7 +2506,8 @@
               "name": "Optimized Device",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Power Strike γ"
         },
         "2": {
           "1": [
@@ -2526,7 +2551,8 @@
               "name": "Manganese Trihydrate",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "Chainsaw Extension Module"
         },
         "3": {
           "1": [
@@ -2570,7 +2596,8 @@
               "name": "Optimized Device",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Boiling Burst"
         }
       }
     },
@@ -2719,7 +2746,8 @@
               "name": "White Horse Kohl",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "Twinshot - Auto"
         },
         "2": {
           "1": [
@@ -2763,7 +2791,8 @@
               "name": "RMA70-24",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Venom Spray"
         }
       }
     },
@@ -2912,7 +2941,8 @@
               "name": "White Horse Kohl",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "Cluster Therapy"
         },
         "2": {
           "1": [
@@ -2956,7 +2986,8 @@
               "name": "Polyester Lump",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Widespread Therapy"
         }
       }
     },
@@ -3105,7 +3136,8 @@
               "name": "RMA70-24",
               "quantity": 3
             }
-          ]
+          ],
+          "name": "Galvanize"
         },
         "2": {
           "1": [
@@ -3149,7 +3181,8 @@
               "name": "Sugar Lump",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "High-Voltage Current"
         }
       }
     },
@@ -3444,7 +3477,8 @@
               "name": "Polymerized Gel",
               "quantity": 7
             }
-          ]
+          ],
+          "name": "\"Really Cold Axe\""
         },
         "2": {
           "1": [
@@ -3488,7 +3522,8 @@
               "name": "Incandescent Alloy Block",
               "quantity": 6
             }
-          ]
+          ],
+          "name": "\"Really Hot Knives\""
         },
         "3": {
           "1": [
@@ -3532,7 +3567,8 @@
               "name": "Orirock Concentration",
               "quantity": 6
             }
-          ]
+          ],
+          "name": "\"Really Heavy Spear\""
         }
       }
     },
@@ -3681,7 +3717,8 @@
               "name": "White Horse Kohl",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "Concentrated Hydrotherapy"
         },
         "2": {
           "1": [
@@ -3725,7 +3762,8 @@
               "name": "Polyester Lump",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Water Blessing"
         }
       }
     },
@@ -3882,7 +3920,8 @@
               "name": "White Horse Kohl",
               "quantity": 7
             }
-          ]
+          ],
+          "name": "Sheathed Strike"
         },
         "2": {
           "1": [
@@ -3926,7 +3965,8 @@
               "name": "Polyester Lump",
               "quantity": 6
             }
-          ]
+          ],
+          "name": "Chi Xiao - Unsheath"
         },
         "3": {
           "1": [
@@ -3970,7 +4010,8 @@
               "name": "Oriron Block",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "Chi Xiao - Shadowless"
         }
       }
     },
@@ -4119,7 +4160,8 @@
               "name": "Polyester Lump",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Chain Hook"
         },
         "2": {
           "1": [
@@ -4163,7 +4205,8 @@
               "name": "Optimized Device",
               "quantity": 3
             }
-          ]
+          ],
+          "name": "Binding Chains"
         }
       }
     },
@@ -4308,7 +4351,8 @@
               "name": "Keton Colloid",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Charge β"
         },
         "2": {
           "1": [
@@ -4352,7 +4396,8 @@
               "name": "Grindstone Pentahydrate",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Command - Defense"
         }
       }
     },
@@ -4501,7 +4546,8 @@
               "name": "Sugar Lump",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Auto Defense"
         },
         "2": {
           "1": [
@@ -4545,7 +4591,8 @@
               "name": "RMA70-24",
               "quantity": 3
             }
-          ]
+          ],
+          "name": "Magnetic Hammer"
         }
       }
     },
@@ -4690,7 +4737,8 @@
               "name": "Polyester Lump",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "DEF Up β"
         },
         "2": {
           "1": [
@@ -4734,7 +4782,8 @@
               "name": "Keton Colloid",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Shell Defense"
         }
       }
     },
@@ -4879,7 +4928,8 @@
               "name": "Sugar Lump",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Shadow Tentacle"
         },
         "2": {
           "1": [
@@ -4923,7 +4973,8 @@
               "name": "RMA70-24",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Visual Trap"
         }
       }
     },
@@ -5068,7 +5119,8 @@
               "name": "Manganese Trihydrate",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Power Strike β"
         },
         "2": {
           "1": [
@@ -5112,7 +5164,8 @@
               "name": "White Horse Kohl",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Spur"
         }
       }
     },
@@ -5257,7 +5310,8 @@
               "name": "Manganese Trihydrate",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "ATK Up β"
         },
         "2": {
           "1": [
@@ -5301,7 +5355,8 @@
               "name": "White Horse Kohl",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Shielded Counterattack"
         }
       }
     },
@@ -5446,7 +5501,8 @@
               "name": "RMA70-24",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "ATK Up β"
         },
         "2": {
           "1": [
@@ -5490,7 +5546,8 @@
               "name": "Sugar Lump",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Quicksand Conversion"
         }
       }
     },
@@ -5635,7 +5692,8 @@
               "name": "RMA70-24",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "ATK Up β"
         },
         "2": {
           "1": [
@@ -5679,7 +5737,8 @@
               "name": "Sugar Lump",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Sacrificial Strike"
         }
       }
     },
@@ -5824,7 +5883,8 @@
               "name": "RMA70-24",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Fancy Maneuvers"
         },
         "2": {
           "1": [
@@ -5868,7 +5928,8 @@
               "name": "Sugar Lump",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Suspended Cross"
         }
       }
     },
@@ -6017,7 +6078,8 @@
               "name": "Grindstone Pentahydrate",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Muzzle’s Elegy"
         },
         "2": {
           "1": [
@@ -6061,7 +6123,8 @@
               "name": "Optimized Device",
               "quantity": 3
             }
-          ]
+          ],
+          "name": "Final Journey"
         }
       }
     },
@@ -6218,7 +6281,8 @@
               "name": "Sugar Lump",
               "quantity": 6
             }
-          ]
+          ],
+          "name": "Charging Mode"
         },
         "2": {
           "1": [
@@ -6262,7 +6326,8 @@
               "name": "White Horse Kohl",
               "quantity": 7
             }
-          ]
+          ],
+          "name": "Shooting Mode"
         },
         "3": {
           "1": [
@@ -6306,7 +6371,8 @@
               "name": "Polyester Lump",
               "quantity": 6
             }
-          ]
+          ],
+          "name": "Overloading Mode"
         }
       }
     },
@@ -6463,7 +6529,8 @@
               "name": "Optimized Device",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Duetto"
         },
         "2": {
           "1": [
@@ -6507,7 +6574,8 @@
               "name": "Manganese Trihydrate",
               "quantity": 6
             }
-          ]
+          ],
+          "name": "Ignition"
         },
         "3": {
           "1": [
@@ -6551,7 +6619,8 @@
               "name": "Keton Colloid",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "Volcano"
         }
       }
     },
@@ -6769,7 +6838,8 @@
               "name": "Manganese Trihydrate",
               "quantity": 3
             }
-          ]
+          ],
+          "name": "Raging Iron Fist"
         },
         "2": {
           "1": [
@@ -6813,7 +6883,8 @@
               "name": "White Horse Kohl",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "Destructive Fist"
         }
       }
     },
@@ -6962,7 +7033,8 @@
               "name": "Orirock Concentration",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Camouflage"
         },
         "2": {
           "1": [
@@ -7006,7 +7078,8 @@
               "name": "Polyester Lump",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Tactical Transceiver"
         }
       }
     },
@@ -7155,7 +7228,8 @@
               "name": "Oriron Block",
               "quantity": 3
             }
-          ]
+          ],
+          "name": "Blood Pact"
         },
         "2": {
           "1": [
@@ -7199,7 +7273,8 @@
               "name": "Manganese Trihydrate",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Blade Demon"
         }
       }
     },
@@ -7348,7 +7423,8 @@
               "name": "Optimized Device",
               "quantity": 3
             }
-          ]
+          ],
+          "name": "Swift Strike γ"
         },
         "2": {
           "1": [
@@ -7392,7 +7468,8 @@
               "name": "Oriron Block",
               "quantity": 3
             }
-          ]
+          ],
+          "name": "Vorpal Edge"
         }
       }
     },
@@ -7537,7 +7614,8 @@
               "name": "White Horse Kohl",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Frost Tomahawk"
         },
         "2": {
           "1": [
@@ -7581,7 +7659,8 @@
               "name": "RMA70-24",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Ice Tomahawk"
         }
       }
     },
@@ -7726,7 +7805,8 @@
               "name": "Manganese Trihydrate",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Vitality Restoration"
         },
         "2": {
           "1": [
@@ -7770,7 +7850,8 @@
               "name": "Grindstone Pentahydrate",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Vitality Restoration - Wide Range"
         }
       }
     },
@@ -7915,7 +7996,8 @@
               "name": "Orirock Concentration",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Tactical Chant β"
         },
         "2": {
           "1": [
@@ -7959,7 +8041,8 @@
               "name": "Polyester Lump",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Destiny"
         }
       }
     },
@@ -8108,7 +8191,8 @@
               "name": "Polyester Lump",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Binary Reload"
         },
         "2": {
           "1": [
@@ -8152,7 +8236,8 @@
               "name": "Oriron Block",
               "quantity": 3
             }
-          ]
+          ],
+          "name": "Counter EMP"
         }
       }
     },
@@ -8301,7 +8386,8 @@
               "name": "White Horse Kohl",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "DEF Up γ"
         },
         "2": {
           "1": [
@@ -8345,7 +8431,8 @@
               "name": "RMA70-24",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Press the Attack!"
         }
       }
     },
@@ -8490,7 +8577,8 @@
               "name": "White Horse Kohl",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Shadow Assault"
         },
         "2": {
           "1": [
@@ -8534,7 +8622,8 @@
               "name": "Polyester Lump",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Rat Swarm"
         }
       }
     },
@@ -8683,7 +8772,8 @@
               "name": "Orirock Concentration",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Flying Feathers"
         },
         "2": {
           "1": [
@@ -8727,7 +8817,8 @@
               "name": "Optimized Device",
               "quantity": 3
             }
-          ]
+          ],
+          "name": "Counterflow"
         }
       }
     },
@@ -8872,7 +8963,8 @@
               "name": "Keton Colloid",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Tactical Chant β"
         },
         "2": {
           "1": [
@@ -8916,7 +9008,8 @@
               "name": "Grindstone Pentahydrate",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Electrostatic Discharge"
         }
       }
     },
@@ -9061,7 +9154,8 @@
               "name": "Keton Colloid",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Provisions"
         },
         "2": {
           "1": [
@@ -9105,7 +9199,8 @@
               "name": "Sugar Lump",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Cooking"
         }
       }
     },
@@ -9250,7 +9345,8 @@
               "name": "Sugar Lump",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "ATK Up β"
         },
         "2": {
           "1": [
@@ -9294,7 +9390,8 @@
               "name": "Orirock Concentration",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Crimson Eyes"
         }
       }
     },
@@ -9451,7 +9548,8 @@
               "name": "Oriron Block",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "Crescent Moon"
         },
         "2": {
           "1": [
@@ -9495,7 +9593,8 @@
               "name": "Oriron Block",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Half Moon"
         },
         "3": {
           "1": [
@@ -9539,7 +9638,8 @@
               "name": "Grindstone Pentahydrate",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "Full Moon"
         }
       }
     },
@@ -9765,7 +9865,8 @@
               "name": "Grindstone Pentahydrate",
               "quantity": 6
             }
-          ]
+          ],
+          "name": "Warpath"
         },
         "2": {
           "1": [
@@ -9809,7 +9910,8 @@
               "name": "Polyester Lump",
               "quantity": 6
             }
-          ]
+          ],
+          "name": "Thorns"
         },
         "3": {
           "1": [
@@ -9853,7 +9955,8 @@
               "name": "White Horse Kohl",
               "quantity": 7
             }
-          ]
+          ],
+          "name": "Saw of Strength"
         }
       }
     },
@@ -10002,7 +10105,8 @@
               "name": "Optimized Device",
               "quantity": 3
             }
-          ]
+          ],
+          "name": "Treatment Countermeasure"
         },
         "2": {
           "1": [
@@ -10046,7 +10150,8 @@
               "name": "Incandescent Alloy Block",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Medical Mode Countermeasure"
         }
       }
     },
@@ -10203,7 +10308,8 @@
               "name": "Polyester Lump",
               "quantity": 6
             }
-          ]
+          ],
+          "name": "Fanaticism"
         },
         "2": {
           "1": [
@@ -10247,7 +10353,8 @@
               "name": "Oriron Block",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "Pyroclasm"
         },
         "3": {
           "1": [
@@ -10291,7 +10398,8 @@
               "name": "Oriron Block",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Scorched Earth"
         }
       }
     },
@@ -10440,7 +10548,8 @@
               "name": "Oriron Block",
               "quantity": 3
             }
-          ]
+          ],
+          "name": "Armorcrusher"
         },
         "2": {
           "1": [
@@ -10484,7 +10593,8 @@
               "name": "Keton Colloid",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Sundered Soul"
         }
       }
     },
@@ -10633,7 +10743,8 @@
               "name": "Oriron Block",
               "quantity": 3
             }
-          ]
+          ],
+          "name": "Concentration"
         },
         "2": {
           "1": [
@@ -10677,7 +10788,8 @@
               "name": "Keton Colloid",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Literature Storm"
         }
       }
     },
@@ -10822,7 +10934,8 @@
               "name": "Oriron Block",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Power Strike β"
         },
         "2": {
           "1": [
@@ -10866,7 +10979,8 @@
               "name": "Keton Colloid",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Smokescreen"
         }
       }
     },
@@ -11084,7 +11198,8 @@
               "name": "Keton Colloid",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Sundial"
         },
         "2": {
           "1": [
@@ -11128,7 +11243,8 @@
               "name": "Grindstone Pentahydrate",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Wolf Spirit"
         }
       }
     },
@@ -11346,7 +11462,8 @@
               "name": "Oriron Block",
               "quantity": 3
             }
-          ]
+          ],
+          "name": "ATK Up γ"
         },
         "2": {
           "1": [
@@ -11390,7 +11507,8 @@
               "name": "RMA70-24",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Thunderclap"
         }
       }
     },
@@ -11539,7 +11657,8 @@
               "name": "Orirock Concentration",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "ATK Up γ"
         },
         "2": {
           "1": [
@@ -11583,7 +11702,8 @@
               "name": "White Horse Kohl",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "Deconstruct and Detonate"
         }
       }
     },
@@ -11732,7 +11852,8 @@
               "name": "Keton Colloid",
               "quantity": 3
             }
-          ]
+          ],
+          "name": "Charged Defense"
         },
         "2": {
           "1": [
@@ -11776,7 +11897,8 @@
               "name": "Sugar Lump",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Counter Arc"
         }
       }
     },
@@ -11933,7 +12055,8 @@
               "name": "Manganese Trihydrate",
               "quantity": 6
             }
-          ]
+          ],
+          "name": "High-Efficiency Freezing Module"
         },
         "2": {
           "1": [
@@ -11977,7 +12100,8 @@
               "name": "Keton Colloid",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "Laser Mining Module"
         },
         "3": {
           "1": [
@@ -12021,7 +12145,8 @@
               "name": "Optimized Device",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Armed Combat Module"
         }
       }
     },
@@ -12170,7 +12295,8 @@
               "name": "Grindstone Pentahydrate",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Scorpion Venom"
         },
         "2": {
           "1": [
@@ -12214,7 +12340,8 @@
               "name": "Manganese Trihydrate",
               "quantity": 3
             }
-          ]
+          ],
+          "name": "Toxic Overload"
         }
       }
     },
@@ -12359,7 +12486,8 @@
               "name": "Polyester Lump",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Regeneration β"
         },
         "2": {
           "1": [
@@ -12403,7 +12531,8 @@
               "name": "Optimized Device",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Demonic Power"
         }
       }
     },
@@ -12548,7 +12677,8 @@
               "name": "Optimized Device",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Stamina Enhancement"
         },
         "2": {
           "1": [
@@ -12592,7 +12722,8 @@
               "name": "Polyester Lump",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Cold Resistance"
         }
       }
     },
@@ -12737,7 +12868,8 @@
               "name": "Polyester Lump",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Paralyzing Shell"
         },
         "2": {
           "1": [
@@ -12781,7 +12913,8 @@
               "name": "Optimized Device",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Binding Shock"
         }
       }
     },
@@ -12930,7 +13063,8 @@
               "name": "Oriron Block",
               "quantity": 3
             }
-          ]
+          ],
+          "name": "Bionic Device"
         },
         "2": {
           "1": [
@@ -12974,7 +13108,8 @@
               "name": "Manganese Trihydrate",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Detonate and Recycle"
         }
       }
     },
@@ -13188,7 +13323,8 @@
               "name": "Optimized Device",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Armor Breaker"
         },
         "2": {
           "1": [
@@ -13232,7 +13368,8 @@
               "name": "Oriron Block",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Armor Breaker - Spread"
         }
       }
     },
@@ -13381,7 +13518,8 @@
               "name": "Sugar Lump",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Buckshot"
         },
         "2": {
           "1": [
@@ -13425,7 +13563,8 @@
               "name": "Orirock Concentration",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "High-Explosive Shell"
         }
       }
     },
@@ -13651,7 +13790,8 @@
               "name": "Grindstone Pentahydrate",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "ATK Up γ"
         },
         "2": {
           "1": [
@@ -13695,7 +13835,8 @@
               "name": "Grindstone Pentahydrate",
               "quantity": 6
             }
-          ]
+          ],
+          "name": "Lock of Shattered Time"
         },
         "3": {
           "1": [
@@ -13739,7 +13880,8 @@
               "name": "Polyester Lump",
               "quantity": 6
             }
-          ]
+          ],
+          "name": "Key of Chronology"
         }
       }
     },
@@ -13884,7 +14026,8 @@
               "name": "Sugar Lump",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Scratch"
         },
         "2": {
           "1": [
@@ -13928,7 +14071,8 @@
               "name": "Orirock Concentration",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Fury"
         }
       }
     },
@@ -14073,7 +14217,8 @@
               "name": "Oriron Block",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Dual Healing"
         },
         "2": {
           "1": [
@@ -14117,7 +14262,8 @@
               "name": "Manganese Trihydrate",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Medic Field"
         }
       }
     },
@@ -14262,7 +14408,8 @@
               "name": "Grindstone Pentahydrate",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Support β"
         },
         "2": {
           "1": [
@@ -14306,7 +14453,8 @@
               "name": "Manganese Trihydrate",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Healing Wings"
         }
       }
     },
@@ -14455,7 +14603,8 @@
               "name": "Optimized Device",
               "quantity": 3
             }
-          ]
+          ],
+          "name": "First Aid"
         },
         "2": {
           "1": [
@@ -14499,7 +14648,8 @@
               "name": "Polyester Lump",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "First Aid Mode"
         }
       }
     },
@@ -14656,7 +14806,8 @@
               "name": "Polymerized Gel",
               "quantity": 6
             }
-          ]
+          ],
+          "name": "Tin Burning"
         },
         "2": {
           "1": [
@@ -14700,7 +14851,8 @@
               "name": "Polymerized Gel",
               "quantity": 7
             }
-          ]
+          ],
+          "name": "Copper Seal"
         },
         "3": {
           "1": [
@@ -14744,7 +14896,8 @@
               "name": "Incandescent Alloy Block",
               "quantity": 6
             }
-          ]
+          ],
+          "name": "Iron Defense"
         }
       }
     },
@@ -14901,7 +15054,8 @@
               "name": "Keton Colloid",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "Healing Up γ"
         },
         "2": {
           "1": [
@@ -14945,7 +15099,8 @@
               "name": "Optimized Device",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Arts Shield"
         },
         "3": {
           "1": [
@@ -14989,7 +15144,8 @@
               "name": "Manganese Trihydrate",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "Sanctuary"
         }
       }
     },
@@ -15138,7 +15294,8 @@
               "name": "White Horse Kohl",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "Drain Soul"
         },
         "2": {
           "1": [
@@ -15182,7 +15339,8 @@
               "name": "Polyester Lump",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Night Phantom"
         }
       }
     },
@@ -15396,7 +15554,8 @@
               "name": "Grindstone Pentahydrate",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Healing Up β"
         },
         "2": {
           "1": [
@@ -15440,7 +15599,8 @@
               "name": "Optimized Device",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Fine Blending"
         }
       }
     },
@@ -15589,7 +15749,8 @@
               "name": "RMA70-24",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "ATK Up γ"
         },
         "2": {
           "1": [
@@ -15633,7 +15794,8 @@
               "name": "Sugar Lump",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Pegasian Sight"
         }
       }
     },
@@ -15847,7 +16009,8 @@
               "name": "Incandescent Alloy Block",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Aromatherapy"
         },
         "2": {
           "1": [
@@ -15891,7 +16054,8 @@
               "name": "Incandescent Alloy Block",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Spread Spores"
         }
       }
     },
@@ -16109,7 +16273,8 @@
               "name": "Optimized Device",
               "quantity": 3
             }
-          ]
+          ],
+          "name": "Echolocation"
         },
         "2": {
           "1": [
@@ -16153,7 +16318,8 @@
               "name": "Oriron Block",
               "quantity": 3
             }
-          ]
+          ],
+          "name": "Natural Deterrent"
         }
       }
     },
@@ -16302,7 +16468,8 @@
               "name": "Polyester Lump",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Execution Mode"
         },
         "2": {
           "1": [
@@ -16346,7 +16513,8 @@
               "name": "Keton Colloid",
               "quantity": 3
             }
-          ]
+          ],
+          "name": "Wolfpack"
         }
       }
     },
@@ -16495,7 +16663,8 @@
               "name": "Sugar Lump",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Wolf's Eye"
         },
         "2": {
           "1": [
@@ -16539,7 +16708,8 @@
               "name": "Orirock Concentration",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Prey Seeker"
         }
       }
     },
@@ -16688,7 +16858,8 @@
               "name": "Sugar Lump",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Healing Up γ"
         },
         "2": {
           "1": [
@@ -16732,7 +16903,8 @@
               "name": "Orirock Concentration",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Enkephalin"
         }
       }
     },
@@ -16881,7 +17053,8 @@
               "name": "Keton Colloid",
               "quantity": 3
             }
-          ]
+          ],
+          "name": "Swift Strike γ"
         },
         "2": {
           "1": [
@@ -16925,7 +17098,8 @@
               "name": "Sugar Lump",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Soul Spark"
         }
       }
     },
@@ -17070,7 +17244,8 @@
               "name": "Polyester Lump",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Hook Shot"
         },
         "2": {
           "1": [
@@ -17114,7 +17289,8 @@
               "name": "Oriron Block",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Double Hook"
         }
       }
     },
@@ -17271,7 +17447,8 @@
               "name": "Manganese Trihydrate",
               "quantity": 6
             }
-          ]
+          ],
+          "name": "ATK Up γ"
         },
         "2": {
           "1": [
@@ -17315,7 +17492,8 @@
               "name": "Optimized Device",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Split Shot"
         },
         "3": {
           "1": [
@@ -17359,7 +17537,8 @@
               "name": "RMA70-24",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "Avalanche Breaker"
         }
       }
     },
@@ -17516,7 +17695,8 @@
               "name": "Manganese Trihydrate",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "First Aid"
         },
         "2": {
           "1": [
@@ -17560,7 +17740,8 @@
               "name": "Keton Colloid",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "Medicine Dispensing"
         },
         "3": {
           "1": [
@@ -17604,7 +17785,8 @@
               "name": "RMA70-24",
               "quantity": 6
             }
-          ]
+          ],
+          "name": "Calcification"
         }
       }
     },
@@ -17753,7 +17935,8 @@
               "name": "RMA70-24",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Power Strike β"
         },
         "2": {
           "1": [
@@ -17797,7 +17980,8 @@
               "name": "Sugar Lump",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Precise Blast"
         }
       }
     },
@@ -17942,7 +18126,8 @@
               "name": "Grindstone Pentahydrate",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Charge β"
         },
         "2": {
           "1": [
@@ -17986,7 +18171,8 @@
               "name": "Manganese Trihydrate",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Command - Attack"
         }
       }
     },
@@ -18143,7 +18329,8 @@
               "name": "Polyester Lump",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "Charged Shot"
         },
         "2": {
           "1": [
@@ -18187,7 +18374,8 @@
               "name": "Optimized Device",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Sharp Eye"
         },
         "3": {
           "1": [
@@ -18231,7 +18419,8 @@
               "name": "Manganese Trihydrate",
               "quantity": 6
             }
-          ]
+          ],
+          "name": "Final Tactics"
         }
       }
     },
@@ -18380,7 +18569,8 @@
               "name": "Incandescent Alloy Block",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "ATK Up γ"
         },
         "2": {
           "1": [
@@ -18424,7 +18614,8 @@
               "name": "Manganese Trihydrate",
               "quantity": 3
             }
-          ]
+          ],
+          "name": "Delayed Concussive Parts"
         }
       }
     },
@@ -18569,7 +18760,8 @@
               "name": "Optimized Device",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Steam Pump"
         },
         "2": {
           "1": [
@@ -18613,7 +18805,8 @@
               "name": "Oriron Block",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "High-Pressure Water Cannon"
         }
       }
     },
@@ -18770,7 +18963,8 @@
               "name": "Oriron Block",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Creed"
         },
         "2": {
           "1": [
@@ -18814,7 +19008,8 @@
               "name": "Grindstone Pentahydrate",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "Auto Protect"
         },
         "3": {
           "1": [
@@ -18858,7 +19053,8 @@
               "name": "Grindstone Pentahydrate",
               "quantity": 6
             }
-          ]
+          ],
+          "name": "Creed Field"
         }
       }
     },
@@ -19003,7 +19199,8 @@
               "name": "Oriron Block",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Shuriken"
         },
         "2": {
           "1": [
@@ -19047,7 +19244,8 @@
               "name": "Keton Colloid",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Fatal Shuriken"
         }
       }
     },
@@ -19204,7 +19402,8 @@
               "name": "Orirock Concentration",
               "quantity": 6
             }
-          ]
+          ],
+          "name": "Charge γ"
         },
         "2": {
           "1": [
@@ -19248,7 +19447,8 @@
               "name": "Polyester Lump",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "Aerial Hammer"
         },
         "3": {
           "1": [
@@ -19292,7 +19492,8 @@
               "name": "Optimized Device",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Skull Breaker"
         }
       }
     },
@@ -19441,7 +19642,8 @@
               "name": "Manganese Trihydrate",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Healing Up γ"
         },
         "2": {
           "1": [
@@ -19485,7 +19687,8 @@
               "name": "Grindstone Pentahydrate",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Medical Drone"
         }
       }
     },
@@ -19642,7 +19845,8 @@
               "name": "White Horse Kohl",
               "quantity": 7
             }
-          ]
+          ],
+          "name": "Power Strike γ"
         },
         "2": {
           "1": [
@@ -19686,7 +19890,8 @@
               "name": "Sugar Lump",
               "quantity": 6
             }
-          ]
+          ],
+          "name": "Rules of Survival"
         },
         "3": {
           "1": [
@@ -19730,7 +19935,8 @@
               "name": "Sugar Lump",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "Truesilver Slash"
         }
       }
     },
@@ -19887,7 +20093,8 @@
               "name": "Orirock Concentration",
               "quantity": 7
             }
-          ]
+          ],
+          "name": "Swift Strike γ"
         },
         "2": {
           "1": [
@@ -19931,7 +20138,8 @@
               "name": "Orirock Concentration",
               "quantity": 6
             }
-          ]
+          ],
+          "name": "Wave Strike"
         },
         "3": {
           "1": [
@@ -19975,7 +20183,8 @@
               "name": "Polyester Lump",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "Tidal Elegy"
         }
       }
     },
@@ -20124,7 +20333,8 @@
               "name": "Polyester Lump",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "ATK Up γ"
         },
         "2": {
           "1": [
@@ -20168,7 +20378,8 @@
               "name": "Oriron Block",
               "quantity": 3
             }
-          ]
+          ],
+          "name": "Fire of Heaven"
         }
       }
     },
@@ -20317,7 +20528,8 @@
               "name": "Polymerized Gel",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Barbed Clawhook"
         },
         "2": {
           "1": [
@@ -20361,7 +20573,8 @@
               "name": "Keton Colloid",
               "quantity": 3
             }
-          ]
+          ],
+          "name": "Telescoping Electric Net"
         }
       }
     },
@@ -20510,7 +20723,8 @@
               "name": "Keton Colloid",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Hymn of Respite"
         },
         "2": {
           "1": [
@@ -20554,7 +20768,8 @@
               "name": "Grindstone Pentahydrate",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Hymn of Battle"
         }
       }
     },
@@ -20703,7 +20918,8 @@
               "name": "Grindstone Pentahydrate",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "ATK Up γ"
         },
         "2": {
           "1": [
@@ -20747,7 +20963,8 @@
               "name": "Manganese Trihydrate",
               "quantity": 3
             }
-          ]
+          ],
+          "name": "Bone Fracture"
         }
       }
     },
@@ -21030,7 +21247,8 @@
               "name": "White Horse Kohl",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Healing Up β"
         },
         "2": {
           "1": [
@@ -21074,7 +21292,8 @@
               "name": "RMA70-24",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Deep Healing"
         }
       }
     },
@@ -21223,7 +21442,8 @@
               "name": "Sugar Lump",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Command and Dispatch"
         },
         "2": {
           "1": [
@@ -21267,7 +21487,8 @@
               "name": "Orirock Concentration",
               "quantity": 5
             }
-          ]
+          ],
+          "name": "Cooperative Combat"
         }
       }
     },
@@ -21416,7 +21637,8 @@
               "name": "Polyester Lump",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Charge γ"
         },
         "2": {
           "1": [
@@ -21460,7 +21682,8 @@
               "name": "Optimized Device",
               "quantity": 3
             }
-          ]
+          ],
+          "name": "Sword Rain"
         }
       }
     },
@@ -21605,7 +21828,8 @@
               "name": "Manganese Trihydrate",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Space Out"
         },
         "2": {
           "1": [
@@ -21649,7 +21873,8 @@
               "name": "Grindstone Pentahydrate",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Descending Strike - Earth Splitter"
         }
       }
     },
@@ -21863,7 +22088,8 @@
               "name": "Orirock Concentration",
               "quantity": 3
             }
-          ]
+          ],
+          "name": "ATK Up β"
         },
         "2": {
           "1": [
@@ -21907,7 +22133,8 @@
               "name": "White Horse Kohl",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Double Shot"
         }
       }
     },
@@ -22052,7 +22279,8 @@
               "name": "Orirock Concentration",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "ATK Up β"
         },
         "2": {
           "1": [
@@ -22096,7 +22324,8 @@
               "name": "Polyester Lump",
               "quantity": 2
             }
-          ]
+          ],
+          "name": "Hammer-On"
         }
       }
     },
@@ -22245,7 +22474,8 @@
               "name": "RMA70-24",
               "quantity": 3
             }
-          ]
+          ],
+          "name": "Guardian Mode"
         },
         "2": {
           "1": [
@@ -22289,7 +22519,8 @@
               "name": "Sugar Lump",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Combat Mode"
         }
       }
     },
@@ -22438,7 +22669,8 @@
               "name": "Optimized Device",
               "quantity": 3
             }
-          ]
+          ],
+          "name": "One-inch Punch"
         },
         "2": {
           "1": [
@@ -22482,7 +22714,8 @@
               "name": "Polyester Lump",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Seven-styles Kick"
         }
       }
     },
@@ -22631,7 +22864,8 @@
               "name": "Grindstone Pentahydrate",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Emergency Triage"
         },
         "2": {
           "1": [
@@ -22675,7 +22909,8 @@
               "name": "Optimized Device",
               "quantity": 3
             }
-          ]
+          ],
+          "name": "Unstable Plasma"
         }
       }
     },
@@ -22824,7 +23059,8 @@
               "name": "Orirock Concentration",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Charge γ"
         },
         "2": {
           "1": [
@@ -22868,7 +23104,8 @@
               "name": "Polyester Lump",
               "quantity": 4
             }
-          ]
+          ],
+          "name": "Ursus's Roar"
         }
       }
     }

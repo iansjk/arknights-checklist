@@ -58,6 +58,16 @@ function getEliteLMDCost(rarity: number, eliteLevel: number): Ingredient {
   };
 }
 
+interface SkillTableEntry {
+  levels: {
+    name: string;
+  }[];
+}
+
+interface SkillTable {
+  [skillId: string]: SkillTableEntry;
+}
+
 async function buildOperatorRecipes(): Promise<
   Record<string, OperatorRecipeBook>
 > {
@@ -74,6 +84,9 @@ async function buildOperatorRecipes(): Promise<
     path.join(jsonDir, "item_table.json")
   );
   const itemData = itemTable.items;
+  const skillTable: SkillTable = await import(
+    path.join(jsonDir, "skill_table.json")
+  );
 
   const toIngredients = ({ id, count }: { id: string; count: number }) => ({
     name: itemData[id].name,
@@ -116,7 +129,7 @@ async function buildOperatorRecipes(): Promise<
           skillLevels,
         };
         if (rarity < 4) {
-          return [name, baseObj as OperatorRecipeBook];
+          return [name, baseObj];
         }
         const masteries = Object.fromEntries(
           operatorData[operatorId].skills.map((masteryLevelEntry, i) => {
@@ -128,8 +141,14 @@ async function buildOperatorRecipes(): Promise<
                 return [j + 1, ingredients];
               })
             );
-            // skill # -> array of mastery levels
-            return [i + 1, masteryCosts];
+            // skill # -> { skill name, skill 1 masteries, skill 2 masteries, ... }
+            return [
+              i + 1,
+              {
+                name: skillTable[masteryLevelEntry.skillId].levels[0].name,
+                ...masteryCosts,
+              },
+            ];
           })
         );
         return [name, Object.assign(baseObj, { masteries })];
