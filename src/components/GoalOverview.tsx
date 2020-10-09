@@ -12,6 +12,7 @@ import { useLocalStorage } from "web-api-hooks";
 import MATERIALS, { Ingredient } from "../materials";
 import { OperatorGoalData } from "../operator-goals";
 import ItemNeeded from "./ItemNeeded";
+import { formatQuantity } from "./ItemStack";
 import OperatorGoal from "./OperatorGoal";
 
 interface GoalOverviewProps {
@@ -34,6 +35,11 @@ const GoalOverview = React.memo(function GoalOverview(
   const theme = useTheme();
   const isXSmallScreen = useMediaQuery(theme.breakpoints.down("xs"));
   const isLargeScreen = useMediaQuery(theme.breakpoints.up("lg"));
+  const lmdHeaderTextAlign = isXSmallScreen ? "start" : "end";
+  const lmdIconStyle = {
+    marginLeft: "2px",
+    width: theme.typography.h6.fontSize,
+  };
 
   const materialsNeeded: Record<string, number> = {};
   goals.forEach((goal) =>
@@ -199,7 +205,9 @@ const GoalOverview = React.memo(function GoalOverview(
       });
   }
 
-  const requiredMaterials = Object.entries(materialsNeeded);
+  const requiredMaterials = Object.entries(materialsNeeded).filter(
+    ([name, _]) => name !== "LMD"
+  );
 
   return (
     <Grid container spacing={2}>
@@ -207,9 +215,33 @@ const GoalOverview = React.memo(function GoalOverview(
         {requiredMaterials.length > 0 && (
           <Card>
             <CardContent>
-              <Typography component="h2" variant="h5" gutterBottom>
-                Required materials
-              </Typography>
+              <Box clone alignItems="baseline">
+                <Grid container>
+                  <Grid item xs={12} sm={6}>
+                    <Typography component="h2" variant="h5">
+                      Required materials
+                    </Typography>
+                  </Grid>
+                  <Grid item xs={12} sm={6}>
+                    <Box
+                      clone
+                      textAlign={lmdHeaderTextAlign}
+                      display="inline-block"
+                      width="100%"
+                    >
+                      <Typography component="span" variant="h6" gutterBottom>
+                        Total cost:&nbsp;
+                        <b>{formatQuantity(materialsNeeded.LMD || 0)}</b>
+                        <img
+                          style={lmdIconStyle}
+                          src={`${process.env.PUBLIC_URL}/images/items/lmd.png`}
+                          alt="LMD"
+                        />
+                      </Typography>
+                    </Box>
+                  </Grid>
+                </Grid>
+              </Box>
               <Grid container spacing={1}>
                 {renderItemsNeeded(requiredMaterials)}
               </Grid>
