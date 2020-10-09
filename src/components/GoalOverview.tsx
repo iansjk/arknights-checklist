@@ -3,6 +3,7 @@ import {
   Card,
   CardContent,
   Grid,
+  makeStyles,
   Typography,
   useMediaQuery,
   useTheme,
@@ -14,6 +15,14 @@ import { OperatorGoalData } from "../operator-goals";
 import ItemNeeded from "./ItemNeeded";
 import { formatQuantity } from "./ItemStack";
 import OperatorGoal from "./OperatorGoal";
+
+const useStyles = makeStyles((theme) => ({
+  lmdIcon: {
+    marginLeft: theme.spacing(0.25),
+    position: "relative",
+    top: theme.spacing(0.5),
+  },
+}));
 
 interface GoalOverviewProps {
   goals: OperatorGoalData[];
@@ -37,9 +46,9 @@ const GoalOverview = React.memo(function GoalOverview(
   const isLargeScreen = useMediaQuery(theme.breakpoints.up("lg"));
   const lmdHeaderTextAlign = isXSmallScreen ? "start" : "end";
   const lmdIconStyle = {
-    marginLeft: "2px",
-    width: theme.typography.h6.fontSize,
+    height: "24px",
   };
+  const classes = useStyles();
 
   const materialsNeeded: Record<string, number> = {};
   goals.forEach((goal) =>
@@ -233,6 +242,7 @@ const GoalOverview = React.memo(function GoalOverview(
                         Total cost:&nbsp;
                         <b>{formatQuantity(materialsNeeded.LMD || 0)}</b>
                         <img
+                          className={classes.lmdIcon}
                           style={lmdIconStyle}
                           src={`${process.env.PUBLIC_URL}/images/items/lmd.png`}
                           alt="LMD"
