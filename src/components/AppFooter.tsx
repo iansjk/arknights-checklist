@@ -28,6 +28,9 @@ const useStyles = makeStyles((theme) => ({
       right: "-2px",
     },
   },
+  longerListItem: {
+    fontSize: `min(3.05vw, ${theme.typography.fontSize}px)`,
+  },
 }));
 
 export default function AppFooter(): React.ReactElement {
@@ -65,7 +68,7 @@ export default function AppFooter(): React.ReactElement {
             Penguin Statistics
           </Link>
         </li>
-        <li>
+        <li className={classes.longerListItem}>
           stage efficiency calcs:&nbsp;
           <code>
             <span role="img" aria-label="peach">
@@ -90,7 +93,7 @@ export default function AppFooter(): React.ReactElement {
           </Link>
         </li>
         <li>Arknights is &copy; Hypergryph/Yostar</li>
-        <li>
+        <li className={classes.longerListItem}>
           this project is unaffiliated with Arknights&apos;
           creators/distributors
         </li>
