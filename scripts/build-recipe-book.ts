@@ -145,7 +145,8 @@ async function buildOperatorRecipes(): Promise<
             return [
               i + 1,
               {
-                name: skillTable[masteryLevelEntry.skillId].levels[0].name,
+                skillId: masteryLevelEntry.skillId,
+                skillName: skillTable[masteryLevelEntry.skillId].levels[0].name,
                 ...masteryCosts,
               },
             ];

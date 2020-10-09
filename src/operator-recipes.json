@@ -154,7 +154,8 @@
               "quantity": 6
             }
           ],
-          "name": "Rapid Fire"
+          "skillId": "skchr_haak_1",
+          "skillName": "Rapid Fire"
         },
         "2": {
           "1": [
@@ -199,7 +200,8 @@
               "quantity": 6
             }
           ],
-          "name": "Type-γ Stimpack"
+          "skillId": "skchr_haak_2",
+          "skillName": "Type-γ Stimpack"
         },
         "3": {
           "1": [
@@ -244,7 +246,8 @@
               "quantity": 5
             }
           ],
-          "name": "Durian-Flavored Stimpack"
+          "skillId": "skchr_haak_3",
+          "skillName": "Durian-Flavored Stimpack"
         }
       }
     },
@@ -394,7 +397,8 @@
               "quantity": 3
             }
           ],
-          "name": "Enforcement Mode"
+          "skillId": "skchr_absin_1",
+          "skillName": "Enforcement Mode"
         },
         "2": {
           "1": [
@@ -439,7 +443,8 @@
               "quantity": 4
             }
           ],
-          "name": "Ultimatum"
+          "skillId": "skchr_absin_2",
+          "skillName": "Ultimatum"
         }
       }
     },
@@ -654,7 +659,8 @@
               "quantity": 2
             }
           ],
-          "name": "Snaring Shell"
+          "skillId": "skchr_glaze_1",
+          "skillName": "Snaring Shell"
         },
         "2": {
           "1": [
@@ -699,7 +705,8 @@
               "quantity": 2
             }
           ],
-          "name": "Radar Sweep"
+          "skillId": "skchr_glaze_2",
+          "skillName": "Radar Sweep"
         }
       }
     },
@@ -849,7 +856,8 @@
               "quantity": 5
             }
           ],
-          "name": "Tactical Chant γ"
+          "skillId": "skcom_magic_rage[3]",
+          "skillName": "Tactical Chant γ"
         },
         "2": {
           "1": [
@@ -894,7 +902,8 @@
               "quantity": 5
             }
           ],
-          "name": "Spirit Burst"
+          "skillId": "skchr_amiya_2",
+          "skillName": "Spirit Burst"
         },
         "3": {
           "1": [
@@ -939,7 +948,8 @@
               "quantity": 4
             }
           ],
-          "name": "Chimera"
+          "skillId": "skchr_amiya_3",
+          "skillName": "Chimera"
         }
       }
     },
@@ -1097,7 +1107,8 @@
               "quantity": 5
             }
           ],
-          "name": "Arcane Staff - Quick Charge Mode"
+          "skillId": "skchr_aglina_1",
+          "skillName": "Arcane Staff - Quick Charge Mode"
         },
         "2": {
           "1": [
@@ -1142,7 +1153,8 @@
               "quantity": 6
             }
           ],
-          "name": "Arcane Staff - Particle Mode"
+          "skillId": "skchr_aglina_2",
+          "skillName": "Arcane Staff - Particle Mode"
         },
         "3": {
           "1": [
@@ -1187,7 +1199,8 @@
               "quantity": 7
             }
           ],
-          "name": "Arcane Staff - Anti-Gravity Mode"
+          "skillId": "skchr_aglina_3",
+          "skillName": "Arcane Staff - Anti-Gravity Mode"
         }
       }
     },
@@ -1406,7 +1419,8 @@
               "quantity": 3
             }
           ],
-          "name": "Astral Protection"
+          "skillId": "skchr_astesi_1",
+          "skillName": "Astral Protection"
         },
         "2": {
           "1": [
@@ -1451,7 +1465,8 @@
               "quantity": 5
             }
           ],
-          "name": "Astral Sword"
+          "skillId": "skchr_astesi_2",
+          "skillName": "Astral Sword"
         }
       }
     },
@@ -1609,7 +1624,8 @@
               "quantity": 5
             }
           ],
-          "name": "Swift Strike γ"
+          "skillId": "skcom_quickattack[3]",
+          "skillName": "Swift Strike γ"
         },
         "2": {
           "1": [
@@ -1654,7 +1670,8 @@
               "quantity": 7
             }
           ],
-          "name": "High-Impact Assault"
+          "skillId": "skchr_bpipe_2",
+          "skillName": "High-Impact Assault"
         },
         "3": {
           "1": [
@@ -1699,7 +1716,8 @@
               "quantity": 4
             }
           ],
-          "name": "Locked Breech Burst"
+          "skillId": "skchr_bpipe_3",
+          "skillName": "Locked Breech Burst"
         }
       }
     },
@@ -1914,7 +1932,8 @@
               "quantity": 2
             }
           ],
-          "name": "Flexibility"
+          "skillId": "skchr_brownb_1",
+          "skillName": "Flexibility"
         },
         "2": {
           "1": [
@@ -1959,7 +1978,8 @@
               "quantity": 2
             }
           ],
-          "name": "Soaring Fists"
+          "skillId": "skchr_brownb_2",
+          "skillName": "Soaring Fists"
         }
       }
     },
@@ -2109,7 +2129,8 @@
               "quantity": 4
             }
           ],
-          "name": "Plumage Pins"
+          "skillId": "skchr_bibeak_1",
+          "skillName": "Plumage Pins"
         },
         "2": {
           "1": [
@@ -2154,7 +2175,8 @@
               "quantity": 4
             }
           ],
-          "name": "Blade Swap"
+          "skillId": "skchr_bibeak_2",
+          "skillName": "Blade Swap"
         }
       }
     },
@@ -2304,7 +2326,8 @@
               "quantity": 4
             }
           ],
-          "name": "DEF Up γ"
+          "skillId": "skcom_def_up[3]",
+          "skillName": "DEF Up γ"
         },
         "2": {
           "1": [
@@ -2349,7 +2372,8 @@
               "quantity": 4
             }
           ],
-          "name": "Intensified Defense"
+          "skillId": "skchr_bison_2",
+          "skillName": "Intensified Defense"
         }
       }
     },
@@ -2507,7 +2531,8 @@
               "quantity": 4
             }
           ],
-          "name": "Power Strike γ"
+          "skillId": "skchr_huang_1",
+          "skillName": "Power Strike γ"
         },
         "2": {
           "1": [
@@ -2552,7 +2577,8 @@
               "quantity": 5
             }
           ],
-          "name": "Chainsaw Extension Module"
+          "skillId": "skchr_huang_2",
+          "skillName": "Chainsaw Extension Module"
         },
         "3": {
           "1": [
@@ -2597,7 +2623,8 @@
               "quantity": 4
             }
           ],
-          "name": "Boiling Burst"
+          "skillId": "skchr_huang_3",
+          "skillName": "Boiling Burst"
         }
       }
     },
@@ -2747,7 +2774,8 @@
               "quantity": 5
             }
           ],
-          "name": "Twinshot - Auto"
+          "skillId": "skchr_bluep_1",
+          "skillName": "Twinshot - Auto"
         },
         "2": {
           "1": [
@@ -2792,7 +2820,8 @@
               "quantity": 4
             }
           ],
-          "name": "Venom Spray"
+          "skillId": "skchr_bluep_2",
+          "skillName": "Venom Spray"
         }
       }
     },
@@ -2942,7 +2971,8 @@
               "quantity": 5
             }
           ],
-          "name": "Cluster Therapy"
+          "skillId": "skchr_breeze_1",
+          "skillName": "Cluster Therapy"
         },
         "2": {
           "1": [
@@ -2987,7 +3017,8 @@
               "quantity": 4
             }
           ],
-          "name": "Widespread Therapy"
+          "skillId": "skchr_breeze_2",
+          "skillName": "Widespread Therapy"
         }
       }
     },
@@ -3137,7 +3168,8 @@
               "quantity": 3
             }
           ],
-          "name": "Galvanize"
+          "skillId": "skchr_broca_1",
+          "skillName": "Galvanize"
         },
         "2": {
           "1": [
@@ -3182,7 +3214,8 @@
               "quantity": 4
             }
           ],
-          "name": "High-Voltage Current"
+          "skillId": "skchr_broca_2",
+          "skillName": "High-Voltage Current"
         }
       }
     },
@@ -3478,7 +3511,8 @@
               "quantity": 7
             }
           ],
-          "name": "\"Really Cold Axe\""
+          "skillId": "skchr_cerber_1",
+          "skillName": "\"Really Cold Axe\""
         },
         "2": {
           "1": [
@@ -3523,7 +3557,8 @@
               "quantity": 6
             }
           ],
-          "name": "\"Really Hot Knives\""
+          "skillId": "skchr_cerber_2",
+          "skillName": "\"Really Hot Knives\""
         },
         "3": {
           "1": [
@@ -3568,7 +3603,8 @@
               "quantity": 6
             }
           ],
-          "name": "\"Really Heavy Spear\""
+          "skillId": "skchr_cerber_3",
+          "skillName": "\"Really Heavy Spear\""
         }
       }
     },
@@ -3718,7 +3754,8 @@
               "quantity": 5
             }
           ],
-          "name": "Concentrated Hydrotherapy"
+          "skillId": "skchr_ceylon_1",
+          "skillName": "Concentrated Hydrotherapy"
         },
         "2": {
           "1": [
@@ -3763,7 +3800,8 @@
               "quantity": 4
             }
           ],
-          "name": "Water Blessing"
+          "skillId": "skchr_ceylon_2",
+          "skillName": "Water Blessing"
         }
       }
     },
@@ -3921,7 +3959,8 @@
               "quantity": 7
             }
           ],
-          "name": "Sheathed Strike"
+          "skillId": "skchr_chen_1",
+          "skillName": "Sheathed Strike"
         },
         "2": {
           "1": [
@@ -3966,7 +4005,8 @@
               "quantity": 6
             }
           ],
-          "name": "Chi Xiao - Unsheath"
+          "skillId": "skchr_chen_2",
+          "skillName": "Chi Xiao - Unsheath"
         },
         "3": {
           "1": [
@@ -4011,7 +4051,8 @@
               "quantity": 5
             }
           ],
-          "name": "Chi Xiao - Shadowless"
+          "skillId": "skchr_chen_3",
+          "skillName": "Chi Xiao - Shadowless"
         }
       }
     },
@@ -4161,7 +4202,8 @@
               "quantity": 4
             }
           ],
-          "name": "Chain Hook"
+          "skillId": "skchr_slchan_1",
+          "skillName": "Chain Hook"
         },
         "2": {
           "1": [
@@ -4206,7 +4248,8 @@
               "quantity": 3
             }
           ],
-          "name": "Binding Chains"
+          "skillId": "skchr_slchan_2",
+          "skillName": "Binding Chains"
         }
       }
     },
@@ -4352,7 +4395,8 @@
               "quantity": 2
             }
           ],
-          "name": "Charge β"
+          "skillId": "skcom_charge_cost[2]",
+          "skillName": "Charge β"
         },
         "2": {
           "1": [
@@ -4397,7 +4441,8 @@
               "quantity": 2
             }
           ],
-          "name": "Command - Defense"
+          "skillId": "skchr_blackd_2",
+          "skillName": "Command - Defense"
         }
       }
     },
@@ -4547,7 +4592,8 @@
               "quantity": 4
             }
           ],
-          "name": "Auto Defense"
+          "skillId": "skchr_moeshd_1",
+          "skillName": "Auto Defense"
         },
         "2": {
           "1": [
@@ -4592,7 +4638,8 @@
               "quantity": 3
             }
           ],
-          "name": "Magnetic Hammer"
+          "skillId": "skchr_moeshd_2",
+          "skillName": "Magnetic Hammer"
         }
       }
     },
@@ -4738,7 +4785,8 @@
               "quantity": 2
             }
           ],
-          "name": "DEF Up β"
+          "skillId": "skcom_def_up[2]",
+          "skillName": "DEF Up β"
         },
         "2": {
           "1": [
@@ -4783,7 +4831,8 @@
               "quantity": 2
             }
           ],
-          "name": "Shell Defense"
+          "skillId": "skchr_snakek_2",
+          "skillName": "Shell Defense"
         }
       }
     },
@@ -4929,7 +4978,8 @@
               "quantity": 2
             }
           ],
-          "name": "Shadow Tentacle"
+          "skillId": "skchr_deepcl_1",
+          "skillName": "Shadow Tentacle"
         },
         "2": {
           "1": [
@@ -4974,7 +5024,8 @@
               "quantity": 2
             }
           ],
-          "name": "Visual Trap"
+          "skillId": "skchr_deepcl_2",
+          "skillName": "Visual Trap"
         }
       }
     },
@@ -5120,7 +5171,8 @@
               "quantity": 2
             }
           ],
-          "name": "Power Strike β"
+          "skillId": "skchr_doberm_1",
+          "skillName": "Power Strike β"
         },
         "2": {
           "1": [
@@ -5165,7 +5217,8 @@
               "quantity": 2
             }
           ],
-          "name": "Spur"
+          "skillId": "skchr_doberm_2",
+          "skillName": "Spur"
         }
       }
     },
@@ -5311,7 +5364,8 @@
               "quantity": 2
             }
           ],
-          "name": "ATK Up β"
+          "skillId": "skcom_atk_up[2]",
+          "skillName": "ATK Up β"
         },
         "2": {
           "1": [
@@ -5356,7 +5410,8 @@
               "quantity": 2
             }
           ],
-          "name": "Shielded Counterattack"
+          "skillId": "skchr_durnar_2",
+          "skillName": "Shielded Counterattack"
         }
       }
     },
@@ -5502,7 +5557,8 @@
               "quantity": 2
             }
           ],
-          "name": "ATK Up β"
+          "skillId": "skcom_atk_up[2]",
+          "skillName": "ATK Up β"
         },
         "2": {
           "1": [
@@ -5547,7 +5603,8 @@
               "quantity": 2
             }
           ],
-          "name": "Quicksand Conversion"
+          "skillId": "skchr_skgoat_2",
+          "skillName": "Quicksand Conversion"
         }
       }
     },
@@ -5693,7 +5750,8 @@
               "quantity": 2
             }
           ],
-          "name": "ATK Up β"
+          "skillId": "skcom_atk_up[2]",
+          "skillName": "ATK Up β"
         },
         "2": {
           "1": [
@@ -5738,7 +5796,8 @@
               "quantity": 2
             }
           ],
-          "name": "Sacrificial Strike"
+          "skillId": "skchr_estell_2",
+          "skillName": "Sacrificial Strike"
         }
       }
     },
@@ -5884,7 +5943,8 @@
               "quantity": 2
             }
           ],
-          "name": "Fancy Maneuvers"
+          "skillId": "skchr_ethan_1",
+          "skillName": "Fancy Maneuvers"
         },
         "2": {
           "1": [
@@ -5929,7 +5989,8 @@
               "quantity": 2
             }
           ],
-          "name": "Suspended Cross"
+          "skillId": "skchr_ethan_2",
+          "skillName": "Suspended Cross"
         }
       }
     },
@@ -6079,7 +6140,8 @@
               "quantity": 4
             }
           ],
-          "name": "Muzzle’s Elegy"
+          "skillId": "skchr_excu_1",
+          "skillName": "Muzzle’s Elegy"
         },
         "2": {
           "1": [
@@ -6124,7 +6186,8 @@
               "quantity": 3
             }
           ],
-          "name": "Final Journey"
+          "skillId": "skchr_excu_2",
+          "skillName": "Final Journey"
         }
       }
     },
@@ -6282,7 +6345,8 @@
               "quantity": 6
             }
           ],
-          "name": "Charging Mode"
+          "skillId": "skchr_angel_1",
+          "skillName": "Charging Mode"
         },
         "2": {
           "1": [
@@ -6327,7 +6391,8 @@
               "quantity": 7
             }
           ],
-          "name": "Shooting Mode"
+          "skillId": "skchr_angel_2",
+          "skillName": "Shooting Mode"
         },
         "3": {
           "1": [
@@ -6372,7 +6437,8 @@
               "quantity": 6
             }
           ],
-          "name": "Overloading Mode"
+          "skillId": "skchr_angel_3",
+          "skillName": "Overloading Mode"
         }
       }
     },
@@ -6530,7 +6596,8 @@
               "quantity": 4
             }
           ],
-          "name": "Duetto"
+          "skillId": "skchr_amgoat_1",
+          "skillName": "Duetto"
         },
         "2": {
           "1": [
@@ -6575,7 +6642,8 @@
               "quantity": 6
             }
           ],
-          "name": "Ignition"
+          "skillId": "skchr_amgoat_2",
+          "skillName": "Ignition"
         },
         "3": {
           "1": [
@@ -6620,7 +6688,8 @@
               "quantity": 5
             }
           ],
-          "name": "Volcano"
+          "skillId": "skchr_amgoat_3",
+          "skillName": "Volcano"
         }
       }
     },
@@ -6839,7 +6908,8 @@
               "quantity": 3
             }
           ],
-          "name": "Raging Iron Fist"
+          "skillId": "skchr_panda_1",
+          "skillName": "Raging Iron Fist"
         },
         "2": {
           "1": [
@@ -6884,7 +6954,8 @@
               "quantity": 5
             }
           ],
-          "name": "Destructive Fist"
+          "skillId": "skchr_panda_2",
+          "skillName": "Destructive Fist"
         }
       }
     },
@@ -7034,7 +7105,8 @@
               "quantity": 4
             }
           ],
-          "name": "Camouflage"
+          "skillId": "skchr_milu_1",
+          "skillName": "Camouflage"
         },
         "2": {
           "1": [
@@ -7079,7 +7151,8 @@
               "quantity": 4
             }
           ],
-          "name": "Tactical Transceiver"
+          "skillId": "skchr_milu_2",
+          "skillName": "Tactical Transceiver"
         }
       }
     },
@@ -7229,7 +7302,8 @@
               "quantity": 3
             }
           ],
-          "name": "Blood Pact"
+          "skillId": "skchr_flameb_1",
+          "skillName": "Blood Pact"
         },
         "2": {
           "1": [
@@ -7274,7 +7348,8 @@
               "quantity": 4
             }
           ],
-          "name": "Blade Demon"
+          "skillId": "skchr_flameb_2",
+          "skillName": "Blade Demon"
         }
       }
     },
@@ -7424,7 +7499,8 @@
               "quantity": 3
             }
           ],
-          "name": "Swift Strike γ"
+          "skillId": "skcom_quickattack[3]",
+          "skillName": "Swift Strike γ"
         },
         "2": {
           "1": [
@@ -7469,7 +7545,8 @@
               "quantity": 3
             }
           ],
-          "name": "Vorpal Edge"
+          "skillId": "skchr_franka_2",
+          "skillName": "Vorpal Edge"
         }
       }
     },
@@ -7615,7 +7692,8 @@
               "quantity": 2
             }
           ],
-          "name": "Frost Tomahawk"
+          "skillId": "skchr_frostl_1",
+          "skillName": "Frost Tomahawk"
         },
         "2": {
           "1": [
@@ -7660,7 +7738,8 @@
               "quantity": 2
             }
           ],
-          "name": "Ice Tomahawk"
+          "skillId": "skchr_frostl_2",
+          "skillName": "Ice Tomahawk"
         }
       }
     },
@@ -7806,7 +7885,8 @@
               "quantity": 2
             }
           ],
-          "name": "Vitality Restoration"
+          "skillId": "skchr_ccheal_1",
+          "skillName": "Vitality Restoration"
         },
         "2": {
           "1": [
@@ -7851,7 +7931,8 @@
               "quantity": 2
             }
           ],
-          "name": "Vitality Restoration - Wide Range"
+          "skillId": "skchr_ccheal_2",
+          "skillName": "Vitality Restoration - Wide Range"
         }
       }
     },
@@ -7997,7 +8078,8 @@
               "quantity": 2
             }
           ],
-          "name": "Tactical Chant β"
+          "skillId": "skcom_magic_rage[2]",
+          "skillName": "Tactical Chant β"
         },
         "2": {
           "1": [
@@ -8042,7 +8124,8 @@
               "quantity": 2
             }
           ],
-          "name": "Destiny"
+          "skillId": "skchr_fmout_2",
+          "skillName": "Destiny"
         }
       }
     },
@@ -8192,7 +8275,8 @@
               "quantity": 4
             }
           ],
-          "name": "Binary Reload"
+          "skillId": "skchr_glacus_1",
+          "skillName": "Binary Reload"
         },
         "2": {
           "1": [
@@ -8237,7 +8321,8 @@
               "quantity": 3
             }
           ],
-          "name": "Counter EMP"
+          "skillId": "skchr_glacus_2",
+          "skillName": "Counter EMP"
         }
       }
     },
@@ -8387,7 +8472,8 @@
               "quantity": 5
             }
           ],
-          "name": "DEF Up γ"
+          "skillId": "skcom_def_up[3]",
+          "skillName": "DEF Up γ"
         },
         "2": {
           "1": [
@@ -8432,7 +8518,8 @@
               "quantity": 4
             }
           ],
-          "name": "Press the Attack!"
+          "skillId": "skchr_grani_2",
+          "skillName": "Press the Attack!"
         }
       }
     },
@@ -8578,7 +8665,8 @@
               "quantity": 2
             }
           ],
-          "name": "Shadow Assault"
+          "skillId": "skchr_gravel_1",
+          "skillName": "Shadow Assault"
         },
         "2": {
           "1": [
@@ -8623,7 +8711,8 @@
               "quantity": 2
             }
           ],
-          "name": "Rat Swarm"
+          "skillId": "skchr_gravel_2",
+          "skillName": "Rat Swarm"
         }
       }
     },
@@ -8773,7 +8862,8 @@
               "quantity": 4
             }
           ],
-          "name": "Flying Feathers"
+          "skillId": "skchr_swllow_1",
+          "skillName": "Flying Feathers"
         },
         "2": {
           "1": [
@@ -8818,7 +8908,8 @@
               "quantity": 3
             }
           ],
-          "name": "Counterflow"
+          "skillId": "skchr_swllow_2",
+          "skillName": "Counterflow"
         }
       }
     },
@@ -8964,7 +9055,8 @@
               "quantity": 2
             }
           ],
-          "name": "Tactical Chant β"
+          "skillId": "skcom_magic_rage[2]",
+          "skillName": "Tactical Chant β"
         },
         "2": {
           "1": [
@@ -9009,7 +9101,8 @@
               "quantity": 2
             }
           ],
-          "name": "Electrostatic Discharge"
+          "skillId": "skchr_greyy_2",
+          "skillName": "Electrostatic Discharge"
         }
       }
     },
@@ -9155,7 +9248,8 @@
               "quantity": 2
             }
           ],
-          "name": "Provisions"
+          "skillId": "skchr_sunbr_1",
+          "skillName": "Provisions"
         },
         "2": {
           "1": [
@@ -9200,7 +9294,8 @@
               "quantity": 2
             }
           ],
-          "name": "Cooking"
+          "skillId": "skchr_sunbr_2",
+          "skillName": "Cooking"
         }
       }
     },
@@ -9346,7 +9441,8 @@
               "quantity": 2
             }
           ],
-          "name": "ATK Up β"
+          "skillId": "skcom_atk_up[2]",
+          "skillName": "ATK Up β"
         },
         "2": {
           "1": [
@@ -9391,7 +9487,8 @@
               "quantity": 2
             }
           ],
-          "name": "Crimson Eyes"
+          "skillId": "skchr_nights_2",
+          "skillName": "Crimson Eyes"
         }
       }
     },
@@ -9549,7 +9646,8 @@
               "quantity": 5
             }
           ],
-          "name": "Crescent Moon"
+          "skillId": "skchr_helage_1",
+          "skillName": "Crescent Moon"
         },
         "2": {
           "1": [
@@ -9594,7 +9692,8 @@
               "quantity": 4
             }
           ],
-          "name": "Half Moon"
+          "skillId": "skchr_helage_2",
+          "skillName": "Half Moon"
         },
         "3": {
           "1": [
@@ -9639,7 +9738,8 @@
               "quantity": 5
             }
           ],
-          "name": "Full Moon"
+          "skillId": "skchr_helage_3",
+          "skillName": "Full Moon"
         }
       }
     },
@@ -9866,7 +9966,8 @@
               "quantity": 6
             }
           ],
-          "name": "Warpath"
+          "skillId": "skchr_hsguma_1",
+          "skillName": "Warpath"
         },
         "2": {
           "1": [
@@ -9911,7 +10012,8 @@
               "quantity": 6
             }
           ],
-          "name": "Thorns"
+          "skillId": "skchr_hsguma_2",
+          "skillName": "Thorns"
         },
         "3": {
           "1": [
@@ -9956,7 +10058,8 @@
               "quantity": 7
             }
           ],
-          "name": "Saw of Strength"
+          "skillId": "skchr_hsguma_3",
+          "skillName": "Saw of Strength"
         }
       }
     },
@@ -10106,7 +10209,8 @@
               "quantity": 3
             }
           ],
-          "name": "Treatment Countermeasure"
+          "skillId": "skchr_hmau_1",
+          "skillName": "Treatment Countermeasure"
         },
         "2": {
           "1": [
@@ -10151,7 +10255,8 @@
               "quantity": 4
             }
           ],
-          "name": "Medical Mode Countermeasure"
+          "skillId": "skchr_hmau_2",
+          "skillName": "Medical Mode Countermeasure"
         }
       }
     },
@@ -10309,7 +10414,8 @@
               "quantity": 6
             }
           ],
-          "name": "Fanaticism"
+          "skillId": "skchr_ifrit_1",
+          "skillName": "Fanaticism"
         },
         "2": {
           "1": [
@@ -10354,7 +10460,8 @@
               "quantity": 5
             }
           ],
-          "name": "Pyroclasm"
+          "skillId": "skchr_ifrit_2",
+          "skillName": "Pyroclasm"
         },
         "3": {
           "1": [
@@ -10399,7 +10506,8 @@
               "quantity": 4
             }
           ],
-          "name": "Scorched Earth"
+          "skillId": "skchr_ifrit_3",
+          "skillName": "Scorched Earth"
         }
       }
     },
@@ -10549,7 +10657,8 @@
               "quantity": 3
             }
           ],
-          "name": "Armorcrusher"
+          "skillId": "skchr_tiger_1",
+          "skillName": "Armorcrusher"
         },
         "2": {
           "1": [
@@ -10594,7 +10703,8 @@
               "quantity": 4
             }
           ],
-          "name": "Sundered Soul"
+          "skillId": "skchr_tiger_2",
+          "skillName": "Sundered Soul"
         }
       }
     },
@@ -10744,7 +10854,8 @@
               "quantity": 3
             }
           ],
-          "name": "Concentration"
+          "skillId": "skchr_glassb_1",
+          "skillName": "Concentration"
         },
         "2": {
           "1": [
@@ -10789,7 +10900,8 @@
               "quantity": 4
             }
           ],
-          "name": "Literature Storm"
+          "skillId": "skchr_glassb_2",
+          "skillName": "Literature Storm"
         }
       }
     },
@@ -10935,7 +11047,8 @@
               "quantity": 2
             }
           ],
-          "name": "Power Strike β"
+          "skillId": "skchr_jesica_1",
+          "skillName": "Power Strike β"
         },
         "2": {
           "1": [
@@ -10980,7 +11093,8 @@
               "quantity": 2
             }
           ],
-          "name": "Smokescreen"
+          "skillId": "skchr_jesica_2",
+          "skillName": "Smokescreen"
         }
       }
     },
@@ -11199,7 +11313,8 @@
               "quantity": 4
             }
           ],
-          "name": "Sundial"
+          "skillId": "skchr_whitew_1",
+          "skillName": "Sundial"
         },
         "2": {
           "1": [
@@ -11244,7 +11359,8 @@
               "quantity": 4
             }
           ],
-          "name": "Wolf Spirit"
+          "skillId": "skchr_whitew_2",
+          "skillName": "Wolf Spirit"
         }
       }
     },
@@ -11463,7 +11579,8 @@
               "quantity": 3
             }
           ],
-          "name": "ATK Up γ"
+          "skillId": "skcom_atk_up[3]",
+          "skillName": "ATK Up γ"
         },
         "2": {
           "1": [
@@ -11508,7 +11625,8 @@
               "quantity": 4
             }
           ],
-          "name": "Thunderclap"
+          "skillId": "skchr_leizi_2",
+          "skillName": "Thunderclap"
         }
       }
     },
@@ -11658,7 +11776,8 @@
               "quantity": 5
             }
           ],
-          "name": "ATK Up γ"
+          "skillId": "skcom_atk_up[3]",
+          "skillName": "ATK Up γ"
         },
         "2": {
           "1": [
@@ -11703,7 +11822,8 @@
               "quantity": 5
             }
           ],
-          "name": "Deconstruct and Detonate"
+          "skillId": "skchr_lionhd_2",
+          "skillName": "Deconstruct and Detonate"
         }
       }
     },
@@ -11853,7 +11973,8 @@
               "quantity": 3
             }
           ],
-          "name": "Charged Defense"
+          "skillId": "skchr_liskam_1",
+          "skillName": "Charged Defense"
         },
         "2": {
           "1": [
@@ -11898,7 +12019,8 @@
               "quantity": 4
             }
           ],
-          "name": "Counter Arc"
+          "skillId": "skchr_liskam_2",
+          "skillName": "Counter Arc"
         }
       }
     },
@@ -12056,7 +12178,8 @@
               "quantity": 6
             }
           ],
-          "name": "High-Efficiency Freezing Module"
+          "skillId": "skchr_mgllan_1",
+          "skillName": "High-Efficiency Freezing Module"
         },
         "2": {
           "1": [
@@ -12101,7 +12224,8 @@
               "quantity": 5
             }
           ],
-          "name": "Laser Mining Module"
+          "skillId": "skchr_mgllan_2",
+          "skillName": "Laser Mining Module"
         },
         "3": {
           "1": [
@@ -12146,7 +12270,8 @@
               "quantity": 4
             }
           ],
-          "name": "Armed Combat Module"
+          "skillId": "skchr_mgllan_3",
+          "skillName": "Armed Combat Module"
         }
       }
     },
@@ -12296,7 +12421,8 @@
               "quantity": 4
             }
           ],
-          "name": "Scorpion Venom"
+          "skillId": "skchr_mantic_1",
+          "skillName": "Scorpion Venom"
         },
         "2": {
           "1": [
@@ -12341,7 +12467,8 @@
               "quantity": 3
             }
           ],
-          "name": "Toxic Overload"
+          "skillId": "skchr_mantic_2",
+          "skillName": "Toxic Overload"
         }
       }
     },
@@ -12487,7 +12614,8 @@
               "quantity": 2
             }
           ],
-          "name": "Regeneration β"
+          "skillId": "skcom_heal_self[2]",
+          "skillName": "Regeneration β"
         },
         "2": {
           "1": [
@@ -12532,7 +12660,8 @@
               "quantity": 2
             }
           ],
-          "name": "Demonic Power"
+          "skillId": "skchr_gyuki_2",
+          "skillName": "Demonic Power"
         }
       }
     },
@@ -12678,7 +12807,8 @@
               "quantity": 2
             }
           ],
-          "name": "Stamina Enhancement"
+          "skillId": "skchr_yak_1",
+          "skillName": "Stamina Enhancement"
         },
         "2": {
           "1": [
@@ -12723,7 +12853,8 @@
               "quantity": 2
             }
           ],
-          "name": "Cold Resistance"
+          "skillId": "skchr_yak_2",
+          "skillName": "Cold Resistance"
         }
       }
     },
@@ -12869,7 +13000,8 @@
               "quantity": 2
             }
           ],
-          "name": "Paralyzing Shell"
+          "skillId": "skchr_mm_1",
+          "skillName": "Paralyzing Shell"
         },
         "2": {
           "1": [
@@ -12914,7 +13046,8 @@
               "quantity": 2
             }
           ],
-          "name": "Binding Shock"
+          "skillId": "skchr_mm_2",
+          "skillName": "Binding Shock"
         }
       }
     },
@@ -13064,7 +13197,8 @@
               "quantity": 3
             }
           ],
-          "name": "Bionic Device"
+          "skillId": "skchr_otter_1",
+          "skillName": "Bionic Device"
         },
         "2": {
           "1": [
@@ -13109,7 +13243,8 @@
               "quantity": 4
             }
           ],
-          "name": "Detonate and Recycle"
+          "skillId": "skchr_otter_2",
+          "skillName": "Detonate and Recycle"
         }
       }
     },
@@ -13324,7 +13459,8 @@
               "quantity": 2
             }
           ],
-          "name": "Armor Breaker"
+          "skillId": "skchr_shotst_1",
+          "skillName": "Armor Breaker"
         },
         "2": {
           "1": [
@@ -13369,7 +13505,8 @@
               "quantity": 2
             }
           ],
-          "name": "Armor Breaker - Spread"
+          "skillId": "skchr_shotst_2",
+          "skillName": "Armor Breaker - Spread"
         }
       }
     },
@@ -13519,7 +13656,8 @@
               "quantity": 4
             }
           ],
-          "name": "Buckshot"
+          "skillId": "skchr_meteo_1",
+          "skillName": "Buckshot"
         },
         "2": {
           "1": [
@@ -13564,7 +13702,8 @@
               "quantity": 5
             }
           ],
-          "name": "High-Explosive Shell"
+          "skillId": "skchr_meteo_2",
+          "skillName": "High-Explosive Shell"
         }
       }
     },
@@ -13791,7 +13930,8 @@
               "quantity": 5
             }
           ],
-          "name": "ATK Up γ"
+          "skillId": "skcom_atk_up[3]",
+          "skillName": "ATK Up γ"
         },
         "2": {
           "1": [
@@ -13836,7 +13976,8 @@
               "quantity": 6
             }
           ],
-          "name": "Lock of Shattered Time"
+          "skillId": "skchr_mostma_2",
+          "skillName": "Lock of Shattered Time"
         },
         "3": {
           "1": [
@@ -13881,7 +14022,8 @@
               "quantity": 6
             }
           ],
-          "name": "Key of Chronology"
+          "skillId": "skchr_mostma_3",
+          "skillName": "Key of Chronology"
         }
       }
     },
@@ -14027,7 +14169,8 @@
               "quantity": 2
             }
           ],
-          "name": "Scratch"
+          "skillId": "skchr_frncat_1",
+          "skillName": "Scratch"
         },
         "2": {
           "1": [
@@ -14072,7 +14215,8 @@
               "quantity": 2
             }
           ],
-          "name": "Fury"
+          "skillId": "skchr_frncat_2",
+          "skillName": "Fury"
         }
       }
     },
@@ -14218,7 +14362,8 @@
               "quantity": 2
             }
           ],
-          "name": "Dual Healing"
+          "skillId": "skchr_myrrh_1",
+          "skillName": "Dual Healing"
         },
         "2": {
           "1": [
@@ -14263,7 +14408,8 @@
               "quantity": 2
             }
           ],
-          "name": "Medic Field"
+          "skillId": "skchr_myrrh_2",
+          "skillName": "Medic Field"
         }
       }
     },
@@ -14409,7 +14555,8 @@
               "quantity": 2
             }
           ],
-          "name": "Support β"
+          "skillId": "skcom_assist_cost[2]",
+          "skillName": "Support β"
         },
         "2": {
           "1": [
@@ -14454,7 +14601,8 @@
               "quantity": 2
             }
           ],
-          "name": "Healing Wings"
+          "skillId": "skchr_myrtle_2",
+          "skillName": "Healing Wings"
         }
       }
     },
@@ -14604,7 +14752,8 @@
               "quantity": 3
             }
           ],
-          "name": "First Aid"
+          "skillId": "skchr_nearl_1",
+          "skillName": "First Aid"
         },
         "2": {
           "1": [
@@ -14649,7 +14798,8 @@
               "quantity": 4
             }
           ],
-          "name": "First Aid Mode"
+          "skillId": "skchr_nearl_2",
+          "skillName": "First Aid Mode"
         }
       }
     },
@@ -14807,7 +14957,8 @@
               "quantity": 6
             }
           ],
-          "name": "Tin Burning"
+          "skillId": "skchr_nian_1",
+          "skillName": "Tin Burning"
         },
         "2": {
           "1": [
@@ -14852,7 +15003,8 @@
               "quantity": 7
             }
           ],
-          "name": "Copper Seal"
+          "skillId": "skchr_nian_2",
+          "skillName": "Copper Seal"
         },
         "3": {
           "1": [
@@ -14897,7 +15049,8 @@
               "quantity": 6
             }
           ],
-          "name": "Iron Defense"
+          "skillId": "skchr_nian_3",
+          "skillName": "Iron Defense"
         }
       }
     },
@@ -15055,7 +15208,8 @@
               "quantity": 5
             }
           ],
-          "name": "Healing Up γ"
+          "skillId": "skcom_heal_up[3]",
+          "skillName": "Healing Up γ"
         },
         "2": {
           "1": [
@@ -15100,7 +15254,8 @@
               "quantity": 4
             }
           ],
-          "name": "Arts Shield"
+          "skillId": "skchr_cgbird_2",
+          "skillName": "Arts Shield"
         },
         "3": {
           "1": [
@@ -15145,7 +15300,8 @@
               "quantity": 5
             }
           ],
-          "name": "Sanctuary"
+          "skillId": "skchr_cgbird_3",
+          "skillName": "Sanctuary"
         }
       }
     },
@@ -15295,7 +15451,8 @@
               "quantity": 5
             }
           ],
-          "name": "Drain Soul"
+          "skillId": "skchr_nightm_1",
+          "skillName": "Drain Soul"
         },
         "2": {
           "1": [
@@ -15340,7 +15497,8 @@
               "quantity": 4
             }
           ],
-          "name": "Night Phantom"
+          "skillId": "skchr_nightm_2",
+          "skillName": "Night Phantom"
         }
       }
     },
@@ -15555,7 +15713,8 @@
               "quantity": 2
             }
           ],
-          "name": "Healing Up β"
+          "skillId": "skcom_heal_up[2]",
+          "skillName": "Healing Up β"
         },
         "2": {
           "1": [
@@ -15600,7 +15759,8 @@
               "quantity": 2
             }
           ],
-          "name": "Fine Blending"
+          "skillId": "skchr_flower_2",
+          "skillName": "Fine Blending"
         }
       }
     },
@@ -15750,7 +15910,8 @@
               "quantity": 4
             }
           ],
-          "name": "ATK Up γ"
+          "skillId": "skcom_atk_up[3]",
+          "skillName": "ATK Up γ"
         },
         "2": {
           "1": [
@@ -15795,7 +15956,8 @@
               "quantity": 4
             }
           ],
-          "name": "Pegasian Sight"
+          "skillId": "skchr_platnm_2",
+          "skillName": "Pegasian Sight"
         }
       }
     },
@@ -16010,7 +16172,8 @@
               "quantity": 2
             }
           ],
-          "name": "Aromatherapy"
+          "skillId": "skchr_podego_1",
+          "skillName": "Aromatherapy"
         },
         "2": {
           "1": [
@@ -16055,7 +16218,8 @@
               "quantity": 2
             }
           ],
-          "name": "Spread Spores"
+          "skillId": "skchr_podego_2",
+          "skillName": "Spread Spores"
         }
       }
     },
@@ -16274,7 +16438,8 @@
               "quantity": 3
             }
           ],
-          "name": "Echolocation"
+          "skillId": "skchr_slbell_1",
+          "skillName": "Echolocation"
         },
         "2": {
           "1": [
@@ -16319,7 +16484,8 @@
               "quantity": 3
             }
           ],
-          "name": "Natural Deterrent"
+          "skillId": "skchr_slbell_2",
+          "skillName": "Natural Deterrent"
         }
       }
     },
@@ -16469,7 +16635,8 @@
               "quantity": 4
             }
           ],
-          "name": "Execution Mode"
+          "skillId": "skchr_red_1",
+          "skillName": "Execution Mode"
         },
         "2": {
           "1": [
@@ -16514,7 +16681,8 @@
               "quantity": 3
             }
           ],
-          "name": "Wolfpack"
+          "skillId": "skchr_red_2",
+          "skillName": "Wolfpack"
         }
       }
     },
@@ -16664,7 +16832,8 @@
               "quantity": 4
             }
           ],
-          "name": "Wolf's Eye"
+          "skillId": "skchr_prove_1",
+          "skillName": "Wolf's Eye"
         },
         "2": {
           "1": [
@@ -16709,7 +16878,8 @@
               "quantity": 4
             }
           ],
-          "name": "Prey Seeker"
+          "skillId": "skchr_prove_2",
+          "skillName": "Prey Seeker"
         }
       }
     },
@@ -16859,7 +17029,8 @@
               "quantity": 4
             }
           ],
-          "name": "Healing Up γ"
+          "skillId": "skcom_heal_up[3]",
+          "skillName": "Healing Up γ"
         },
         "2": {
           "1": [
@@ -16904,7 +17075,8 @@
               "quantity": 4
             }
           ],
-          "name": "Enkephalin"
+          "skillId": "skchr_plosis_2",
+          "skillName": "Enkephalin"
         }
       }
     },
@@ -17054,7 +17226,8 @@
               "quantity": 3
             }
           ],
-          "name": "Swift Strike γ"
+          "skillId": "skcom_quickattack[3]",
+          "skillName": "Swift Strike γ"
         },
         "2": {
           "1": [
@@ -17099,7 +17272,8 @@
               "quantity": 4
             }
           ],
-          "name": "Soul Spark"
+          "skillId": "skchr_sddrag_2",
+          "skillName": "Soul Spark"
         }
       }
     },
@@ -17245,7 +17419,8 @@
               "quantity": 2
             }
           ],
-          "name": "Hook Shot"
+          "skillId": "skchr_rope_1",
+          "skillName": "Hook Shot"
         },
         "2": {
           "1": [
@@ -17290,7 +17465,8 @@
               "quantity": 2
             }
           ],
-          "name": "Double Hook"
+          "skillId": "skchr_rope_2",
+          "skillName": "Double Hook"
         }
       }
     },
@@ -17448,7 +17624,8 @@
               "quantity": 6
             }
           ],
-          "name": "ATK Up γ"
+          "skillId": "skcom_atk_up[3]",
+          "skillName": "ATK Up γ"
         },
         "2": {
           "1": [
@@ -17493,7 +17670,8 @@
               "quantity": 4
             }
           ],
-          "name": "Split Shot"
+          "skillId": "skchr_poca_2",
+          "skillName": "Split Shot"
         },
         "3": {
           "1": [
@@ -17538,7 +17716,8 @@
               "quantity": 5
             }
           ],
-          "name": "Avalanche Breaker"
+          "skillId": "skchr_poca_3",
+          "skillName": "Avalanche Breaker"
         }
       }
     },
@@ -17696,7 +17875,8 @@
               "quantity": 5
             }
           ],
-          "name": "First Aid"
+          "skillId": "skchr_demkni_1",
+          "skillName": "First Aid"
         },
         "2": {
           "1": [
@@ -17741,7 +17921,8 @@
               "quantity": 5
             }
           ],
-          "name": "Medicine Dispensing"
+          "skillId": "skchr_demkni_2",
+          "skillName": "Medicine Dispensing"
         },
         "3": {
           "1": [
@@ -17786,7 +17967,8 @@
               "quantity": 6
             }
           ],
-          "name": "Calcification"
+          "skillId": "skchr_demkni_3",
+          "skillName": "Calcification"
         }
       }
     },
@@ -17936,7 +18118,8 @@
               "quantity": 4
             }
           ],
-          "name": "Power Strike β"
+          "skillId": "skchr_savage_1",
+          "skillName": "Power Strike β"
         },
         "2": {
           "1": [
@@ -17981,7 +18164,8 @@
               "quantity": 4
             }
           ],
-          "name": "Precise Blast"
+          "skillId": "skchr_savage_2",
+          "skillName": "Precise Blast"
         }
       }
     },
@@ -18127,7 +18311,8 @@
               "quantity": 2
             }
           ],
-          "name": "Charge β"
+          "skillId": "skcom_charge_cost[2]",
+          "skillName": "Charge β"
         },
         "2": {
           "1": [
@@ -18172,7 +18357,8 @@
               "quantity": 2
             }
           ],
-          "name": "Command - Attack"
+          "skillId": "skchr_scave_2",
+          "skillName": "Command - Attack"
         }
       }
     },
@@ -18330,7 +18516,8 @@
               "quantity": 5
             }
           ],
-          "name": "Charged Shot"
+          "skillId": "skchr_shwaz_1",
+          "skillName": "Charged Shot"
         },
         "2": {
           "1": [
@@ -18375,7 +18562,8 @@
               "quantity": 4
             }
           ],
-          "name": "Sharp Eye"
+          "skillId": "skchr_shwaz_2",
+          "skillName": "Sharp Eye"
         },
         "3": {
           "1": [
@@ -18420,7 +18608,8 @@
               "quantity": 6
             }
           ],
-          "name": "Final Tactics"
+          "skillId": "skchr_shwaz_3",
+          "skillName": "Final Tactics"
         }
       }
     },
@@ -18570,7 +18759,8 @@
               "quantity": 4
             }
           ],
-          "name": "ATK Up γ"
+          "skillId": "skcom_atk_up[3]",
+          "skillName": "ATK Up γ"
         },
         "2": {
           "1": [
@@ -18615,7 +18805,8 @@
               "quantity": 3
             }
           ],
-          "name": "Delayed Concussive Parts"
+          "skillId": "skchr_sesa_2",
+          "skillName": "Delayed Concussive Parts"
         }
       }
     },
@@ -18761,7 +18952,8 @@
               "quantity": 2
             }
           ],
-          "name": "Steam Pump"
+          "skillId": "skchr_sqrrel_1",
+          "skillName": "Steam Pump"
         },
         "2": {
           "1": [
@@ -18806,7 +18998,8 @@
               "quantity": 2
             }
           ],
-          "name": "High-Pressure Water Cannon"
+          "skillId": "skchr_sqrrel_2",
+          "skillName": "High-Pressure Water Cannon"
         }
       }
     },
@@ -18964,7 +19157,8 @@
               "quantity": 4
             }
           ],
-          "name": "Creed"
+          "skillId": "skchr_shining_1",
+          "skillName": "Creed"
         },
         "2": {
           "1": [
@@ -19009,7 +19203,8 @@
               "quantity": 5
             }
           ],
-          "name": "Auto Protect"
+          "skillId": "skchr_shining_2",
+          "skillName": "Auto Protect"
         },
         "3": {
           "1": [
@@ -19054,7 +19249,8 @@
               "quantity": 6
             }
           ],
-          "name": "Creed Field"
+          "skillId": "skchr_shining_3",
+          "skillName": "Creed Field"
         }
       }
     },
@@ -19200,7 +19396,8 @@
               "quantity": 2
             }
           ],
-          "name": "Shuriken"
+          "skillId": "skchr_yuki_1",
+          "skillName": "Shuriken"
         },
         "2": {
           "1": [
@@ -19245,7 +19442,8 @@
               "quantity": 2
             }
           ],
-          "name": "Fatal Shuriken"
+          "skillId": "skchr_yuki_2",
+          "skillName": "Fatal Shuriken"
         }
       }
     },
@@ -19403,7 +19601,8 @@
               "quantity": 6
             }
           ],
-          "name": "Charge γ"
+          "skillId": "skcom_charge_cost[3]",
+          "skillName": "Charge γ"
         },
         "2": {
           "1": [
@@ -19448,7 +19647,8 @@
               "quantity": 5
             }
           ],
-          "name": "Aerial Hammer"
+          "skillId": "skchr_siege_2",
+          "skillName": "Aerial Hammer"
         },
         "3": {
           "1": [
@@ -19493,7 +19693,8 @@
               "quantity": 4
             }
           ],
-          "name": "Skull Breaker"
+          "skillId": "skchr_siege_3",
+          "skillName": "Skull Breaker"
         }
       }
     },
@@ -19643,7 +19844,8 @@
               "quantity": 4
             }
           ],
-          "name": "Healing Up γ"
+          "skillId": "skcom_heal_up[3]",
+          "skillName": "Healing Up γ"
         },
         "2": {
           "1": [
@@ -19688,7 +19890,8 @@
               "quantity": 4
             }
           ],
-          "name": "Medical Drone"
+          "skillId": "skchr_silent_2",
+          "skillName": "Medical Drone"
         }
       }
     },
@@ -19846,7 +20049,8 @@
               "quantity": 7
             }
           ],
-          "name": "Power Strike γ"
+          "skillId": "skchr_svrash_1",
+          "skillName": "Power Strike γ"
         },
         "2": {
           "1": [
@@ -19891,7 +20095,8 @@
               "quantity": 6
             }
           ],
-          "name": "Rules of Survival"
+          "skillId": "skchr_svrash_2",
+          "skillName": "Rules of Survival"
         },
         "3": {
           "1": [
@@ -19936,7 +20141,8 @@
               "quantity": 5
             }
           ],
-          "name": "Truesilver Slash"
+          "skillId": "skchr_svrash_3",
+          "skillName": "Truesilver Slash"
         }
       }
     },
@@ -20094,7 +20300,8 @@
               "quantity": 7
             }
           ],
-          "name": "Swift Strike γ"
+          "skillId": "skcom_quickattack[3]",
+          "skillName": "Swift Strike γ"
         },
         "2": {
           "1": [
@@ -20139,7 +20346,8 @@
               "quantity": 6
             }
           ],
-          "name": "Wave Strike"
+          "skillId": "skchr_skadi_2",
+          "skillName": "Wave Strike"
         },
         "3": {
           "1": [
@@ -20184,7 +20392,8 @@
               "quantity": 5
             }
           ],
-          "name": "Tidal Elegy"
+          "skillId": "skchr_skadi_3",
+          "skillName": "Tidal Elegy"
         }
       }
     },
@@ -20334,7 +20543,8 @@
               "quantity": 4
             }
           ],
-          "name": "ATK Up γ"
+          "skillId": "skcom_atk_up[3]",
+          "skillName": "ATK Up γ"
         },
         "2": {
           "1": [
@@ -20379,7 +20589,8 @@
               "quantity": 3
             }
           ],
-          "name": "Fire of Heaven"
+          "skillId": "skchr_skfire_2",
+          "skillName": "Fire of Heaven"
         }
       }
     },
@@ -20529,7 +20740,8 @@
               "quantity": 4
             }
           ],
-          "name": "Barbed Clawhook"
+          "skillId": "skchr_snsant_1",
+          "skillName": "Barbed Clawhook"
         },
         "2": {
           "1": [
@@ -20574,7 +20786,8 @@
               "quantity": 3
             }
           ],
-          "name": "Telescoping Electric Net"
+          "skillId": "skchr_snsant_2",
+          "skillName": "Telescoping Electric Net"
         }
       }
     },
@@ -20724,7 +20937,8 @@
               "quantity": 4
             }
           ],
-          "name": "Hymn of Respite"
+          "skillId": "skchr_sora_1",
+          "skillName": "Hymn of Respite"
         },
         "2": {
           "1": [
@@ -20769,7 +20983,8 @@
               "quantity": 4
             }
           ],
-          "name": "Hymn of Battle"
+          "skillId": "skchr_sora_2",
+          "skillName": "Hymn of Battle"
         }
       }
     },
@@ -20919,7 +21134,8 @@
               "quantity": 4
             }
           ],
-          "name": "ATK Up γ"
+          "skillId": "skcom_atk_up[3]",
+          "skillName": "ATK Up γ"
         },
         "2": {
           "1": [
@@ -20964,7 +21180,8 @@
               "quantity": 3
             }
           ],
-          "name": "Bone Fracture"
+          "skillId": "skchr_ghost_2",
+          "skillName": "Bone Fracture"
         }
       }
     },
@@ -21248,7 +21465,8 @@
               "quantity": 2
             }
           ],
-          "name": "Healing Up β"
+          "skillId": "skcom_heal_up[2]",
+          "skillName": "Healing Up β"
         },
         "2": {
           "1": [
@@ -21293,7 +21511,8 @@
               "quantity": 2
             }
           ],
-          "name": "Deep Healing"
+          "skillId": "skchr_susuro_2",
+          "skillName": "Deep Healing"
         }
       }
     },
@@ -21443,7 +21662,8 @@
               "quantity": 4
             }
           ],
-          "name": "Command and Dispatch"
+          "skillId": "skchr_swire_1",
+          "skillName": "Command and Dispatch"
         },
         "2": {
           "1": [
@@ -21488,7 +21708,8 @@
               "quantity": 5
             }
           ],
-          "name": "Cooperative Combat"
+          "skillId": "skchr_swire_2",
+          "skillName": "Cooperative Combat"
         }
       }
     },
@@ -21638,7 +21859,8 @@
               "quantity": 4
             }
           ],
-          "name": "Charge γ"
+          "skillId": "skcom_charge_cost[3]",
+          "skillName": "Charge γ"
         },
         "2": {
           "1": [
@@ -21683,7 +21905,8 @@
               "quantity": 3
             }
           ],
-          "name": "Sword Rain"
+          "skillId": "skchr_texas_2",
+          "skillName": "Sword Rain"
         }
       }
     },
@@ -21829,7 +22052,8 @@
               "quantity": 2
             }
           ],
-          "name": "Space Out"
+          "skillId": "skchr_utage_1",
+          "skillName": "Space Out"
         },
         "2": {
           "1": [
@@ -21874,7 +22098,8 @@
               "quantity": 2
             }
           ],
-          "name": "Descending Strike - Earth Splitter"
+          "skillId": "skchr_utage_2",
+          "skillName": "Descending Strike - Earth Splitter"
         }
       }
     },
@@ -22089,7 +22314,8 @@
               "quantity": 3
             }
           ],
-          "name": "ATK Up β"
+          "skillId": "skcom_atk_up[2]",
+          "skillName": "ATK Up β"
         },
         "2": {
           "1": [
@@ -22134,7 +22360,8 @@
               "quantity": 2
             }
           ],
-          "name": "Double Shot"
+          "skillId": "skchr_clour_2",
+          "skillName": "Double Shot"
         }
       }
     },
@@ -22280,7 +22507,8 @@
               "quantity": 2
             }
           ],
-          "name": "ATK Up β"
+          "skillId": "skchr_vigna_1",
+          "skillName": "ATK Up β"
         },
         "2": {
           "1": [
@@ -22325,7 +22553,8 @@
               "quantity": 2
             }
           ],
-          "name": "Hammer-On"
+          "skillId": "skchr_vigna_2",
+          "skillName": "Hammer-On"
         }
       }
     },
@@ -22475,7 +22704,8 @@
               "quantity": 3
             }
           ],
-          "name": "Guardian Mode"
+          "skillId": "skchr_hpsts_1",
+          "skillName": "Guardian Mode"
         },
         "2": {
           "1": [
@@ -22520,7 +22750,8 @@
               "quantity": 4
             }
           ],
-          "name": "Combat Mode"
+          "skillId": "skchr_hpsts_2",
+          "skillName": "Combat Mode"
         }
       }
     },
@@ -22670,7 +22901,8 @@
               "quantity": 3
             }
           ],
-          "name": "One-inch Punch"
+          "skillId": "skchr_waaifu_1",
+          "skillName": "One-inch Punch"
         },
         "2": {
           "1": [
@@ -22715,7 +22947,8 @@
               "quantity": 4
             }
           ],
-          "name": "Seven-styles Kick"
+          "skillId": "skchr_waaifu_2",
+          "skillName": "Seven-styles Kick"
         }
       }
     },
@@ -22865,7 +23098,8 @@
               "quantity": 4
             }
           ],
-          "name": "Emergency Triage"
+          "skillId": "skchr_bldsk_1",
+          "skillName": "Emergency Triage"
         },
         "2": {
           "1": [
@@ -22910,7 +23144,8 @@
               "quantity": 3
             }
           ],
-          "name": "Unstable Plasma"
+          "skillId": "skchr_bldsk_2",
+          "skillName": "Unstable Plasma"
         }
       }
     },
@@ -23060,7 +23295,8 @@
               "quantity": 4
             }
           ],
-          "name": "Charge γ"
+          "skillId": "skcom_charge_cost[3]",
+          "skillName": "Charge γ"
         },
         "2": {
           "1": [
@@ -23105,7 +23341,8 @@
               "quantity": 4
             }
           ],
-          "name": "Ursus's Roar"
+          "skillId": "skchr_headbr_2",
+          "skillName": "Ursus's Roar"
         }
       }
     }
