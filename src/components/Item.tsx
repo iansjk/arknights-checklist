@@ -35,19 +35,20 @@ const Item = React.memo(function Item({
 }: ItemProps): React.ReactElement {
   const classes = useStyles();
   const backgroundSize = Math.floor(size * (95 / 100));
+  const itemBackgroundStyle = {
+    backgroundImage:
+      backgroundSize < 40
+        ? ""
+        : `url(${process.env.PUBLIC_URL}/images/item-bgs/tier${MATERIALS[name].tier}.png)`,
+    opacity: complete ? 0.3 : 1,
+    width: backgroundSize,
+    height: backgroundSize,
+    backgroundSize: `${backgroundSize}px ${backgroundSize}px`,
+  };
 
   return (
     <Box position="relative">
-      <div
-        className={classes.itemBackground}
-        style={{
-          backgroundImage: `url(${process.env.PUBLIC_URL}/images/item-bgs/tier${MATERIALS[name].tier}.png)`,
-          opacity: complete ? 0.3 : 1,
-          width: backgroundSize,
-          height: backgroundSize,
-          backgroundSize: `${backgroundSize}px ${backgroundSize}px`,
-        }}
-      >
+      <div className={classes.itemBackground} style={itemBackgroundStyle}>
         <img
           className={classes.itemImage}
           style={{
