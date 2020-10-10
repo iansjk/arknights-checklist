@@ -44,11 +44,16 @@ const OperatorGoal = React.memo(function OperatorGoal(
   const isXSmallScreen = useMediaQuery(theme.breakpoints.down("xs"));
   const isMdScreen = useMediaQuery(theme.breakpoints.only("md"));
   const shouldTextBeCollapsed = isXSmallScreen || isMdScreen;
-  const eliteLevel =
-    goal.name.includes("Mastery") || goal.name === "Elite 2" ? 2 : undefined;
   const gradientEnd = shouldTextBeCollapsed ? "130px" : "100px";
   const bgImagePositionX = shouldTextBeCollapsed ? "-40px" : "-30px";
   const handleClick = React.useCallback(() => onDelete(goal), [goal, onDelete]);
+  // eslint-disable-next-line no-undef-init
+  let eliteLevel: number | undefined = undefined;
+  if (goal.name === "Elite 1") {
+    eliteLevel = 1;
+  } else if (goal.name === "Elite 2" || goal.name.includes("Mastery")) {
+    eliteLevel = 2;
+  }
 
   return (
     <Box mb={1} position="relative">
