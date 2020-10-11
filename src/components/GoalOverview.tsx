@@ -18,9 +18,13 @@ import OperatorGoal from "./OperatorGoal";
 
 const useStyles = makeStyles((theme) => ({
   lmdIcon: {
-    marginLeft: theme.spacing(0.25),
+    height: "18px",
+    marginLeft: theme.spacing(0.5),
     position: "relative",
-    top: theme.spacing(0.5),
+    top: theme.spacing(0.25),
+  },
+  totalCostHeader: {
+    fontWeight: "initial",
   },
 }));
 
@@ -45,9 +49,6 @@ const GoalOverview = React.memo(function GoalOverview(
   const isXSmallScreen = useMediaQuery(theme.breakpoints.down("xs"));
   const isLargeScreen = useMediaQuery(theme.breakpoints.up("lg"));
   const lmdHeaderTextAlign = isXSmallScreen ? "start" : "end";
-  const lmdIconStyle = {
-    height: "24px",
-  };
   const classes = useStyles();
 
   const materialsNeeded: Record<string, number> = {};
@@ -238,13 +239,17 @@ const GoalOverview = React.memo(function GoalOverview(
                       display="inline-block"
                       width="100%"
                     >
-                      <Typography component="span" variant="h6" gutterBottom>
+                      <Typography
+                        className={classes.totalCostHeader}
+                        component="span"
+                        variant="h6"
+                        gutterBottom
+                      >
                         Total cost:&nbsp;
                         <b>{formatQuantity(materialsNeeded.LMD || 0)}</b>
                         <img
                           className={classes.lmdIcon}
-                          style={lmdIconStyle}
-                          src={`${process.env.PUBLIC_URL}/images/items/lmd.png`}
+                          src={`${process.env.PUBLIC_URL}/images/icons/lmd.png`}
                           alt="LMD"
                         />
                       </Typography>
