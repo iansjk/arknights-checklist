@@ -54,6 +54,7 @@ let appTheme = createMuiTheme({
   },
 });
 appTheme = responsiveFontSizes(appTheme);
+appTheme.typography.h4.fontSize = "1.55rem";
 
 const useStyles = makeStyles((theme) => ({
   appContainer: {
