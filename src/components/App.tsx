@@ -40,7 +40,7 @@ let appTheme = createMuiTheme({
       light: "rgb(104, 179, 255)",
     },
     secondary: {
-      main: pink.A700,
+      main: pink[100],
     },
   },
   overrides: {
