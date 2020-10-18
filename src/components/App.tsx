@@ -37,6 +37,7 @@ let appTheme = createMuiTheme({
     type: "dark",
     primary: {
       main: blue[700],
+      light: "rgb(104, 179, 255)",
     },
     secondary: {
       main: pink.A700,
