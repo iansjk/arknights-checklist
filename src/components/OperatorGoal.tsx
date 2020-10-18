@@ -14,12 +14,14 @@ import CancelIcon from "@material-ui/icons/Cancel";
 import { OperatorGoalData } from "../operator-goals";
 import ItemStack from "./ItemStack";
 import { getOperatorImagePath } from "../util";
+import OperatorGoalIconography from "./OperatorGoalIconography";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles({
   deleteIconButton: {
     position: "absolute",
-    top: theme.spacing(-3),
-    right: theme.spacing(-3),
+    top: "-10px",
+    right: "-10px",
+    padding: 0,
   },
   goalOuterGridContainer: {
     alignItems: "center",
@@ -28,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundSize: "contain",
     backgroundRepeat: "no-repeat",
   },
-}));
+});
 
 interface GoalProps {
   goal: OperatorGoalData;
@@ -46,7 +48,10 @@ const OperatorGoal = React.memo(function OperatorGoal(
   const shouldTextBeCollapsed = isXSmallScreen || isMdScreen;
   const gradientEnd = shouldTextBeCollapsed ? "130px" : "100px";
   const bgImagePositionX = shouldTextBeCollapsed ? "-40px" : "-30px";
-  const handleClick = React.useCallback(() => onDelete(goal), [goal, onDelete]);
+  const operatorNameStyle = {
+    flexGrow: shouldTextBeCollapsed ? 0 : 1,
+    paddingLeft: shouldTextBeCollapsed ? "1rem" : 0,
+  };
   // eslint-disable-next-line no-undef-init
   let eliteLevel: number | undefined = undefined;
   if (goal.name === "Elite 1") {
@@ -54,68 +59,57 @@ const OperatorGoal = React.memo(function OperatorGoal(
   } else if (goal.name === "Elite 2" || goal.name.includes("Mastery")) {
     eliteLevel = 2;
   }
+  const goalCardStyle = {
+    backgroundImage: `linear-gradient(to right, transparent, ${
+      theme.palette.background.paper
+    } ${gradientEnd}), url("${getOperatorImagePath(
+      goal.operatorName,
+      eliteLevel
+    )}")`,
+    paddingLeft: shouldTextBeCollapsed ? "2rem" : "3rem",
+    backgroundPosition: `${bgImagePositionX} center`,
+  };
+
+  const handleClick = React.useCallback(() => onDelete(goal), [goal, onDelete]);
 
   return (
     <Box mb={1} position="relative">
-      <Card
-        className={classes.goalCard}
-        style={{
-          backgroundImage: `linear-gradient(to right, transparent, ${
-            theme.palette.background.paper
-          } ${gradientEnd}), url("${getOperatorImagePath(
-            goal.operatorName,
-            eliteLevel
-          )}")`,
-          paddingLeft: shouldTextBeCollapsed ? "2.5rem" : "3rem",
-          backgroundPosition: `${bgImagePositionX} center`,
-        }}
-      >
+      <Card className={classes.goalCard} style={goalCardStyle}>
         <CardContent>
           <Grid container className={classes.goalOuterGridContainer}>
             <Grid item xs={12} sm={4} md={12} lg={4}>
-              <Box alignSelf="center">
-                <Typography
-                  component="h4"
-                  variant="h5"
-                  style={
-                    shouldTextBeCollapsed
-                      ? {
-                          display: "inline-block",
-                          marginLeft: "0.8rem",
-                          marginRight: "1rem",
-                        }
-                      : {}
-                  }
-                >
-                  {goal.operatorName}
-                </Typography>
-                <Typography
-                  component="h5"
-                  variant="subtitle1"
-                  style={
-                    shouldTextBeCollapsed
-                      ? {
-                          display: "inline-block",
-                        }
-                      : {}
-                  }
-                >
-                  {goal.name}
-                </Typography>
-              </Box>
+              <Grid container>
+                <Grid style={operatorNameStyle} item xs sm={12} md lg={12}>
+                  <Box mr={2}>
+                    <Typography component="h4" variant="h5">
+                      {goal.operatorName}
+                    </Typography>
+                  </Box>
+                </Grid>
+                <Box clone display="flex" whiteSpace="nowrap">
+                  <Grid item xs sm={12} md lg={12}>
+                    <OperatorGoalIconography goal={goal} />
+                    <Typography component="h5" variant="subtitle1">
+                      {goal.shortName}
+                    </Typography>
+                  </Grid>
+                </Box>
+              </Grid>
             </Grid>
             <Grid item xs={12} sm={8} md={12} lg={8}>
-              <Grid container>
-                {goal.requiredItems.map((item) => (
-                  <Grid item xs={3} key={item.name}>
-                    <ItemStack
-                      name={item.name}
-                      quantity={item.quantity}
-                      size={70}
-                    />
-                  </Grid>
-                ))}
-              </Grid>
+              <Box clone justifyContent="space-evenly">
+                <Grid container>
+                  {goal.requiredItems.map((item) => (
+                    <Grid item xs={3} key={item.name}>
+                      <ItemStack
+                        name={item.name}
+                        quantity={item.quantity}
+                        size={70}
+                      />
+                    </Grid>
+                  ))}
+                </Grid>
+              </Box>
             </Grid>
           </Grid>
           <IconButton
