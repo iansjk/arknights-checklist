@@ -7,7 +7,9 @@ import {
   Typography,
   useMediaQuery,
   useTheme,
+  Button,
 } from "@material-ui/core";
+import RotateLeftIcon from "@material-ui/icons/RotateLeft";
 import React from "react";
 import { useLocalStorage } from "web-api-hooks";
 import MATERIALS, { Ingredient } from "../materials";
@@ -48,7 +50,6 @@ const GoalOverview = React.memo(function GoalOverview(
   const theme = useTheme();
   const isXSmallScreen = useMediaQuery(theme.breakpoints.down("xs"));
   const isLargeScreen = useMediaQuery(theme.breakpoints.up("lg"));
-  const lmdHeaderTextAlign = isXSmallScreen ? "start" : "end";
   const classes = useStyles();
 
   const materialsNeeded: Record<string, number> = {};
@@ -173,6 +174,14 @@ const GoalOverview = React.memo(function GoalOverview(
     [setItemsToCraft]
   );
 
+  const handleReset = React.useCallback(
+    function handleReset() {
+      setItemsToCraft({});
+      setMaterialsOwned({});
+    },
+    [setItemsToCraft, setMaterialsOwned]
+  );
+
   function renderItemsNeeded(
     objectEntries: [string, number][]
   ): React.ReactElement[] {
@@ -225,34 +234,35 @@ const GoalOverview = React.memo(function GoalOverview(
         {requiredMaterials.length > 0 && (
           <Card>
             <CardContent>
-              <Box clone alignItems="baseline">
+              <Box clone mb={1}>
                 <Grid container>
-                  <Grid item xs={12} sm={6}>
+                  <Grid item xs={8}>
                     <Typography component="h2" variant="h5">
                       Required materials
                     </Typography>
-                  </Grid>
-                  <Grid item xs={12} sm={6}>
-                    <Box
-                      clone
-                      textAlign={lmdHeaderTextAlign}
-                      display="inline-block"
-                      width="100%"
+                    <Typography
+                      className={classes.totalCostHeader}
+                      component="span"
+                      variant="h6"
                     >
-                      <Typography
-                        className={classes.totalCostHeader}
-                        component="span"
-                        variant="h6"
-                        gutterBottom
+                      Total cost:&nbsp;
+                      <b>{formatQuantity(materialsNeeded.LMD || 0)}</b>
+                      <img
+                        className={classes.lmdIcon}
+                        src={`${process.env.PUBLIC_URL}/images/icons/lmd.png`}
+                        alt="LMD"
+                      />
+                    </Typography>
+                  </Grid>
+                  <Grid item xs={4}>
+                    <Box textAlign="end">
+                      <Button
+                        variant="outlined"
+                        onClick={handleReset}
+                        startIcon={<RotateLeftIcon />}
                       >
-                        Total cost:&nbsp;
-                        <b>{formatQuantity(materialsNeeded.LMD || 0)}</b>
-                        <img
-                          className={classes.lmdIcon}
-                          src={`${process.env.PUBLIC_URL}/images/icons/lmd.png`}
-                          alt="LMD"
-                        />
-                      </Typography>
+                        Reset
+                      </Button>
                     </Box>
                   </Grid>
                 </Grid>
