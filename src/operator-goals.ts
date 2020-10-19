@@ -62,5 +62,7 @@ export function goalsForOperator(name: string): GoalData[] {
         })
     );
   }
-  return goals;
+  return goals.sort(
+    (a, b) => a.category - b.category || a.name.localeCompare(b.name)
+  );
 }

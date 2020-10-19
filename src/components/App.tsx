@@ -16,6 +16,11 @@ import {
   Toolbar,
   Typography,
   makeStyles,
+  Select,
+  MenuItem,
+  InputLabel,
+  FormControl,
+  ListSubheader,
 } from "@material-ui/core";
 import { pink, blue } from "@material-ui/core/colors";
 import AddIcon from "@material-ui/icons/Add";
@@ -31,6 +36,7 @@ import {
 } from "../operator-goals";
 import RECIPES from "../recipes";
 import AppFooter from "./AppFooter";
+import OperatorGoalIconography from "./OperatorGoalIconography";
 
 let appTheme = createMuiTheme({
   palette: {
@@ -65,12 +71,14 @@ const useStyles = makeStyles((theme) => ({
   main: {
     marginTop: theme.spacing(2),
   },
+  goalSelect: {
+    display: "table-cell",
+  },
 }));
 
 function App(): React.ReactElement {
   const [operatorName, setOperatorName] = useState(null as string | null);
-  const [goals, setGoals] = useState([] as GoalData[]);
-  const [goalsOptionsOpen, setGoalsOptionsOpen] = useState(false);
+  const [goalNames, setGoalNames] = useState([] as string[]);
   const [operatorGoals, setOperatorGoals] = useLocalStorage(
     "operatorGoals",
     // actual type should be OperatorGoalData[] but web-api-hooks
@@ -80,6 +88,11 @@ function App(): React.ReactElement {
   );
   const classes = useStyles();
 
+  const availableGoals: Record<string, GoalData> = React.useMemo(() => {
+    const goals = operatorName ? goalsForOperator(operatorName) : [];
+    return Object.fromEntries(goals.map((goal) => [goal.name, goal]));
+  }, [operatorName]);
+
   const handleAddGoals = React.useCallback(
     function handleAddGoals() {
       setOperatorGoals((prevOperatorGoals: OperatorGoalData[]) => {
@@ -88,17 +101,17 @@ function App(): React.ReactElement {
             `${opGoal.operatorName}${opGoal.name}`,
             opGoal,
           ]),
-          ...goals.map((goal) => [
-            `${operatorName}${goal.name}`,
-            { operatorName, ...goal },
+          ...goalNames.map((goalName) => [
+            `${operatorName}${goalName}`,
+            { operatorName, ...availableGoals[goalName] },
           ]),
         ]);
         return Object.values(deduplicated);
       });
       setOperatorName(null);
-      setGoals([]);
+      setGoalNames([]);
     },
-    [goals, operatorName, setOperatorGoals]
+    [goalNames, operatorName, setOperatorGoals, availableGoals]
   );
 
   const handleGoalDeleted = React.useCallback(
@@ -115,6 +128,52 @@ function App(): React.ReactElement {
     },
     [setOperatorGoals]
   );
+
+  const handleGoalsChanged = React.useCallback(
+    function handleGoalsChanged(
+      e: React.ChangeEvent<{ name?: string; value: unknown }>
+    ) {
+      setGoalNames((e.target.value as string[]).filter((name) => !!name));
+    },
+    [setGoalNames]
+  );
+
+  const handleOperatorNameChanged = React.useCallback((_, value) => {
+    setOperatorName(value);
+    setGoalNames([]);
+  }, []);
+
+  const renderGoalSelectOptions = React.useCallback((): React.ReactNode => {
+    if (!operatorName) {
+      return <MenuItem>Please select an operator first.</MenuItem>;
+    }
+
+    let prevCategory: GoalCategory | null = null;
+    return Object.values(availableGoals).flatMap((goal) => {
+      let subheader: React.ReactElement | null = null;
+      if (prevCategory === null || prevCategory !== goal.category) {
+        subheader = (
+          <ListSubheader key={goal.category}>
+            {GoalCategory[goal.category]}
+          </ListSubheader>
+        );
+      }
+      prevCategory = goal.category;
+      const listItem = (
+        <MenuItem key={goal.name} value={goal.name}>
+          {(goal.category === GoalCategory.Elite ||
+            goal.category === GoalCategory.Mastery) && (
+            <OperatorGoalIconography goal={{ ...goal, operatorName }} />
+          )}
+          {goal.name}
+        </MenuItem>
+      );
+      if (subheader) {
+        return [subheader, listItem];
+      }
+      return [listItem];
+    });
+  }, [availableGoals, operatorName]);
 
   return (
     <ThemeProvider theme={appTheme}>
@@ -136,10 +195,7 @@ function App(): React.ReactElement {
                 autoComplete
                 autoHighlight
                 value={operatorName}
-                onChange={(_, value) => {
-                  setOperatorName(value);
-                  setGoals([]);
-                }}
+                onChange={handleOperatorNameChanged}
                 renderInput={(params) => (
                   <TextField
                     {...params}
@@ -151,51 +207,26 @@ function App(): React.ReactElement {
             </Grid>
             <Grid item xs={12} lg={9}>
               <Box display="flex">
-                <Box flexGrow={1} mr={2}>
-                  <Autocomplete
-                    options={
-                      operatorName
-                        ? goalsForOperator(operatorName).sort(
-                            (a, b) => a.category - b.category
-                          )
-                        : []
-                    }
-                    getOptionLabel={(goal) => goal.name}
-                    getOptionSelected={(goal, value) =>
-                      goal.name === value.name
-                    }
-                    groupBy={(goal) => GoalCategory[goal.category]}
-                    autoComplete
-                    autoHighlight
-                    multiple
-                    limitTags={4}
-                    noOptionsText="Please select an operator first."
-                    value={goals}
-                    open={goalsOptionsOpen}
-                    onChange={(_, value) =>
-                      setGoals(
-                        value.sort(
-                          (a, b) =>
-                            a.category -
-                            b.category +
-                            a.name.localeCompare(b.name)
-                        )
-                      )
-                    }
-                    onOpen={() => setGoalsOptionsOpen(true)}
-                    onClose={(_, reason) => {
-                      const actualReason = reason as string;
-                      if (
-                        actualReason !== "select-option" &&
-                        actualReason !== "remove-option"
-                      ) {
-                        setGoalsOptionsOpen(false);
+                <Box mr={2} flexGrow={1}>
+                  <FormControl variant="outlined" fullWidth>
+                    <InputLabel id="goal-select">Goals</InputLabel>
+                    <Select
+                      className={classes.goalSelect}
+                      id="goal-select"
+                      autoWidth
+                      multiple
+                      displayEmpty
+                      value={goalNames}
+                      renderValue={(selected: unknown) =>
+                        (selected as string[])
+                          .sort((a, b) => a.localeCompare(b))
+                          .join(", ")
                       }
-                    }}
-                    renderInput={(params) => (
-                      <TextField {...params} label="Goals" variant="outlined" />
-                    )}
-                  />
+                      onChange={handleGoalsChanged}
+                    >
+                      {renderGoalSelectOptions()}
+                    </Select>
+                  </FormControl>
                 </Box>
                 <Button
                   color="primary"
