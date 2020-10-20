@@ -71,6 +71,11 @@ let appTheme = createMuiTheme({
         maxHeight: "65%",
       },
     },
+    MuiListSubheader: {
+      sticky: {
+        position: "static",
+      },
+    },
   },
 });
 appTheme = responsiveFontSizes(appTheme);
