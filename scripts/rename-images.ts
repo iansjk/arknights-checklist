@@ -2,25 +2,11 @@
 import path from "path";
 import { promises as fs } from "fs";
 import slugify from "slugify";
+import { getOperatorName } from "./globals";
 
 const ACESHIP_BASEDIR = path.join(__dirname, "../aceship");
-const ARKNIGHTS_DATA_BASEDIR = path.join(__dirname, "../ArknightsData");
 const PUBLIC_IMAGE_DIR = path.join(__dirname, "..", "public", "images");
 
-async function getCharacterNames(): Promise<Record<string, string>> {
-  const characterData = await import(
-    path.join(
-      ARKNIGHTS_DATA_BASEDIR,
-      "en-US",
-      "gamedata",
-      "excel",
-      "character_table.json"
-    )
-  );
-  return Object.fromEntries(
-    Object.keys(characterData).map((id) => [id, characterData[id].name])
-  );
-}
 const skillIconFilenameRegex = /skill_icon_(?<skillId>[^.]+)\.png/;
 function newSkillIconFilename(oldFilename: string): string | null {
   const match = oldFilename.match(skillIconFilenameRegex);
@@ -31,18 +17,17 @@ function newSkillIconFilename(oldFilename: string): string | null {
 }
 
 (async () => {
-  const operatorLookup = await getCharacterNames();
   const avatarFilenameRegex = /(?<internalName>char_\d{3}_[a-z]+)(?:_(?<eliteLevel>[12])\+?)?\.png/;
   function newOperatorImageFilename(oldFilename: string): string | null {
     const match = oldFilename.match(avatarFilenameRegex);
     if (
       !match?.groups?.internalName ||
-      !operatorLookup[match.groups.internalName]
+      !getOperatorName(match.groups.internalName)
     ) {
       return null;
     }
     const { eliteLevel } = match.groups;
-    const operatorName = operatorLookup[match.groups.internalName];
+    const operatorName = getOperatorName(match.groups.internalName);
     const newFilename = slugify(
       eliteLevel
         ? `${operatorName} elite ${eliteLevel}.png`

@@ -10,7 +10,7 @@ const SPECIAL_OPERATOR_NAMES: Record<string, string> = {
 
 export function getOperatorName(operatorId: string): string | null {
   const entry = cnOperatorData[operatorId as keyof typeof cnOperatorData];
-  if (entry === undefined) {
+  if (entry === undefined || entry.isNotObtainable) {
     return null;
   }
   const { appellation } = entry;
