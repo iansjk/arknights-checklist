@@ -94,6 +94,18 @@ function App(): React.ReactElement {
   );
   const classes = useStyles();
 
+  const goalSelectMenuProps = {
+    getContentAnchorEl: null,
+    anchorOrigin: {
+      vertical: "bottom" as const,
+      horizontal: "left" as const,
+    },
+    transformOrigin: {
+      vertical: "top" as const,
+      horizontal: "left" as const,
+    },
+  };
+
   const availableGoals: Record<string, GoalData> = React.useMemo(() => {
     const goals = operatorName ? goalsForOperator(operatorName) : [];
     return Object.fromEntries(goals.map((goal) => [goal.name, goal]));
@@ -222,6 +234,7 @@ function App(): React.ReactElement {
                       multiple
                       displayEmpty
                       value={goalNames}
+                      MenuProps={goalSelectMenuProps}
                       renderValue={(selected: unknown) =>
                         (selected as string[])
                           .sort((a, b) => a.localeCompare(b))
