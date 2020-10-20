@@ -50,6 +50,15 @@ let appTheme = createMuiTheme({
     },
   },
   overrides: {
+    MuiMenuItem: {
+      root: {
+        "&$selected": {
+          "&, &:hover": {
+            backgroundColor: blue[700],
+          },
+        },
+      },
+    },
     MuiFormLabel: {
       root: {
         "&$focused": {
