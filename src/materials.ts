@@ -523,7 +523,7 @@ const MATERIALS: Record<string, Material> = {
         quantity: 1,
       },
       {
-        name: "Orirock Cluster",
+        name: "Oriron Cluster",
         quantity: 1,
       },
       {
