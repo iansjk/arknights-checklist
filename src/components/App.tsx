@@ -68,7 +68,7 @@ let appTheme = createMuiTheme({
     },
     MuiMenu: {
       paper: {
-        maxHeight: "70%",
+        maxHeight: "65%",
       },
     },
   },
