@@ -66,6 +66,11 @@ let appTheme = createMuiTheme({
         },
       },
     },
+    MuiMenu: {
+      paper: {
+        maxHeight: "70%",
+      },
+    },
   },
 });
 appTheme = responsiveFontSizes(appTheme);
