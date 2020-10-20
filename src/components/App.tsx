@@ -80,9 +80,6 @@ const useStyles = makeStyles((theme) => ({
   main: {
     marginTop: theme.spacing(2),
   },
-  goalSelect: {
-    display: "table-cell",
-  },
 }));
 
 function App(): React.ReactElement {
@@ -216,11 +213,10 @@ function App(): React.ReactElement {
             </Grid>
             <Grid item xs={12} lg={9}>
               <Box display="flex">
-                <Box mr={2} flexGrow={1}>
+                <Box mr={2} flexGrow={1} minWidth={0} width="100%">
                   <FormControl variant="outlined" fullWidth>
                     <InputLabel id="goal-select">Goals</InputLabel>
                     <Select
-                      className={classes.goalSelect}
                       id="goal-select"
                       autoWidth
                       multiple
