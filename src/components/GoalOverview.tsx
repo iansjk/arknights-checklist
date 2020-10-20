@@ -8,6 +8,7 @@ import {
   useMediaQuery,
   useTheme,
   Button,
+  Divider,
 } from "@material-ui/core";
 import RotateLeftIcon from "@material-ui/icons/RotateLeft";
 import React from "react";
@@ -240,6 +241,9 @@ const GoalOverview = React.memo(function GoalOverview(
                     <Typography component="h2" variant="h5">
                       Required materials
                     </Typography>
+                    <Box my={1} width="90%">
+                      <Divider />
+                    </Box>
                     <Typography
                       className={classes.totalCostHeader}
                       component="span"
