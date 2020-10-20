@@ -136,7 +136,6 @@ function App(): React.ReactElement {
         ]);
         return Object.values(deduplicated);
       });
-      setOperatorName(null);
       setGoalNames([]);
     },
     [goalNames, operatorName, setOperatorGoals, availableGoals]
