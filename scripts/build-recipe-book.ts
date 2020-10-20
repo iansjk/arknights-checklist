@@ -154,7 +154,6 @@ async function buildOperatorRecipes(): Promise<
             })
         );
         const baseObj = {
-          operatorId,
           rarity,
           elite,
           skillLevels,
