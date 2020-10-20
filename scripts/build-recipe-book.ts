@@ -155,7 +155,9 @@ async function buildOperatorRecipes(): Promise<
         return [name, Object.assign(baseObj, { masteries })];
       })
   );
-  return Object.fromEntries(entries);
+  return Object.fromEntries(
+    entries.sort(([a, _], [b, __]) => (a as string).localeCompare(b as string))
+  );
 }
 
 (async () => {
