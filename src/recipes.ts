@@ -4,6 +4,7 @@ import * as operatorData from "./operator-recipes.json";
 
 export interface OperatorRecipeBook {
   rarity: number;
+  isCnOnly: boolean;
   elite: { 1: Ingredient[]; 2?: Ingredient[] };
   skillLevels: { [skillLevel: number]: Ingredient[] };
   masteries?: {

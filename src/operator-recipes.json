@@ -110,6 +110,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -353,6 +354,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -448,6 +450,200 @@
         }
       }
     },
+    "Aciddrop": {
+      "rarity": 4,
+      "elite": {
+        "1": [
+          {
+            "name": "LMD",
+            "quantity": 15000
+          },
+          {
+            "name": "Sniper Chip",
+            "quantity": 3
+          },
+          {
+            "name": "Device",
+            "quantity": 1
+          },
+          {
+            "name": "Orirock Cube",
+            "quantity": 1
+          }
+        ],
+        "2": [
+          {
+            "name": "LMD",
+            "quantity": 60000
+          },
+          {
+            "name": "Sniper Chip Pack",
+            "quantity": 5
+          },
+          {
+            "name": "RMA70-12",
+            "quantity": 10
+          },
+          {
+            "name": "Integrated Device",
+            "quantity": 8
+          }
+        ]
+      },
+      "skillLevels": {
+        "2": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 2
+          }
+        ],
+        "3": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 2
+          },
+          {
+            "name": "Orirock",
+            "quantity": 5
+          }
+        ],
+        "4": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 3
+          },
+          {
+            "name": "Sugar",
+            "quantity": 2
+          }
+        ],
+        "5": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 3
+          },
+          {
+            "name": "Polyester",
+            "quantity": 3
+          }
+        ],
+        "6": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 3
+          },
+          {
+            "name": "Aketon",
+            "quantity": 2
+          }
+        ],
+        "7": [
+          {
+            "name": "Skill Summary - 3",
+            "quantity": 4
+          },
+          {
+            "name": "Coagulating Gel",
+            "quantity": 2
+          }
+        ]
+      },
+      "isCnOnly": true,
+      "masteries": {
+        "1": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 2
+            },
+            {
+              "name": "Grindstone Pentahydrate",
+              "quantity": 1
+            },
+            {
+              "name": "Loxic Kohl",
+              "quantity": 4
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 4
+            },
+            {
+              "name": "Keton Colloid",
+              "quantity": 2
+            },
+            {
+              "name": "Polymerized Gel",
+              "quantity": 2
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Bipolar Nanoflake",
+              "quantity": 2
+            },
+            {
+              "name": "Polymerized Gel",
+              "quantity": 2
+            }
+          ],
+          "skillId": "skchr_acdrop_1",
+          "skillName": "花式点射"
+        },
+        "2": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 2
+            },
+            {
+              "name": "White Horse Kohl",
+              "quantity": 1
+            },
+            {
+              "name": "Aketon",
+              "quantity": 4
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 4
+            },
+            {
+              "name": "Incandescent Alloy Block",
+              "quantity": 2
+            },
+            {
+              "name": "RMA70-24",
+              "quantity": 2
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Bipolar Nanoflake",
+              "quantity": 2
+            },
+            {
+              "name": "Orirock Concentration",
+              "quantity": 2
+            }
+          ],
+          "skillId": "skchr_acdrop_2",
+          "skillName": "扳机时刻"
+        }
+      }
+    },
     "Adnachiel": {
       "rarity": 3,
       "elite": {
@@ -515,7 +711,8 @@
             "quantity": 2
           }
         ]
-      }
+      },
+      "isCnOnly": false
     },
     "Ambriel": {
       "rarity": 4,
@@ -615,6 +812,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -812,6 +1010,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -953,6 +1152,204 @@
         }
       }
     },
+    "Andreana": {
+      "rarity": 5,
+      "elite": {
+        "1": [
+          {
+            "name": "LMD",
+            "quantity": 20000
+          },
+          {
+            "name": "Sniper Chip",
+            "quantity": 4
+          },
+          {
+            "name": "Orirock Cube",
+            "quantity": 8
+          },
+          {
+            "name": "Sugar",
+            "quantity": 2
+          }
+        ],
+        "2": [
+          {
+            "name": "LMD",
+            "quantity": 120000
+          },
+          {
+            "name": "Sniper Dualchip",
+            "quantity": 3
+          },
+          {
+            "name": "Grindstone Pentahydrate",
+            "quantity": 8
+          },
+          {
+            "name": "RMA70-12",
+            "quantity": 8
+          }
+        ]
+      },
+      "skillLevels": {
+        "2": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 4
+          }
+        ],
+        "3": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 4
+          },
+          {
+            "name": "Orirock",
+            "quantity": 10
+          }
+        ],
+        "4": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Sugar",
+            "quantity": 3
+          }
+        ],
+        "5": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Polyester",
+            "quantity": 5
+          }
+        ],
+        "6": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Integrated Device",
+            "quantity": 3
+          }
+        ],
+        "7": [
+          {
+            "name": "Skill Summary - 3",
+            "quantity": 6
+          },
+          {
+            "name": "Grindstone",
+            "quantity": 2
+          },
+          {
+            "name": "Orirock Cluster",
+            "quantity": 4
+          }
+        ]
+      },
+      "isCnOnly": true,
+      "masteries": {
+        "1": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 5
+            },
+            {
+              "name": "Incandescent Alloy Block",
+              "quantity": 3
+            },
+            {
+              "name": "RMA70-12",
+              "quantity": 3
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Grindstone Pentahydrate",
+              "quantity": 3
+            },
+            {
+              "name": "White Horse Kohl",
+              "quantity": 6
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 10
+            },
+            {
+              "name": "Bipolar Nanoflake",
+              "quantity": 4
+            },
+            {
+              "name": "Keton Colloid",
+              "quantity": 3
+            }
+          ],
+          "skillId": "skcom_atk_up[3]",
+          "skillName": "攻击力强化·γ型"
+        },
+        "2": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 5
+            },
+            {
+              "name": "Keton Colloid",
+              "quantity": 3
+            },
+            {
+              "name": "Coagulating Gel",
+              "quantity": 2
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Orirock Concentration",
+              "quantity": 3
+            },
+            {
+              "name": "Grindstone Pentahydrate",
+              "quantity": 6
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 10
+            },
+            {
+              "name": "Polymerization Preparation",
+              "quantity": 4
+            },
+            {
+              "name": "Incandescent Alloy Block",
+              "quantity": 4
+            }
+          ],
+          "skillId": "skchr_cuttle_2",
+          "skillName": "阻滞射击战术"
+        }
+      }
+    },
     "Angelina": {
       "rarity": 6,
       "elite": {
@@ -1063,6 +1460,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -1271,6 +1669,597 @@
             "quantity": 2
           }
         ]
+      },
+      "isCnOnly": false
+    },
+    "April": {
+      "rarity": 5,
+      "elite": {
+        "1": [
+          {
+            "name": "LMD",
+            "quantity": 20000
+          },
+          {
+            "name": "Sniper Chip",
+            "quantity": 4
+          },
+          {
+            "name": "Oriron",
+            "quantity": 4
+          },
+          {
+            "name": "Polyketon",
+            "quantity": 2
+          }
+        ],
+        "2": [
+          {
+            "name": "LMD",
+            "quantity": 120000
+          },
+          {
+            "name": "Sniper Dualchip",
+            "quantity": 3
+          },
+          {
+            "name": "Polymerized Gel",
+            "quantity": 9
+          },
+          {
+            "name": "RMA70-12",
+            "quantity": 9
+          }
+        ]
+      },
+      "skillLevels": {
+        "2": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 4
+          }
+        ],
+        "3": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 4
+          },
+          {
+            "name": "Orirock",
+            "quantity": 10
+          }
+        ],
+        "4": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Device",
+            "quantity": 2
+          }
+        ],
+        "5": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Polyester",
+            "quantity": 5
+          }
+        ],
+        "6": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Aketon",
+            "quantity": 4
+          }
+        ],
+        "7": [
+          {
+            "name": "Skill Summary - 3",
+            "quantity": 6
+          },
+          {
+            "name": "Orirock Cluster",
+            "quantity": 4
+          },
+          {
+            "name": "Integrated Device",
+            "quantity": 2
+          }
+        ]
+      },
+      "isCnOnly": true,
+      "masteries": {
+        "1": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 5
+            },
+            {
+              "name": "White Horse Kohl",
+              "quantity": 3
+            },
+            {
+              "name": "Aketon",
+              "quantity": 5
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Orirock Concentration",
+              "quantity": 3
+            },
+            {
+              "name": "Grindstone Pentahydrate",
+              "quantity": 6
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 10
+            },
+            {
+              "name": "D32 Steel",
+              "quantity": 4
+            },
+            {
+              "name": "Oriron Block",
+              "quantity": 3
+            }
+          ],
+          "skillId": "skchr_aprl_1",
+          "skillName": "精准射击"
+        },
+        "2": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 5
+            },
+            {
+              "name": "Grindstone Pentahydrate",
+              "quantity": 3
+            },
+            {
+              "name": "Loxic Kohl",
+              "quantity": 4
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Incandescent Alloy Block",
+              "quantity": 3
+            },
+            {
+              "name": "RMA70-24",
+              "quantity": 5
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 10
+            },
+            {
+              "name": "D32 Steel",
+              "quantity": 4
+            },
+            {
+              "name": "Orirock Concentration",
+              "quantity": 5
+            }
+          ],
+          "skillId": "skchr_aprl_2",
+          "skillName": "灵活伪装"
+        }
+      }
+    },
+    "Arene": {
+      "rarity": 4,
+      "elite": {
+        "1": [
+          {
+            "name": "LMD",
+            "quantity": 15000
+          },
+          {
+            "name": "Guard Chip",
+            "quantity": 3
+          },
+          {
+            "name": "Orirock Cube",
+            "quantity": 1
+          },
+          {
+            "name": "Polyketon",
+            "quantity": 1
+          }
+        ],
+        "2": [
+          {
+            "name": "LMD",
+            "quantity": 60000
+          },
+          {
+            "name": "Guard Chip Pack",
+            "quantity": 5
+          },
+          {
+            "name": "Orirock Cluster",
+            "quantity": 21
+          },
+          {
+            "name": "Integrated Device",
+            "quantity": 7
+          }
+        ]
+      },
+      "skillLevels": {
+        "2": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 2
+          }
+        ],
+        "3": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 2
+          },
+          {
+            "name": "Diketon",
+            "quantity": 3
+          }
+        ],
+        "4": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 3
+          },
+          {
+            "name": "Device",
+            "quantity": 1
+          }
+        ],
+        "5": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 3
+          },
+          {
+            "name": "Orirock Cube",
+            "quantity": 4
+          }
+        ],
+        "6": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 3
+          },
+          {
+            "name": "Incandescent Alloy",
+            "quantity": 2
+          }
+        ],
+        "7": [
+          {
+            "name": "Skill Summary - 3",
+            "quantity": 4
+          },
+          {
+            "name": "RMA70-12",
+            "quantity": 2
+          }
+        ]
+      },
+      "isCnOnly": true,
+      "masteries": {
+        "1": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 2
+            },
+            {
+              "name": "White Horse Kohl",
+              "quantity": 1
+            },
+            {
+              "name": "Aketon",
+              "quantity": 4
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 4
+            },
+            {
+              "name": "Incandescent Alloy Block",
+              "quantity": 2
+            },
+            {
+              "name": "RMA70-24",
+              "quantity": 2
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "D32 Steel",
+              "quantity": 2
+            },
+            {
+              "name": "Polymerized Gel",
+              "quantity": 2
+            }
+          ],
+          "skillId": "skchr_spikes_1",
+          "skillName": "小玩笑"
+        },
+        "2": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 2
+            },
+            {
+              "name": "Keton Colloid",
+              "quantity": 1
+            },
+            {
+              "name": "Coagulating Gel",
+              "quantity": 3
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 4
+            },
+            {
+              "name": "Orirock Concentration",
+              "quantity": 2
+            },
+            {
+              "name": "Grindstone Pentahydrate",
+              "quantity": 3
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Polymerization Preparation",
+              "quantity": 2
+            },
+            {
+              "name": "Polymerized Gel",
+              "quantity": 2
+            }
+          ],
+          "skillId": "skchr_spikes_2",
+          "skillName": "致命恶作剧"
+        }
+      }
+    },
+    "Asbestos": {
+      "rarity": 5,
+      "elite": {
+        "1": [
+          {
+            "name": "LMD",
+            "quantity": 20000
+          },
+          {
+            "name": "Defender Chip",
+            "quantity": 4
+          },
+          {
+            "name": "Polyketon",
+            "quantity": 4
+          },
+          {
+            "name": "Oriron",
+            "quantity": 3
+          }
+        ],
+        "2": [
+          {
+            "name": "LMD",
+            "quantity": 120000
+          },
+          {
+            "name": "Defender Dualchip",
+            "quantity": 3
+          },
+          {
+            "name": "Optimized Device",
+            "quantity": 6
+          },
+          {
+            "name": "Manganese Ore",
+            "quantity": 10
+          }
+        ]
+      },
+      "skillLevels": {
+        "2": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 4
+          }
+        ],
+        "3": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 4
+          },
+          {
+            "name": "Diketon",
+            "quantity": 5
+          }
+        ],
+        "4": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Device",
+            "quantity": 2
+          }
+        ],
+        "5": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Orirock Cube",
+            "quantity": 8
+          }
+        ],
+        "6": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Manganese Ore",
+            "quantity": 4
+          }
+        ],
+        "7": [
+          {
+            "name": "Skill Summary - 3",
+            "quantity": 6
+          },
+          {
+            "name": "Orirock Cluster",
+            "quantity": 4
+          },
+          {
+            "name": "Integrated Device",
+            "quantity": 2
+          }
+        ]
+      },
+      "isCnOnly": true,
+      "masteries": {
+        "1": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 5
+            },
+            {
+              "name": "Optimized Device",
+              "quantity": 2
+            },
+            {
+              "name": "Oriron Cluster",
+              "quantity": 3
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Polymerized Gel",
+              "quantity": 3
+            },
+            {
+              "name": "Orirock Concentration",
+              "quantity": 7
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 10
+            },
+            {
+              "name": "Polymerization Preparation",
+              "quantity": 4
+            },
+            {
+              "name": "RMA70-24",
+              "quantity": 4
+            }
+          ],
+          "skillId": "skchr_asbest_1",
+          "skillName": "固守模式"
+        },
+        "2": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 5
+            },
+            {
+              "name": "Manganese Trihydrate",
+              "quantity": 3
+            },
+            {
+              "name": "Integrated Device",
+              "quantity": 2
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Keton Colloid",
+              "quantity": 3
+            },
+            {
+              "name": "Polymerized Gel",
+              "quantity": 6
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 10
+            },
+            {
+              "name": "D32 Steel",
+              "quantity": 4
+            },
+            {
+              "name": "Oriron Block",
+              "quantity": 3
+            }
+          ],
+          "skillId": "skchr_asbest_2",
+          "skillName": "火电模式"
+        }
       }
     },
     "Astesia": {
@@ -1375,6 +2364,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -1467,6 +2457,204 @@
           ],
           "skillId": "skchr_astesi_2",
           "skillName": "Astral Sword"
+        }
+      }
+    },
+    "Ayerscarpe": {
+      "rarity": 5,
+      "elite": {
+        "1": [
+          {
+            "name": "LMD",
+            "quantity": 20000
+          },
+          {
+            "name": "Guard Chip",
+            "quantity": 4
+          },
+          {
+            "name": "Sugar",
+            "quantity": 4
+          },
+          {
+            "name": "Oriron",
+            "quantity": 3
+          }
+        ],
+        "2": [
+          {
+            "name": "LMD",
+            "quantity": 120000
+          },
+          {
+            "name": "Guard Dualchip",
+            "quantity": 3
+          },
+          {
+            "name": "Oriron Block",
+            "quantity": 6
+          },
+          {
+            "name": "Coagulating Gel",
+            "quantity": 12
+          }
+        ]
+      },
+      "skillLevels": {
+        "2": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 4
+          }
+        ],
+        "3": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 4
+          },
+          {
+            "name": "Sugar Substitute",
+            "quantity": 7
+          }
+        ],
+        "4": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Polyester",
+            "quantity": 3
+          }
+        ],
+        "5": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Oriron",
+            "quantity": 4
+          }
+        ],
+        "6": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Orirock Cluster",
+            "quantity": 5
+          }
+        ],
+        "7": [
+          {
+            "name": "Skill Summary - 3",
+            "quantity": 6
+          },
+          {
+            "name": "Oriron Cluster",
+            "quantity": 2
+          },
+          {
+            "name": "Grindstone",
+            "quantity": 3
+          }
+        ]
+      },
+      "isCnOnly": true,
+      "masteries": {
+        "1": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 5
+            },
+            {
+              "name": "Manganese Trihydrate",
+              "quantity": 3
+            },
+            {
+              "name": "Integrated Device",
+              "quantity": 2
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Keton Colloid",
+              "quantity": 3
+            },
+            {
+              "name": "Polymerized Gel",
+              "quantity": 6
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 10
+            },
+            {
+              "name": "Polymerization Preparation",
+              "quantity": 4
+            },
+            {
+              "name": "White Horse Kohl",
+              "quantity": 5
+            }
+          ],
+          "skillId": "skchr_ayer_1",
+          "skillName": "多导向散射弹丸"
+        },
+        "2": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 5
+            },
+            {
+              "name": "RMA70-24",
+              "quantity": 3
+            },
+            {
+              "name": "Manganese Ore",
+              "quantity": 2
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "White Horse Kohl",
+              "quantity": 3
+            },
+            {
+              "name": "Keton Colloid",
+              "quantity": 5
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 10
+            },
+            {
+              "name": "Polymerization Preparation",
+              "quantity": 4
+            },
+            {
+              "name": "Manganese Trihydrate",
+              "quantity": 4
+            }
+          ],
+          "skillId": "skchr_ayer_2",
+          "skillName": "浮游刃启动"
         }
       }
     },
@@ -1580,6 +2768,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -1788,7 +2977,8 @@
             "quantity": 1
           }
         ]
-      }
+      },
+      "isCnOnly": false
     },
     "Beehunter": {
       "rarity": 4,
@@ -1888,6 +3078,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -1980,6 +3171,204 @@
           ],
           "skillId": "skchr_brownb_2",
           "skillName": "Soaring Fists"
+        }
+      }
+    },
+    "Beeswax": {
+      "rarity": 5,
+      "elite": {
+        "1": [
+          {
+            "name": "LMD",
+            "quantity": 20000
+          },
+          {
+            "name": "Caster Chip",
+            "quantity": 4
+          },
+          {
+            "name": "Oriron",
+            "quantity": 4
+          },
+          {
+            "name": "Device",
+            "quantity": 2
+          }
+        ],
+        "2": [
+          {
+            "name": "LMD",
+            "quantity": 120000
+          },
+          {
+            "name": "Caster Dualchip",
+            "quantity": 3
+          },
+          {
+            "name": "Optimized Device",
+            "quantity": 5
+          },
+          {
+            "name": "Loxic Kohl",
+            "quantity": 18
+          }
+        ]
+      },
+      "skillLevels": {
+        "2": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 4
+          }
+        ],
+        "3": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 4
+          },
+          {
+            "name": "Oriron Shard",
+            "quantity": 5
+          }
+        ],
+        "4": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Polyketon",
+            "quantity": 3
+          }
+        ],
+        "5": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Device",
+            "quantity": 3
+          }
+        ],
+        "6": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Incandescent Alloy",
+            "quantity": 4
+          }
+        ],
+        "7": [
+          {
+            "name": "Skill Summary - 3",
+            "quantity": 6
+          },
+          {
+            "name": "Integrated Device",
+            "quantity": 2
+          },
+          {
+            "name": "Coagulating Gel",
+            "quantity": 3
+          }
+        ]
+      },
+      "isCnOnly": true,
+      "masteries": {
+        "1": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 5
+            },
+            {
+              "name": "RMA70-24",
+              "quantity": 3
+            },
+            {
+              "name": "Manganese Ore",
+              "quantity": 2
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "White Horse Kohl",
+              "quantity": 3
+            },
+            {
+              "name": "Keton Colloid",
+              "quantity": 5
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 10
+            },
+            {
+              "name": "Polymerization Preparation",
+              "quantity": 4
+            },
+            {
+              "name": "Manganese Trihydrate",
+              "quantity": 4
+            }
+          ],
+          "skillId": "skchr_beewax_1",
+          "skillName": "沙暴扩散"
+        },
+        "2": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 5
+            },
+            {
+              "name": "Polymerized Gel",
+              "quantity": 3
+            },
+            {
+              "name": "Orirock Cluster",
+              "quantity": 6
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Grindstone Pentahydrate",
+              "quantity": 3
+            },
+            {
+              "name": "White Horse Kohl",
+              "quantity": 6
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 10
+            },
+            {
+              "name": "D32 Steel",
+              "quantity": 4
+            },
+            {
+              "name": "Optimized Device",
+              "quantity": 3
+            }
+          ],
+          "skillId": "skchr_beewax_2",
+          "skillName": "守卫尖碑"
         }
       }
     },
@@ -2085,6 +3474,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -2282,6 +3672,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -2487,6 +3878,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -2730,6 +4122,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -2927,6 +4320,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -3124,6 +4518,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -3286,7 +4681,8 @@
             "quantity": 2
           }
         ]
-      }
+      },
+      "isCnOnly": false
     },
     "Catapult": {
       "rarity": 3,
@@ -3355,7 +4751,8 @@
             "quantity": 1
           }
         ]
-      }
+      },
+      "isCnOnly": false
     },
     "Ceobe": {
       "rarity": 6,
@@ -3467,6 +4864,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -3710,6 +5108,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -3915,6 +5314,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -4056,6 +5456,398 @@
         }
       }
     },
+    "Chiave": {
+      "rarity": 5,
+      "elite": {
+        "1": [
+          {
+            "name": "LMD",
+            "quantity": 20000
+          },
+          {
+            "name": "Vanguard Chip",
+            "quantity": 4
+          },
+          {
+            "name": "Device",
+            "quantity": 3
+          },
+          {
+            "name": "Sugar",
+            "quantity": 3
+          }
+        ],
+        "2": [
+          {
+            "name": "LMD",
+            "quantity": 120000
+          },
+          {
+            "name": "Vanguard Dualchip",
+            "quantity": 3
+          },
+          {
+            "name": "Manganese Trihydrate",
+            "quantity": 7
+          },
+          {
+            "name": "Grindstone",
+            "quantity": 13
+          }
+        ]
+      },
+      "skillLevels": {
+        "2": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 4
+          }
+        ],
+        "3": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 4
+          },
+          {
+            "name": "Damaged Device",
+            "quantity": 4
+          }
+        ],
+        "4": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Orirock Cube",
+            "quantity": 4
+          }
+        ],
+        "5": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Sugar",
+            "quantity": 5
+          }
+        ],
+        "6": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Aketon",
+            "quantity": 4
+          }
+        ],
+        "7": [
+          {
+            "name": "Skill Summary - 3",
+            "quantity": 6
+          },
+          {
+            "name": "Manganese Ore",
+            "quantity": 2
+          },
+          {
+            "name": "RMA70-12",
+            "quantity": 3
+          }
+        ]
+      },
+      "isCnOnly": true,
+      "masteries": {
+        "1": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 5
+            },
+            {
+              "name": "Polymerized Gel",
+              "quantity": 3
+            },
+            {
+              "name": "Orirock Cluster",
+              "quantity": 6
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Manganese Trihydrate",
+              "quantity": 3
+            },
+            {
+              "name": "Optimized Device",
+              "quantity": 4
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 10
+            },
+            {
+              "name": "D32 Steel",
+              "quantity": 4
+            },
+            {
+              "name": "Oriron Block",
+              "quantity": 3
+            }
+          ],
+          "skillId": "skcom_charge_cost[3]",
+          "skillName": "冲锋号令·γ型"
+        },
+        "2": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 5
+            },
+            {
+              "name": "Oriron Block",
+              "quantity": 3
+            },
+            {
+              "name": "Incandescent Alloy",
+              "quantity": 1
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "RMA70-24",
+              "quantity": 3
+            },
+            {
+              "name": "Manganese Trihydrate",
+              "quantity": 5
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 10
+            },
+            {
+              "name": "Bipolar Nanoflake",
+              "quantity": 4
+            },
+            {
+              "name": "Grindstone Pentahydrate",
+              "quantity": 4
+            }
+          ],
+          "skillId": "skchr_chiave_2",
+          "skillName": "火焰剥离"
+        }
+      }
+    },
+    "Click": {
+      "rarity": 4,
+      "elite": {
+        "1": [
+          {
+            "name": "LMD",
+            "quantity": 15000
+          },
+          {
+            "name": "Caster Chip",
+            "quantity": 3
+          },
+          {
+            "name": "Oriron",
+            "quantity": 1
+          },
+          {
+            "name": "Polyketon",
+            "quantity": 1
+          }
+        ],
+        "2": [
+          {
+            "name": "LMD",
+            "quantity": 60000
+          },
+          {
+            "name": "Caster Chip Pack",
+            "quantity": 5
+          },
+          {
+            "name": "Manganese Ore",
+            "quantity": 15
+          },
+          {
+            "name": "Oriron Cluster",
+            "quantity": 9
+          }
+        ]
+      },
+      "skillLevels": {
+        "2": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 2
+          }
+        ],
+        "3": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 2
+          },
+          {
+            "name": "Orirock",
+            "quantity": 5
+          }
+        ],
+        "4": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 3
+          },
+          {
+            "name": "Sugar",
+            "quantity": 2
+          }
+        ],
+        "5": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 3
+          },
+          {
+            "name": "Polyester",
+            "quantity": 3
+          }
+        ],
+        "6": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 3
+          },
+          {
+            "name": "Aketon",
+            "quantity": 2
+          }
+        ],
+        "7": [
+          {
+            "name": "Skill Summary - 3",
+            "quantity": 4
+          },
+          {
+            "name": "Coagulating Gel",
+            "quantity": 2
+          }
+        ]
+      },
+      "isCnOnly": true,
+      "masteries": {
+        "1": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 2
+            },
+            {
+              "name": "White Horse Kohl",
+              "quantity": 1
+            },
+            {
+              "name": "Aketon",
+              "quantity": 4
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 4
+            },
+            {
+              "name": "Incandescent Alloy Block",
+              "quantity": 2
+            },
+            {
+              "name": "RMA70-24",
+              "quantity": 2
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Bipolar Nanoflake",
+              "quantity": 2
+            },
+            {
+              "name": "Polymerized Gel",
+              "quantity": 2
+            }
+          ],
+          "skillId": "skcom_atk_up[2]",
+          "skillName": "攻击力强化·β型"
+        },
+        "2": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 2
+            },
+            {
+              "name": "Keton Colloid",
+              "quantity": 1
+            },
+            {
+              "name": "Coagulating Gel",
+              "quantity": 3
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 4
+            },
+            {
+              "name": "Optimized Device",
+              "quantity": 1
+            },
+            {
+              "name": "Oriron Block",
+              "quantity": 2
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Bipolar Nanoflake",
+              "quantity": 2
+            },
+            {
+              "name": "Orirock Concentration",
+              "quantity": 2
+            }
+          ],
+          "skillId": "skchr_cammou_2",
+          "skillName": "同步索敌攻击"
+        }
+      }
+    },
     "Cliffheart": {
       "rarity": 5,
       "elite": {
@@ -4158,6 +5950,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -4250,6 +6043,200 @@
           ],
           "skillId": "skchr_slchan_2",
           "skillName": "Binding Chains"
+        }
+      }
+    },
+    "Conviction": {
+      "rarity": 4,
+      "elite": {
+        "1": [
+          {
+            "name": "LMD",
+            "quantity": 15000
+          },
+          {
+            "name": "Guard Chip",
+            "quantity": 3
+          },
+          {
+            "name": "Sugar",
+            "quantity": 1
+          },
+          {
+            "name": "Polyester",
+            "quantity": 1
+          }
+        ],
+        "2": [
+          {
+            "name": "LMD",
+            "quantity": 60000
+          },
+          {
+            "name": "Guard Chip Pack",
+            "quantity": 5
+          },
+          {
+            "name": "Integrated Device",
+            "quantity": 11
+          },
+          {
+            "name": "Coagulating Gel",
+            "quantity": 9
+          }
+        ]
+      },
+      "skillLevels": {
+        "2": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 2
+          }
+        ],
+        "3": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 2
+          },
+          {
+            "name": "Diketon",
+            "quantity": 3
+          }
+        ],
+        "4": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 3
+          },
+          {
+            "name": "Device",
+            "quantity": 1
+          }
+        ],
+        "5": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 3
+          },
+          {
+            "name": "Orirock Cube",
+            "quantity": 4
+          }
+        ],
+        "6": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 3
+          },
+          {
+            "name": "Integrated Device",
+            "quantity": 2
+          }
+        ],
+        "7": [
+          {
+            "name": "Skill Summary - 3",
+            "quantity": 4
+          },
+          {
+            "name": "Loxic Kohl",
+            "quantity": 3
+          }
+        ]
+      },
+      "isCnOnly": true,
+      "masteries": {
+        "1": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 2
+            },
+            {
+              "name": "Manganese Trihydrate",
+              "quantity": 1
+            },
+            {
+              "name": "Integrated Device",
+              "quantity": 3
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 4
+            },
+            {
+              "name": "Keton Colloid",
+              "quantity": 2
+            },
+            {
+              "name": "Polymerized Gel",
+              "quantity": 2
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Bipolar Nanoflake",
+              "quantity": 2
+            },
+            {
+              "name": "RMA70-24",
+              "quantity": 2
+            }
+          ],
+          "skillId": "skchr_peacok_1",
+          "skillName": "断罪"
+        },
+        "2": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 2
+            },
+            {
+              "name": "Grindstone Pentahydrate",
+              "quantity": 1
+            },
+            {
+              "name": "Loxic Kohl",
+              "quantity": 4
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 4
+            },
+            {
+              "name": "Incandescent Alloy Block",
+              "quantity": 2
+            },
+            {
+              "name": "RMA70-24",
+              "quantity": 2
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Bipolar Nanoflake",
+              "quantity": 2
+            },
+            {
+              "name": "Orirock Concentration",
+              "quantity": 2
+            }
+          ],
+          "skillId": "skchr_peacok_2",
+          "skillName": "创世纪"
         }
       }
     },
@@ -4351,6 +6338,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -4548,6 +6536,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -4741,6 +6730,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -4833,6 +6823,200 @@
           ],
           "skillId": "skchr_snakek_2",
           "skillName": "Shell Defense"
+        }
+      }
+    },
+    "Cutter": {
+      "rarity": 4,
+      "elite": {
+        "1": [
+          {
+            "name": "LMD",
+            "quantity": 15000
+          },
+          {
+            "name": "Guard Chip",
+            "quantity": 3
+          },
+          {
+            "name": "Polyester",
+            "quantity": 1
+          },
+          {
+            "name": "Polyketon",
+            "quantity": 1
+          }
+        ],
+        "2": [
+          {
+            "name": "LMD",
+            "quantity": 60000
+          },
+          {
+            "name": "Guard Chip Pack",
+            "quantity": 5
+          },
+          {
+            "name": "Coagulating Gel",
+            "quantity": 12
+          },
+          {
+            "name": "Manganese Ore",
+            "quantity": 11
+          }
+        ]
+      },
+      "skillLevels": {
+        "2": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 2
+          }
+        ],
+        "3": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 2
+          },
+          {
+            "name": "Diketon",
+            "quantity": 3
+          }
+        ],
+        "4": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 3
+          },
+          {
+            "name": "Device",
+            "quantity": 1
+          }
+        ],
+        "5": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 3
+          },
+          {
+            "name": "Orirock Cube",
+            "quantity": 4
+          }
+        ],
+        "6": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 3
+          },
+          {
+            "name": "Incandescent Alloy",
+            "quantity": 2
+          }
+        ],
+        "7": [
+          {
+            "name": "Skill Summary - 3",
+            "quantity": 4
+          },
+          {
+            "name": "RMA70-12",
+            "quantity": 2
+          }
+        ]
+      },
+      "isCnOnly": true,
+      "masteries": {
+        "1": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 2
+            },
+            {
+              "name": "Keton Colloid",
+              "quantity": 1
+            },
+            {
+              "name": "Coagulating Gel",
+              "quantity": 3
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 4
+            },
+            {
+              "name": "Orirock Concentration",
+              "quantity": 2
+            },
+            {
+              "name": "Grindstone Pentahydrate",
+              "quantity": 3
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Polymerization Preparation",
+              "quantity": 2
+            },
+            {
+              "name": "Incandescent Alloy Block",
+              "quantity": 2
+            }
+          ],
+          "skillId": "skchr_cutter_1",
+          "skillName": "红移"
+        },
+        "2": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 2
+            },
+            {
+              "name": "Incandescent Alloy Block",
+              "quantity": 1
+            },
+            {
+              "name": "RMA70-12",
+              "quantity": 3
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 4
+            },
+            {
+              "name": "RMA70-24",
+              "quantity": 2
+            },
+            {
+              "name": "Manganese Trihydrate",
+              "quantity": 2
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "D32 Steel",
+              "quantity": 2
+            },
+            {
+              "name": "Polymerized Gel",
+              "quantity": 2
+            }
+          ],
+          "skillId": "skchr_cutter_2",
+          "skillName": "绯红刺刀"
         }
       }
     },
@@ -4934,6 +7118,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -5127,6 +7312,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -5320,6 +7506,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -5513,6 +7700,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -5605,6 +7793,204 @@
           ],
           "skillId": "skchr_skgoat_2",
           "skillName": "Quicksand Conversion"
+        }
+      }
+    },
+    "Elysium": {
+      "rarity": 5,
+      "elite": {
+        "1": [
+          {
+            "name": "LMD",
+            "quantity": 20000
+          },
+          {
+            "name": "Vanguard Chip",
+            "quantity": 4
+          },
+          {
+            "name": "Polyester",
+            "quantity": 4
+          },
+          {
+            "name": "Sugar",
+            "quantity": 3
+          }
+        ],
+        "2": [
+          {
+            "name": "LMD",
+            "quantity": 120000
+          },
+          {
+            "name": "Vanguard Dualchip",
+            "quantity": 3
+          },
+          {
+            "name": "Incandescent Alloy Block",
+            "quantity": 7
+          },
+          {
+            "name": "Aketon",
+            "quantity": 16
+          }
+        ]
+      },
+      "skillLevels": {
+        "2": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 4
+          }
+        ],
+        "3": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 4
+          },
+          {
+            "name": "Ester",
+            "quantity": 7
+          }
+        ],
+        "4": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Oriron",
+            "quantity": 3
+          }
+        ],
+        "5": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Polyketon",
+            "quantity": 4
+          }
+        ],
+        "6": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Integrated Device",
+            "quantity": 3
+          }
+        ],
+        "7": [
+          {
+            "name": "Skill Summary - 3",
+            "quantity": 6
+          },
+          {
+            "name": "Grindstone",
+            "quantity": 2
+          },
+          {
+            "name": "Orirock Cluster",
+            "quantity": 4
+          }
+        ]
+      },
+      "isCnOnly": true,
+      "masteries": {
+        "1": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 5
+            },
+            {
+              "name": "Polymerized Gel",
+              "quantity": 3
+            },
+            {
+              "name": "Orirock Cluster",
+              "quantity": 6
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Incandescent Alloy Block",
+              "quantity": 3
+            },
+            {
+              "name": "RMA70-24",
+              "quantity": 5
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 10
+            },
+            {
+              "name": "D32 Steel",
+              "quantity": 4
+            },
+            {
+              "name": "Keton Colloid",
+              "quantity": 4
+            }
+          ],
+          "skillId": "skcom_assist_cost[3]",
+          "skillName": "支援号令·γ型"
+        },
+        "2": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 5
+            },
+            {
+              "name": "Optimized Device",
+              "quantity": 2
+            },
+            {
+              "name": "Oriron Cluster",
+              "quantity": 3
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Keton Colloid",
+              "quantity": 3
+            },
+            {
+              "name": "Polymerized Gel",
+              "quantity": 6
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 10
+            },
+            {
+              "name": "Polymerization Preparation",
+              "quantity": 4
+            },
+            {
+              "name": "Grindstone Pentahydrate",
+              "quantity": 4
+            }
+          ],
+          "skillId": "skchr_elysm_2",
+          "skillName": "聆听"
         }
       }
     },
@@ -5706,6 +8092,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -5899,6 +8286,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -5991,6 +8379,258 @@
           ],
           "skillId": "skchr_ethan_2",
           "skillName": "Suspended Cross"
+        }
+      }
+    },
+    "Eunectes": {
+      "rarity": 6,
+      "elite": {
+        "1": [
+          {
+            "name": "LMD",
+            "quantity": 30000
+          },
+          {
+            "name": "Defender Chip",
+            "quantity": 5
+          },
+          {
+            "name": "Polyketon",
+            "quantity": 7
+          },
+          {
+            "name": "Device",
+            "quantity": 3
+          }
+        ],
+        "2": [
+          {
+            "name": "LMD",
+            "quantity": 180000
+          },
+          {
+            "name": "Defender Dualchip",
+            "quantity": 4
+          },
+          {
+            "name": "Bipolar Nanoflake",
+            "quantity": 4
+          },
+          {
+            "name": "Polymerized Gel",
+            "quantity": 7
+          }
+        ]
+      },
+      "skillLevels": {
+        "2": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 5
+          }
+        ],
+        "3": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 5
+          },
+          {
+            "name": "Diketon",
+            "quantity": 6
+          },
+          {
+            "name": "Orirock",
+            "quantity": 4
+          }
+        ],
+        "4": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 8
+          },
+          {
+            "name": "Device",
+            "quantity": 3
+          }
+        ],
+        "5": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 8
+          },
+          {
+            "name": "Sugar",
+            "quantity": 4
+          },
+          {
+            "name": "Polyketon",
+            "quantity": 4
+          }
+        ],
+        "6": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 8
+          },
+          {
+            "name": "Incandescent Alloy",
+            "quantity": 6
+          }
+        ],
+        "7": [
+          {
+            "name": "Skill Summary - 3",
+            "quantity": 8
+          },
+          {
+            "name": "Integrated Device",
+            "quantity": 3
+          },
+          {
+            "name": "Coagulating Gel",
+            "quantity": 4
+          }
+        ]
+      },
+      "isCnOnly": true,
+      "masteries": {
+        "1": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 8
+            },
+            {
+              "name": "White Horse Kohl",
+              "quantity": 4
+            },
+            {
+              "name": "Aketon",
+              "quantity": 8
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 12
+            },
+            {
+              "name": "Oriron Block",
+              "quantity": 4
+            },
+            {
+              "name": "Incandescent Alloy Block",
+              "quantity": 7
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 15
+            },
+            {
+              "name": "Bipolar Nanoflake",
+              "quantity": 6
+            },
+            {
+              "name": "Grindstone Pentahydrate",
+              "quantity": 5
+            }
+          ],
+          "skillId": "skchr_zumama_1",
+          "skillName": "轻型挂斧"
+        },
+        "2": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 8
+            },
+            {
+              "name": "Grindstone Pentahydrate",
+              "quantity": 4
+            },
+            {
+              "name": "Loxic Kohl",
+              "quantity": 7
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 12
+            },
+            {
+              "name": "Optimized Device",
+              "quantity": 3
+            },
+            {
+              "name": "Oriron Block",
+              "quantity": 6
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 15
+            },
+            {
+              "name": "Bipolar Nanoflake",
+              "quantity": 6
+            },
+            {
+              "name": "Keton Colloid",
+              "quantity": 5
+            }
+          ],
+          "skillId": "skchr_zumama_2",
+          "skillName": "震慑劈砍"
+        },
+        "3": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 8
+            },
+            {
+              "name": "RMA70-24",
+              "quantity": 4
+            },
+            {
+              "name": "Manganese Ore",
+              "quantity": 5
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 12
+            },
+            {
+              "name": "Manganese Trihydrate",
+              "quantity": 4
+            },
+            {
+              "name": "Optimized Device",
+              "quantity": 5
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 15
+            },
+            {
+              "name": "Polymerization Preparation",
+              "quantity": 6
+            },
+            {
+              "name": "Incandescent Alloy Block",
+              "quantity": 6
+            }
+          ],
+          "skillId": "skchr_zumama_3",
+          "skillName": "钢铁意志"
         }
       }
     },
@@ -6096,6 +8736,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -6301,6 +8942,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -6552,6 +9194,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -6760,7 +9403,8 @@
             "quantity": 2
           }
         ]
-      }
+      },
+      "isCnOnly": false
     },
     "FEater": {
       "rarity": 5,
@@ -6864,6 +9508,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -7061,6 +9706,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -7258,6 +9904,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -7350,6 +9997,402 @@
           ],
           "skillId": "skchr_flameb_2",
           "skillName": "Blade Demon"
+        }
+      }
+    },
+    "Flint": {
+      "rarity": 5,
+      "elite": {
+        "1": [
+          {
+            "name": "LMD",
+            "quantity": 20000
+          },
+          {
+            "name": "Guard Chip",
+            "quantity": 4
+          },
+          {
+            "name": "Polyester",
+            "quantity": 5
+          },
+          {
+            "name": "Oriron",
+            "quantity": 3
+          }
+        ],
+        "2": [
+          {
+            "name": "LMD",
+            "quantity": 120000
+          },
+          {
+            "name": "Guard Dualchip",
+            "quantity": 3
+          },
+          {
+            "name": "Orirock Concentration",
+            "quantity": 8
+          },
+          {
+            "name": "Grindstone",
+            "quantity": 15
+          }
+        ]
+      },
+      "skillLevels": {
+        "2": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 4
+          }
+        ],
+        "3": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 4
+          },
+          {
+            "name": "Diketon",
+            "quantity": 5
+          }
+        ],
+        "4": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Oriron",
+            "quantity": 3
+          }
+        ],
+        "5": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Polyketon",
+            "quantity": 4
+          }
+        ],
+        "6": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Grindstone",
+            "quantity": 3
+          }
+        ],
+        "7": [
+          {
+            "name": "Skill Summary - 3",
+            "quantity": 6
+          },
+          {
+            "name": "Aketon",
+            "quantity": 2
+          },
+          {
+            "name": "Loxic Kohl",
+            "quantity": 4
+          }
+        ]
+      },
+      "isCnOnly": true,
+      "masteries": {
+        "1": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 5
+            },
+            {
+              "name": "Orirock Concentration",
+              "quantity": 3
+            },
+            {
+              "name": "Grindstone",
+              "quantity": 4
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Keton Colloid",
+              "quantity": 3
+            },
+            {
+              "name": "Polymerized Gel",
+              "quantity": 6
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 10
+            },
+            {
+              "name": "Bipolar Nanoflake",
+              "quantity": 4
+            },
+            {
+              "name": "Keton Colloid",
+              "quantity": 3
+            }
+          ],
+          "skillId": "skchr_flint_1",
+          "skillName": "不息"
+        },
+        "2": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 5
+            },
+            {
+              "name": "Incandescent Alloy Block",
+              "quantity": 3
+            },
+            {
+              "name": "RMA70-12",
+              "quantity": 3
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "White Horse Kohl",
+              "quantity": 3
+            },
+            {
+              "name": "Keton Colloid",
+              "quantity": 5
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 10
+            },
+            {
+              "name": "Bipolar Nanoflake",
+              "quantity": 4
+            },
+            {
+              "name": "Grindstone Pentahydrate",
+              "quantity": 4
+            }
+          ],
+          "skillId": "skchr_flint_2",
+          "skillName": "锋芒毕露"
+        }
+      }
+    },
+    "Folinic": {
+      "rarity": 5,
+      "elite": {
+        "1": [
+          {
+            "name": "LMD",
+            "quantity": 20000
+          },
+          {
+            "name": "Medic Chip",
+            "quantity": 4
+          },
+          {
+            "name": "Polyester",
+            "quantity": 5
+          },
+          {
+            "name": "Polyketon",
+            "quantity": 2
+          }
+        ],
+        "2": [
+          {
+            "name": "LMD",
+            "quantity": 120000
+          },
+          {
+            "name": "Medic Dualchip",
+            "quantity": 3
+          },
+          {
+            "name": "Keton Colloid",
+            "quantity": 8
+          },
+          {
+            "name": "Integrated Device",
+            "quantity": 8
+          }
+        ]
+      },
+      "skillLevels": {
+        "2": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 4
+          }
+        ],
+        "3": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 4
+          },
+          {
+            "name": "Ester",
+            "quantity": 7
+          }
+        ],
+        "4": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Oriron",
+            "quantity": 3
+          }
+        ],
+        "5": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Polyketon",
+            "quantity": 4
+          }
+        ],
+        "6": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Coagulating Gel",
+            "quantity": 4
+          }
+        ],
+        "7": [
+          {
+            "name": "Skill Summary - 3",
+            "quantity": 6
+          },
+          {
+            "name": "Aketon",
+            "quantity": 2
+          },
+          {
+            "name": "Loxic Kohl",
+            "quantity": 4
+          }
+        ]
+      },
+      "isCnOnly": true,
+      "masteries": {
+        "1": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 5
+            },
+            {
+              "name": "Grindstone Pentahydrate",
+              "quantity": 3
+            },
+            {
+              "name": "Loxic Kohl",
+              "quantity": 4
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Optimized Device",
+              "quantity": 2
+            },
+            {
+              "name": "Oriron Block",
+              "quantity": 5
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 10
+            },
+            {
+              "name": "Bipolar Nanoflake",
+              "quantity": 4
+            },
+            {
+              "name": "Grindstone Pentahydrate",
+              "quantity": 4
+            }
+          ],
+          "skillId": "skchr_folnic_1",
+          "skillName": "最大剂量输注"
+        },
+        "2": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 5
+            },
+            {
+              "name": "Orirock Concentration",
+              "quantity": 3
+            },
+            {
+              "name": "Grindstone",
+              "quantity": 4
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Manganese Trihydrate",
+              "quantity": 3
+            },
+            {
+              "name": "Optimized Device",
+              "quantity": 4
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 10
+            },
+            {
+              "name": "Bipolar Nanoflake",
+              "quantity": 4
+            },
+            {
+              "name": "Keton Colloid",
+              "quantity": 3
+            }
+          ],
+          "skillId": "skchr_folnic_2",
+          "skillName": "复合型药物弹片"
         }
       }
     },
@@ -7455,6 +10498,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -7648,6 +10692,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -7841,6 +10886,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -8034,6 +11080,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -8231,6 +11278,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -8428,6 +11476,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -8621,6 +11670,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -8818,6 +11868,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -9011,6 +12062,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -9204,6 +12256,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -9397,6 +12450,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -9602,6 +12656,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -9810,7 +12865,8 @@
             "quantity": 2
           }
         ]
-      }
+      },
+      "isCnOnly": false
     },
     "Hoshiguma": {
       "rarity": 6,
@@ -9922,6 +12978,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -10165,6 +13222,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -10370,6 +13428,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -10613,6 +13672,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -10810,6 +13870,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -10902,6 +13963,200 @@
           ],
           "skillId": "skchr_glassb_2",
           "skillName": "Literature Storm"
+        }
+      }
+    },
+    "Jaye": {
+      "rarity": 4,
+      "elite": {
+        "1": [
+          {
+            "name": "LMD",
+            "quantity": 15000
+          },
+          {
+            "name": "Specialist Chip",
+            "quantity": 3
+          },
+          {
+            "name": "Polyketon",
+            "quantity": 1
+          },
+          {
+            "name": "Device",
+            "quantity": 1
+          }
+        ],
+        "2": [
+          {
+            "name": "LMD",
+            "quantity": 60000
+          },
+          {
+            "name": "Specialist Chip Pack",
+            "quantity": 5
+          },
+          {
+            "name": "Grindstone",
+            "quantity": 14
+          },
+          {
+            "name": "Aketon",
+            "quantity": 8
+          }
+        ]
+      },
+      "skillLevels": {
+        "2": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 2
+          }
+        ],
+        "3": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 2
+          },
+          {
+            "name": "Sugar Substitute",
+            "quantity": 4
+          }
+        ],
+        "4": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 3
+          },
+          {
+            "name": "Polyester",
+            "quantity": 2
+          }
+        ],
+        "5": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 3
+          },
+          {
+            "name": "Oriron",
+            "quantity": 2
+          }
+        ],
+        "6": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 3
+          },
+          {
+            "name": "Integrated Device",
+            "quantity": 2
+          }
+        ],
+        "7": [
+          {
+            "name": "Skill Summary - 3",
+            "quantity": 4
+          },
+          {
+            "name": "Incandescent Alloy",
+            "quantity": 3
+          }
+        ]
+      },
+      "isCnOnly": true,
+      "masteries": {
+        "1": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 2
+            },
+            {
+              "name": "RMA70-24",
+              "quantity": 1
+            },
+            {
+              "name": "Manganese Ore",
+              "quantity": 3
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 4
+            },
+            {
+              "name": "Optimized Device",
+              "quantity": 1
+            },
+            {
+              "name": "Oriron Block",
+              "quantity": 2
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Polymerization Preparation",
+              "quantity": 2
+            },
+            {
+              "name": "Polymerized Gel",
+              "quantity": 2
+            }
+          ],
+          "skillId": "skchr_strong_1",
+          "skillName": "断螯"
+        },
+        "2": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 2
+            },
+            {
+              "name": "Manganese Trihydrate",
+              "quantity": 1
+            },
+            {
+              "name": "Integrated Device",
+              "quantity": 3
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 4
+            },
+            {
+              "name": "Oriron Block",
+              "quantity": 2
+            },
+            {
+              "name": "Incandescent Alloy Block",
+              "quantity": 2
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Polymerization Preparation",
+              "quantity": 2
+            },
+            {
+              "name": "Optimized Device",
+              "quantity": 2
+            }
+          ],
+          "skillId": "skchr_strong_2",
+          "skillName": "刺身拼盘"
         }
       }
     },
@@ -11003,6 +14258,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -11165,7 +14421,8 @@
             "quantity": 1
           }
         ]
-      }
+      },
+      "isCnOnly": false
     },
     "Lappland": {
       "rarity": 5,
@@ -11269,6 +14526,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -11431,7 +14689,8 @@
             "quantity": 2
           }
         ]
-      }
+      },
+      "isCnOnly": false
     },
     "Leizi": {
       "rarity": 5,
@@ -11535,6 +14794,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -11732,6 +14992,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -11929,6 +15190,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -12134,6 +15396,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -12377,6 +15640,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -12570,6 +15834,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -12763,6 +16028,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -12956,6 +16222,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -13153,6 +16420,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -13315,7 +16583,8 @@
             "quantity": 2
           }
         ]
-      }
+      },
+      "isCnOnly": false
     },
     "Meteor": {
       "rarity": 4,
@@ -13415,6 +16684,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -13612,6 +16882,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -13774,6 +17045,205 @@
             "quantity": 1
           }
         ]
+      },
+      "isCnOnly": false
+    },
+    "Mint": {
+      "rarity": 5,
+      "elite": {
+        "1": [
+          {
+            "name": "LMD",
+            "quantity": 20000
+          },
+          {
+            "name": "Caster Chip",
+            "quantity": 4
+          },
+          {
+            "name": "Polyketon",
+            "quantity": 4
+          },
+          {
+            "name": "Device",
+            "quantity": 2
+          }
+        ],
+        "2": [
+          {
+            "name": "LMD",
+            "quantity": 120000
+          },
+          {
+            "name": "Caster Dualchip",
+            "quantity": 3
+          },
+          {
+            "name": "Incandescent Alloy Block",
+            "quantity": 9
+          },
+          {
+            "name": "Orirock Cluster",
+            "quantity": 14
+          }
+        ]
+      },
+      "skillLevels": {
+        "2": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 4
+          }
+        ],
+        "3": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 4
+          },
+          {
+            "name": "Sugar Substitute",
+            "quantity": 7
+          }
+        ],
+        "4": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Orirock Cube",
+            "quantity": 4
+          }
+        ],
+        "5": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Sugar",
+            "quantity": 5
+          }
+        ],
+        "6": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Integrated Device",
+            "quantity": 3
+          }
+        ],
+        "7": [
+          {
+            "name": "Skill Summary - 3",
+            "quantity": 6
+          },
+          {
+            "name": "Coagulating Gel",
+            "quantity": 3
+          },
+          {
+            "name": "Oriron Cluster",
+            "quantity": 2
+          }
+        ]
+      },
+      "isCnOnly": true,
+      "masteries": {
+        "1": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 5
+            },
+            {
+              "name": "Manganese Trihydrate",
+              "quantity": 3
+            },
+            {
+              "name": "Integrated Device",
+              "quantity": 2
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Polymerized Gel",
+              "quantity": 3
+            },
+            {
+              "name": "Orirock Concentration",
+              "quantity": 7
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 10
+            },
+            {
+              "name": "Polymerization Preparation",
+              "quantity": 4
+            },
+            {
+              "name": "Manganese Trihydrate",
+              "quantity": 4
+            }
+          ],
+          "skillId": "skchr_mint_1",
+          "skillName": "风语"
+        },
+        "2": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 5
+            },
+            {
+              "name": "RMA70-24",
+              "quantity": 3
+            },
+            {
+              "name": "Manganese Ore",
+              "quantity": 2
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Oriron Block",
+              "quantity": 3
+            },
+            {
+              "name": "Incandescent Alloy Block",
+              "quantity": 5
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 10
+            },
+            {
+              "name": "Polymerization Preparation",
+              "quantity": 4
+            },
+            {
+              "name": "White Horse Kohl",
+              "quantity": 5
+            }
+          ],
+          "skillId": "skchr_mint_2",
+          "skillName": "聚能涡旋"
+        }
       }
     },
     "Mostima": {
@@ -13886,6 +17356,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -14125,6 +17596,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -14318,6 +17790,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -14511,6 +17984,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -14708,6 +18182,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -14913,6 +18388,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -15164,6 +18640,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -15407,6 +18884,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -15569,7 +19047,8 @@
             "quantity": 2
           }
         ]
-      }
+      },
+      "isCnOnly": false
     },
     "Perfumer": {
       "rarity": 4,
@@ -15669,6 +19148,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -15761,6 +19241,258 @@
           ],
           "skillId": "skchr_flower_2",
           "skillName": "Fine Blending"
+        }
+      }
+    },
+    "Phantom": {
+      "rarity": 6,
+      "elite": {
+        "1": [
+          {
+            "name": "LMD",
+            "quantity": 30000
+          },
+          {
+            "name": "Specialist Chip",
+            "quantity": 5
+          },
+          {
+            "name": "Polyketon",
+            "quantity": 7
+          },
+          {
+            "name": "Orirock Cube",
+            "quantity": 7
+          }
+        ],
+        "2": [
+          {
+            "name": "LMD",
+            "quantity": 180000
+          },
+          {
+            "name": "Specialist Dualchip",
+            "quantity": 4
+          },
+          {
+            "name": "Polymerization Preparation",
+            "quantity": 4
+          },
+          {
+            "name": "Polymerized Gel",
+            "quantity": 9
+          }
+        ]
+      },
+      "skillLevels": {
+        "2": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 5
+          }
+        ],
+        "3": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 5
+          },
+          {
+            "name": "Orirock",
+            "quantity": 6
+          },
+          {
+            "name": "Damaged Device",
+            "quantity": 4
+          }
+        ],
+        "4": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 8
+          },
+          {
+            "name": "Sugar",
+            "quantity": 5
+          }
+        ],
+        "5": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 8
+          },
+          {
+            "name": "Polyester",
+            "quantity": 4
+          },
+          {
+            "name": "Oriron",
+            "quantity": 4
+          }
+        ],
+        "6": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 8
+          },
+          {
+            "name": "Manganese Ore",
+            "quantity": 6
+          }
+        ],
+        "7": [
+          {
+            "name": "Skill Summary - 3",
+            "quantity": 8
+          },
+          {
+            "name": "Coagulating Gel",
+            "quantity": 4
+          },
+          {
+            "name": "Oriron Cluster",
+            "quantity": 4
+          }
+        ]
+      },
+      "isCnOnly": true,
+      "masteries": {
+        "1": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 8
+            },
+            {
+              "name": "Orirock Concentration",
+              "quantity": 4
+            },
+            {
+              "name": "Grindstone",
+              "quantity": 7
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 12
+            },
+            {
+              "name": "White Horse Kohl",
+              "quantity": 4
+            },
+            {
+              "name": "Keton Colloid",
+              "quantity": 8
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 15
+            },
+            {
+              "name": "D32 Steel",
+              "quantity": 6
+            },
+            {
+              "name": "Incandescent Alloy Block",
+              "quantity": 6
+            }
+          ],
+          "skillId": "skchr_phatom_1",
+          "skillName": "暗夜魅影"
+        },
+        "2": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 8
+            },
+            {
+              "name": "Keton Colloid",
+              "quantity": 4
+            },
+            {
+              "name": "Coagulating Gel",
+              "quantity": 4
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 12
+            },
+            {
+              "name": "Manganese Trihydrate",
+              "quantity": 4
+            },
+            {
+              "name": "Optimized Device",
+              "quantity": 5
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 15
+            },
+            {
+              "name": "Polymerization Preparation",
+              "quantity": 6
+            },
+            {
+              "name": "Incandescent Alloy Block",
+              "quantity": 6
+            }
+          ],
+          "skillId": "skchr_phatom_2",
+          "skillName": "血色乐章"
+        },
+        "3": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 8
+            },
+            {
+              "name": "Optimized Device",
+              "quantity": 3
+            },
+            {
+              "name": "Oriron Cluster",
+              "quantity": 4
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 12
+            },
+            {
+              "name": "Grindstone Pentahydrate",
+              "quantity": 4
+            },
+            {
+              "name": "White Horse Kohl",
+              "quantity": 9
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 15
+            },
+            {
+              "name": "D32 Steel",
+              "quantity": 6
+            },
+            {
+              "name": "Polymerized Gel",
+              "quantity": 6
+            }
+          ],
+          "skillId": "skchr_phatom_3",
+          "skillName": "夜幕突袭"
         }
       }
     },
@@ -15866,6 +19598,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -16028,7 +19761,8 @@
             "quantity": 1
           }
         ]
-      }
+      },
+      "isCnOnly": false
     },
     "Podenco": {
       "rarity": 4,
@@ -16128,6 +19862,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -16290,7 +20025,8 @@
             "quantity": 2
           }
         ]
-      }
+      },
+      "isCnOnly": false
     },
     "Pramanix": {
       "rarity": 5,
@@ -16394,6 +20130,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -16591,6 +20328,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -16788,6 +20526,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -16985,6 +20724,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -17077,6 +20817,200 @@
           ],
           "skillId": "skchr_plosis_2",
           "skillName": "Enkephalin"
+        }
+      }
+    },
+    "Purestream": {
+      "rarity": 4,
+      "elite": {
+        "1": [
+          {
+            "name": "LMD",
+            "quantity": 15000
+          },
+          {
+            "name": "Medic Chip",
+            "quantity": 3
+          },
+          {
+            "name": "Orirock Cube",
+            "quantity": 1
+          },
+          {
+            "name": "Sugar",
+            "quantity": 1
+          }
+        ],
+        "2": [
+          {
+            "name": "LMD",
+            "quantity": 60000
+          },
+          {
+            "name": "Medic Chip Pack",
+            "quantity": 5
+          },
+          {
+            "name": "Integrated Device",
+            "quantity": 11
+          },
+          {
+            "name": "Coagulating Gel",
+            "quantity": 9
+          }
+        ]
+      },
+      "skillLevels": {
+        "2": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 2
+          }
+        ],
+        "3": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 2
+          },
+          {
+            "name": "Orirock",
+            "quantity": 5
+          }
+        ],
+        "4": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 3
+          },
+          {
+            "name": "Sugar",
+            "quantity": 2
+          }
+        ],
+        "5": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 3
+          },
+          {
+            "name": "Polyester",
+            "quantity": 3
+          }
+        ],
+        "6": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 3
+          },
+          {
+            "name": "Manganese Ore",
+            "quantity": 2
+          }
+        ],
+        "7": [
+          {
+            "name": "Skill Summary - 3",
+            "quantity": 4
+          },
+          {
+            "name": "Grindstone",
+            "quantity": 2
+          }
+        ]
+      },
+      "isCnOnly": true,
+      "masteries": {
+        "1": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 2
+            },
+            {
+              "name": "Polymerized Gel",
+              "quantity": 1
+            },
+            {
+              "name": "Orirock Cluster",
+              "quantity": 6
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 4
+            },
+            {
+              "name": "Grindstone Pentahydrate",
+              "quantity": 2
+            },
+            {
+              "name": "White Horse Kohl",
+              "quantity": 3
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "D32 Steel",
+              "quantity": 2
+            },
+            {
+              "name": "Optimized Device",
+              "quantity": 2
+            }
+          ],
+          "skillId": "skchr_finlpp_1",
+          "skillName": "治愈水波"
+        },
+        "2": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 2
+            },
+            {
+              "name": "Oriron Block",
+              "quantity": 1
+            },
+            {
+              "name": "Incandescent Alloy",
+              "quantity": 3
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 4
+            },
+            {
+              "name": "RMA70-24",
+              "quantity": 2
+            },
+            {
+              "name": "Manganese Trihydrate",
+              "quantity": 2
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Bipolar Nanoflake",
+              "quantity": 2
+            },
+            {
+              "name": "Keton Colloid",
+              "quantity": 2
+            }
+          ],
+          "skillId": "skchr_finlpp_2",
+          "skillName": "涌泉"
         }
       }
     },
@@ -17182,6 +21116,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -17375,6 +21310,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -17580,6 +21516,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -17831,6 +21768,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -18074,6 +22012,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -18267,6 +22206,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -18359,6 +22299,204 @@
           ],
           "skillId": "skchr_scave_2",
           "skillName": "Command - Attack"
+        }
+      }
+    },
+    "Scene": {
+      "rarity": 5,
+      "elite": {
+        "1": [
+          {
+            "name": "LMD",
+            "quantity": 20000
+          },
+          {
+            "name": "Supporter Chip",
+            "quantity": 4
+          },
+          {
+            "name": "Polyketon",
+            "quantity": 4
+          },
+          {
+            "name": "Orirock Cube",
+            "quantity": 4
+          }
+        ],
+        "2": [
+          {
+            "name": "LMD",
+            "quantity": 120000
+          },
+          {
+            "name": "Supporter Dualchip",
+            "quantity": 3
+          },
+          {
+            "name": "White Horse Kohl",
+            "quantity": 9
+          },
+          {
+            "name": "Manganese Ore",
+            "quantity": 12
+          }
+        ]
+      },
+      "skillLevels": {
+        "2": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 4
+          }
+        ],
+        "3": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 4
+          },
+          {
+            "name": "Diketon",
+            "quantity": 5
+          }
+        ],
+        "4": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Device",
+            "quantity": 2
+          }
+        ],
+        "5": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Orirock Cube",
+            "quantity": 8
+          }
+        ],
+        "6": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Oriron Cluster",
+            "quantity": 4
+          }
+        ],
+        "7": [
+          {
+            "name": "Skill Summary - 3",
+            "quantity": 6
+          },
+          {
+            "name": "Loxic Kohl",
+            "quantity": 3
+          },
+          {
+            "name": "Aketon",
+            "quantity": 3
+          }
+        ]
+      },
+      "isCnOnly": true,
+      "masteries": {
+        "1": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 5
+            },
+            {
+              "name": "Orirock Concentration",
+              "quantity": 3
+            },
+            {
+              "name": "Grindstone",
+              "quantity": 4
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Grindstone Pentahydrate",
+              "quantity": 3
+            },
+            {
+              "name": "White Horse Kohl",
+              "quantity": 6
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 10
+            },
+            {
+              "name": "D32 Steel",
+              "quantity": 4
+            },
+            {
+              "name": "Optimized Device",
+              "quantity": 3
+            }
+          ],
+          "skillId": "skchr_folivo_1",
+          "skillName": "保护色隐蔽"
+        },
+        "2": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 5
+            },
+            {
+              "name": "Incandescent Alloy Block",
+              "quantity": 3
+            },
+            {
+              "name": "RMA70-12",
+              "quantity": 3
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Orirock Concentration",
+              "quantity": 3
+            },
+            {
+              "name": "Grindstone Pentahydrate",
+              "quantity": 6
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 10
+            },
+            {
+              "name": "D32 Steel",
+              "quantity": 4
+            },
+            {
+              "name": "Polymerized Gel",
+              "quantity": 4
+            }
+          ],
+          "skillId": "skchr_folivo_2",
+          "skillName": "全景过载摄像"
         }
       }
     },
@@ -18472,6 +22610,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -18715,6 +22854,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -18807,6 +22947,204 @@
           ],
           "skillId": "skchr_sesa_2",
           "skillName": "Delayed Concussive Parts"
+        }
+      }
+    },
+    "Shamare": {
+      "rarity": 5,
+      "elite": {
+        "1": [
+          {
+            "name": "LMD",
+            "quantity": 20000
+          },
+          {
+            "name": "Supporter Chip",
+            "quantity": 4
+          },
+          {
+            "name": "Sugar",
+            "quantity": 5
+          },
+          {
+            "name": "Orirock Cube",
+            "quantity": 3
+          }
+        ],
+        "2": [
+          {
+            "name": "LMD",
+            "quantity": 120000
+          },
+          {
+            "name": "Supporter Dualchip",
+            "quantity": 3
+          },
+          {
+            "name": "Orirock Concentration",
+            "quantity": 8
+          },
+          {
+            "name": "Incandescent Alloy",
+            "quantity": 17
+          }
+        ]
+      },
+      "skillLevels": {
+        "2": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 4
+          }
+        ],
+        "3": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 4
+          },
+          {
+            "name": "Sugar Substitute",
+            "quantity": 7
+          }
+        ],
+        "4": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Polyester",
+            "quantity": 3
+          }
+        ],
+        "5": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Oriron",
+            "quantity": 4
+          }
+        ],
+        "6": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Aketon",
+            "quantity": 4
+          }
+        ],
+        "7": [
+          {
+            "name": "Skill Summary - 3",
+            "quantity": 6
+          },
+          {
+            "name": "Manganese Ore",
+            "quantity": 2
+          },
+          {
+            "name": "RMA70-12",
+            "quantity": 3
+          }
+        ]
+      },
+      "isCnOnly": true,
+      "masteries": {
+        "1": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 5
+            },
+            {
+              "name": "RMA70-24",
+              "quantity": 3
+            },
+            {
+              "name": "Manganese Ore",
+              "quantity": 2
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "White Horse Kohl",
+              "quantity": 3
+            },
+            {
+              "name": "Keton Colloid",
+              "quantity": 5
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 10
+            },
+            {
+              "name": "Bipolar Nanoflake",
+              "quantity": 4
+            },
+            {
+              "name": "Incandescent Alloy Block",
+              "quantity": 4
+            }
+          ],
+          "skillId": "skchr_vodfox_1",
+          "skillName": "病入膏肓"
+        },
+        "2": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 5
+            },
+            {
+              "name": "Orirock Concentration",
+              "quantity": 3
+            },
+            {
+              "name": "Grindstone",
+              "quantity": 4
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Manganese Trihydrate",
+              "quantity": 3
+            },
+            {
+              "name": "Optimized Device",
+              "quantity": 4
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 10
+            },
+            {
+              "name": "D32 Steel",
+              "quantity": 4
+            },
+            {
+              "name": "Polymerized Gel",
+              "quantity": 4
+            }
+          ],
+          "skillId": "skchr_vodfox_2",
+          "skillName": "诅咒娃娃"
         }
       }
     },
@@ -18908,6 +23246,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -19113,6 +23452,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -19254,7 +23594,7 @@
         }
       }
     },
-    "Shirayuki": {
+    "ShiraYuki": {
       "rarity": 4,
       "elite": {
         "1": [
@@ -19352,6 +23692,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -19444,6 +23785,204 @@
           ],
           "skillId": "skchr_yuki_2",
           "skillName": "Fatal Shuriken"
+        }
+      }
+    },
+    "Sideroca": {
+      "rarity": 5,
+      "elite": {
+        "1": [
+          {
+            "name": "LMD",
+            "quantity": 20000
+          },
+          {
+            "name": "Guard Chip",
+            "quantity": 4
+          },
+          {
+            "name": "Orirock Cube",
+            "quantity": 7
+          },
+          {
+            "name": "Device",
+            "quantity": 2
+          }
+        ],
+        "2": [
+          {
+            "name": "LMD",
+            "quantity": 120000
+          },
+          {
+            "name": "Guard Dualchip",
+            "quantity": 3
+          },
+          {
+            "name": "Polymerized Gel",
+            "quantity": 9
+          },
+          {
+            "name": "Oriron Cluster",
+            "quantity": 13
+          }
+        ]
+      },
+      "skillLevels": {
+        "2": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 4
+          }
+        ],
+        "3": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 4
+          },
+          {
+            "name": "Orirock",
+            "quantity": 10
+          }
+        ],
+        "4": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Sugar",
+            "quantity": 3
+          }
+        ],
+        "5": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Polyester",
+            "quantity": 5
+          }
+        ],
+        "6": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Incandescent Alloy",
+            "quantity": 4
+          }
+        ],
+        "7": [
+          {
+            "name": "Skill Summary - 3",
+            "quantity": 6
+          },
+          {
+            "name": "Loxic Kohl",
+            "quantity": 3
+          },
+          {
+            "name": "Aketon",
+            "quantity": 3
+          }
+        ]
+      },
+      "isCnOnly": true,
+      "masteries": {
+        "1": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 5
+            },
+            {
+              "name": "Incandescent Alloy Block",
+              "quantity": 3
+            },
+            {
+              "name": "RMA70-12",
+              "quantity": 3
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Grindstone Pentahydrate",
+              "quantity": 3
+            },
+            {
+              "name": "White Horse Kohl",
+              "quantity": 6
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 10
+            },
+            {
+              "name": "Polymerization Preparation",
+              "quantity": 4
+            },
+            {
+              "name": "Polymerized Gel",
+              "quantity": 5
+            }
+          ],
+          "skillId": "skcom_heal_self[3]",
+          "skillName": "生命回复·γ型"
+        },
+        "2": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 5
+            },
+            {
+              "name": "Keton Colloid",
+              "quantity": 3
+            },
+            {
+              "name": "Coagulating Gel",
+              "quantity": 2
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "RMA70-24",
+              "quantity": 3
+            },
+            {
+              "name": "Manganese Trihydrate",
+              "quantity": 5
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 10
+            },
+            {
+              "name": "Polymerization Preparation",
+              "quantity": 4
+            },
+            {
+              "name": "Incandescent Alloy Block",
+              "quantity": 4
+            }
+          ],
+          "skillId": "skchr_sidero_2",
+          "skillName": "破浪回神"
         }
       }
     },
@@ -19557,6 +24096,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -19800,6 +24340,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -20005,6 +24546,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -20256,6 +24798,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -20499,6 +25042,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -20696,6 +25240,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -20893,6 +25438,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -21090,6 +25636,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -21252,7 +25799,8 @@
             "quantity": 2
           }
         ]
-      }
+      },
+      "isCnOnly": false
     },
     "Steward": {
       "rarity": 3,
@@ -21321,6 +25869,259 @@
             "quantity": 2
           }
         ]
+      },
+      "isCnOnly": false
+    },
+    "Surtr": {
+      "rarity": 6,
+      "elite": {
+        "1": [
+          {
+            "name": "LMD",
+            "quantity": 30000
+          },
+          {
+            "name": "Guard Chip",
+            "quantity": 5
+          },
+          {
+            "name": "Orirock Cube",
+            "quantity": 12
+          },
+          {
+            "name": "Polyketon",
+            "quantity": 4
+          }
+        ],
+        "2": [
+          {
+            "name": "LMD",
+            "quantity": 180000
+          },
+          {
+            "name": "Guard Dualchip",
+            "quantity": 4
+          },
+          {
+            "name": "Polymerization Preparation",
+            "quantity": 4
+          },
+          {
+            "name": "Keton Colloid",
+            "quantity": 5
+          }
+        ]
+      },
+      "skillLevels": {
+        "2": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 5
+          }
+        ],
+        "3": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 5
+          },
+          {
+            "name": "Damaged Device",
+            "quantity": 4
+          },
+          {
+            "name": "Ester",
+            "quantity": 4
+          }
+        ],
+        "4": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 8
+          },
+          {
+            "name": "Orirock Cube",
+            "quantity": 7
+          }
+        ],
+        "5": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 8
+          },
+          {
+            "name": "Polyester",
+            "quantity": 4
+          },
+          {
+            "name": "Oriron",
+            "quantity": 4
+          }
+        ],
+        "6": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 8
+          },
+          {
+            "name": "Oriron Cluster",
+            "quantity": 6
+          }
+        ],
+        "7": [
+          {
+            "name": "Skill Summary - 3",
+            "quantity": 8
+          },
+          {
+            "name": "Loxic Kohl",
+            "quantity": 5
+          },
+          {
+            "name": "Aketon",
+            "quantity": 4
+          }
+        ]
+      },
+      "isCnOnly": true,
+      "masteries": {
+        "1": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 8
+            },
+            {
+              "name": "Manganese Trihydrate",
+              "quantity": 4
+            },
+            {
+              "name": "Integrated Device",
+              "quantity": 4
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 12
+            },
+            {
+              "name": "Keton Colloid",
+              "quantity": 4
+            },
+            {
+              "name": "Polymerized Gel",
+              "quantity": 9
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 15
+            },
+            {
+              "name": "D32 Steel",
+              "quantity": 6
+            },
+            {
+              "name": "Optimized Device",
+              "quantity": 4
+            }
+          ],
+          "skillId": "skchr_surtr_1",
+          "skillName": "烈焰魔剑"
+        },
+        "2": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 8
+            },
+            {
+              "name": "RMA70-24",
+              "quantity": 4
+            },
+            {
+              "name": "Manganese Ore",
+              "quantity": 5
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 12
+            },
+            {
+              "name": "White Horse Kohl",
+              "quantity": 4
+            },
+            {
+              "name": "Keton Colloid",
+              "quantity": 8
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 15
+            },
+            {
+              "name": "Bipolar Nanoflake",
+              "quantity": 6
+            },
+            {
+              "name": "RMA70-24",
+              "quantity": 5
+            }
+          ],
+          "skillId": "skchr_surtr_2",
+          "skillName": "熔核巨影"
+        },
+        "3": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 8
+            },
+            {
+              "name": "Orirock Concentration",
+              "quantity": 4
+            },
+            {
+              "name": "Grindstone",
+              "quantity": 7
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 12
+            },
+            {
+              "name": "Grindstone Pentahydrate",
+              "quantity": 4
+            },
+            {
+              "name": "White Horse Kohl",
+              "quantity": 9
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 15
+            },
+            {
+              "name": "D32 Steel",
+              "quantity": 6
+            },
+            {
+              "name": "Polymerized Gel",
+              "quantity": 6
+            }
+          ],
+          "skillId": "skchr_surtr_3",
+          "skillName": "黄昏"
+        }
       }
     },
     "Sussurro": {
@@ -21421,6 +26222,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -21513,6 +26315,258 @@
           ],
           "skillId": "skchr_susuro_2",
           "skillName": "Deep Healing"
+        }
+      }
+    },
+    "Suzuran": {
+      "rarity": 6,
+      "elite": {
+        "1": [
+          {
+            "name": "LMD",
+            "quantity": 30000
+          },
+          {
+            "name": "Supporter Chip",
+            "quantity": 5
+          },
+          {
+            "name": "Polyester",
+            "quantity": 8
+          },
+          {
+            "name": "Oriron",
+            "quantity": 4
+          }
+        ],
+        "2": [
+          {
+            "name": "LMD",
+            "quantity": 180000
+          },
+          {
+            "name": "Supporter Dualchip",
+            "quantity": 4
+          },
+          {
+            "name": "D32 Steel",
+            "quantity": 4
+          },
+          {
+            "name": "Grindstone Pentahydrate",
+            "quantity": 8
+          }
+        ]
+      },
+      "skillLevels": {
+        "2": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 5
+          }
+        ],
+        "3": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 5
+          },
+          {
+            "name": "Ester",
+            "quantity": 6
+          },
+          {
+            "name": "Oriron Shard",
+            "quantity": 4
+          }
+        ],
+        "4": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 8
+          },
+          {
+            "name": "Oriron",
+            "quantity": 4
+          }
+        ],
+        "5": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 8
+          },
+          {
+            "name": "Polyketon",
+            "quantity": 4
+          },
+          {
+            "name": "Orirock Cube",
+            "quantity": 5
+          }
+        ],
+        "6": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 8
+          },
+          {
+            "name": "RMA70-12",
+            "quantity": 4
+          }
+        ],
+        "7": [
+          {
+            "name": "Skill Summary - 3",
+            "quantity": 8
+          },
+          {
+            "name": "Oriron Cluster",
+            "quantity": 3
+          },
+          {
+            "name": "Grindstone",
+            "quantity": 5
+          }
+        ]
+      },
+      "isCnOnly": true,
+      "masteries": {
+        "1": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 8
+            },
+            {
+              "name": "Incandescent Alloy Block",
+              "quantity": 4
+            },
+            {
+              "name": "RMA70-12",
+              "quantity": 5
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 12
+            },
+            {
+              "name": "Polymerized Gel",
+              "quantity": 4
+            },
+            {
+              "name": "Orirock Concentration",
+              "quantity": 10
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 15
+            },
+            {
+              "name": "D32 Steel",
+              "quantity": 6
+            },
+            {
+              "name": "Oriron Block",
+              "quantity": 5
+            }
+          ],
+          "skillId": "skchr_lisa_1",
+          "skillName": "全力以赴"
+        },
+        "2": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 8
+            },
+            {
+              "name": "Keton Colloid",
+              "quantity": 4
+            },
+            {
+              "name": "Coagulating Gel",
+              "quantity": 4
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 12
+            },
+            {
+              "name": "Oriron Block",
+              "quantity": 4
+            },
+            {
+              "name": "Incandescent Alloy Block",
+              "quantity": 7
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 15
+            },
+            {
+              "name": "Bipolar Nanoflake",
+              "quantity": 6
+            },
+            {
+              "name": "Grindstone Pentahydrate",
+              "quantity": 5
+            }
+          ],
+          "skillId": "skchr_lisa_2",
+          "skillName": "儿时的舞乐"
+        },
+        "3": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 8
+            },
+            {
+              "name": "White Horse Kohl",
+              "quantity": 4
+            },
+            {
+              "name": "Aketon",
+              "quantity": 8
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 12
+            },
+            {
+              "name": "Optimized Device",
+              "quantity": 3
+            },
+            {
+              "name": "Oriron Block",
+              "quantity": 6
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 15
+            },
+            {
+              "name": "Bipolar Nanoflake",
+              "quantity": 6
+            },
+            {
+              "name": "Keton Colloid",
+              "quantity": 5
+            }
+          ],
+          "skillId": "skchr_lisa_3",
+          "skillName": "狐火渺然"
         }
       }
     },
@@ -21618,6 +26672,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -21815,6 +26870,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -21907,6 +26963,654 @@
           ],
           "skillId": "skchr_texas_2",
           "skillName": "Sword Rain"
+        }
+      }
+    },
+    "Thorns": {
+      "rarity": 6,
+      "elite": {
+        "1": [
+          {
+            "name": "LMD",
+            "quantity": 30000
+          },
+          {
+            "name": "Guard Chip",
+            "quantity": 5
+          },
+          {
+            "name": "Oriron",
+            "quantity": 8
+          },
+          {
+            "name": "Polyketon",
+            "quantity": 3
+          }
+        ],
+        "2": [
+          {
+            "name": "LMD",
+            "quantity": 180000
+          },
+          {
+            "name": "Guard Dualchip",
+            "quantity": 4
+          },
+          {
+            "name": "Polymerization Preparation",
+            "quantity": 4
+          },
+          {
+            "name": "Oriron Block",
+            "quantity": 6
+          }
+        ]
+      },
+      "skillLevels": {
+        "2": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 5
+          }
+        ],
+        "3": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 5
+          },
+          {
+            "name": "Oriron Shard",
+            "quantity": 5
+          },
+          {
+            "name": "Sugar Substitute",
+            "quantity": 4
+          }
+        ],
+        "4": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 8
+          },
+          {
+            "name": "Polyketon",
+            "quantity": 4
+          }
+        ],
+        "5": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 8
+          },
+          {
+            "name": "Device",
+            "quantity": 3
+          },
+          {
+            "name": "Polyester",
+            "quantity": 3
+          }
+        ],
+        "6": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 8
+          },
+          {
+            "name": "Orirock Cluster",
+            "quantity": 8
+          }
+        ],
+        "7": [
+          {
+            "name": "Skill Summary - 3",
+            "quantity": 8
+          },
+          {
+            "name": "Aketon",
+            "quantity": 3
+          },
+          {
+            "name": "Loxic Kohl",
+            "quantity": 6
+          }
+        ]
+      },
+      "isCnOnly": true,
+      "masteries": {
+        "1": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 8
+            },
+            {
+              "name": "Keton Colloid",
+              "quantity": 4
+            },
+            {
+              "name": "Coagulating Gel",
+              "quantity": 4
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 12
+            },
+            {
+              "name": "Incandescent Alloy Block",
+              "quantity": 4
+            },
+            {
+              "name": "RMA70-24",
+              "quantity": 8
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 15
+            },
+            {
+              "name": "Polymerization Preparation",
+              "quantity": 6
+            },
+            {
+              "name": "Manganese Trihydrate",
+              "quantity": 6
+            }
+          ],
+          "skillId": "skcom_atk_up[3]",
+          "skillName": "攻击力强化·γ型"
+        },
+        "2": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 8
+            },
+            {
+              "name": "White Horse Kohl",
+              "quantity": 4
+            },
+            {
+              "name": "Aketon",
+              "quantity": 8
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 12
+            },
+            {
+              "name": "Optimized Device",
+              "quantity": 3
+            },
+            {
+              "name": "Oriron Block",
+              "quantity": 6
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 15
+            },
+            {
+              "name": "Bipolar Nanoflake",
+              "quantity": 6
+            },
+            {
+              "name": "Keton Colloid",
+              "quantity": 5
+            }
+          ],
+          "skillId": "skchr_thorns_2",
+          "skillName": "护身尖刺"
+        },
+        "3": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 8
+            },
+            {
+              "name": "Grindstone Pentahydrate",
+              "quantity": 4
+            },
+            {
+              "name": "Loxic Kohl",
+              "quantity": 7
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 12
+            },
+            {
+              "name": "White Horse Kohl",
+              "quantity": 4
+            },
+            {
+              "name": "Keton Colloid",
+              "quantity": 8
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 15
+            },
+            {
+              "name": "Bipolar Nanoflake",
+              "quantity": 6
+            },
+            {
+              "name": "RMA70-24",
+              "quantity": 5
+            }
+          ],
+          "skillId": "skchr_thorns_3",
+          "skillName": "至高之术"
+        }
+      }
+    },
+    "Tomimi": {
+      "rarity": 5,
+      "elite": {
+        "1": [
+          {
+            "name": "LMD",
+            "quantity": 20000
+          },
+          {
+            "name": "Caster Chip",
+            "quantity": 4
+          },
+          {
+            "name": "Sugar",
+            "quantity": 4
+          },
+          {
+            "name": "Polyester",
+            "quantity": 3
+          }
+        ],
+        "2": [
+          {
+            "name": "LMD",
+            "quantity": 120000
+          },
+          {
+            "name": "Caster Dualchip",
+            "quantity": 3
+          },
+          {
+            "name": "RMA70-24",
+            "quantity": 8
+          },
+          {
+            "name": "Orirock Cluster",
+            "quantity": 14
+          }
+        ]
+      },
+      "skillLevels": {
+        "2": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 4
+          }
+        ],
+        "3": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 4
+          },
+          {
+            "name": "Damaged Device",
+            "quantity": 4
+          }
+        ],
+        "4": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Polyketon",
+            "quantity": 3
+          }
+        ],
+        "5": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Oriron",
+            "quantity": 4
+          }
+        ],
+        "6": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "RMA70-12",
+            "quantity": 3
+          }
+        ],
+        "7": [
+          {
+            "name": "Skill Summary - 3",
+            "quantity": 6
+          },
+          {
+            "name": "Integrated Device",
+            "quantity": 2
+          },
+          {
+            "name": "Coagulating Gel",
+            "quantity": 3
+          }
+        ]
+      },
+      "isCnOnly": true,
+      "masteries": {
+        "1": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 5
+            },
+            {
+              "name": "Polymerized Gel",
+              "quantity": 3
+            },
+            {
+              "name": "Orirock Cluster",
+              "quantity": 6
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Manganese Trihydrate",
+              "quantity": 3
+            },
+            {
+              "name": "Optimized Device",
+              "quantity": 4
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 10
+            },
+            {
+              "name": "Bipolar Nanoflake",
+              "quantity": 4
+            },
+            {
+              "name": "RMA70-24",
+              "quantity": 3
+            }
+          ],
+          "skillId": "skchr_tomimi_1",
+          "skillName": "部族技艺"
+        },
+        "2": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 5
+            },
+            {
+              "name": "Oriron Block",
+              "quantity": 3
+            },
+            {
+              "name": "Incandescent Alloy",
+              "quantity": 1
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Optimized Device",
+              "quantity": 2
+            },
+            {
+              "name": "Oriron Block",
+              "quantity": 5
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 10
+            },
+            {
+              "name": "D32 Steel",
+              "quantity": 4
+            },
+            {
+              "name": "Optimized Device",
+              "quantity": 3
+            }
+          ],
+          "skillId": "skchr_tomimi_2",
+          "skillName": "嘉维尔保护方案"
+        }
+      }
+    },
+    "Tsukinogi": {
+      "rarity": 5,
+      "elite": {
+        "1": [
+          {
+            "name": "LMD",
+            "quantity": 20000
+          },
+          {
+            "name": "Supporter Chip",
+            "quantity": 4
+          },
+          {
+            "name": "Device",
+            "quantity": 3
+          },
+          {
+            "name": "Polyketon",
+            "quantity": 2
+          }
+        ],
+        "2": [
+          {
+            "name": "LMD",
+            "quantity": 120000
+          },
+          {
+            "name": "Supporter Dualchip",
+            "quantity": 3
+          },
+          {
+            "name": "White Horse Kohl",
+            "quantity": 8
+          },
+          {
+            "name": "Grindstone",
+            "quantity": 12
+          }
+        ]
+      },
+      "skillLevels": {
+        "2": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 4
+          }
+        ],
+        "3": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 4
+          },
+          {
+            "name": "Damaged Device",
+            "quantity": 4
+          }
+        ],
+        "4": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Orirock Cube",
+            "quantity": 4
+          }
+        ],
+        "5": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Sugar",
+            "quantity": 5
+          }
+        ],
+        "6": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 6
+          },
+          {
+            "name": "Grindstone",
+            "quantity": 3
+          }
+        ],
+        "7": [
+          {
+            "name": "Skill Summary - 3",
+            "quantity": 6
+          },
+          {
+            "name": "Coagulating Gel",
+            "quantity": 3
+          },
+          {
+            "name": "Oriron Cluster",
+            "quantity": 2
+          }
+        ]
+      },
+      "isCnOnly": true,
+      "masteries": {
+        "1": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 5
+            },
+            {
+              "name": "Keton Colloid",
+              "quantity": 3
+            },
+            {
+              "name": "Coagulating Gel",
+              "quantity": 2
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Incandescent Alloy Block",
+              "quantity": 3
+            },
+            {
+              "name": "RMA70-24",
+              "quantity": 5
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 10
+            },
+            {
+              "name": "D32 Steel",
+              "quantity": 4
+            },
+            {
+              "name": "White Horse Kohl",
+              "quantity": 5
+            }
+          ],
+          "skillId": "skchr_tknogi_1",
+          "skillName": "迹无"
+        },
+        "2": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 5
+            },
+            {
+              "name": "White Horse Kohl",
+              "quantity": 3
+            },
+            {
+              "name": "Aketon",
+              "quantity": 5
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 6
+            },
+            {
+              "name": "Oriron Block",
+              "quantity": 3
+            },
+            {
+              "name": "Incandescent Alloy Block",
+              "quantity": 5
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 10
+            },
+            {
+              "name": "D32 Steel",
+              "quantity": 4
+            },
+            {
+              "name": "Orirock Concentration",
+              "quantity": 5
+            }
+          ],
+          "skillId": "skchr_tknogi_2",
+          "skillName": "森廻"
         }
       }
     },
@@ -22008,6 +27712,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -22170,7 +27875,8 @@
             "quantity": 1
           }
         ]
-      }
+      },
+      "isCnOnly": false
     },
     "Vermeil": {
       "rarity": 4,
@@ -22270,6 +27976,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -22463,6 +28170,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -22660,6 +28368,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -22752,6 +28461,258 @@
           ],
           "skillId": "skchr_hpsts_2",
           "skillName": "Combat Mode"
+        }
+      }
+    },
+    "W": {
+      "rarity": 6,
+      "elite": {
+        "1": [
+          {
+            "name": "LMD",
+            "quantity": 30000
+          },
+          {
+            "name": "Sniper Chip",
+            "quantity": 5
+          },
+          {
+            "name": "Orirock Cube",
+            "quantity": 12
+          },
+          {
+            "name": "Sugar",
+            "quantity": 5
+          }
+        ],
+        "2": [
+          {
+            "name": "LMD",
+            "quantity": 180000
+          },
+          {
+            "name": "Sniper Dualchip",
+            "quantity": 4
+          },
+          {
+            "name": "Bipolar Nanoflake",
+            "quantity": 4
+          },
+          {
+            "name": "Keton Colloid",
+            "quantity": 7
+          }
+        ]
+      },
+      "skillLevels": {
+        "2": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 5
+          }
+        ],
+        "3": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 5
+          },
+          {
+            "name": "Diketon",
+            "quantity": 6
+          },
+          {
+            "name": "Orirock",
+            "quantity": 4
+          }
+        ],
+        "4": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 8
+          },
+          {
+            "name": "Device",
+            "quantity": 3
+          }
+        ],
+        "5": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 8
+          },
+          {
+            "name": "Orirock Cube",
+            "quantity": 5
+          },
+          {
+            "name": "Device",
+            "quantity": 3
+          }
+        ],
+        "6": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 8
+          },
+          {
+            "name": "Integrated Device",
+            "quantity": 4
+          }
+        ],
+        "7": [
+          {
+            "name": "Skill Summary - 3",
+            "quantity": 8
+          },
+          {
+            "name": "Manganese Ore",
+            "quantity": 3
+          },
+          {
+            "name": "RMA70-12",
+            "quantity": 4
+          }
+        ]
+      },
+      "isCnOnly": true,
+      "masteries": {
+        "1": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 8
+            },
+            {
+              "name": "Incandescent Alloy Block",
+              "quantity": 4
+            },
+            {
+              "name": "RMA70-12",
+              "quantity": 5
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 12
+            },
+            {
+              "name": "RMA70-24",
+              "quantity": 4
+            },
+            {
+              "name": "Manganese Trihydrate",
+              "quantity": 7
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 15
+            },
+            {
+              "name": "D32 Steel",
+              "quantity": 6
+            },
+            {
+              "name": "Polymerized Gel",
+              "quantity": 6
+            }
+          ],
+          "skillId": "skchr_cqbw_1",
+          "skillName": "红桃K"
+        },
+        "2": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 8
+            },
+            {
+              "name": "Optimized Device",
+              "quantity": 3
+            },
+            {
+              "name": "Oriron Cluster",
+              "quantity": 4
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 12
+            },
+            {
+              "name": "Polymerized Gel",
+              "quantity": 4
+            },
+            {
+              "name": "Orirock Concentration",
+              "quantity": 10
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 15
+            },
+            {
+              "name": "Bipolar Nanoflake",
+              "quantity": 6
+            },
+            {
+              "name": "Incandescent Alloy Block",
+              "quantity": 5
+            }
+          ],
+          "skillId": "skchr_cqbw_2",
+          "skillName": "惊吓盒子"
+        },
+        "3": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 8
+            },
+            {
+              "name": "White Horse Kohl",
+              "quantity": 4
+            },
+            {
+              "name": "Aketon",
+              "quantity": 8
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 12
+            },
+            {
+              "name": "Oriron Block",
+              "quantity": 4
+            },
+            {
+              "name": "Incandescent Alloy Block",
+              "quantity": 7
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 15
+            },
+            {
+              "name": "Bipolar Nanoflake",
+              "quantity": 6
+            },
+            {
+              "name": "Polymerized Gel",
+              "quantity": 6
+            }
+          ],
+          "skillId": "skchr_cqbw_3",
+          "skillName": "D12"
         }
       }
     },
@@ -22857,6 +28818,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -23054,6 +29016,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
@@ -23146,6 +29109,258 @@
           ],
           "skillId": "skchr_bldsk_2",
           "skillName": "Unstable Plasma"
+        }
+      }
+    },
+    "Weedy": {
+      "rarity": 6,
+      "elite": {
+        "1": [
+          {
+            "name": "LMD",
+            "quantity": 30000
+          },
+          {
+            "name": "Specialist Chip",
+            "quantity": 5
+          },
+          {
+            "name": "Device",
+            "quantity": 6
+          },
+          {
+            "name": "Sugar",
+            "quantity": 4
+          }
+        ],
+        "2": [
+          {
+            "name": "LMD",
+            "quantity": 180000
+          },
+          {
+            "name": "Specialist Dualchip",
+            "quantity": 4
+          },
+          {
+            "name": "D32 Steel",
+            "quantity": 4
+          },
+          {
+            "name": "Manganese Trihydrate",
+            "quantity": 6
+          }
+        ]
+      },
+      "skillLevels": {
+        "2": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 5
+          }
+        ],
+        "3": [
+          {
+            "name": "Skill Summary - 1",
+            "quantity": 5
+          },
+          {
+            "name": "Damaged Device",
+            "quantity": 4
+          },
+          {
+            "name": "Ester",
+            "quantity": 4
+          }
+        ],
+        "4": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 8
+          },
+          {
+            "name": "Orirock Cube",
+            "quantity": 7
+          }
+        ],
+        "5": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 8
+          },
+          {
+            "name": "Sugar",
+            "quantity": 4
+          },
+          {
+            "name": "Polyketon",
+            "quantity": 4
+          }
+        ],
+        "6": [
+          {
+            "name": "Skill Summary - 2",
+            "quantity": 8
+          },
+          {
+            "name": "Loxic Kohl",
+            "quantity": 7
+          }
+        ],
+        "7": [
+          {
+            "name": "Skill Summary - 3",
+            "quantity": 8
+          },
+          {
+            "name": "Orirock Cluster",
+            "quantity": 5
+          },
+          {
+            "name": "Integrated Device",
+            "quantity": 4
+          }
+        ]
+      },
+      "isCnOnly": true,
+      "masteries": {
+        "1": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 8
+            },
+            {
+              "name": "Manganese Trihydrate",
+              "quantity": 4
+            },
+            {
+              "name": "Integrated Device",
+              "quantity": 4
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 12
+            },
+            {
+              "name": "Orirock Concentration",
+              "quantity": 4
+            },
+            {
+              "name": "Grindstone Pentahydrate",
+              "quantity": 9
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 15
+            },
+            {
+              "name": "Bipolar Nanoflake",
+              "quantity": 6
+            },
+            {
+              "name": "Incandescent Alloy Block",
+              "quantity": 5
+            }
+          ],
+          "skillId": "skchr_weedy_1",
+          "skillName": "炮管敲击"
+        },
+        "2": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 8
+            },
+            {
+              "name": "Grindstone Pentahydrate",
+              "quantity": 4
+            },
+            {
+              "name": "Loxic Kohl",
+              "quantity": 7
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 12
+            },
+            {
+              "name": "Optimized Device",
+              "quantity": 3
+            },
+            {
+              "name": "Oriron Block",
+              "quantity": 6
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 15
+            },
+            {
+              "name": "Bipolar Nanoflake",
+              "quantity": 6
+            },
+            {
+              "name": "Polymerized Gel",
+              "quantity": 6
+            }
+          ],
+          "skillId": "skchr_weedy_2",
+          "skillName": "水炮模式"
+        },
+        "3": {
+          "1": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 8
+            },
+            {
+              "name": "RMA70-24",
+              "quantity": 4
+            },
+            {
+              "name": "Manganese Ore",
+              "quantity": 5
+            }
+          ],
+          "2": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 12
+            },
+            {
+              "name": "White Horse Kohl",
+              "quantity": 4
+            },
+            {
+              "name": "Keton Colloid",
+              "quantity": 8
+            }
+          ],
+          "3": [
+            {
+              "name": "Skill Summary - 3",
+              "quantity": 15
+            },
+            {
+              "name": "Polymerization Preparation",
+              "quantity": 6
+            },
+            {
+              "name": "Polymerized Gel",
+              "quantity": 7
+            }
+          ],
+          "skillId": "skchr_weedy_3",
+          "skillName": "液氮大炮"
         }
       }
     },
@@ -23251,6 +29466,7 @@
           }
         ]
       },
+      "isCnOnly": false,
       "masteries": {
         "1": {
           "1": [
