@@ -56,7 +56,10 @@ function CraftingInfo(props: CraftingInfoProps): React.ReactElement {
     <>
       <div className={commonClasses.itemInfoSection}>
         <Divider className={commonClasses.itemInfoSectionDivider} />
-        <Typography className={commonClasses.itemInfoSectionHeader}>
+        <Typography
+          className={commonClasses.itemInfoSectionHeader}
+          component="h4"
+        >
           Crafting recipe
         </Typography>
       </div>
@@ -136,7 +139,10 @@ function StageInfo(props: StageInfoProps): React.ReactElement {
     <Box mt={1}>
       <div className={commonClasses.itemInfoSection}>
         <Divider className={commonClasses.itemInfoSectionDivider} />
-        <Typography className={commonClasses.itemInfoSectionHeader}>
+        <Typography
+          component="h4"
+          className={commonClasses.itemInfoSectionHeader}
+        >
           Recommended {hasTwoRecommended ? "stages" : "stage"}
         </Typography>
       </div>
@@ -190,7 +196,7 @@ const ItemInfoPopoverContent = React.memo(function ItemInfoPopoverContent(
   return (
     <Card className={classes.itemInfoCard}>
       <CardContent>
-        <Typography className={classes.itemName} variant="h5">
+        <Typography className={classes.itemName} component="h3" variant="h5">
           {name}
         </Typography>
         {MATERIALS[name]!.ingredients && (
