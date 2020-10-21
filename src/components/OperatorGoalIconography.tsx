@@ -43,11 +43,12 @@ function OperatorGoalIconography(
     const masteryData = RECIPES.operators[goal.operatorName].masteries![
       skillSlot
     ];
+    const iconFilename = masteryData.iconId || masteryData.skillId;
     return (
       <Box mr={0.5}>
         <img
           className={classes.operatorIcon}
-          src={`${process.env.PUBLIC_URL}/images/skills/${masteryData.skillId}.png`}
+          src={`${process.env.PUBLIC_URL}/images/skills/${iconFilename}.png`}
           alt={masteryData.skillName}
         />
         <img

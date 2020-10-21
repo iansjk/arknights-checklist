@@ -66,6 +66,7 @@ function getEliteLMDCost(rarity: number, eliteLevel: number): Ingredient {
 }
 
 interface SkillTableEntry {
+  iconId: string | null;
   levels: {
     name: string;
   }[];
@@ -178,6 +179,7 @@ async function buildOperatorRecipes(): Promise<
               i + 1,
               {
                 skillId: masteryLevelEntry.skillId,
+                iconId: skillTable[masteryLevelEntry.skillId].iconId,
                 skillName: skillTable[masteryLevelEntry.skillId].levels[0].name,
                 ...masteryCosts,
               },

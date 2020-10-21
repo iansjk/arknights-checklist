@@ -10,6 +10,7 @@ export interface OperatorRecipeBook {
   masteries?: {
     [skillSlot: number]: {
       skillId: string;
+      iconId: string | null;
       skillName: string;
       [masteryLevel: number]: Ingredient[];
     };
