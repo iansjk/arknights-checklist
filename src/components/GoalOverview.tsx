@@ -10,6 +10,7 @@ import {
   Button,
   Divider,
 } from "@material-ui/core";
+import ClearAllIcon from "@material-ui/icons/ClearAll";
 import RotateLeftIcon from "@material-ui/icons/RotateLeft";
 import React from "react";
 import { useLocalStorage } from "web-api-hooks";
@@ -29,17 +30,23 @@ const useStyles = makeStyles((theme) => ({
   totalCostHeader: {
     fontWeight: "initial",
   },
+  operatorGoalsHeaderContent: {
+    "&:last-child": {
+      paddingBottom: theme.spacing(2),
+    },
+  },
 }));
 
 interface GoalOverviewProps {
   goals: OperatorGoalData[];
   onGoalDeleted: (goal: OperatorGoalData) => void;
+  onClearAllGoals: () => void;
 }
 
 const GoalOverview = React.memo(function GoalOverview(
   props: GoalOverviewProps
 ): React.ReactElement {
-  const { goals, onGoalDeleted } = props;
+  const { goals, onGoalDeleted, onClearAllGoals } = props;
   const [materialsOwned, setMaterialsOwned] = useLocalStorage(
     "materialsOwned",
     {} as Record<string, number | null>
@@ -279,13 +286,41 @@ const GoalOverview = React.memo(function GoalOverview(
         )}
       </Grid>
       <Grid component="section" item xs={12} md={5}>
-        {goals.map((goal) => (
-          <OperatorGoal
-            key={`${goal.operatorName}${goal.name}`}
-            goal={goal}
-            onDelete={onGoalDeleted}
-          />
-        ))}
+        {goals.length > 0 && (
+          <>
+            <Box clone mb={1}>
+              <Card>
+                <CardContent className={classes.operatorGoalsHeaderContent}>
+                  <Grid container>
+                    <Grid item xs={6}>
+                      <Typography component="h2" variant="h5">
+                        Operator goals
+                      </Typography>
+                    </Grid>
+                    <Grid item xs={6}>
+                      <Box textAlign="end">
+                        <Button
+                          variant="outlined"
+                          onClick={onClearAllGoals}
+                          startIcon={<ClearAllIcon />}
+                        >
+                          Clear All
+                        </Button>
+                      </Box>
+                    </Grid>
+                  </Grid>
+                </CardContent>
+              </Card>
+            </Box>
+            {goals.map((goal) => (
+              <OperatorGoal
+                key={`${goal.operatorName}${goal.name}`}
+                goal={goal}
+                onDelete={onGoalDeleted}
+              />
+            ))}
+          </>
+        )}
       </Grid>
     </Grid>
   );

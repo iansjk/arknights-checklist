@@ -156,6 +156,13 @@ function App(): React.ReactElement {
     [setOperatorGoals]
   );
 
+  const handleClearAllGoals = React.useCallback(
+    function handleClearAllGoals() {
+      setOperatorGoals([]);
+    },
+    [setOperatorGoals]
+  );
+
   const handleGoalsChanged = React.useCallback(
     function handleGoalsChanged(
       e: React.ChangeEvent<{ name?: string; value: unknown }>
@@ -269,6 +276,7 @@ function App(): React.ReactElement {
               <GoalOverview
                 goals={operatorGoals}
                 onGoalDeleted={handleGoalDeleted}
+                onClearAllGoals={handleClearAllGoals}
               />
             </Grid>
           </Grid>

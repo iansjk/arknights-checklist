@@ -16,7 +16,7 @@ import ItemStack from "./ItemStack";
 import { getOperatorImagePath } from "../util";
 import OperatorGoalIconography from "./OperatorGoalIconography";
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme) => ({
   deleteIconButton: {
     position: "absolute",
     top: "-10px",
@@ -30,7 +30,10 @@ const useStyles = makeStyles({
     backgroundSize: "contain",
     backgroundRepeat: "no-repeat",
   },
-});
+  goalShortName: {
+    lineHeight: theme.typography.h6.lineHeight,
+  },
+}));
 
 interface GoalProps {
   goal: OperatorGoalData;
@@ -81,15 +84,24 @@ const OperatorGoal = React.memo(function OperatorGoal(
               <Grid container>
                 <Grid style={operatorNameStyle} item xs sm={12} md lg={12}>
                   <Box mr={2}>
-                    <Typography component="h4" variant="h5">
+                    <Typography component="h3" variant="h6">
                       {goal.operatorName}
                     </Typography>
                   </Box>
                 </Grid>
-                <Box clone display="flex" whiteSpace="nowrap">
+                <Box
+                  clone
+                  display="flex"
+                  whiteSpace="nowrap"
+                  alignItems="center"
+                >
                   <Grid item xs sm={12} md lg={12}>
                     <OperatorGoalIconography goal={goal} />
-                    <Typography component="h5" variant="subtitle1">
+                    <Typography
+                      className={classes.goalShortName}
+                      component="h4"
+                      variant="subtitle1"
+                    >
                       {goal.shortName}
                     </Typography>
                   </Grid>
