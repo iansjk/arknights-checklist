@@ -14,7 +14,7 @@ import ClearAllIcon from "@material-ui/icons/ClearAll";
 import RotateLeftIcon from "@material-ui/icons/RotateLeft";
 import React from "react";
 import { useLocalStorage } from "web-api-hooks";
-import MATERIALS, { Ingredient } from "../materials";
+import MATERIALS from "../materials";
 import { OperatorGoalData } from "../operator-goals";
 import ItemNeeded from "./ItemNeeded";
 import { formatQuantity } from "./ItemStack";
@@ -67,36 +67,23 @@ const GoalOverview = React.memo(function GoalOverview(
         item.quantity + (materialsNeeded[item.name] || 0);
     })
   );
-  Object.keys(itemsToCraft)
-    .filter((itemName) => materialsNeeded[itemName] > 0)
+  Object.keys(MATERIALS)
+    .sort((a, b) => MATERIALS[b].tier - MATERIALS[a].tier)
     .forEach((itemName) => {
-      let curr = [{ name: itemName, quantity: materialsNeeded[itemName] }];
-      let next: Ingredient[];
-      do {
-        next = [];
-        for (const craftedItem of curr) {
-          const ingredients = MATERIALS[craftedItem.name].ingredients || [];
-          for (const ingredient of ingredients) {
-            materialsNeeded[ingredient.name] =
-              ingredient.quantity *
-                Math.max(
-                  materialsNeeded[craftedItem.name] -
-                    (materialsOwned[craftedItem.name] || 0),
-                  0
-                ) +
-              (materialsNeeded[ingredient.name] || 0);
-            if (
-              Object.prototype.hasOwnProperty.call(
-                itemsToCraft,
-                ingredient.name
-              )
-            ) {
-              next.push(ingredient);
-            }
-          }
-        }
-        curr = next;
-      } while (next.length > 0);
+      if (
+        Object.prototype.hasOwnProperty.call(itemsToCraft, itemName) &&
+        Object.prototype.hasOwnProperty.call(materialsNeeded, itemName)
+      ) {
+        const needed = Math.max(
+          materialsNeeded[itemName] - (materialsOwned[itemName] || 0),
+          0
+        );
+        MATERIALS[itemName]?.ingredients?.forEach((ingredient) => {
+          materialsNeeded[ingredient.name] =
+            (materialsNeeded[ingredient.name] || 0) +
+            needed * ingredient.quantity;
+        });
+      }
     });
   const craftingMaterialsOwned = { ...materialsOwned };
   Object.keys(itemsToCraft)
