@@ -77,9 +77,17 @@ describe("crafted item chaining", () => {
       .contains(/crafting/i)
       .closest("button")
       .should("have.class", "MuiButton-contained");
-    cy.getByTestId("Orirock Cluster").contains(/craft/i).click();
-    cy.getByTestId("Orirock Cube").contains(/craft/i).click();
-    cy.getByTestId("Orirock");
+    cy.getByTestId("Orirock Cluster").as("cluster");
+    cy.get("@cluster").contains(/craft/i).click();
+    cy.getByTestId("Orirock Cube").as("cube");
+    cy.get("@cube").contains(/craft/i).click();
+    cy.getByTestId("Orirock").as("orirock");
+    cy.get("@cube").find("input").type(800);
+    cy.get("@cluster").find("[data-testid=quantity]").should("have.text", 0);
+    cy.get("@cube").find("[data-testid=quantity]").should("have.text", 120);
+    cy.get("@orirock").find("[data-testid=quantity]").should("have.text", 0);
+    cy.get("@orirock").find("input").type(1000);
+    cy.get("@cube").find("[data-testid=quantity]").should("have.text", 0);
   });
 
   it("removes a crafted item's ingredients from the materials list when crafting is turned off", () => {
@@ -173,5 +181,15 @@ describe("crafted ingredient requirements and regular requirements", () => {
     cy.get("@od").find("[data-testid=quantity]").should("have.text", 6);
     cy.getByTestId("Bipolar Nanoflake").contains(/craft/i).click();
     cy.get("@od").find("[data-testid=quantity]").should("have.text", 14);
+    cy.get("@od").contains(/craft/i).click();
+    cy.getByTestId("Integrated Device")
+      .find("[data-testid=quantity]")
+      .should("have.text", 14);
+    cy.getByTestId("Orirock Cluster")
+      .find("[data-testid=quantity]")
+      .should("have.text", 28);
+    cy.getByTestId("Grindstone")
+      .find("[data-testid=quantity]")
+      .should("have.text", 14);
   });
 });
