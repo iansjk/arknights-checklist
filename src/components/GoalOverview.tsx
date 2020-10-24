@@ -121,7 +121,10 @@ const GoalOverview = React.memo(function GoalOverview(
           0
         );
       });
-      materialsNeeded[craftedItemName] -= numCraftable;
+      materialsNeeded[craftedItemName] = Math.max(
+        materialsNeeded[craftedItemName] - numCraftable,
+        0
+      );
     });
 
   const handleIncrementOwned = React.useCallback(
