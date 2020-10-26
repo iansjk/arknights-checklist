@@ -186,7 +186,6 @@ const GoalOverview = React.memo(function GoalOverview(
     return objectEntries
       .sort(
         ([nameA, neededA], [nameB, neededB]) =>
-          (nameB === "LMD" ? 1 : 0) - (nameA === "LMD" ? 1 : 0) ||
           ((materialsOwned[nameA] || 0) >= neededA ? 1 : 0) -
             ((materialsOwned[nameB] || 0) >= neededB ? 1 : 0) ||
           MATERIALS[nameB].tier - MATERIALS[nameA].tier ||
