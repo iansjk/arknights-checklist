@@ -185,9 +185,9 @@ const GoalOverview = React.memo(function GoalOverview(
   ): React.ReactElement[] {
     return objectEntries
       .sort(
-        ([nameA, neededA], [nameB, neededB]) =>
-          ((materialsOwned[nameA] || 0) >= neededA ? 1 : 0) -
-            ((materialsOwned[nameB] || 0) >= neededB ? 1 : 0) ||
+        ([nameA, _], [nameB, __]) =>
+          (isMaterialComplete(nameA) ? 1 : 0) -
+            (isMaterialComplete(nameB) ? 1 : 0) ||
           MATERIALS[nameB].tier - MATERIALS[nameA].tier ||
           (MATERIALS[nameB].category || 0) - (MATERIALS[nameA].category || 0) ||
           nameA.localeCompare(nameB)
@@ -197,9 +197,7 @@ const GoalOverview = React.memo(function GoalOverview(
           <ItemNeeded
             size={isXSmallScreen ? 75 : undefined}
             {...{ name, needed }}
-            owned={
-              materialsOwned[name] === undefined ? 0 : materialsOwned[name]
-            }
+            owned={materialsOwned[name] || 0}
             complete={isMaterialComplete(name)}
             crafting={Object.prototype.hasOwnProperty.call(itemsToCraft, name)}
             onIncrement={handleIncrementOwned}
