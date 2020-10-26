@@ -17,7 +17,7 @@ function newSkillIconFilename(oldFilename: string): string | null {
 }
 
 (async () => {
-  const avatarFilenameRegex = /(?<internalName>char_\d{3}_[a-z]+)(?:_(?<eliteLevel>[12])\+?)?\.png/;
+  const avatarFilenameRegex = /(?<internalName>char_\d+_[a-z]+)(?:_(?<eliteLevel>[12])\+?)?\.png/;
   function newOperatorImageFilename(oldFilename: string): string | null {
     const match = oldFilename.match(avatarFilenameRegex);
     if (
