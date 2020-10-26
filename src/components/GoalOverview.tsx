@@ -188,8 +188,8 @@ const GoalOverview = React.memo(function GoalOverview(
         ([nameA, _], [nameB, __]) =>
           (isMaterialComplete(nameA) ? 1 : 0) -
             (isMaterialComplete(nameB) ? 1 : 0) ||
+          MATERIALS[nameA].category - MATERIALS[nameB].category ||
           MATERIALS[nameB].tier - MATERIALS[nameA].tier ||
-          (MATERIALS[nameB].category || 0) - (MATERIALS[nameA].category || 0) ||
           nameA.localeCompare(nameB)
       )
       .map(([name, needed]) => {

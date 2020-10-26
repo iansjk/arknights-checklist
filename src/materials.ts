@@ -5,7 +5,22 @@ export interface Ingredient {
 
 enum MaterialCategory {
   "Chip" = 1,
+  "Chip Catalyst",
   "Skill Summary",
+  "MaxTier",
+  "Devices",
+  "Alcohols",
+  "Esters",
+  "Ketones",
+  "Sugars",
+  "Orirons",
+  "Orirocks",
+  "Grindstones",
+  "RMAs",
+  "Manganeses",
+  "Gels",
+  "Alloys",
+  "LMD",
 }
 
 export interface RecommendedStages {
@@ -22,7 +37,7 @@ export interface Stage {
 
 export interface Material {
   tier: number;
-  category?: MaterialCategory;
+  category: MaterialCategory;
   ingredients?: Ingredient[];
   recommendedStages?: RecommendedStages;
   craftingRecommended?: boolean;
@@ -31,12 +46,15 @@ export interface Material {
 const MATERIALS: Record<string, Material> = {
   LMD: {
     tier: 3,
+    category: MaterialCategory.LMD,
   },
   Orirock: {
     tier: 0,
+    category: MaterialCategory.Orirocks,
   },
   "Orirock Cube": {
     tier: 1,
+    category: MaterialCategory.Orirocks,
     ingredients: [
       {
         name: "Orirock",
@@ -53,6 +71,7 @@ const MATERIALS: Record<string, Material> = {
   },
   "Orirock Cluster": {
     tier: 2,
+    category: MaterialCategory.Orirocks,
     ingredients: [
       {
         name: "Orirock Cube",
@@ -76,6 +95,7 @@ const MATERIALS: Record<string, Material> = {
   },
   "Orirock Concentration": {
     tier: 3,
+    category: MaterialCategory.Orirocks,
     ingredients: [
       {
         name: "Orirock Cluster",
@@ -85,9 +105,11 @@ const MATERIALS: Record<string, Material> = {
   },
   "Sugar Substitute": {
     tier: 0,
+    category: MaterialCategory.Sugars,
   },
   Sugar: {
     tier: 1,
+    category: MaterialCategory.Sugars,
     ingredients: [
       {
         name: "Sugar Substitute",
@@ -109,6 +131,7 @@ const MATERIALS: Record<string, Material> = {
   },
   "Sugar Pack": {
     tier: 2,
+    category: MaterialCategory.Sugars,
     ingredients: [
       {
         name: "Sugar",
@@ -131,6 +154,7 @@ const MATERIALS: Record<string, Material> = {
   },
   "Sugar Lump": {
     tier: 3,
+    category: MaterialCategory.Sugars,
     ingredients: [
       {
         name: "Sugar Pack",
@@ -148,9 +172,11 @@ const MATERIALS: Record<string, Material> = {
   },
   Ester: {
     tier: 0,
+    category: MaterialCategory.Esters,
   },
   Polyester: {
     tier: 1,
+    category: MaterialCategory.Esters,
     ingredients: [
       {
         name: "Ester",
@@ -167,6 +193,7 @@ const MATERIALS: Record<string, Material> = {
   },
   "Polyester Pack": {
     tier: 2,
+    category: MaterialCategory.Esters,
     ingredients: [
       {
         name: "Polyester",
@@ -183,6 +210,7 @@ const MATERIALS: Record<string, Material> = {
   },
   "Polyester Lump": {
     tier: 3,
+    category: MaterialCategory.Esters,
     ingredients: [
       {
         name: "Polyester Pack",
@@ -200,9 +228,11 @@ const MATERIALS: Record<string, Material> = {
   },
   "Oriron Shard": {
     tier: 0,
+    category: MaterialCategory.Orirons,
   },
   Oriron: {
     tier: 1,
+    category: MaterialCategory.Orirons,
     ingredients: [
       {
         name: "Oriron Shard",
@@ -225,6 +255,7 @@ const MATERIALS: Record<string, Material> = {
   },
   "Oriron Cluster": {
     tier: 2,
+    category: MaterialCategory.Orirons,
     ingredients: [
       {
         name: "Oriron",
@@ -247,6 +278,7 @@ const MATERIALS: Record<string, Material> = {
   },
   "Oriron Block": {
     tier: 3,
+    category: MaterialCategory.Orirons,
     ingredients: [
       {
         name: "Oriron Cluster",
@@ -264,9 +296,11 @@ const MATERIALS: Record<string, Material> = {
   },
   Diketon: {
     tier: 0,
+    category: MaterialCategory.Ketones,
   },
   Polyketon: {
     tier: 1,
+    category: MaterialCategory.Ketones,
     ingredients: [
       {
         name: "Diketon",
@@ -289,6 +323,7 @@ const MATERIALS: Record<string, Material> = {
   },
   Aketon: {
     tier: 2,
+    category: MaterialCategory.Ketones,
     ingredients: [
       {
         name: "Polyketon",
@@ -311,6 +346,7 @@ const MATERIALS: Record<string, Material> = {
   },
   "Keton Colloid": {
     tier: 3,
+    category: MaterialCategory.Ketones,
     ingredients: [
       {
         name: "Aketon",
@@ -328,9 +364,11 @@ const MATERIALS: Record<string, Material> = {
   },
   "Damaged Device": {
     tier: 0,
+    category: MaterialCategory.Devices,
   },
   Device: {
     tier: 1,
+    category: MaterialCategory.Devices,
     ingredients: [
       {
         name: "Damaged Device",
@@ -353,6 +391,7 @@ const MATERIALS: Record<string, Material> = {
   },
   "Integrated Device": {
     tier: 2,
+    category: MaterialCategory.Devices,
     ingredients: [
       {
         name: "Device",
@@ -375,6 +414,7 @@ const MATERIALS: Record<string, Material> = {
   },
   "Optimized Device": {
     tier: 3,
+    category: MaterialCategory.Devices,
     ingredients: [
       {
         name: "Integrated Device",
@@ -392,6 +432,7 @@ const MATERIALS: Record<string, Material> = {
   },
   Grindstone: {
     tier: 2,
+    category: MaterialCategory.Grindstones,
     recommendedStages: {
       mostEfficient: {
         name: "4-8",
@@ -408,6 +449,7 @@ const MATERIALS: Record<string, Material> = {
   },
   "Manganese Ore": {
     tier: 2,
+    category: MaterialCategory.Manganeses,
     recommendedStages: {
       mostEfficient: {
         name: "4-7",
@@ -424,6 +466,7 @@ const MATERIALS: Record<string, Material> = {
   },
   "Loxic Kohl": {
     tier: 2,
+    category: MaterialCategory.Alcohols,
     recommendedStages: {
       mostEfficient: {
         name: "4-4",
@@ -441,6 +484,7 @@ const MATERIALS: Record<string, Material> = {
   },
   "RMA70-12": {
     tier: 2,
+    category: MaterialCategory.RMAs,
     recommendedStages: {
       mostEfficient: {
         name: "4-9",
@@ -457,6 +501,7 @@ const MATERIALS: Record<string, Material> = {
   },
   "Coagulating Gel": {
     tier: 2,
+    category: MaterialCategory.Gels,
     recommendedStages: {
       mostEfficient: {
         name: "S5-7",
@@ -473,6 +518,7 @@ const MATERIALS: Record<string, Material> = {
   },
   "Incandescent Alloy": {
     tier: 2,
+    category: MaterialCategory.Alloys,
     recommendedStages: {
       mostEfficient: {
         name: "S3-6",
@@ -483,6 +529,7 @@ const MATERIALS: Record<string, Material> = {
   },
   "White Horse Kohl": {
     tier: 3,
+    category: MaterialCategory.Alcohols,
     ingredients: [
       {
         name: "Loxic Kohl",
@@ -500,6 +547,7 @@ const MATERIALS: Record<string, Material> = {
   },
   "Manganese Trihydrate": {
     tier: 3,
+    category: MaterialCategory.Manganeses,
     ingredients: [
       {
         name: "Manganese Ore",
@@ -517,6 +565,7 @@ const MATERIALS: Record<string, Material> = {
   },
   "Grindstone Pentahydrate": {
     tier: 3,
+    category: MaterialCategory.Grindstones,
     ingredients: [
       {
         name: "Grindstone",
@@ -534,6 +583,7 @@ const MATERIALS: Record<string, Material> = {
   },
   "RMA70-24": {
     tier: 3,
+    category: MaterialCategory.RMAs,
     ingredients: [
       {
         name: "RMA70-12",
@@ -551,6 +601,7 @@ const MATERIALS: Record<string, Material> = {
   },
   "Polymerized Gel": {
     tier: 3,
+    category: MaterialCategory.Gels,
     ingredients: [
       {
         name: "Oriron Cluster",
@@ -568,6 +619,7 @@ const MATERIALS: Record<string, Material> = {
   },
   "Incandescent Alloy Block": {
     tier: 3,
+    category: MaterialCategory.Alloys,
     ingredients: [
       {
         name: "Integrated Device",
@@ -585,6 +637,7 @@ const MATERIALS: Record<string, Material> = {
   },
   "Polymerization Preparation": {
     tier: 4,
+    category: MaterialCategory.MaxTier,
     ingredients: [
       {
         name: "Orirock Concentration",
@@ -602,6 +655,7 @@ const MATERIALS: Record<string, Material> = {
   },
   "Bipolar Nanoflake": {
     tier: 4,
+    category: MaterialCategory.MaxTier,
     ingredients: [
       {
         name: "Optimized Device",
@@ -615,6 +669,7 @@ const MATERIALS: Record<string, Material> = {
   },
   "D32 Steel": {
     tier: 4,
+    category: MaterialCategory.MaxTier,
     ingredients: [
       {
         name: "Manganese Trihydrate",
@@ -656,6 +711,7 @@ const MATERIALS: Record<string, Material> = {
   },
   "Chip Catalyst": {
     tier: 3,
+    category: MaterialCategory["Chip Catalyst"],
   },
   "Caster Chip": {
     tier: 2,
