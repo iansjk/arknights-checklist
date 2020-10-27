@@ -166,7 +166,6 @@ const ItemNeeded = React.memo(function ItemNeeded({
             ),
             endAdornment: (
               <InputAdornment position="end" classes={inputAdornmentClasses}>
-                {name === "LMD" ? "K" : null}
                 <IconButton
                   aria-label="add 1 to owned amount"
                   edge="end"
