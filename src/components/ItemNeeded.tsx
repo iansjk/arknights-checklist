@@ -26,6 +26,8 @@ import ItemInfoPopoverContent from "./ItemInfoPopoverContent";
 const useOutlinedInputStyles = makeStyles((theme) => ({
   input: {
     textAlign: "center",
+    marginLeft: theme.spacing(-2),
+    marginRight: theme.spacing(-2),
   },
   adornedStart: {
     paddingLeft: theme.spacing(1),
@@ -41,15 +43,6 @@ const useInputAdornmentStyles = makeStyles({
   },
   positionEnd: {
     marginLeft: 0,
-  },
-});
-
-const useIconButtonStyles = makeStyles({
-  edgeStart: {
-    paddingRight: 0,
-  },
-  edgeEnd: {
-    paddingLeft: 0,
   },
 });
 
@@ -109,7 +102,6 @@ const ItemNeeded = React.memo(function ItemNeeded({
 }: ItemNeededProps): React.ReactElement {
   const outlinedInputClasses = useOutlinedInputStyles();
   const inputAdornmentClasses = useInputAdornmentStyles();
-  const iconButtonClasses = useIconButtonStyles();
   const classes = useStyles();
   const popoverState = usePopupState({
     variant: "popover",
@@ -163,7 +155,6 @@ const ItemNeeded = React.memo(function ItemNeeded({
             startAdornment: (
               <InputAdornment position="start" classes={inputAdornmentClasses}>
                 <IconButton
-                  classes={iconButtonClasses}
                   aria-label="remove 1 from owned amount"
                   edge="start"
                   disabled={owned === 0}
@@ -177,7 +168,6 @@ const ItemNeeded = React.memo(function ItemNeeded({
               <InputAdornment position="end" classes={inputAdornmentClasses}>
                 {name === "LMD" ? "K" : null}
                 <IconButton
-                  classes={iconButtonClasses}
                   aria-label="add 1 to owned amount"
                   edge="end"
                   onClick={() => onIncrement(name)}
