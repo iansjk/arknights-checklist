@@ -2,6 +2,7 @@
 import cnOperatorData from "../ArknightsData/zh-CN/gamedata/excel/character_table.json";
 
 const SPECIAL_OPERATOR_NAMES: Record<string, string> = {
+  ShiraYuki: "Shirayuki",
   Гум: "Gummy",
   Зима: "Zima",
   Истина: "Istina",
