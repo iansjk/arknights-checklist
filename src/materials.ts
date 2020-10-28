@@ -7,17 +7,19 @@ enum MaterialCategory {
   "Chip" = 1,
   "Chip Catalyst",
   "Skill Summary",
-  "MaxTier",
-  "Devices",
+  "D32 Steel",
+  "Bipolar Nanoflake",
+  "Polymerization Preparation",
   "Alcohols",
-  "Esters",
-  "Ketones",
-  "Sugars",
-  "Orirons",
-  "Orirocks",
+  "Manganeses",
   "Grindstones",
   "RMAs",
-  "Manganeses",
+  "Orirocks",
+  "Devices",
+  "Esters",
+  "Sugars",
+  "Orirons",
+  "Ketones",
   "Gels",
   "Alloys",
   "LMD",
@@ -637,7 +639,7 @@ const MATERIALS: Record<string, Material> = {
   },
   "Polymerization Preparation": {
     tier: 4,
-    category: MaterialCategory.MaxTier,
+    category: MaterialCategory["Polymerization Preparation"],
     ingredients: [
       {
         name: "Orirock Concentration",
@@ -655,7 +657,7 @@ const MATERIALS: Record<string, Material> = {
   },
   "Bipolar Nanoflake": {
     tier: 4,
-    category: MaterialCategory.MaxTier,
+    category: MaterialCategory["Bipolar Nanoflake"],
     ingredients: [
       {
         name: "Optimized Device",
@@ -669,7 +671,7 @@ const MATERIALS: Record<string, Material> = {
   },
   "D32 Steel": {
     tier: 4,
-    category: MaterialCategory.MaxTier,
+    category: MaterialCategory["D32 Steel"],
     ingredients: [
       {
         name: "Manganese Trihydrate",
