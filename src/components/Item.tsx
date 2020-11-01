@@ -63,7 +63,12 @@ const Item = React.memo(function Item({
         />
       </div>
       {complete && (
-        <Box className={classes.overlay} top="0" zIndex="1">
+        <Box
+          data-testid="complete"
+          className={classes.overlay}
+          top="0"
+          zIndex="1"
+        >
           <CheckCircleIcon htmlColor="greenyellow" fontSize="large" />
         </Box>
       )}

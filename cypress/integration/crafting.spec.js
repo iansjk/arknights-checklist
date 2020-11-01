@@ -88,6 +88,12 @@ describe("crafted item chaining", () => {
     cy.get("@orirock").find("[data-testid=quantity]").should("have.text", 0);
     cy.get("@orirock").find("input").type(1000);
     cy.get("@cube").find("[data-testid=quantity]").should("have.text", 0);
+
+    cy.get("@cube").find("input").type(0);
+    cy.get("@orirock").find("[data-testid=complete]");
+    cy.get("@cube").find("[data-testid=complete]");
+    cy.get("@cluster").find("[data-testid=complete]");
+    cy.get("@concentration").find("[data-testid=complete]");
   });
 
   it("removes a crafted item's ingredients from the materials list when crafting is turned off", () => {
