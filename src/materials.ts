@@ -59,6 +59,10 @@ const MATERIALS: Record<string, Material> = {
     category: MaterialCategory.Orirocks,
     ingredients: [
       {
+        name: "LMD",
+        quantity: 100,
+      },
+      {
         name: "Orirock",
         quantity: 3,
       },
@@ -75,6 +79,10 @@ const MATERIALS: Record<string, Material> = {
     tier: 2,
     category: MaterialCategory.Orirocks,
     ingredients: [
+      {
+        name: "LMD",
+        quantity: 200,
+      },
       {
         name: "Orirock Cube",
         quantity: 5,
@@ -100,6 +108,10 @@ const MATERIALS: Record<string, Material> = {
     category: MaterialCategory.Orirocks,
     ingredients: [
       {
+        name: "LMD",
+        quantity: 300,
+      },
+      {
         name: "Orirock Cluster",
         quantity: 4,
       },
@@ -113,6 +125,10 @@ const MATERIALS: Record<string, Material> = {
     tier: 1,
     category: MaterialCategory.Sugars,
     ingredients: [
+      {
+        name: "LMD",
+        quantity: 100,
+      },
       {
         name: "Sugar Substitute",
         quantity: 3,
@@ -135,6 +151,10 @@ const MATERIALS: Record<string, Material> = {
     tier: 2,
     category: MaterialCategory.Sugars,
     ingredients: [
+      {
+        name: "LMD",
+        quantity: 200,
+      },
       {
         name: "Sugar",
         quantity: 4,
@@ -159,6 +179,10 @@ const MATERIALS: Record<string, Material> = {
     category: MaterialCategory.Sugars,
     ingredients: [
       {
+        name: "LMD",
+        quantity: 300,
+      },
+      {
         name: "Sugar Pack",
         quantity: 2,
       },
@@ -181,6 +205,10 @@ const MATERIALS: Record<string, Material> = {
     category: MaterialCategory.Esters,
     ingredients: [
       {
+        name: "LMD",
+        quantity: 100,
+      },
+      {
         name: "Ester",
         quantity: 3,
       },
@@ -198,6 +226,10 @@ const MATERIALS: Record<string, Material> = {
     category: MaterialCategory.Esters,
     ingredients: [
       {
+        name: "LMD",
+        quantity: 200,
+      },
+      {
         name: "Polyester",
         quantity: 4,
       },
@@ -214,6 +246,10 @@ const MATERIALS: Record<string, Material> = {
     tier: 3,
     category: MaterialCategory.Esters,
     ingredients: [
+      {
+        name: "LMD",
+        quantity: 300,
+      },
       {
         name: "Polyester Pack",
         quantity: 2,
@@ -236,6 +272,10 @@ const MATERIALS: Record<string, Material> = {
     tier: 1,
     category: MaterialCategory.Orirons,
     ingredients: [
+      {
+        name: "LMD",
+        quantity: 100,
+      },
       {
         name: "Oriron Shard",
         quantity: 3,
@@ -260,6 +300,10 @@ const MATERIALS: Record<string, Material> = {
     category: MaterialCategory.Orirons,
     ingredients: [
       {
+        name: "LMD",
+        quantity: 200,
+      },
+      {
         name: "Oriron",
         quantity: 4,
       },
@@ -283,6 +327,10 @@ const MATERIALS: Record<string, Material> = {
     category: MaterialCategory.Orirons,
     ingredients: [
       {
+        name: "LMD",
+        quantity: 300,
+      },
+      {
         name: "Oriron Cluster",
         quantity: 2,
       },
@@ -304,6 +352,10 @@ const MATERIALS: Record<string, Material> = {
     tier: 1,
     category: MaterialCategory.Ketones,
     ingredients: [
+      {
+        name: "LMD",
+        quantity: 100,
+      },
       {
         name: "Diketon",
         quantity: 3,
@@ -328,6 +380,10 @@ const MATERIALS: Record<string, Material> = {
     category: MaterialCategory.Ketones,
     ingredients: [
       {
+        name: "LMD",
+        quantity: 200,
+      },
+      {
         name: "Polyketon",
         quantity: 4,
       },
@@ -351,6 +407,10 @@ const MATERIALS: Record<string, Material> = {
     category: MaterialCategory.Ketones,
     ingredients: [
       {
+        name: "LMD",
+        quantity: 300,
+      },
+      {
         name: "Aketon",
         quantity: 2,
       },
@@ -372,6 +432,10 @@ const MATERIALS: Record<string, Material> = {
     tier: 1,
     category: MaterialCategory.Devices,
     ingredients: [
+      {
+        name: "LMD",
+        quantity: 100,
+      },
       {
         name: "Damaged Device",
         quantity: 3,
@@ -396,6 +460,10 @@ const MATERIALS: Record<string, Material> = {
     category: MaterialCategory.Devices,
     ingredients: [
       {
+        name: "LMD",
+        quantity: 200,
+      },
+      {
         name: "Device",
         quantity: 4,
       },
@@ -418,6 +486,10 @@ const MATERIALS: Record<string, Material> = {
     tier: 3,
     category: MaterialCategory.Devices,
     ingredients: [
+      {
+        name: "LMD",
+        quantity: 300,
+      },
       {
         name: "Integrated Device",
         quantity: 1,
@@ -534,6 +606,10 @@ const MATERIALS: Record<string, Material> = {
     category: MaterialCategory.Alcohols,
     ingredients: [
       {
+        name: "LMD",
+        quantity: 300,
+      },
+      {
         name: "Loxic Kohl",
         quantity: 1,
       },
@@ -551,6 +627,10 @@ const MATERIALS: Record<string, Material> = {
     tier: 3,
     category: MaterialCategory.Manganeses,
     ingredients: [
+      {
+        name: "LMD",
+        quantity: 300,
+      },
       {
         name: "Manganese Ore",
         quantity: 2,
@@ -570,6 +650,10 @@ const MATERIALS: Record<string, Material> = {
     category: MaterialCategory.Grindstones,
     ingredients: [
       {
+        name: "LMD",
+        quantity: 300,
+      },
+      {
         name: "Grindstone",
         quantity: 1,
       },
@@ -587,6 +671,10 @@ const MATERIALS: Record<string, Material> = {
     tier: 3,
     category: MaterialCategory.RMAs,
     ingredients: [
+      {
+        name: "LMD",
+        quantity: 300,
+      },
       {
         name: "RMA70-12",
         quantity: 1,
@@ -606,6 +694,10 @@ const MATERIALS: Record<string, Material> = {
     category: MaterialCategory.Gels,
     ingredients: [
       {
+        name: "LMD",
+        quantity: 300,
+      },
+      {
         name: "Oriron Cluster",
         quantity: 1,
       },
@@ -623,6 +715,10 @@ const MATERIALS: Record<string, Material> = {
     tier: 3,
     category: MaterialCategory.Alloys,
     ingredients: [
+      {
+        name: "LMD",
+        quantity: 300,
+      },
       {
         name: "Integrated Device",
         quantity: 1,
@@ -642,6 +738,10 @@ const MATERIALS: Record<string, Material> = {
     category: MaterialCategory["Polymerization Preparation"],
     ingredients: [
       {
+        name: "LMD",
+        quantity: 400,
+      },
+      {
         name: "Orirock Concentration",
         quantity: 1,
       },
@@ -660,6 +760,10 @@ const MATERIALS: Record<string, Material> = {
     category: MaterialCategory["Bipolar Nanoflake"],
     ingredients: [
       {
+        name: "LMD",
+        quantity: 400,
+      },
+      {
         name: "Optimized Device",
         quantity: 1,
       },
@@ -673,6 +777,10 @@ const MATERIALS: Record<string, Material> = {
     tier: 4,
     category: MaterialCategory["D32 Steel"],
     ingredients: [
+      {
+        name: "LMD",
+        quantity: 400,
+      },
       {
         name: "Manganese Trihydrate",
         quantity: 1,
