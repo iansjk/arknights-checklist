@@ -17,7 +17,6 @@ import { useLocalStorage } from "web-api-hooks";
 import MATERIALS from "../materials";
 import { OperatorGoalData } from "../operator-goals";
 import ItemNeeded from "./ItemNeeded";
-import { formatQuantity } from "./ItemStack";
 import OperatorGoal from "./OperatorGoal";
 
 const useStyles = makeStyles((theme) => ({
@@ -244,7 +243,7 @@ const GoalOverview = React.memo(function GoalOverview(
                       variant="h6"
                     >
                       Total cost:&nbsp;
-                      <b>{formatQuantity(materialsNeeded.LMD || 0)}</b>
+                      <b>{(materialsNeeded.LMD ?? 0).toLocaleString()}</b>
                       <img
                         className={classes.lmdIcon}
                         src={`${process.env.PUBLIC_URL}/images/icons/lmd.png`}
