@@ -22,6 +22,7 @@ enum MaterialCategory {
   "Ketones",
   "Gels",
   "Alloys",
+  "Crystals",
   "LMD",
 }
 
@@ -601,6 +602,10 @@ const MATERIALS: Record<string, Material> = {
       },
     },
   },
+  "Crystal Component": {
+    tier: 2,
+    category: MaterialCategory.Crystals,
+  },
   "White Horse Kohl": {
     tier: 3,
     category: MaterialCategory.Alcohols,
@@ -733,6 +738,28 @@ const MATERIALS: Record<string, Material> = {
       },
     ],
   },
+  "Crystal Circuit": {
+    tier: 3,
+    category: MaterialCategory.Crystals,
+    ingredients: [
+      {
+        name: "LMD",
+        quantity: 300,
+      },
+      {
+        name: "Crystal Component",
+        quantity: 2,
+      },
+      {
+        name: "Coagulating Gel",
+        quantity: 1,
+      },
+      {
+        name: "Incandescent Alloy",
+        quantity: 1,
+      },
+    ],
+  },
   "Polymerization Preparation": {
     tier: 4,
     category: MaterialCategory["Polymerization Preparation"],
@@ -791,6 +818,28 @@ const MATERIALS: Record<string, Material> = {
       },
       {
         name: "RMA70-24",
+        quantity: 1,
+      },
+    ],
+  },
+  "Crystal Electronic Unit": {
+    tier: 4,
+    category: MaterialCategory.Crystals,
+    ingredients: [
+      {
+        name: "LMD",
+        quantity: 400,
+      },
+      {
+        name: "Crystal Circuit",
+        quantity: 1,
+      },
+      {
+        name: "Polymerized Gel",
+        quantity: 2,
+      },
+      {
+        name: "Incandescent Alloy Block",
         quantity: 1,
       },
     ],
