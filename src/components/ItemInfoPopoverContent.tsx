@@ -9,6 +9,7 @@ import {
   makeStyles,
   Divider,
 } from "@material-ui/core";
+import DoubleArrowIcon from "@material-ui/icons/DoubleArrow";
 import MATERIALS, { RecommendedStages, Ingredient, Stage } from "../materials";
 import ItemStack from "./ItemStack";
 import Item from "./Item";
@@ -35,9 +36,6 @@ const useCommonStyles = makeStyles((theme) => ({
     top: theme.spacing(1.5),
     backgroundColor: "#888",
   },
-}));
-
-const useCraftingInfoStyles = makeStyles((theme) => ({
   resetText: {
     color: theme.palette.text.primary,
   },
@@ -49,11 +47,10 @@ interface CraftingInfoProps {
 
 function CraftingInfo(props: CraftingInfoProps): React.ReactElement {
   const { ingredients } = props;
-  const classes = useCraftingInfoStyles();
   const commonClasses = useCommonStyles();
 
   return (
-    <>
+    <Box mt={1}>
       <div className={commonClasses.itemInfoSection}>
         <Divider className={commonClasses.itemInfoSectionDivider} />
         <Typography
@@ -63,23 +60,33 @@ function CraftingInfo(props: CraftingInfoProps): React.ReactElement {
           Crafting recipe
         </Typography>
       </div>
-      <Grid container spacing={1}>
+      <Grid container>
         {ingredients.map((ingredient) => (
-          <Grid item key={ingredient.name} xs>
-            <Box textAlign="center">
-              <div className={classes.resetText}>
+          <Grid
+            item
+            key={ingredient.name}
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
+            xs={(12 / ingredients.length) as any}
+          >
+            <Box
+              display="flex"
+              flexDirection="column"
+              alignItems="center"
+              textAlign="center"
+            >
+              <Box className={commonClasses.resetText} mb={0.5}>
                 <ItemStack
                   name={ingredient.name}
                   quantity={ingredient.quantity}
                   size={75}
                 />
-              </div>
+              </Box>
               <Typography variant="body2">{ingredient.name}</Typography>
             </Box>
           </Grid>
         ))}
       </Grid>
-    </>
+    </Box>
   );
 }
 
@@ -124,7 +131,14 @@ function StageInfo(props: StageInfoProps): React.ReactElement {
           />
         </Typography>
         {stage.extraMaterial && (
-          <Box display="flex" alignItems="center" mx={-0.5} mt={-0.5} mb={-1}>
+          <Box
+            display="flex"
+            alignItems="center"
+            justifyContent="center"
+            mx={-0.5}
+            mt={-0.5}
+            mb={-1}
+          >
             <Typography>Extra drop:</Typography>
             <Box ml={0.5}>
               <Item name={stage.extraMaterial} size={36} />
@@ -168,13 +182,72 @@ function StageInfo(props: StageInfoProps): React.ReactElement {
   );
 }
 
+const craftingResultIconFontSize = "3rem";
+const useIngredientForInfoStyles = makeStyles({
+  craftingResultIcon: {
+    fontSize: craftingResultIconFontSize,
+    color: "rgba(255, 255, 255, 0.8)",
+    stroke: "black",
+    strokeWidth: "0.2px",
+  },
+});
+
+interface IngredientForInfoProps {
+  name: string;
+  ingredientFor: Ingredient[];
+}
+
+function IngredientForInfo(props: IngredientForInfoProps) {
+  const { name, ingredientFor } = props;
+  const commonClasses = useCommonStyles();
+  const classes = useIngredientForInfoStyles();
+
+  return (
+    <Box mt={1}>
+      <div className={commonClasses.itemInfoSection}>
+        <Divider className={commonClasses.itemInfoSectionDivider} />
+        <Typography
+          className={commonClasses.itemInfoSectionHeader}
+          component="h4"
+        >
+          Needed to craft
+        </Typography>
+      </div>
+      <Grid container spacing={1}>
+        {ingredientFor.map((craftedItem) => (
+          <Box clone textAlign="center" display="flex" flexDirection="column">
+            <Grid item key={craftedItem.name} xs>
+              <Box
+                display="flex"
+                justifyContent="center"
+                alignItems="center"
+                className={commonClasses.resetText}
+              >
+                <ItemStack
+                  name={name}
+                  quantity={craftedItem.quantity}
+                  size={75}
+                />
+                <Box ml={-1} mr={-2} zIndex={1}>
+                  <DoubleArrowIcon className={classes.craftingResultIcon} />
+                </Box>
+                <Item name={craftedItem.name} size={75} />
+              </Box>
+              <Typography variant="body2">{craftedItem.name}</Typography>
+            </Grid>
+          </Box>
+        ))}
+      </Grid>
+    </Box>
+  );
+}
+
 const useStyles = makeStyles((theme) => ({
   itemInfoCard: {
     backgroundColor: "rgba(255, 255, 255, 0.8)",
     color: "#000",
   },
   itemName: {
-    marginBottom: "1rem",
     backgroundColor: theme.palette.background.default,
     color: "#fff",
     borderRadius: theme.spacing(0.5),
@@ -185,22 +258,31 @@ const useStyles = makeStyles((theme) => ({
 
 interface ItemInfoPopoverContentProps {
   name: string;
+  ingredientFor?: Ingredient[];
 }
 
 const ItemInfoPopoverContent = React.memo(function ItemInfoPopoverContent(
   props: ItemInfoPopoverContentProps
 ): React.ReactElement {
-  const { name } = props;
+  const { name, ingredientFor } = props;
   const classes = useStyles();
 
   return (
     <Card className={classes.itemInfoCard}>
       <CardContent>
-        <Typography className={classes.itemName} component="h3" variant="h5">
+        <Typography
+          className={classes.itemName}
+          component="h3"
+          variant="h5"
+          gutterBottom
+        >
           {name}
         </Typography>
         {MATERIALS[name]!.ingredients && (
           <CraftingInfo ingredients={MATERIALS[name]!.ingredients!} />
+        )}
+        {ingredientFor && (
+          <IngredientForInfo name={name} ingredientFor={ingredientFor} />
         )}
         {MATERIALS[name]!.recommendedStages &&
           !MATERIALS[name]!.craftingRecommended && (

@@ -20,7 +20,7 @@ import {
   usePopupState,
 } from "material-ui-popup-state/hooks";
 import ItemStack, { defaultSize } from "./ItemStack";
-import MATERIALS from "../materials";
+import MATERIALS, { Ingredient } from "../materials";
 import ItemInfoPopoverContent from "./ItemInfoPopoverContent";
 
 const useOutlinedInputStyles = makeStyles((theme) => ({
@@ -82,6 +82,7 @@ interface ItemNeededProps {
   size?: number;
   complete?: boolean;
   crafting?: boolean;
+  ingredientFor?: Ingredient[];
   onIncrement: (itemName: string) => void;
   onDecrement: (itemName: string) => void;
   onChange: (itemName: string, rawInput: string) => void;
@@ -95,6 +96,7 @@ const ItemNeeded = React.memo(function ItemNeeded({
   size = defaultSize,
   complete = false,
   crafting = false,
+  ingredientFor,
   onIncrement,
   onDecrement,
   onChange,
@@ -135,7 +137,7 @@ const ItemNeeded = React.memo(function ItemNeeded({
           // eslint-disable-next-line react/jsx-props-no-spreading
           {...bindPopover(popoverState)}
         >
-          <ItemInfoPopoverContent name={name} />
+          <ItemInfoPopoverContent name={name} ingredientFor={ingredientFor} />
         </Popover>
         <TextField
           size="small"

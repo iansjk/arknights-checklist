@@ -14,7 +14,7 @@ import ClearAllIcon from "@material-ui/icons/ClearAll";
 import RotateLeftIcon from "@material-ui/icons/RotateLeft";
 import React from "react";
 import { useLocalStorage } from "web-api-hooks";
-import MATERIALS from "../materials";
+import MATERIALS, { Ingredient } from "../materials";
 import { OperatorGoalData } from "../operator-goals";
 import ItemNeeded from "./ItemNeeded";
 import OperatorGoal from "./OperatorGoal";
@@ -58,6 +58,7 @@ const GoalOverview = React.memo(function GoalOverview(
   const isXSmallScreen = useMediaQuery(theme.breakpoints.down("xs"));
   const isLargeScreen = useMediaQuery(theme.breakpoints.up("lg"));
   const classes = useStyles();
+  const ingredientMapping: Record<string, Ingredient[]> = {};
 
   const materialsNeeded: Record<string, number> = {};
   goals.forEach((goal) =>
@@ -78,6 +79,10 @@ const GoalOverview = React.memo(function GoalOverview(
           0
         );
         MATERIALS[itemName]?.ingredients?.forEach((ingredient) => {
+          ingredientMapping[ingredient.name] = [
+            ...(ingredientMapping[ingredient.name] || []),
+            { name: itemName, quantity: ingredient.quantity },
+          ];
           materialsNeeded[ingredient.name] =
             (materialsNeeded[ingredient.name] || 0) +
             needed * ingredient.quantity;
@@ -199,6 +204,7 @@ const GoalOverview = React.memo(function GoalOverview(
             owned={materialsOwned[name] || 0}
             complete={isMaterialComplete(name)}
             crafting={Object.prototype.hasOwnProperty.call(itemsToCraft, name)}
+            ingredientFor={ingredientMapping[name]}
             onIncrement={handleIncrementOwned}
             onDecrement={handleDecrementOwned}
             onChange={handleChangeOwned}

@@ -37,12 +37,7 @@ const ItemStack = React.memo(function ItemStack({
   const backgroundSize = size - 5;
 
   return (
-    <Box
-      position="relative"
-      width={backgroundSize}
-      height={backgroundSize}
-      margin="auto"
-    >
+    <Box position="relative" width={backgroundSize} height={backgroundSize}>
       <Item {...{ name, complete, size }} />
       <Box
         className={classes.quantityWrapper}
