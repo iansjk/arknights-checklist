@@ -231,7 +231,7 @@ function IngredientForInfo(props: IngredientForInfoProps) {
                 <Box ml={-1} mr={-2} zIndex={1}>
                   <DoubleArrowIcon className={classes.craftingResultIcon} />
                 </Box>
-                <Item name={craftedItem.name} size={75} />
+                <ItemStack name={craftedItem.name} quantity={1} size={75} />
               </Box>
               <Typography variant="body2">{craftedItem.name}</Typography>
             </Grid>
