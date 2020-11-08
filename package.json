@@ -28,7 +28,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "update:recipes": "git submodule update --remote ArknightsData && ts-node-script scripts/build-recipe-book.ts",
-    "update:images": "git submodule update --remote aceship && ts-node-script scripts/rename-images.ts"
+    "update:images": "git submodule update --remote ArknightsData aceship && ts-node-script scripts/rename-images.ts"
   },
   "browserslist": {
     "production": [
