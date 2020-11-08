@@ -581,7 +581,7 @@ const MATERIALS: Record<string, Material> = {
       mostEfficient: {
         name: "S5-7",
         dropRate: 26,
-        extraMaterial: "Polymerizing Gel",
+        extraMaterial: "Polymerized Gel",
         sanityCost: 18,
       },
       leastSanity: {
