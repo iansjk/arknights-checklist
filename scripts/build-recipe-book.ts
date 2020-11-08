@@ -40,10 +40,6 @@ interface OperatorTable {
   [operatorId: string]: OperatorEntry;
 }
 
-interface ItemEntry {
-  name: string;
-}
-
 function getEliteLMDCost(rarity: number, eliteLevel: number): Ingredient {
   let quantity = -1;
   if (rarity === 3) {
