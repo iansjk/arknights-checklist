@@ -2,7 +2,7 @@ import path from "path";
 import fs from "fs";
 import { OperatorRecipeBook } from "../src/recipes";
 import { Ingredient } from "../src/materials";
-import { getOperatorName } from "./globals";
+import { getItemName, getOperatorName } from "./globals";
 
 const ARKNIGHTS_DATA_BASEDIR = path.join(__dirname, "../ArknightsData");
 
@@ -42,10 +42,6 @@ interface OperatorTable {
 
 interface ItemEntry {
   name: string;
-}
-
-interface ItemTable {
-  [itemId: string]: ItemEntry;
 }
 
 function getEliteLMDCost(rarity: number, eliteLevel: number): Ingredient {
@@ -92,30 +88,20 @@ async function buildOperatorRecipes(): Promise<
     "excel"
   );
 
-  const [
-    globalOperatorData,
-    globalItemData,
-    globalSkillData,
-    cnOperatorData,
-    cnSkillData,
-  ]: [
+  const [globalOperatorData, globalSkillData, cnOperatorData, cnSkillData]: [
     OperatorTable,
-    ItemTable,
     SkillTable,
     OperatorTable,
     SkillTable
   ] = await Promise.all([
     import(path.join(globalJsonDir, "character_table.json")),
-    import(path.join(globalJsonDir, "item_table.json")).then(
-      (table) => table.items
-    ),
     import(path.join(globalJsonDir, "skill_table.json")),
     import(path.join(cnJsonDir, "character_table.json")),
     import(path.join(cnJsonDir, "skill_table.json")),
   ]);
 
   const toIngredients = ({ id, count }: { id: string; count: number }) => ({
-    name: globalItemData[id].name,
+    name: getItemName(id),
     quantity: count,
   });
 
