@@ -50,7 +50,13 @@ export default function AppFooter(): React.ReactElement {
         <li>
           <Typography variant="body2">
             site made by&nbsp;
-            <code className={classes.myDiscordTag}>samidare ☂#5449</code>
+            <code className={classes.myDiscordTag}>
+              samidare&nbsp;
+              <span role="img" aria-label="umbrella">
+                ☔
+              </span>
+              #5449
+            </code>
           </Typography>
         </li>
         <li>
