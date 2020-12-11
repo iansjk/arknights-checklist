@@ -94,10 +94,12 @@ const GoalOverview = React.memo(function GoalOverview(
     .filter(
       (itemName) => materialsNeeded[itemName] && materialsNeeded[itemName] > 0
     )
-    // TODO sort order really ought to be by tier first, then by goal priority
     .sort((a, b) => MATERIALS[a].tier - MATERIALS[b].tier)
     .forEach((craftedItemName) => {
-      const { ingredients } = MATERIALS[craftedItemName];
+      let { ingredients } = MATERIALS[craftedItemName];
+      ingredients = ingredients?.filter(
+        (ingredient) => ingredient.name !== "LMD"
+      );
       const numCraftable = Math.min(
         ...ingredients?.map((ingredient) => {
           return Math.floor(
@@ -116,6 +118,8 @@ const GoalOverview = React.memo(function GoalOverview(
         materialsNeeded[craftedItemName] - numCraftable,
         0
       );
+      craftingMaterialsOwned[craftedItemName] =
+        (craftingMaterialsOwned[craftedItemName] || 0) + numCraftable;
     });
 
   const handleIncrementOwned = React.useCallback(
