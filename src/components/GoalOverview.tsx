@@ -122,39 +122,15 @@ const GoalOverview = React.memo(function GoalOverview(
         (craftingMaterialsOwned[craftedItemName] || 0) + numCraftable;
     });
 
-  const handleIncrementOwned = (itemName: string): void => {
-    const { ingredients } = MATERIALS[itemName];
-    if (
-      Object.prototype.hasOwnProperty.call(itemsToCraft, itemName) &&
-      ingredients != null
-    ) {
-      setMaterialsOwned((prevOwned) => {
-        if (!ingredients) {
-          return prevOwned;
-        }
-        return {
-          ...prevOwned,
-          ...Object.fromEntries([
-            [itemName, (prevOwned[itemName] || 0) + 1],
-            ...ingredients.map((ingredient) => {
-              return [
-                ingredient.name,
-                Math.max(
-                  (prevOwned[ingredient.name] || 0) - ingredient.quantity,
-                  0
-                ),
-              ];
-            }),
-          ]),
-        };
-      });
-    } else {
+  const handleIncrementOwned = React.useCallback(
+    function handleIncrementOwned(itemName: string): void {
       setMaterialsOwned((prevOwned) => ({
         ...prevOwned,
         [itemName]: 1 + (prevOwned[itemName] || 0),
       }));
-    }
-  };
+    },
+    [setMaterialsOwned]
+  );
 
   const handleDecrementOwned = React.useCallback(
     function handleDecrementOwned(itemName: string): void {

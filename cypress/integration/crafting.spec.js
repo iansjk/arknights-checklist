@@ -134,42 +134,19 @@ describe("item requirements for crafted items", () => {
       JSON.stringify({ "Skill Summary - 3": true, "Skill Summary - 2": true })
     );
     cy.visit("/");
-    cy.getByTestId("Skill Summary - 3").as("ss3");
-    cy.getByTestId("Skill Summary - 2").as("ss2");
-    cy.getByTestId("Skill Summary - 1").as("ss1");
   });
 
   it("updates item requirements for upstream and downstream items", () => {
+    cy.getByTestId("Skill Summary - 3").as("ss3");
     cy.get("@ss3").find("input").type(1);
     cy.get("@ss3").find("[data-testid=quantity]").should("have.text", 6); // no change to required #
+    cy.getByTestId("Skill Summary - 2").as("ss2");
     cy.get("@ss2").find("[data-testid=quantity]").should("have.text", 15);
+    cy.getByTestId("Skill Summary - 1").as("ss1");
     cy.get("@ss1").find("[data-testid=quantity]").should("have.text", 45);
+
     cy.get("@ss1").find("input").type(3);
     cy.get("@ss2").find("[data-testid=quantity]").should("have.text", 14);
-  });
-
-  it("increments and decrements non crafted items normally", () => {
-    cy.get("@ss3").find('[aria-label^="remove 1"]').should("be.disabled");
-    cy.get("@ss3").find('[aria-label^="add 1"]').click();
-    cy.get("@ss3").find("input").should("have.value", 1);
-    cy.get("@ss3").find('[aria-label^="remove 1"]').click();
-    cy.get("@ss3").find("input").should("have.value", 0);
-  });
-
-  it("subtracts ingredients when incrementing a crafted item but decrements normally", () => {
-    cy.get("@ss1").find("input").type(9);
-    cy.get("@ss2").find('[aria-label^="add 1"]').click().click().click();
-    cy.get("@ss2").find("input").should("have.value", 3);
-    cy.get("@ss1").find("input").should("have.value", 0);
-    cy.get("@ss3").find('[aria-label^="add 1"]').click();
-    cy.get("@ss3").find("input").should("have.value", 1);
-    cy.get("@ss2").find("input").should("have.value", 0);
-    cy.get("@ss3").find('[aria-label^="remove 1"]').click();
-    cy.get("@ss3").find("input").should("have.value", 0);
-    cy.get("@ss2").find("input").should("have.value", 0);
-    cy.get("@ss2").find('[aria-label^="add 1"]').click();
-    cy.get("@ss2").find('[aria-label^="remove 1"]').click();
-    cy.get("@ss2").find("input").should("have.value", 0);
   });
 });
 
